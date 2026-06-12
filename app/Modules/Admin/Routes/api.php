@@ -14,8 +14,13 @@ Route::middleware(['auth:api', 'admin'])->group(function () {
     Route::get('/exam-types', [ExamTypeManagementController::class, 'index']);
     Route::post('/exam-types', [ExamTypeManagementController::class, 'store']);
     Route::put('/exam-types/{examType}', [ExamTypeManagementController::class, 'update']);
+    Route::get('/exam-types/{examType}/subjects', [ExamTypeManagementController::class, 'listAssignedSubjects']);
+    Route::post('/exam-types/assign-subject', [ExamTypeManagementController::class, 'assignSubject']);
     Route::post('/exam-types/{examType}/subjects', [ExamTypeManagementController::class, 'assignSubject']);
     Route::delete('/exam-types/{examType}/subjects/{subject}', [ExamTypeManagementController::class, 'removeSubject']);
+
+    // General Subjects List
+    Route::get('/subjects', [ContentManagementController::class, 'listSubjects']);
 
     // Content Management (Questions)
     Route::get('/questions', [ContentManagementController::class, 'listQuestions']);

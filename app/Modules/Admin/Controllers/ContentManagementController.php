@@ -5,6 +5,7 @@ namespace App\Modules\Admin\Controllers;
 use App\Http\Controllers\Controller;
 use App\Models\Question;
 use App\Models\Lesson;
+use App\Models\Subject;
 use Illuminate\Http\Request;
 use Illuminate\Http\JsonResponse;
 
@@ -198,6 +199,16 @@ class ContentManagementController extends Controller
             'success' => true,
             'message' => 'Lesson updated successfully.',
             'data' => $lesson,
+        ]);
+    }
+
+    // Subjects List
+    public function listSubjects(Request $request): JsonResponse
+    {
+        $subjects = Subject::all();
+        return response()->json([
+            'success' => true,
+            'data' => $subjects,
         ]);
     }
 }

@@ -2,10 +2,12 @@
 
 namespace App\Modules\Auth\Services;
 
+use App\Models\User;
 use App\Modules\Auth\Services\Contracts\AuthServiceInterface;
 use App\Modules\Auth\Repositories\Contracts\AuthRepositoryInterface;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Hash;
 
 class AuthService implements AuthServiceInterface
 {
@@ -52,7 +54,7 @@ class AuthService implements AuthServiceInterface
 
         // Fetch Password Client Details
         $client = DB::table('oauth_clients')
-            ->where('password_client', 1)
+            ->where('grant_types', 'like', '%password%')
             ->first();
 
         if (!$client) {
@@ -69,7 +71,7 @@ class AuthService implements AuthServiceInterface
             'client_secret' => $client->secret,
             'username' => $phone,
             'password' => 'dummy_password', // Bypassed in User model
-            'scope' => 'user',
+            'scope' => $user->is_admin ? 'admin user' : 'user',
         ]);
 
         $response = app()->handle($tokenRequest);
@@ -78,7 +80,7 @@ class AuthService implements AuthServiceInterface
         if (isset($tokenData['error'])) {
             return [
                 'success' => false,
-                'message' => $tokenData['message'] ?? 'Token issue failed.',
+                'message' => ($tokenData['error'] ?? 'error') . ': ' . ($tokenData['error_description'] ?? ($tokenData['message'] ?? 'Token issue failed.')),
             ];
         }
 
@@ -92,7 +94,7 @@ class AuthService implements AuthServiceInterface
     public function refreshToken(string $refreshToken): array
     {
         $client = DB::table('oauth_clients')
-            ->where('password_client', 1)
+            ->where('grant_types', 'like', '%password%')
             ->first();
 
         if (!$client) {
@@ -123,6 +125,61 @@ class AuthService implements AuthServiceInterface
         return [
             'success' => true,
             'token' => $tokenData,
+        ];
+    }
+
+    public function adminLogin(string $email, string $password): array
+    {
+        $user = User::where('email', $email)->first();
+
+        if (!$user || !$user->is_admin) {
+            return [
+                'success' => false,
+                'message' => 'Invalid admin credentials or account not authorized.',
+            ];
+        }
+
+        if (!Hash::check($password, $user->password)) {
+            return [
+                'success' => false,
+                'message' => 'Invalid password.',
+            ];
+        }
+
+        $client = DB::table('oauth_clients')
+            ->where('grant_types', 'like', '%password%')
+            ->first();
+
+        if (!$client) {
+            return [
+                'success' => false,
+                'message' => 'OAuth Password client not configured.',
+            ];
+        }
+
+        $tokenRequest = Request::create('/oauth/token', 'POST', [
+            'grant_type' => 'password',
+            'client_id' => $client->id,
+            'client_secret' => $client->secret,
+            'username' => $email,
+            'password' => $password,
+            'scope' => 'admin user',
+        ]);
+
+        $response = app()->handle($tokenRequest);
+        $tokenData = json_decode($response->getContent(), true);
+
+        if (isset($tokenData['error'])) {
+            return [
+                'success' => false,
+                'message' => ($tokenData['error'] ?? 'error') . ': ' . ($tokenData['error_description'] ?? ($tokenData['message'] ?? 'Token issue failed.')),
+            ];
+        }
+
+        return [
+            'success' => true,
+            'token' => $tokenData,
+            'user' => $user,
         ];
     }
 }

@@ -5,6 +5,7 @@ namespace App\Modules\Admin\Controllers;
 use App\Http\Controllers\Controller;
 use App\Models\ExamType;
 use App\Models\ExamSchedule;
+use App\Models\Subject;
 use App\Modules\Admin\Requests\StoreExamTypeRequest;
 use App\Modules\Admin\Requests\AssignSubjectToExamTypeRequest;
 use Illuminate\Http\Request;
@@ -63,9 +64,18 @@ class ExamTypeManagementController extends Controller
         ]);
     }
 
-    public function assignSubject(AssignSubjectToExamTypeRequest $request, int $examTypeId): JsonResponse
+    public function assignSubject(AssignSubjectToExamTypeRequest $request, ?int $examTypeId = null): JsonResponse
     {
-        $examType = ExamType::find($examTypeId);
+        $id = $examTypeId ?? $request->input('exam_type_id');
+        if (!$id) {
+            return response()->json([
+                'success' => false,
+                'message' => 'Exam type ID is required.',
+                'data' => null,
+            ], 422);
+        }
+
+        $examType = ExamType::find($id);
         if (!$examType) {
             return response()->json([
                 'success' => false,
@@ -74,8 +84,18 @@ class ExamTypeManagementController extends Controller
             ], 404);
         }
 
+        $subjectId = $request->input('subject_id');
+        $subject = Subject::find($subjectId);
+        if (!$subject) {
+            return response()->json([
+                'success' => false,
+                'message' => 'Subject not found.',
+                'data' => null,
+            ], 404);
+        }
+
         $examType->subjects()->syncWithoutDetaching([
-            $request->input('subject_id') => [
+            $subjectId => [
                 'is_active' => $request->input('is_active', true),
                 'sort_order' => $request->input('sort_order', 0),
                 'total_marks' => $request->input('total_marks'),
@@ -87,7 +107,15 @@ class ExamTypeManagementController extends Controller
         return response()->json([
             'success' => true,
             'message' => 'Subject assigned to exam type successfully.',
-            'data' => null,
+            'data' => [
+                'exam_type_id' => $examType->id,
+                'subject_id' => $subject->id,
+                'subject_name' => $subject->name,
+                'is_active' => $request->input('is_active', true),
+                'sort_order' => $request->input('sort_order', 0),
+                'total_marks' => $request->input('total_marks'),
+                'syllabus_note' => $request->input('syllabus_note'),
+            ],
         ]);
     }
 
@@ -142,6 +170,34 @@ class ExamTypeManagementController extends Controller
             'success' => true,
             'message' => 'Exam schedule created successfully.',
             'data' => $schedule,
+        ]);
+    }
+
+    public function listAssignedSubjects(int $examTypeId): JsonResponse
+    {
+        $examType = ExamType::find($examTypeId);
+        if (!$examType) {
+            return response()->json([
+                'success' => false,
+                'message' => 'Exam type not found.',
+                'data' => null,
+            ], 404);
+        }
+
+        $subjects = $examType->subjects()->get()->map(function ($subject) {
+            return [
+                'subject_id' => $subject->id,
+                'subject_name' => $subject->name,
+                'is_active' => $subject->pivot->is_active,
+                'sort_order' => $subject->pivot->sort_order,
+                'total_marks' => $subject->pivot->total_marks,
+                'syllabus_note' => $subject->pivot->syllabus_note,
+            ];
+        });
+
+        return response()->json([
+            'success' => true,
+            'data' => $subjects,
         ]);
     }
 }

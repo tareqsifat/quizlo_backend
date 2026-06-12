@@ -84,4 +84,39 @@ class AuthController extends Controller
             'data' => new TokenResource($result['token']),
         ]);
     }
+
+    public function adminLogin(Request $request): JsonResponse
+    {
+        $request->validate([
+            'email' => ['required', 'email'],
+            'password' => ['required', 'string'],
+        ]);
+
+        $result = $this->authService->adminLogin(
+            $request->input('email'),
+            $request->input('password')
+        );
+
+        if (!$result['success']) {
+            return response()->json([
+                'success' => false,
+                'message' => $result['message'],
+                'data' => null,
+            ], 400);
+        }
+
+        return response()->json([
+            'success' => true,
+            'message' => 'Admin logged in successfully.',
+            'data' => [
+                'token' => new TokenResource($result['token']),
+                'user' => [
+                    'id' => $result['user']->id,
+                    'name' => $result['user']->name,
+                    'email' => $result['user']->email,
+                    'phone' => $result['user']->phone,
+                ]
+            ]
+        ]);
+    }
 }

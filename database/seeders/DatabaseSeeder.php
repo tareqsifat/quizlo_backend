@@ -12,6 +12,8 @@ use App\Models\QuestionOption;
 use App\Models\LeagueTier;
 use App\Models\Achievement;
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Hash;
 
 class DatabaseSeeder extends Seeder
 {
@@ -181,6 +183,15 @@ class DatabaseSeeder extends Seeder
         Achievement::create(['key' => 'streak_7', 'title' => '7-Day Streak', 'title_bn' => '৭ দিনের ধারাবাহিকতা', 'description' => 'Maintain streak for 7 days', 'icon' => 'streak_7_badge', 'xp_reward' => 100, 'type' => 'streak']);
 
         // 9. Seed Users
+        User::create([
+            'name' => 'System Admin',
+            'phone' => '01799887766',
+            'email' => 'admin@quizlo.com',
+            'password' => Hash::make('password'),
+            'is_admin' => true,
+            'is_active' => true,
+        ]);
+
         User::factory()->create([
             'name' => 'Sajid User',
             'phone' => '01711223344',
@@ -189,5 +200,10 @@ class DatabaseSeeder extends Seeder
         ]);
 
         User::factory(5)->create();
+
+        // 10. Configure Passport Client Secrets
+        DB::table('oauth_clients')
+            ->where('grant_types', 'like', '%password%')
+            ->update(['secret' => null]);
     }
 }

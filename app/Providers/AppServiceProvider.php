@@ -136,6 +136,8 @@ class AppServiceProvider extends ServiceProvider
             'read-content' => 'Read-only public content',
         ]);
 
+        \Laravel\Passport\Passport::enablePasswordGrant();
+
         \Laravel\Passport\Passport::setDefaultScope(['user']);
 
         \Laravel\Passport\Passport::tokensExpireIn(now()->addDays(15));

@@ -14,6 +14,7 @@ class AssignSubjectToExamTypeRequest extends FormRequest
     public function rules(): array
     {
         return [
+            'exam_type_id' => ['sometimes', 'integer', 'exists:exam_types,id'],
             'subject_id' => ['required', 'integer', 'exists:subjects,id'],
             'is_active' => ['sometimes', 'boolean'],
             'sort_order' => ['sometimes', 'integer'],
