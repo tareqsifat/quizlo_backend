@@ -64,11 +64,13 @@ class AuthService implements AuthServiceInterface
             ];
         }
 
+        $clientSecret = env('PASSPORT_PASSWORD_CLIENT_SECRET') ?: $client->secret;
+
         // Issue token via Passport internal route dispatch
         $tokenRequest = Request::create('/oauth/token', 'POST', [
             'grant_type' => 'password',
             'client_id' => $client->id,
-            'client_secret' => $client->secret,
+            'client_secret' => $clientSecret,
             'username' => $phone,
             'password' => 'dummy_password', // Bypassed in User model
             'scope' => $user->is_admin ? 'admin user' : 'user',
@@ -104,10 +106,12 @@ class AuthService implements AuthServiceInterface
             ];
         }
 
+        $clientSecret = env('PASSPORT_PASSWORD_CLIENT_SECRET') ?: $client->secret;
+
         $tokenRequest = Request::create('/oauth/token', 'POST', [
             'grant_type' => 'refresh_token',
             'client_id' => $client->id,
-            'client_secret' => $client->secret,
+            'client_secret' => $clientSecret,
             'refresh_token' => $refreshToken,
             'scope' => 'user',
         ]);
@@ -157,10 +161,19 @@ class AuthService implements AuthServiceInterface
             ];
         }
 
+        $clientSecret = env('PASSPORT_PASSWORD_CLIENT_SECRET') ?: $client->secret;
+
+        if ($client->secret && !$clientSecret) {
+            return [
+                'success' => false,
+                'message' => 'OAuth client secret not configured in environment.',
+            ];
+        }
+
         $tokenRequest = Request::create('/oauth/token', 'POST', [
             'grant_type' => 'password',
             'client_id' => $client->id,
-            'client_secret' => $client->secret,
+            'client_secret' => $clientSecret,
             'username' => $email,
             'password' => $password,
             'scope' => 'admin user',
