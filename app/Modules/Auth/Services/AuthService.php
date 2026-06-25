@@ -161,22 +161,24 @@ class AuthService implements AuthServiceInterface
             ];
         }
 
-        $clientSecret = env('PASSPORT_PASSWORD_CLIENT_SECRET') ?: $client->secret;
+        $client = DB::table('oauth_clients')
+            ->where('id', env('PASSPORT_PASSWORD_CLIENT_ID'))
+            ->first();
 
-        if ($client->secret && !$clientSecret) {
+        if (!$client) {
             return [
                 'success' => false,
-                'message' => 'OAuth client secret not configured in environment.',
+                'message' => 'OAuth Password client not configured.',
             ];
         }
 
         $tokenRequest = Request::create('/oauth/token', 'POST', [
-            'grant_type' => 'password',
-            'client_id' => $client->id,
-            'client_secret' => $clientSecret,
-            'username' => $email,
-            'password' => $password,
-            'scope' => 'admin user',
+            'grant_type'    => 'password',
+            'client_id'     => $client->id,
+            'client_secret' => env('PASSPORT_PASSWORD_CLIENT_SECRET'),
+            'username'      => $email,
+            'password'      => $password,
+            'scope'         => 'admin user',
         ]);
 
         $response = app()->handle($tokenRequest);
