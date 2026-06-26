@@ -44,10 +44,29 @@ class AuthRepository implements AuthRepositoryInterface
     public function createUser(array $data): User
     {
         return User::create([
-            'phone' => $data['phone'],
-            'name' => $data['name'] ?? 'Quizlo User',
+            'phone'     => $data['phone'] ?? null,
+            'email'     => $data['email'] ?? null,
+            'google_id' => $data['google_id'] ?? null,
+            'avatar'    => $data['avatar'] ?? null,
+            'name'      => $data['name'] ?? 'Quizlo User',
             'is_active' => true,
             'daily_goal' => 20,
         ]);
+    }
+
+    public function findUserByGoogleIdOrEmail(string $googleId, string $email): ?User
+    {
+        return User::where('google_id', $googleId)
+            ->orWhere('email', $email)
+            ->first();
+    }
+
+    public function updateUserGoogleDetails(User $user, string $googleId, ?string $avatar): User
+    {
+        $user->update([
+            'google_id' => $googleId,
+            'avatar'    => $avatar ?? $user->avatar,
+        ]);
+        return $user->fresh();
     }
 }

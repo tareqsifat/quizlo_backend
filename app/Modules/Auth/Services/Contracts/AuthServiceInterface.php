@@ -2,6 +2,8 @@
 
 namespace App\Modules\Auth\Services\Contracts;
 
+use Laravel\Socialite\Contracts\User as SocialiteUser;
+
 interface AuthServiceInterface
 {
     public function sendOtp(string $phone, string $purpose): array;
@@ -11,4 +13,6 @@ interface AuthServiceInterface
     public function adminLogin(string $email, string $password): array;
     
     public function refreshToken(string $refreshToken): array;
+
+    public function loginWithGoogleUser(SocialiteUser $googleUser): array;
 }

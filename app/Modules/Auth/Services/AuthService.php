@@ -8,6 +8,7 @@ use App\Modules\Auth\Repositories\Contracts\AuthRepositoryInterface;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Hash;
+use Laravel\Socialite\Contracts\User as SocialiteUser;
 
 class AuthService implements AuthServiceInterface
 {
@@ -195,6 +196,77 @@ class AuthService implements AuthServiceInterface
             'success' => true,
             'token' => $tokenData,
             'user' => $user,
+        ];
+    }
+
+    public function loginWithGoogleUser(SocialiteUser $googleUser): array
+    {
+        if (empty($googleUser->getEmail())) {
+            return [
+                'success' => false,
+                'message' => 'No email returned from Google.',
+            ];
+        }
+
+        $user = $this->authRepository->findUserByGoogleIdOrEmail(
+            $googleUser->getId(),
+            $googleUser->getEmail()
+        );
+
+        if (!$user) {
+            // New user — register with Google details
+            $user = $this->authRepository->createUser([
+                'name'      => $googleUser->getName(),
+                'email'     => $googleUser->getEmail(),
+                'google_id' => $googleUser->getId(),
+                'avatar'    => $googleUser->getAvatar(),
+            ]);
+        } elseif (!$user->google_id) {
+            // Existing email-based user — link Google account
+            $user = $this->authRepository->updateUserGoogleDetails(
+                $user,
+                $googleUser->getId(),
+                $googleUser->getAvatar()
+            );
+        }
+
+        // Resolve Password Client to issue a standard Passport token
+        $client = DB::table('oauth_clients')
+            ->where('grant_types', 'like', '%password%')
+            ->first();
+
+        if (!$client) {
+            return [
+                'success' => false,
+                'message' => 'OAuth Password client not configured.',
+            ];
+        }
+
+        $clientSecret = env('PASSPORT_PASSWORD_CLIENT_SECRET') ?: $client->secret;
+
+        $tokenRequest = Request::create('/oauth/token', 'POST', [
+            'grant_type'    => 'password',
+            'client_id'     => $client->id,
+            'client_secret' => $clientSecret,
+            'username'      => $user->email,
+            'password'      => 'dummy_password', // Bypassed via validateForPassportPasswordGrant
+            'scope'         => 'user',
+        ]);
+
+        $response = app()->handle($tokenRequest);
+        $tokenData = json_decode($response->getContent(), true);
+
+        if (isset($tokenData['error'])) {
+            return [
+                'success' => false,
+                'message' => ($tokenData['error'] ?? 'error') . ': ' . ($tokenData['error_description'] ?? ($tokenData['message'] ?? 'Token issue failed.')),
+            ];
+        }
+
+        return [
+            'success' => true,
+            'token'   => $tokenData,
+            'user'    => $user,
         ];
     }
 }

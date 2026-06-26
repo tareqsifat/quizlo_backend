@@ -16,4 +16,8 @@ interface AuthRepositoryInterface
     public function findUserByPhone(string $phone): ?User;
     
     public function createUser(array $data): User;
+
+    public function findUserByGoogleIdOrEmail(string $googleId, string $email): ?User;
+
+    public function updateUserGoogleDetails(User $user, string $googleId, ?string $avatar): User;
 }
