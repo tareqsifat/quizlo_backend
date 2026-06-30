@@ -46,6 +46,7 @@ class AuthRepository implements AuthRepositoryInterface
         return User::create([
             'phone'     => $data['phone'] ?? null,
             'email'     => $data['email'] ?? null,
+            'password'  => isset($data['password']) ? \Illuminate\Support\Facades\Hash::make($data['password']) : null,
             'google_id' => $data['google_id'] ?? null,
             'avatar'    => $data['avatar'] ?? null,
             'name'      => $data['name'] ?? 'Quizlo User',

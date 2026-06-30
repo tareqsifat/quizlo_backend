@@ -176,5 +176,15 @@ class AppServiceProvider extends ServiceProvider
             \App\Modules\Gamification\Events\LessonCompleted::class,
             \App\Modules\Gamification\Listeners\AwardCoinOnLessonComplete::class
         );
+
+        \Illuminate\Support\Facades\Event::listen(
+            \App\Events\EmailVerificationRequested::class,
+            \App\Listeners\SendEmailVerificationMail::class
+        );
+
+        \Illuminate\Support\Facades\Event::listen(
+            \App\Events\PasswordResetRequested::class,
+            \App\Listeners\SendPasswordResetMail::class
+        );
     }
 }

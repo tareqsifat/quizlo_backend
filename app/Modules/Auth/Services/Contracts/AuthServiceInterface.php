@@ -15,4 +15,18 @@ interface AuthServiceInterface
     public function refreshToken(string $refreshToken): array;
 
     public function loginWithGoogleUser(SocialiteUser $googleUser): array;
+
+    public function register(array $data): array;
+
+    public function sendVerification(string $email): array;
+
+    public function verifyEmail(string $email, string $otp): array;
+
+    public function login(string $email, string $password): array;
+
+    public function sendForgetPasswordOtp(string $email): array;
+
+    public function updatePassword(string $email, string $otp, string $password): array;
+
+    public function changePassword(\App\Models\User $user, string $currentPassword, string $newPassword): array;
 }
