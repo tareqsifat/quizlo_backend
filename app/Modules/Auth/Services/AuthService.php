@@ -59,9 +59,7 @@ class AuthService implements AuthServiceInterface
 
     public function refreshToken(string $refreshToken): array
     {
-        $client = DB::table('oauth_clients')
-            ->where('grant_types', 'like', '%password%')
-            ->first();
+        $client = $this->getPasswordClient();
 
         if (!$client) {
             return [
@@ -70,7 +68,7 @@ class AuthService implements AuthServiceInterface
             ];
         }
 
-        $clientSecret = env('PASSPORT_PASSWORD_CLIENT_SECRET') ?: $client->secret;
+        $clientSecret = env('PASSPORT_PASSWORD_CLIENT_SECRET') ?: ($client->secret ?? null);
 
         $tokenRequest = Request::create('/oauth/token', 'POST', [
             'grant_type' => 'refresh_token',
@@ -325,9 +323,7 @@ class AuthService implements AuthServiceInterface
 
     private function issueTokensForUser(User $user, bool $skipPasswordCheck = true, string $password = 'dummy_password'): array
     {
-        $client = DB::table('oauth_clients')
-            ->where('grant_types', 'like', '%password%')
-            ->first();
+        $client = $this->getPasswordClient();
 
         if (!$client) {
             return [
@@ -336,7 +332,7 @@ class AuthService implements AuthServiceInterface
             ];
         }
 
-        $clientSecret = env('PASSPORT_PASSWORD_CLIENT_SECRET') ?: $client->secret;
+        $clientSecret = env('PASSPORT_PASSWORD_CLIENT_SECRET') ?: ($client->secret ?? null);
 
         $params = [
             'grant_type' => 'password',
@@ -368,5 +364,21 @@ class AuthService implements AuthServiceInterface
             'token' => $tokenData,
             'user' => $user,
         ];
+    }
+
+    private function getPasswordClient(): ?object
+    {
+        $clientId = env('PASSPORT_PASSWORD_CLIENT_ID') ?: config('services.passport.password_client_id');
+        
+        if ($clientId) {
+            $client = DB::table('oauth_clients')->where('id', $clientId)->first();
+            if ($client) {
+                return $client;
+            }
+        }
+
+        return DB::table('oauth_clients')
+            ->where('grant_types', 'like', '%password%')
+            ->first();
     }
 }
