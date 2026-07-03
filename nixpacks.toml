@@ -1,0 +1,5 @@
+[phases.setup]
+nixPkgs = ["supervisor"]
+
+[start]
+cmd = "supervisord -c supervisord.conf"
