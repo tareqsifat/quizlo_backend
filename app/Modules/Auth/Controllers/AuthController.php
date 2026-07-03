@@ -132,9 +132,28 @@ class AuthController extends Controller
 
         $result = $this->authService->register($request->only('name', 'email', 'password'));
 
+        if (!$result['success']) {
+            return response()->json([
+                'success' => false,
+                'message' => $result['message'],
+                'data'    => null,
+            ], 400);
+        }
+
+        // User is now immediately logged in — token is returned just like the login endpoint.
+        // The OTP verification flow (sendVerification / verification) is orphaned and kept for future use.
         return response()->json([
             'success' => true,
             'message' => $result['message'],
+            'data'    => [
+                'token' => new TokenResource($result['token']),
+                'user'  => [
+                    'id'    => $result['user']->id,
+                    'name'  => $result['user']->name,
+                    'email' => $result['user']->email,
+                    'phone' => $result['user']->phone,
+                ],
+            ],
         ], 201);
     }
 

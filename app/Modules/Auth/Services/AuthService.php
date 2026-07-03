@@ -152,16 +152,28 @@ class AuthService implements AuthServiceInterface
     public function register(array $data): array
     {
         $user = $this->authRepository->createUser([
-            'name' => $data['name'],
-            'email' => $data['email'],
-            'password' => $data['password'],
+            'name'              => $data['name'],
+            'email'             => $data['email'],
+            'password'          => $data['password'],
+            'email_verified_at' => now(), // auto-verified — OTP flow orphaned for future use
         ]);
 
-        $this->sendVerification($user->email);
+        // Issue tokens immediately so the client is logged in right after registration.
+        // The sendVerification / verifyEmail OTP flow is kept in place but not called here.
+        $result = $this->issueTokensForUser($user, true);
+
+        if (!$result['success']) {
+            return [
+                'success' => false,
+                'message' => $result['message'],
+            ];
+        }
 
         return [
             'success' => true,
-            'message' => 'Registration successful. A verification OTP has been sent.',
+            'message' => 'Registration successful.',
+            'token'   => $result['token'],
+            'user'    => $result['user'],
         ];
     }
 

@@ -10,7 +10,8 @@
         "laravel/framework": "^13.8",
         "laravel/passport": "^13.0",
         "laravel/socialite": "^5.28",
-        "laravel/tinker": "^3.0"
+        "laravel/tinker": "^3.0",
+        "resend/resend-laravel": "*"
     },
     "require-dev": {
         "fakerphp/faker": "^1.23",
