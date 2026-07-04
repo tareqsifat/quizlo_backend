@@ -4,6 +4,8 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Relations\BelongsToMany;
+use Illuminate\Database\Eloquent\Relations\HasMany;
 
 class Subject extends Model
 {
@@ -38,12 +40,12 @@ class Subject extends Model
         return $this->hasMany(Lesson::class);
     }
 
-    public function questions()
+    public function examTypeSubjects(): HasMany
     {
-        return $this->hasMany(Question::class);
+        return $this->hasMany(ExamTypeSubject::class);
     }
 
-    public function masteries()
+    public function masteries(): HasMany
     {
         return $this->hasMany(UserSubjectMastery::class);
     }

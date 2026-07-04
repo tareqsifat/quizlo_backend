@@ -5,6 +5,8 @@ use App\Modules\Admin\Controllers\DashboardController;
 use App\Modules\Admin\Controllers\ExamTypeManagementController;
 use App\Modules\Admin\Controllers\ContentManagementController;
 use App\Modules\Admin\Controllers\UserManagementController;
+use App\Modules\Admin\Controllers\SubjectManagementController;
+use App\Modules\Admin\Controllers\ExamTypeSubjectManagementController;
 
 Route::middleware(['auth:api', 'admin'])->group(function () {
     // Dashboard Stats
@@ -19,8 +21,19 @@ Route::middleware(['auth:api', 'admin'])->group(function () {
     Route::post('/exam-types/{examType}/subjects', [ExamTypeManagementController::class, 'assignSubject']);
     Route::delete('/exam-types/{examType}/subjects/{subject}', [ExamTypeManagementController::class, 'removeSubject']);
 
-    // General Subjects List
-    Route::get('/subjects', [ContentManagementController::class, 'listSubjects']);
+    // Subjects CRUD (Feature 1)
+    Route::get('/subjects', [SubjectManagementController::class, 'index']);
+    Route::get('/subjects/all', [SubjectManagementController::class, 'all']);
+    Route::post('/subjects', [SubjectManagementController::class, 'store']);
+    Route::put('/subjects/{subject}', [SubjectManagementController::class, 'update']);
+    Route::delete('/subjects/{subject}', [SubjectManagementController::class, 'destroy']);
+
+    // Exam Type Subjects CRUD (Feature 2)
+    Route::get('/exam-type-subjects', [ExamTypeSubjectManagementController::class, 'index']);
+    Route::get('/exam-type-subjects/for-exam-type/{examType}', [ExamTypeSubjectManagementController::class, 'allForExamType']);
+    Route::post('/exam-type-subjects', [ExamTypeSubjectManagementController::class, 'store']);
+    Route::put('/exam-type-subjects/{examTypeSubject}', [ExamTypeSubjectManagementController::class, 'update']);
+    Route::delete('/exam-type-subjects/{examTypeSubject}', [ExamTypeSubjectManagementController::class, 'destroy']);
 
     // Content Management (Questions)
     Route::get('/questions', [ContentManagementController::class, 'listQuestions']);
@@ -28,7 +41,6 @@ Route::middleware(['auth:api', 'admin'])->group(function () {
     Route::put('/questions/{question}', [ContentManagementController::class, 'updateQuestion']);
     Route::delete('/questions/{question}', [ContentManagementController::class, 'destroyQuestion']);
     Route::post('/questions/import', [ContentManagementController::class, 'import']);
-    Route::post('/questions/{question}/exam-types', [ContentManagementController::class, 'tagExamTypes']);
 
     // Content Management (Lessons)
     Route::get('/lessons', [ContentManagementController::class, 'listLessons']);

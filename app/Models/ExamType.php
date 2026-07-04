@@ -4,6 +4,8 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Relations\BelongsToMany;
+use Illuminate\Database\Eloquent\Relations\HasMany;
 
 class ExamType extends Model
 {
@@ -36,10 +38,9 @@ class ExamType extends Model
         return $this->hasMany(Lesson::class);
     }
 
-    public function questions()
+    public function examTypeSubjects(): HasMany
     {
-        return $this->belongsToMany(Question::class, 'exam_type_question')
-                    ->withPivot('source_batch', 'source_year');
+        return $this->hasMany(ExamTypeSubject::class);
     }
 
     public function users()
