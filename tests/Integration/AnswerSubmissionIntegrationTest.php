@@ -32,7 +32,14 @@ class AnswerSubmissionIntegrationTest extends TestCase
 
         $examType = $this->bcsExamType();
         $subject  = Subject::factory()->create();
-        $question = Question::factory()->withOptions()->create(['subject_id' => $subject->id, 'xp_value' => 10]);
+        $ets      = \App\Models\ExamTypeSubject::factory()->create([
+            'exam_type_id' => $examType->id,
+            'subject_id'   => $subject->id,
+        ]);
+        $question = Question::factory()->withOptions()->create([
+            'exam_type_subject_id' => $ets->id,
+            'xp_value'             => 10,
+        ]);
         $correct  = $question->options()->where('is_correct', true)->first();
 
         $user->examTypes()->attach($examType->id);
@@ -116,13 +123,24 @@ class AnswerSubmissionIntegrationTest extends TestCase
         $examType = $this->bcsExamType();
         $user->examTypes()->attach($examType->id);
 
-        $lesson = Lesson::factory()->create(['exam_type_id' => $examType->id]);
+        $subject = Subject::factory()->create();
+        $ets = \App\Models\ExamTypeSubject::factory()->create([
+            'exam_type_id' => $examType->id,
+            'subject_id'   => $subject->id,
+        ]);
+
+        $lesson = Lesson::factory()->create([
+            'exam_type_id' => $examType->id,
+            'subject_id'   => $subject->id,
+        ]);
 
         Question::factory()->count(10)->create([
+            'exam_type_subject_id' => $ets->id,
             'lesson_id' => $lesson->id,
             'difficulty' => 'hard',
         ]);
         Question::factory()->count(5)->create([
+            'exam_type_subject_id' => $ets->id,
             'lesson_id' => $lesson->id,
             'difficulty' => 'easy',
         ]);

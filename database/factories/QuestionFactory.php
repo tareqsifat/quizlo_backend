@@ -3,7 +3,7 @@
 namespace Database\Factories;
 
 use App\Models\Question;
-use App\Models\Subject;
+use App\Models\ExamTypeSubject;
 use App\Models\Topic;
 use App\Models\Lesson;
 use Illuminate\Database\Eloquent\Factories\Factory;
@@ -15,7 +15,7 @@ class QuestionFactory extends Factory
     public function definition(): array
     {
         return [
-            'subject_id' => Subject::factory(),
+            'exam_type_subject_id' => ExamTypeSubject::factory(),
             'topic_id' => Topic::factory(),
             'lesson_id' => Lesson::factory(),
             'question_text' => fake()->sentence(6) . '?',

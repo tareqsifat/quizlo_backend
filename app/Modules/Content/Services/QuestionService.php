@@ -95,7 +95,7 @@ class QuestionService implements QuestionServiceInterface
         }
 
         // Subject Mastery ring prospective calculation
-        $subjectId = $question->subject_id;
+        $subjectId = $question->examTypeSubject?->subject_id;
         $examTypeId = $data['exam_type_id'];
         $mastery = $user->masteries()
             ->where('exam_type_id', $examTypeId)

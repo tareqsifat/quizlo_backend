@@ -130,6 +130,9 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
+        $this->app['router']->aliasMiddleware('throttle', \Illuminate\Routing\Middleware\ThrottleRequests::class);
+        $this->app['router']->aliasMiddleware('auth', \Illuminate\Auth\Middleware\Authenticate::class);
+
         \Laravel\Passport\Passport::tokensCan([
             'user'         => 'Standard user access',
             'admin'        => 'Admin panel access',

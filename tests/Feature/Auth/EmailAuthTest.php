@@ -34,7 +34,7 @@ class EmailAuthTest extends TestCase
     }
 
     /** @test */
-    public function test_it_registers_user_and_dispatches_verification_event(): void
+    public function test_it_registers_user_and_direct_logs_in(): void
     {
         Event::fake();
 
@@ -46,19 +46,13 @@ class EmailAuthTest extends TestCase
         ]);
 
         $response->assertCreated()
-                 ->assertJson(['success' => true]);
+                 ->assertJsonStructure(['success', 'data' => ['token', 'user']]);
 
         $this->assertDatabaseHas('users', [
             'email' => 'test@example.com',
-            'email_verified_at' => null,
         ]);
 
-        $this->assertDatabaseHas('email_verifications', [
-            'email' => 'test@example.com',
-            'purpose' => 'email_verification',
-        ]);
-
-        Event::assertDispatched(EmailVerificationRequested::class);
+        $this->assertNotNull(User::where('email', 'test@example.com')->first()->email_verified_at);
     }
 
     /** @test */

@@ -11,12 +11,22 @@ return new class extends Migration
     {
         // ── Step 1: Clear test data ───────────────────────────────
         // Disable FK checks to allow truncation of tables with FK relationships.
-        DB::statement('SET FOREIGN_KEY_CHECKS=0');
+        if (DB::getDriverName() === 'sqlite') {
+            DB::statement('PRAGMA foreign_keys = OFF');
+        } else {
+            DB::statement('SET FOREIGN_KEY_CHECKS=0');
+        }
+
         DB::table('user_answers')->truncate();
         DB::table('exam_type_question')->truncate();
         DB::table('question_options')->truncate();
         DB::table('questions')->truncate();
-        DB::statement('SET FOREIGN_KEY_CHECKS=1');
+
+        if (DB::getDriverName() === 'sqlite') {
+            DB::statement('PRAGMA foreign_keys = ON');
+        } else {
+            DB::statement('SET FOREIGN_KEY_CHECKS=1');
+        }
 
         // ── Step 2: Drop exam_type_question pivot table ───────────
         Schema::dropIfExists('exam_type_question');

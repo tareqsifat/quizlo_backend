@@ -23,7 +23,7 @@ class UpdateSubjectMastery implements ShouldQueue
             $this->masteryService->updateMastery(
                 $answer->user,
                 $answer->exam_type_id,
-                $question->subject_id,
+                $question->examTypeSubject?->subject_id,
                 $answer->is_correct
             );
         }

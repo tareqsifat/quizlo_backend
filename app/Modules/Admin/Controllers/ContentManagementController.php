@@ -111,6 +111,7 @@ class ContentManagementController extends Controller
      */
     private function sanitiseField(string $value, int $maxLen = 2000): string
     {
+        $value = html_entity_decode($value, ENT_QUOTES | ENT_HTML5, 'UTF-8');
         $value = preg_replace('/[\x00-\x08\x0B\x0C\x0E-\x1F\x7F]/', '', $value);
         $value = strip_tags($value);
         $value = preg_replace('/[ \t]+/', ' ', $value);
@@ -276,6 +277,7 @@ class ContentManagementController extends Controller
             $q = Question::create([
                 'exam_type_subject_id' => $examTypeSubjectId,
                 'question_text'        => $question,
+                'question_bn'          => $question,
                 'explanation'          => $explanation ?: null,
                 'difficulty'           => 'medium',
                 'xp_value'             => 10,
@@ -295,9 +297,10 @@ class ContentManagementController extends Controller
                     continue;
                 }
                 $q->options()->create([
-                    'option_text' => $text,
-                    'is_correct'  => ($letter === $rightAnswer),
-                    'sort_order'  => $sortOrder++,
+                    'option_text'    => $text,
+                    'option_text_bn' => $text,
+                    'is_correct'     => ($letter === $rightAnswer),
+                    'sort_order'     => $sortOrder++,
                 ]);
             }
 

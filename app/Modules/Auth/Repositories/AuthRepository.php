@@ -52,6 +52,7 @@ class AuthRepository implements AuthRepositoryInterface
             'name'      => $data['name'] ?? 'Quizlo User',
             'is_active' => true,
             'daily_goal' => 20,
+            'email_verified_at' => $data['email_verified_at'] ?? now(),
         ]);
     }
 
