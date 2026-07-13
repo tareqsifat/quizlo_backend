@@ -17,6 +17,7 @@ return Application::configure(basePath: dirname(__DIR__))
             'admin'         => \App\Http\Middleware\AdminOnly::class,
             'hearts'        => \App\Http\Middleware\EnsureUserHasHearts::class,
             'exam_enrolled' => \App\Http\Middleware\EnsureUserEnrolledInExamType::class,
+            'throttle'      => \Illuminate\Routing\Middleware\ThrottleRequests::class,
         ]);
     })
     ->withExceptions(function (Exceptions $exceptions): void {
