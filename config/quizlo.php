@@ -33,6 +33,7 @@ return [
         'relegation_spots'          => 5,
         'reset_day'                 => 0,       // Sunday
         'reset_time'                => '00:00',
+        'leaderboard_limit'         => 50,
     ],
 
 ];

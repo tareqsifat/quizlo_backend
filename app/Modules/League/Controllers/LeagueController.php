@@ -30,6 +30,23 @@ class LeagueController extends Controller
         ]);
     }
 
+    public function leaderboard(Request $request): JsonResponse
+    {
+        $request->validate([
+            'exam_type_id' => ['required', 'integer', 'exists:exam_types,id'],
+        ]);
+
+        $leaderboard = $this->leagueService->getLeaderboard(
+            $request->user(),
+            (int) $request->input('exam_type_id')
+        );
+
+        return response()->json([
+            'success' => true,
+            'data' => $leaderboard,
+        ]);
+    }
+
     public function history(Request $request): JsonResponse
     {
         $request->validate([

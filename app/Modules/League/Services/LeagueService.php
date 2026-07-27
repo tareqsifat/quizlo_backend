@@ -5,6 +5,7 @@ namespace App\Modules\League\Services;
 use App\Models\User;
 use App\Modules\League\Services\Contracts\LeagueServiceInterface;
 use App\Modules\League\Repositories\Contracts\LeagueRepositoryInterface;
+use Illuminate\Support\Facades\Cache;
 
 class LeagueService implements LeagueServiceInterface
 {
@@ -59,6 +60,85 @@ class LeagueService implements LeagueServiceInterface
             'standings' => $formattedStandings,
             'promotion_spots' => $tier ? $tier->promotion_spots : 10,
             'relegation_spots' => $tier ? $tier->relegation_spots : 5,
+        ];
+    }
+
+    public function getLeaderboard(User $user, int $examTypeId): ?array
+    {
+        $season = $this->leagueRepository->findActiveSeason($examTypeId);
+        if (!$season) {
+            return null;
+        }
+
+        $userLeague = $this->leagueRepository->findUserLeague($user->id, $season->id);
+        if (!$userLeague) {
+            return null;
+        }
+
+        $limit = config('quizlo.league.leaderboard_limit', 50);
+        $cacheKey = "leaderboard:season:{$season->id}:tier:{$userLeague->league_tier_id}:group:{$userLeague->group_number}";
+        $ttl = config('quizlo.cache.leaderboard_ttl', 300);
+
+        $top = Cache::remember($cacheKey, $ttl, function () use ($season, $userLeague, $limit) {
+            return $this->leagueRepository->getTopStandings(
+                $season->id,
+                $userLeague->league_tier_id,
+                $userLeague->group_number,
+                $limit
+            )->map(fn ($row) => [
+                'user_id' => $row->user_id,
+                'name' => $row->user ? $row->user->name : 'Learner',
+                'xp' => $row->weekly_xp,
+            ])->values()->all();
+        });
+
+        $entries = [];
+        $userInTop = false;
+        foreach ($top as $idx => $row) {
+            $isCurrentUser = $row['user_id'] === $user->id;
+            if ($isCurrentUser) {
+                $userInTop = true;
+            }
+            $entries[] = [
+                'rank' => $idx + 1,
+                'user_id' => $row['user_id'],
+                'name' => $row['name'],
+                'xp' => $row['xp'],
+                'is_current_user' => $isCurrentUser,
+            ];
+        }
+
+        $currentUser = null;
+        if (!$userInTop) {
+            $rank = $this->leagueRepository->getUserRankInGroup(
+                $season->id,
+                $userLeague->league_tier_id,
+                $userLeague->group_number,
+                $user->id,
+                $userLeague->weekly_xp
+            );
+            $currentUser = [
+                'rank' => $rank,
+                'user_id' => $user->id,
+                'name' => $user->name,
+                'xp' => $userLeague->weekly_xp,
+                'is_current_user' => true,
+            ];
+        }
+
+        $tier = $userLeague->tier;
+
+        return [
+            'week_number' => $season->week_number,
+            'year' => $season->year,
+            'tier' => $tier ? $tier->name : 'Bronze',
+            'entries' => $entries,
+            'current_user' => $currentUser,
+            'total_participants' => $this->leagueRepository->countGroupMembers(
+                $season->id,
+                $userLeague->league_tier_id,
+                $userLeague->group_number
+            ),
         ];
     }
 

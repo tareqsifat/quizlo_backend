@@ -5,5 +5,6 @@ use App\Modules\League\Controllers\LeagueController;
 
 Route::middleware('auth:api')->group(function () {
     Route::get('/current', [LeagueController::class, 'current']);
+    Route::get('/leaderboard', [LeagueController::class, 'leaderboard']);
     Route::get('/history', [LeagueController::class, 'history']);
 });
