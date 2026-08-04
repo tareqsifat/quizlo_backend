@@ -5,6 +5,8 @@ namespace App\Modules\Admin\Controllers;
 use App\Http\Controllers\Controller;
 use App\Models\ExamType;
 use App\Models\ExamSchedule;
+use App\Models\ExamTypeSubject;
+use App\Models\Question;
 use App\Models\Subject;
 use App\Modules\Admin\Requests\StoreExamTypeRequest;
 use App\Modules\Admin\Requests\AssignSubjectToExamTypeRequest;
@@ -94,15 +96,25 @@ class ExamTypeManagementController extends Controller
             ], 404);
         }
 
-        $examType->subjects()->syncWithoutDetaching([
-            $subjectId => [
-                'is_active' => $request->input('is_active', true),
-                'sort_order' => $request->input('sort_order', 0),
-                'total_marks' => $request->input('total_marks'),
-                'syllabus_note' => $request->input('syllabus_note'),
-                'created_at' => now(),
-            ]
+        // exam_type_subjects requires a title, which this legacy endpoint never
+        // collected. Default it to the subject's own name, but only on first
+        // assignment — never clobber a title someone customised later via the
+        // Exam Subjects admin screen.
+        $examTypeSubject = ExamTypeSubject::firstOrNew([
+            'exam_type_id' => $examType->id,
+            'subject_id' => $subjectId,
         ]);
+
+        if (!$examTypeSubject->exists) {
+            $examTypeSubject->title = $request->input('title', $subject->name);
+            $examTypeSubject->title_bn = $request->input('title_bn', $subject->name_bn);
+        }
+
+        $examTypeSubject->is_active = $request->input('is_active', true);
+        $examTypeSubject->sort_order = $request->input('sort_order', 0);
+        $examTypeSubject->total_marks = $request->input('total_marks');
+        $examTypeSubject->syllabus_note = $request->input('syllabus_note');
+        $examTypeSubject->save();
 
         return response()->json([
             'success' => true,
@@ -111,10 +123,10 @@ class ExamTypeManagementController extends Controller
                 'exam_type_id' => $examType->id,
                 'subject_id' => $subject->id,
                 'subject_name' => $subject->name,
-                'is_active' => $request->input('is_active', true),
-                'sort_order' => $request->input('sort_order', 0),
-                'total_marks' => $request->input('total_marks'),
-                'syllabus_note' => $request->input('syllabus_note'),
+                'is_active' => $examTypeSubject->is_active,
+                'sort_order' => $examTypeSubject->sort_order,
+                'total_marks' => $examTypeSubject->total_marks,
+                'syllabus_note' => $examTypeSubject->syllabus_note,
             ],
         ]);
     }
@@ -130,7 +142,29 @@ class ExamTypeManagementController extends Controller
             ], 404);
         }
 
-        $examType->subjects()->detach($subjectId);
+        $examTypeSubject = ExamTypeSubject::where('exam_type_id', $examTypeId)
+            ->where('subject_id', $subjectId)
+            ->first();
+
+        if (!$examTypeSubject) {
+            return response()->json([
+                'success' => true,
+                'message' => 'Subject removed from exam type.',
+                'data' => null,
+            ]);
+        }
+
+        $questionCount = Question::where('exam_type_subject_id', $examTypeSubject->id)->count();
+        if ($questionCount > 0) {
+            return response()->json([
+                'success' => false,
+                'message' => "Cannot remove: {$questionCount} question(s) are linked to this Exam Subject. "
+                           . 'Remove or reassign the questions first.',
+                'data' => null,
+            ], 422);
+        }
+
+        $examTypeSubject->delete();
 
         return response()->json([
             'success' => true,

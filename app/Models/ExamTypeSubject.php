@@ -6,10 +6,14 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\HasMany;
+use Illuminate\Database\Eloquent\Relations\Concerns\AsPivot;
 
 /**
- * Feature 2 entity: exam-type-specific display title for a subject.
+ * Single source of truth for the exam-type <-> subject relationship.
  * One row = "Subject X displayed as 'Title Y' under ExamType Z".
+ *
+ * Doubles as the pivot model for ExamType::subjects() / Subject::examTypes()
+ * (via AsPivot) so belongsToMany queries can hydrate it directly.
  *
  * Table: exam_type_subjects
  * Unique: (subject_id, exam_type_id)
@@ -18,6 +22,7 @@ use Illuminate\Database\Eloquent\Relations\HasMany;
 class ExamTypeSubject extends Model
 {
     use HasFactory;
+    use AsPivot;
 
     protected $table = 'exam_type_subjects';
 
@@ -27,12 +32,17 @@ class ExamTypeSubject extends Model
         'title',
         'title_bn',
         'is_active',
+        'sort_order',
+        'total_marks',
+        'syllabus_note',
     ];
 
     protected $casts = [
         'exam_type_id' => 'integer',
         'subject_id'   => 'integer',
         'is_active'    => 'boolean',
+        'sort_order'   => 'integer',
+        'total_marks'  => 'integer',
     ];
 
     // ─── Relations ────────────────────────────────────────────────

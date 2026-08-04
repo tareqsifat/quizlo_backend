@@ -37,22 +37,7 @@ return new class extends Migration
             $table->timestamps();
         });
 
-        // 3. exam_type_subject (pivot)
-        Schema::create('exam_type_subject', function (Blueprint $table) {
-            $table->id();
-            $table->foreignId('exam_type_id')->constrained('exam_types')->onDelete('cascade');
-            $table->foreignId('subject_id')->constrained('subjects')->onDelete('cascade');
-            $table->boolean('is_active')->default(true);
-            $table->smallInteger('sort_order')->default(0);
-            $table->smallInteger('total_marks')->nullable();
-            $table->text('syllabus_note')->nullable();
-            $table->timestamp('created_at')->useCurrent();
-            
-            $table->unique(['exam_type_id', 'subject_id'], 'uq_exam_subject');
-            $table->index('exam_type_id', 'idx_exam_type_subject_exam_type');
-        });
-
-        // 4. topics
+        // 3. topics
         Schema::create('topics', function (Blueprint $table) {
             $table->id();
             $table->foreignId('subject_id')->constrained('subjects')->onDelete('cascade');
@@ -63,7 +48,7 @@ return new class extends Migration
             $table->timestamps();
         });
 
-        // 5. user_exam_types (pivot)
+        // 4. user_exam_types (pivot)
         Schema::create('user_exam_types', function (Blueprint $table) {
             $table->id();
             $table->foreignId('user_id')->constrained('users')->onDelete('cascade');
@@ -77,7 +62,7 @@ return new class extends Migration
             $table->index('exam_type_id', 'idx_user_exam_types_exam_type_id');
         });
 
-        // 6. otp_verifications
+        // 5. otp_verifications
         Schema::create('otp_verifications', function (Blueprint $table) {
             $table->id();
             $table->string('phone', 15);
@@ -91,7 +76,7 @@ return new class extends Migration
             $table->index('expires_at', 'idx_expires');
         });
 
-        // 7. lessons
+        // 6. lessons
         Schema::create('lessons', function (Blueprint $table) {
             $table->id();
             $table->foreignId('exam_type_id')->constrained('exam_types');
@@ -111,7 +96,7 @@ return new class extends Migration
             $table->index(['exam_type_id', 'subject_id'], 'idx_exam_subject');
         });
 
-        // 8. questions
+        // 7. questions
         Schema::create('questions', function (Blueprint $table) {
             $table->id();
             $table->foreignId('subject_id')->constrained('subjects');
@@ -128,7 +113,7 @@ return new class extends Migration
             $table->index(['subject_id', 'difficulty'], 'idx_subject_difficulty');
         });
 
-        // 9. exam_type_question (pivot)
+        // 8. exam_type_question (pivot)
         Schema::create('exam_type_question', function (Blueprint $table) {
             $table->foreignId('exam_type_id')->constrained('exam_types')->onDelete('cascade');
             $table->foreignId('question_id')->constrained('questions')->onDelete('cascade');
@@ -140,7 +125,7 @@ return new class extends Migration
             $table->index('source_batch', 'idx_batch');
         });
 
-        // 10. question_options
+        // 9. question_options
         Schema::create('question_options', function (Blueprint $table) {
             $table->id();
             $table->foreignId('question_id')->constrained('questions')->onDelete('cascade');
@@ -152,7 +137,7 @@ return new class extends Migration
             $table->index('question_id', 'idx_question');
         });
 
-        // 11. user_answers
+        // 10. user_answers
         Schema::create('user_answers', function (Blueprint $table) {
             $table->id();
             $table->foreignId('user_id')->constrained('users');
@@ -170,7 +155,7 @@ return new class extends Migration
             $table->index(['user_id', 'question_id'], 'idx_user_question');
         });
 
-        // 12. user_subject_mastery
+        // 11. user_subject_mastery
         Schema::create('user_subject_mastery', function (Blueprint $table) {
             $table->id();
             $table->foreignId('user_id')->constrained('users');
@@ -188,7 +173,7 @@ return new class extends Migration
             $table->index(['user_id', 'exam_type_id'], 'idx_user_exam');
         });
 
-        // 13. user_daily_progress
+        // 12. user_daily_progress
         Schema::create('user_daily_progress', function (Blueprint $table) {
             $table->id();
             $table->foreignId('user_id')->constrained('users');
@@ -204,7 +189,7 @@ return new class extends Migration
             $table->index('date', 'idx_date');
         });
 
-        // 14. user_lesson_completions
+        // 13. user_lesson_completions
         Schema::create('user_lesson_completions', function (Blueprint $table) {
             $table->id();
             $table->foreignId('user_id')->constrained('users');
@@ -217,7 +202,7 @@ return new class extends Migration
             $table->unique(['user_id', 'lesson_id'], 'uq_user_lesson');
         });
 
-        // 15. user_xp
+        // 14. user_xp
         Schema::create('user_xp', function (Blueprint $table) {
             $table->id();
             $table->foreignId('user_id')->unique()->constrained('users');
@@ -226,7 +211,7 @@ return new class extends Migration
             $table->timestamp('updated_at')->nullable()->useCurrentOnUpdate();
         });
 
-        // 16. xp_transactions
+        // 15. xp_transactions
         Schema::create('xp_transactions', function (Blueprint $table) {
             $table->id();
             $table->foreignId('user_id')->constrained('users');
@@ -247,7 +232,7 @@ return new class extends Migration
             $table->index(['user_id', 'earned_at'], 'idx_user_date');
         });
 
-        // 17. user_streaks
+        // 16. user_streaks
         Schema::create('user_streaks', function (Blueprint $table) {
             $table->id();
             $table->foreignId('user_id')->unique()->constrained('users');
@@ -259,7 +244,7 @@ return new class extends Migration
             $table->timestamp('updated_at')->nullable()->useCurrentOnUpdate();
         });
 
-        // 18. user_hearts
+        // 17. user_hearts
         Schema::create('user_hearts', function (Blueprint $table) {
             $table->id();
             $table->foreignId('user_id')->unique()->constrained('users');
@@ -269,7 +254,7 @@ return new class extends Migration
             $table->timestamp('updated_at')->nullable()->useCurrentOnUpdate();
         });
 
-        // 19. user_coins
+        // 18. user_coins
         Schema::create('user_coins', function (Blueprint $table) {
             $table->id();
             $table->foreignId('user_id')->unique()->constrained('users');
@@ -277,7 +262,7 @@ return new class extends Migration
             $table->timestamp('updated_at')->nullable()->useCurrentOnUpdate();
         });
 
-        // 20. coin_transactions
+        // 19. coin_transactions
         Schema::create('coin_transactions', function (Blueprint $table) {
             $table->id();
             $table->foreignId('user_id')->constrained('users');
@@ -296,7 +281,7 @@ return new class extends Migration
             $table->index('user_id', 'idx_coin_transactions_user_id');
         });
 
-        // 21. achievements
+        // 20. achievements
         Schema::create('achievements', function (Blueprint $table) {
             $table->id();
             $table->string('key', 100)->unique();
@@ -310,7 +295,7 @@ return new class extends Migration
             $table->timestamp('created_at')->useCurrent();
         });
 
-        // 22. user_achievements (pivot)
+        // 21. user_achievements (pivot)
         Schema::create('user_achievements', function (Blueprint $table) {
             $table->id();
             $table->foreignId('user_id')->constrained('users')->onDelete('cascade');
@@ -320,7 +305,7 @@ return new class extends Migration
             $table->unique(['user_id', 'achievement_id'], 'uq_user_achievement');
         });
 
-        // 23. league_tiers
+        // 22. league_tiers
         Schema::create('league_tiers', function (Blueprint $table) {
             $table->id();
             $table->string('name', 50);
@@ -332,7 +317,7 @@ return new class extends Migration
             $table->tinyInteger('max_members')->default(30);
         });
 
-        // 24. league_seasons
+        // 23. league_seasons
         Schema::create('league_seasons', function (Blueprint $table) {
             $table->id();
             $table->foreignId('exam_type_id')->constrained('exam_types');
@@ -346,7 +331,7 @@ return new class extends Migration
             $table->unique(['exam_type_id', 'week_number', 'year'], 'uq_exam_week_year');
         });
 
-        // 25. user_leagues
+        // 24. user_leagues
         Schema::create('user_leagues', function (Blueprint $table) {
             $table->id();
             $table->foreignId('user_id')->constrained('users');
@@ -362,7 +347,7 @@ return new class extends Migration
             $table->index(['league_season_id', 'league_tier_id', 'group_number'], 'idx_season_tier_group');
         });
 
-        // 26. model_tests
+        // 25. model_tests
         Schema::create('model_tests', function (Blueprint $table) {
             $table->id();
             $table->foreignId('exam_type_id')->constrained('exam_types');
@@ -375,7 +360,7 @@ return new class extends Migration
             $table->timestamp('created_at')->useCurrent();
         });
 
-        // 27. model_test_questions (pivot)
+        // 26. model_test_questions (pivot)
         Schema::create('model_test_questions', function (Blueprint $table) {
             $table->foreignId('model_test_id')->constrained('model_tests')->onDelete('cascade');
             $table->foreignId('question_id')->constrained('questions')->onDelete('cascade');
@@ -384,7 +369,7 @@ return new class extends Migration
             $table->primary(['model_test_id', 'question_id']);
         });
 
-        // 28. exam_sessions
+        // 27. exam_sessions
         Schema::create('exam_sessions', function (Blueprint $table) {
             $table->id();
             $table->foreignId('user_id')->constrained('users');
@@ -401,7 +386,7 @@ return new class extends Migration
             $table->timestamp('completed_at')->nullable();
         });
 
-        // 29. exam_schedules
+        // 28. exam_schedules
         Schema::create('exam_schedules', function (Blueprint $table) {
             $table->id();
             $table->foreignId('exam_type_id')->constrained('exam_types');
@@ -447,7 +432,6 @@ return new class extends Migration
         Schema::dropIfExists('otp_verifications');
         Schema::dropIfExists('user_exam_types');
         Schema::dropIfExists('topics');
-        Schema::dropIfExists('exam_type_subject');
         Schema::dropIfExists('subjects');
         Schema::dropIfExists('exam_types');
     }

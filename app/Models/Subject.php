@@ -26,8 +26,9 @@ class Subject extends Model
 
     public function examTypes()
     {
-        return $this->belongsToMany(ExamType::class, 'exam_type_subject')
-                    ->withPivot('is_active', 'sort_order', 'total_marks', 'syllabus_note', 'created_at');
+        return $this->belongsToMany(ExamType::class, 'exam_type_subjects')
+                    ->using(ExamTypeSubject::class)
+                    ->withPivot('id', 'title', 'title_bn', 'is_active', 'sort_order', 'total_marks', 'syllabus_note', 'created_at', 'updated_at');
     }
 
     public function topics()

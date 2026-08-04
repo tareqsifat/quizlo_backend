@@ -12,7 +12,7 @@ class SubjectRepository implements SubjectRepositoryInterface
     {
         return Subject::whereHas('examTypes', function ($query) use ($examTypeId) {
             $query->where('exam_types.id', $examTypeId)
-                  ->where('exam_type_subject.is_active', true);
+                  ->where('exam_type_subjects.is_active', true);
         })
         ->where('is_active', true)
         ->with(['examTypes' => function ($query) use ($examTypeId) {
