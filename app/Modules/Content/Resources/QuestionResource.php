@@ -22,6 +22,7 @@ class QuestionResource extends JsonResource
             'explanation' => $this->explanation,
             'difficulty' => $this->difficulty,
             'xp_value' => $this->xp_value,
+            'correct_option_id' => $this->options->firstWhere('is_correct', true)?->id,
             'options' => $this->options->map(function ($option) {
                 return [
                     'id' => $option->id,
