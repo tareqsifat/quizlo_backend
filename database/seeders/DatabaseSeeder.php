@@ -7,6 +7,7 @@ use App\Models\ExamType;
 use App\Models\Subject;
 use App\Models\Topic;
 use App\Models\Lesson;
+use App\Models\ExamTypeSubject;
 use App\Models\Question;
 use App\Models\QuestionOption;
 use App\Models\LeagueTier;
@@ -64,6 +65,8 @@ class DatabaseSeeder extends Seeder
 
         // 3. Attach Subjects to Exam Type
         $examType->subjects()->attach($english->id, [
+            'title' => $english->name,
+            'title_bn' => $english->name_bn,
             'is_active' => true,
             'sort_order' => 1,
             'total_marks' => 35,
@@ -71,6 +74,8 @@ class DatabaseSeeder extends Seeder
         ]);
 
         $examType->subjects()->attach($bangla->id, [
+            'title' => $bangla->name,
+            'title_bn' => $bangla->name_bn,
             'is_active' => true,
             'sort_order' => 2,
             'total_marks' => 35,
@@ -78,6 +83,8 @@ class DatabaseSeeder extends Seeder
         ]);
 
         $examType->subjects()->attach($bangladesh->id, [
+            'title' => $bangladesh->name,
+            'title_bn' => $bangladesh->name_bn,
             'is_active' => true,
             'sort_order' => 3,
             'total_marks' => 30,
@@ -133,8 +140,15 @@ class DatabaseSeeder extends Seeder
         ]);
 
         // 6. Seed Questions & Options
+        // Questions hang off exam_type_subject_id (exam-type-scoped), not subject_id
+        // directly — see migration 2026_07_04_000002_update_questions_remove_subject_add_exam_type_subject.
+        $englishExamTypeSubject = ExamTypeSubject::where('exam_type_id', $examType->id)
+            ->where('subject_id', $english->id)->firstOrFail();
+        $banglaExamTypeSubject = ExamTypeSubject::where('exam_type_id', $examType->id)
+            ->where('subject_id', $bangla->id)->firstOrFail();
+
         $q1 = Question::create([
-            'subject_id' => $english->id,
+            'exam_type_subject_id' => $englishExamTypeSubject->id,
             'topic_id' => $grammarTopic->id,
             'lesson_id' => $englishLesson->id,
             'question_text' => 'Which of the following is a noun?',
@@ -151,7 +165,7 @@ class DatabaseSeeder extends Seeder
         QuestionOption::create(['question_id' => $q1->id, 'option_text' => 'Beautify', 'option_text_bn' => 'বিউটিফাই', 'is_correct' => false, 'sort_order' => 4]);
 
         $q2 = Question::create([
-            'subject_id' => $bangla->id,
+            'exam_type_subject_id' => $banglaExamTypeSubject->id,
             'topic_id' => $banglaTopic->id,
             'lesson_id' => $banglaLesson->id,
             'question_text' => 'Who wrote the novel "Gora"?',
@@ -167,9 +181,9 @@ class DatabaseSeeder extends Seeder
         QuestionOption::create(['question_id' => $q2->id, 'option_text' => 'Sarat Chandra Chattopadhyay', 'option_text_bn' => 'শরৎচন্দ্র চট্টোপাধ্যায়', 'is_correct' => false, 'sort_order' => 3]);
         QuestionOption::create(['question_id' => $q2->id, 'option_text' => 'Bankim Chandra Chattopadhyay', 'option_text_bn' => 'বঙ্কিমচন্দ্র চট্টোপাধ্যায়', 'is_correct' => false, 'sort_order' => 4]);
 
-        // Tag questions to exam type
-        $examType->questions()->attach($q1->id, ['source_batch' => 'BCS-44', 'source_year' => 2022]);
-        $examType->questions()->attach($q2->id, ['source_batch' => 'BCS-45', 'source_year' => 2023]);
+        // Note: questions no longer need a separate exam-type tag — exam_type_subject_id
+        // already scopes each question to its exam type via ExamTypeSubject. The old
+        // exam_type_question pivot table was dropped by the same migration above.
 
         // 7. Seed League Tiers
         LeagueTier::create(['name' => 'Bronze', 'name_bn' => 'ব্রোঞ্জ', 'tier_order' => 1, 'color_hex' => '#CD7F32', 'promotion_spots' => 10, 'relegation_spots' => 0, 'max_members' => 30]);

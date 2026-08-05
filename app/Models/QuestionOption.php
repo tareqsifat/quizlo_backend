@@ -15,6 +15,7 @@ class QuestionOption extends Model
         'question_id',
         'option_text',
         'option_text_bn',
+        'match_text',
         'is_correct',
         'sort_order',
     ];

@@ -11,7 +11,23 @@ class UserManagementController extends Controller
 {
     public function index(Request $request): JsonResponse
     {
-        $users = User::select('id', 'name', 'phone', 'email', 'is_active')->get();
+        $users = User::select('id', 'name', 'phone', 'email', 'is_active')
+            ->with(['xp', 'streak', 'heart', 'coin'])
+            ->get()
+            ->map(function (User $user) {
+                return [
+                    'id'        => $user->id,
+                    'name'      => $user->name,
+                    'phone'     => $user->phone,
+                    'email'     => $user->email,
+                    'is_active' => $user->is_active,
+                    'level'     => $user->xp?->level ?? 1,
+                    'xp'        => $user->xp?->total_xp ?? 0,
+                    'streak'    => $user->streak?->current_streak ?? 0,
+                    'coins'     => $user->coin?->balance ?? 0,
+                    'hearts'    => $user->heart?->current_hearts ?? 0,
+                ];
+            });
 
         return response()->json([
             'success' => true,

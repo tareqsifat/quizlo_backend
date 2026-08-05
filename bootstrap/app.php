@@ -25,6 +25,10 @@ return Application::configure(basePath: dirname(__DIR__))
             'exam_enrolled' => \App\Http\Middleware\EnsureUserEnrolledInExamType::class,
             'throttle'      => \Illuminate\Routing\Middleware\ThrottleRequests::class,
         ]);
+
+        $middleware->api(append: [
+            \App\Http\Middleware\LogApiRequests::class,
+        ]);
     })
     ->withExceptions(function (Exceptions $exceptions): void {
         $exceptions->shouldRenderJsonWhen(

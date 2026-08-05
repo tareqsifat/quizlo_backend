@@ -7,6 +7,8 @@ use App\Models\Question;
 use App\Models\Lesson;
 use App\Models\ExamType;
 use App\Models\ExamTypeSubject;
+use App\Models\ModelTest;
+use App\Models\ExamSession;
 use Illuminate\Http\Request;
 use Illuminate\Http\JsonResponse;
 
@@ -34,22 +36,39 @@ class ContentManagementController extends Controller
     public function storeQuestion(Request $request): JsonResponse
     {
         $validated = $request->validate([
-            'exam_type_subject_id' => ['required', 'integer', 'exists:exam_type_subjects,id'],
-            'topic_id'             => ['nullable', 'integer', 'exists:topics,id'],
-            'lesson_id'            => ['nullable', 'integer', 'exists:lessons,id'],
-            'question_text'        => ['required', 'string'],
-            'question_bn'          => ['nullable', 'string'],
-            'explanation'          => ['nullable', 'string'],
-            'difficulty'           => ['sometimes', 'in:easy,medium,hard'],
-            'xp_value'             => ['sometimes', 'integer'],
+            'exam_type_subject_id'      => ['required', 'integer', 'exists:exam_type_subjects,id'],
+            'topic_id'                  => ['nullable', 'integer', 'exists:topics,id'],
+            'lesson_id'                 => ['nullable', 'integer', 'exists:lessons,id'],
+            'question_type'              => ['sometimes', 'in:mcq,fill_gap,listen_answer,match_answer'],
+            'question_text'             => ['required', 'string'],
+            'question_bn'               => ['nullable', 'string'],
+            'explanation'                => ['nullable', 'string'],
+            'audio_url'                  => ['nullable', 'string'],
+            'difficulty'                 => ['sometimes', 'in:easy,medium,hard'],
+            'xp_value'                   => ['sometimes', 'integer'],
+            'options'                    => ['sometimes', 'array'],
+            'options.*.option_text'      => ['required_with:options', 'string'],
+            'options.*.option_text_bn'   => ['nullable', 'string'],
+            'options.*.match_text'       => ['nullable', 'string'],
+            'options.*.is_correct'       => ['sometimes', 'boolean'],
         ]);
 
-        $question = Question::create($validated);
+        $question = Question::create(collect($validated)->except('options')->all());
+
+        foreach ($request->input('options', []) as $sortOrder => $option) {
+            $question->options()->create([
+                'option_text'    => $option['option_text'],
+                'option_text_bn' => $option['option_text_bn'] ?? null,
+                'match_text'     => $option['match_text'] ?? null,
+                'is_correct'     => (bool) ($option['is_correct'] ?? false),
+                'sort_order'     => $sortOrder,
+            ]);
+        }
 
         return response()->json([
             'success' => true,
             'message' => 'Question created successfully.',
-            'data'    => $question,
+            'data'    => $question->load('options'),
         ]);
     }
 
@@ -61,22 +80,42 @@ class ContentManagementController extends Controller
         }
 
         $validated = $request->validate([
-            'exam_type_subject_id' => ['sometimes', 'integer', 'exists:exam_type_subjects,id'],
-            'topic_id'             => ['nullable', 'integer', 'exists:topics,id'],
-            'lesson_id'            => ['nullable', 'integer', 'exists:lessons,id'],
-            'question_text'        => ['sometimes', 'string'],
-            'question_bn'          => ['nullable', 'string'],
-            'explanation'          => ['nullable', 'string'],
-            'difficulty'           => ['sometimes', 'in:easy,medium,hard'],
-            'xp_value'             => ['sometimes', 'integer'],
+            'exam_type_subject_id'      => ['sometimes', 'integer', 'exists:exam_type_subjects,id'],
+            'topic_id'                  => ['nullable', 'integer', 'exists:topics,id'],
+            'lesson_id'                 => ['nullable', 'integer', 'exists:lessons,id'],
+            'question_type'              => ['sometimes', 'in:mcq,fill_gap,listen_answer,match_answer'],
+            'question_text'             => ['sometimes', 'string'],
+            'question_bn'               => ['nullable', 'string'],
+            'explanation'                => ['nullable', 'string'],
+            'audio_url'                  => ['nullable', 'string'],
+            'difficulty'                 => ['sometimes', 'in:easy,medium,hard'],
+            'xp_value'                   => ['sometimes', 'integer'],
+            'options'                    => ['sometimes', 'array'],
+            'options.*.option_text'      => ['required_with:options', 'string'],
+            'options.*.option_text_bn'   => ['nullable', 'string'],
+            'options.*.match_text'       => ['nullable', 'string'],
+            'options.*.is_correct'       => ['sometimes', 'boolean'],
         ]);
 
-        $question->update($validated);
+        $question->update(collect($validated)->except('options')->all());
+
+        if ($request->has('options')) {
+            $question->options()->delete();
+            foreach ($request->input('options', []) as $sortOrder => $option) {
+                $question->options()->create([
+                    'option_text'    => $option['option_text'],
+                    'option_text_bn' => $option['option_text_bn'] ?? null,
+                    'match_text'     => $option['match_text'] ?? null,
+                    'is_correct'     => (bool) ($option['is_correct'] ?? false),
+                    'sort_order'     => $sortOrder,
+                ]);
+            }
+        }
 
         return response()->json([
             'success' => true,
             'message' => 'Question updated successfully.',
-            'data'    => $question,
+            'data'    => $question->load('options'),
         ]);
     }
 
@@ -385,6 +424,126 @@ class ContentManagementController extends Controller
             'success' => true,
             'message' => 'Lesson updated successfully.',
             'data'    => $lesson,
+        ]);
+    }
+
+    public function destroyLesson(int $id): JsonResponse
+    {
+        $lesson = Lesson::find($id);
+        if (!$lesson) {
+            return response()->json(['success' => false, 'message' => 'Lesson not found.', 'data' => null], 404);
+        }
+
+        $usageCount = Question::where('lesson_id', $id)->count();
+        if ($usageCount > 0) {
+            return response()->json([
+                'success' => false,
+                'message' => "Cannot delete: lesson has {$usageCount} question(s) attached. "
+                           . 'Remove those first, or deactivate the lesson instead.',
+                'data'    => null,
+            ], 422);
+        }
+
+        $lesson->delete();
+
+        return response()->json([
+            'success' => true,
+            'message' => 'Lesson deleted successfully.',
+            'data'    => null,
+        ]);
+    }
+
+    // ─── Model Tests CRUD ─────────────────────────────────────────
+
+    public function listModelTests(Request $request): JsonResponse
+    {
+        $modelTests = ModelTest::with('examType')->get()
+            ->map(function ($mt) {
+                return array_merge($mt->toArray(), [
+                    'exam_type_name' => $mt->examType?->name,
+                ]);
+            });
+
+        return response()->json([
+            'success' => true,
+            'data'    => $modelTests,
+        ]);
+    }
+
+    public function storeModelTest(Request $request): JsonResponse
+    {
+        $validated = $request->validate([
+            'exam_type_id'    => ['required', 'integer', 'exists:exam_types,id'],
+            'title'           => ['required', 'string', 'max:200'],
+            'title_bn'        => ['required', 'string', 'max:200'],
+            'total_questions' => ['sometimes', 'integer'],
+            'duration_minutes'=> ['sometimes', 'integer'],
+            'xp_reward'       => ['sometimes', 'integer'],
+            'is_active'       => ['sometimes', 'boolean'],
+        ]);
+
+        $modelTest = ModelTest::create($validated)->refresh();
+
+        return response()->json([
+            'success' => true,
+            'message' => 'Model test created successfully.',
+            'data'    => array_merge($modelTest->toArray(), [
+                'exam_type_name' => $modelTest->examType?->name,
+            ]),
+        ]);
+    }
+
+    public function updateModelTest(Request $request, int $id): JsonResponse
+    {
+        $modelTest = ModelTest::find($id);
+        if (!$modelTest) {
+            return response()->json(['success' => false, 'message' => 'Model test not found.', 'data' => null], 404);
+        }
+
+        $validated = $request->validate([
+            'exam_type_id'    => ['sometimes', 'integer', 'exists:exam_types,id'],
+            'title'           => ['sometimes', 'string', 'max:200'],
+            'title_bn'        => ['sometimes', 'string', 'max:200'],
+            'total_questions' => ['sometimes', 'integer'],
+            'duration_minutes'=> ['sometimes', 'integer'],
+            'xp_reward'       => ['sometimes', 'integer'],
+            'is_active'       => ['sometimes', 'boolean'],
+        ]);
+
+        $modelTest->update($validated);
+
+        return response()->json([
+            'success' => true,
+            'message' => 'Model test updated successfully.',
+            'data'    => array_merge($modelTest->toArray(), [
+                'exam_type_name' => $modelTest->examType?->name,
+            ]),
+        ]);
+    }
+
+    public function destroyModelTest(int $id): JsonResponse
+    {
+        $modelTest = ModelTest::find($id);
+        if (!$modelTest) {
+            return response()->json(['success' => false, 'message' => 'Model test not found.', 'data' => null], 404);
+        }
+
+        $sessionCount = ExamSession::where('model_test_id', $id)->count();
+        if ($sessionCount > 0) {
+            return response()->json([
+                'success' => false,
+                'message' => "Cannot delete: {$sessionCount} exam session(s) reference this model test. "
+                           . 'Deactivate it instead.',
+                'data'    => null,
+            ], 422);
+        }
+
+        $modelTest->delete();
+
+        return response()->json([
+            'success' => true,
+            'message' => 'Model test deleted successfully.',
+            'data'    => null,
         ]);
     }
 }

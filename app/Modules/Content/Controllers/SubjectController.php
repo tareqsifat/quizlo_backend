@@ -20,7 +20,10 @@ class SubjectController extends Controller
             'exam_type_id' => ['required', 'integer', 'exists:exam_types,id'],
         ]);
 
-        $subjects = $this->subjectService->getSubjectsByExamType((int) $request->input('exam_type_id'));
+        $subjects = $this->subjectService->getSubjectsByExamType(
+            (int) $request->input('exam_type_id'),
+            $request->user()
+        );
 
         return response()->json([
             'success' => true,

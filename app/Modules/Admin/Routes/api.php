@@ -46,6 +46,13 @@ Route::middleware(['auth:api', 'admin'])->group(function () {
     Route::get('/lessons', [ContentManagementController::class, 'listLessons']);
     Route::post('/lessons', [ContentManagementController::class, 'storeLesson']);
     Route::put('/lessons/{lesson}', [ContentManagementController::class, 'updateLesson']);
+    Route::delete('/lessons/{lesson}', [ContentManagementController::class, 'destroyLesson']);
+
+    // Content Management (Model Tests)
+    Route::get('/model-tests', [ContentManagementController::class, 'listModelTests']);
+    Route::post('/model-tests', [ContentManagementController::class, 'storeModelTest']);
+    Route::put('/model-tests/{modelTest}', [ContentManagementController::class, 'updateModelTest']);
+    Route::delete('/model-tests/{modelTest}', [ContentManagementController::class, 'destroyModelTest']);
 
     // User Management
     Route::get('/users', [UserManagementController::class, 'index']);
