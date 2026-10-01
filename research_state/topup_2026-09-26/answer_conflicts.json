@@ -1,0 +1,458 @@
+[
+ {
+  "question_id": 4290,
+  "db_text": "Identify the compound sentence:",
+  "db_correct": "doitorishallfineyou",
+  "source_answer": "(a)",
+  "source_url": "https://www.chakribangla.com/bcs-model-test/51-bcs-model-test-1.html",
+  "source_batch": null
+ },
+ {
+  "question_id": 4190,
+  "db_text": "The snow swirls——–the valley.",
+  "db_correct": "down",
+  "source_answer": "(d)",
+  "source_url": "https://www.chakribangla.com/bcs-model-test/51-bcs-model-test-10.html",
+  "source_batch": null
+ },
+ {
+  "question_id": 4152,
+  "db_text": "What is the function of a topic sentence?",
+  "db_correct": "tointroducethetopic",
+  "source_answer": "(গ)",
+  "source_url": "https://www.chakribangla.com/bcs-model-test/51-bcs-model-test-12.html",
+  "source_batch": null
+ },
+ {
+  "question_id": 4266,
+  "db_text": "Who wrote “A Vindication of the Rights of Women”?",
+  "db_correct": "marrywollstonecraft",
+  "source_answer": "(গ)",
+  "source_url": "https://www.chakribangla.com/bcs-model-test/51-bcs-model-test-3.html",
+  "source_batch": null
+ },
+ {
+  "question_id": 4469,
+  "db_text": "মুক্তিযুদ্ধকে উপজীব্য করে ‘যাত্রা’ উপন্যাসটি লিখেছেন-",
+  "db_correct": "শওকতআলী",
+  "source_answer": "(ক)",
+  "source_url": "https://www.chakribangla.com/bcs-model-test/51-bcs-model-test-1.html",
+  "source_batch": null
+ },
+ {
+  "question_id": 4376,
+  "db_text": "‘রাজপথ’ শব্দের ব্যাসবাক্য কোনটি?",
+  "db_correct": "রাজারপথ",
+  "source_answer": "(ঘ)",
+  "source_url": "https://www.chakribangla.com/bcs-model-test/51-bcs-model-test-1.html",
+  "source_batch": null
+ },
+ {
+  "question_id": 4326,
+  "db_text": "বাক্যের মধ্যে শব্দ অবস্থান করে কীভাবে?",
+  "db_correct": "বর্গবাগুচ্ছআকারে",
+  "source_answer": "(ক)",
+  "source_url": "https://www.chakribangla.com/bcs-model-test/51-bcs-model-test-12.html",
+  "source_batch": null
+ },
+ {
+  "question_id": 2917,
+  "db_text": "গঠনরীতিতে “শ্রীকৃষ্ণকীর্তন” কাব্য মূলত—",
+  "db_correct": "নাটগীতিনাট্যগীতি",
+  "source_answer": "(ঘ)",
+  "source_url": "https://www.chakribangla.com/bcs-model-test/51-bcs-model-test-3.html",
+  "source_batch": null
+ },
+ {
+  "question_id": 4315,
+  "db_text": "‘সকলের তরে সকলে আমরা/প্রত্যেকে আমরা পরের তরে।’ — কোন কবিতার অংশ?",
+  "db_correct": "পরার্থে",
+  "source_answer": "(ঘ)",
+  "source_url": "https://www.chakribangla.com/bcs-model-test/51-bcs-model-test-6.html",
+  "source_batch": null
+ },
+ {
+  "question_id": 4321,
+  "db_text": "ফোর্ট উইলিয়াম কলেজ পর্বে রচিত বাংলা বইগুলো—",
+  "db_correct": "পণ্ডিতদেররচিতমৌলিকগ্রন্থ",
+  "source_answer": "(ক)",
+  "source_url": "https://www.chakribangla.com/bcs-model-test/51-bcs-model-test-8.html",
+  "source_batch": null
+ },
+ {
+  "question_id": 4308,
+  "db_text": "শামসুর রাহমানের রচিত উপন্যাস",
+  "db_correct": "অদ্ভুতআঁধারএকউত্তরঃঅদ্ভুতআঁধারএক140সেলিমআলদীনেরনাটকেঅনুসৃতশিল্পতত্ত্বকঅস্তিত্ববাদখঅভিব্যক্তিবাদগপরাবাস্তববাদঘদ্বৈতাদ্বৈতবাদ",
+  "source_answer": "(ঘ)",
+  "source_url": "https://www.chakribangla.com/bcs-model-test/51-bcs-model-test-8.html",
+  "source_batch": null
+ },
+ {
+  "question_id": 4320,
+  "db_text": "পূর্ববঙ্গীয় উচ্চারণে ‘স্মরণ’ শব্দের ক্ষেত্রে কোনটি ঘটে?",
+  "db_correct": "শুরুতেনাসিক্যউচ্চারণহয়না",
+  "source_answer": "(ক)",
+  "source_url": "https://www.chakribangla.com/bcs-model-test/51-bcs-model-test-9.html",
+  "source_batch": null
+ },
+ {
+  "question_id": 4459,
+  "db_text": "বাংলাদেশে স্থানীয় সরকার ব্যবস্থা দুর্বল হওয়ার পেছনে সবচেয়ে বড় প্রাতিষ্ঠানিক দ্বন্দ্ব কোনটি?",
+  "db_correct": "সংবিধানেআর্থিকক্ষমতারবিকেন্দ্রীকরণেরবিধানথাকাসত্ত্বেওবাস্তবেতাকেন্দ্রীয়সরকারেরহাতেঅতিকেন্দ্রীভূত",
+  "source_answer": "(ক)",
+  "source_url": "https://www.chakribangla.com/bcs-model-test/51-bcs-model-test-1.html",
+  "source_batch": null
+ },
+ {
+  "question_id": 4413,
+  "db_text": "বাংলাদেশের বৃহত্তম সার কারখানার নাম—",
+  "db_correct": "যমুনাফার্টিলাইজারকোম্পানিলিমিটেড",
+  "source_answer": "(গ)",
+  "source_url": "https://www.chakribangla.com/bcs-model-test/51-bcs-model-test-10.html",
+  "source_batch": null
+ },
+ {
+  "question_id": 4407,
+  "db_text": "ক্ষুদ্রঋণ কার্যক্রম বাংলাদেশের গ্রামীণ অর্থনীতিতে প্রধানত—",
+  "db_correct": "দারিদ্র্যহ্রাসকরে",
+  "source_answer": "(গ)",
+  "source_url": "https://www.chakribangla.com/bcs-model-test/51-bcs-model-test-11.html",
+  "source_batch": null
+ },
+ {
+  "question_id": 4430,
+  "db_text": "বাংলাদেশের পোশাক সর্বাধিক কোন দেশে রপ্তানি করা হয়?",
+  "db_correct": "যুক্তরাষ্ট্র",
+  "source_answer": "(ঘ)",
+  "source_url": "https://www.chakribangla.com/bcs-model-test/51-bcs-model-test-12.html",
+  "source_batch": null
+ },
+ {
+  "question_id": 4405,
+  "db_text": "বিগত ৫০ বছরে বাংলাদেশে কোন ফসলের চাষ তুলনামূলকভাবে সবচেয়ে বেশি বৃদ্ধি পেয়েছে?",
+  "db_correct": "ভুট্টা",
+  "source_answer": "(ক)",
+  "source_url": "https://www.chakribangla.com/bcs-model-test/51-bcs-model-test-12.html",
+  "source_batch": null
+ },
+ {
+  "question_id": 4406,
+  "db_text": "২০২২ সালের জনশুমারি অনুযায়ী বাংলাদেশের জনসংখ্যা—",
+  "db_correct": "প্রায়সাড়েষোলোকোটি",
+  "source_answer": "(ঘ)",
+  "source_url": "https://www.chakribangla.com/bcs-model-test/51-bcs-model-test-6.html",
+  "source_batch": null
+ },
+ {
+  "question_id": 5704,
+  "db_text": "বাংলার সর্বপ্রাচীন জনপদের নাম কি?",
+  "db_correct": "পুণ্ড্র",
+  "source_answer": "(ক)",
+  "source_url": "https://www.chakribangla.com/bcs-model-test/51-bcs-model-test-7.html",
+  "source_batch": null
+ },
+ {
+  "question_id": 4403,
+  "db_text": "‘তমদ্দুন মজলিস’’-এর নেতা জনাব আবুল কাশেম ঢাকা বিশ্ববিদ্যালয়ের কোন বিষয়ের শিক্ষক ছিলেন?",
+  "db_correct": "ইতিহাস",
+  "source_answer": "(ঘ)",
+  "source_url": "https://www.chakribangla.com/bcs-model-test/51-bcs-model-test-9.html",
+  "source_batch": null
+ },
+ {
+  "question_id": 4419,
+  "db_text": "একুশে পদক ও স্বাধীনতা পদক দুটোই পেয়েছেন—",
+  "db_correct": "ভাস্করহামিদুররহমান",
+  "source_answer": "(ঘ)",
+  "source_url": "https://www.chakribangla.com/bcs-model-test/51-bcs-model-test-9.html",
+  "source_batch": null
+ },
+ {
+  "question_id": 4043,
+  "db_text": "বিলিরুবিন তৈরি হয়",
+  "db_correct": "প্লীহায়",
+  "source_answer": "(ঘ)",
+  "source_url": "https://www.chakribangla.com/bcs-model-test/51-bcs-model-test-10.html",
+  "source_batch": null
+ },
+ {
+  "question_id": 2787,
+  "db_text": "জীবজগতের জন্যে সবচেয়ে ক্ষতিকারক রশ্বি কোনটি ?",
+  "db_correct": "আলট্রাভ্যায়োলেটরশ্মি",
+  "source_answer": "(গ)",
+  "source_url": "https://www.chakribangla.com/bcs-model-test/51-bcs-model-test-8.html",
+  "source_batch": null
+ },
+ {
+  "question_id": 2787,
+  "db_text": "জীবজগতের জন্যে সবচেয়ে ক্ষতিকারক রশ্বি কোনটি ?",
+  "db_correct": "আলট্রাভ্যায়োলেটরশ্মি",
+  "source_answer": "(ঘ)",
+  "source_url": "https://www.chakribangla.com/bcs-model-test/51-bcs-model-test-8.html",
+  "source_batch": null
+ },
+ {
+  "question_id": 4507,
+  "db_text": "আপনার পারসোনাল কম্পিউটারে (পিসি) কোন একটি প্রোগ্রাম এর কর্মদক্ষতা (performance) বৃদ্ধির জন্য কোন্ কাজটি করা সর্বোত্তম হবে বলে আপনি মনে করেন?",
+  "db_correct": "প্রোগ্রামটিরজন্যএমনএকটাঅ্যালগরিদমতৈরিকরাযাasymptoticallyfaster",
+  "source_answer": "(ঘ)",
+  "source_url": "https://www.chakribangla.com/bcs-model-test/51-bcs-model-test-1.html",
+  "source_batch": null
+ },
+ {
+  "question_id": 4505,
+  "db_text": "LLM চালানোর জন্য ন্যূনতম কম্পিউটারের কোন যন্ত্রাংশ সবচেয়ে বেশি গুরুত্বপূর্ণ?",
+  "db_correct": "processor",
+  "source_answer": "(গ)",
+  "source_url": "https://www.chakribangla.com/bcs-model-test/51-bcs-model-test-7.html",
+  "source_batch": null
+ },
+ {
+  "question_id": 4503,
+  "db_text": "একটি কম্পিউটার সিস্টেমে ১১০০১১২ বাইনারি সংখ্যাটির মান দশমিকে কত হবে?",
+  "db_correct": "203",
+  "source_answer": "(ঘ)",
+  "source_url": "https://www.chakribangla.com/bcs-model-test/51-bcs-model-test-8.html",
+  "source_batch": null
+ },
+ {
+  "question_id": 4529,
+  "db_text": "একটি বৃত্তের বর্গের প্রত্যেক বাহুর দৈর্ঘ্য 2 সেমি. হলে, ঐ বৃত্তের ক্ষেত্রফল কত?",
+  "db_correct": "π",
+  "source_answer": "(খ)",
+  "source_url": "https://www.chakribangla.com/bcs-model-test/51-bcs-model-test-10.html",
+  "source_batch": null
+ },
+ {
+  "question_id": 3584,
+  "db_text": "f(x)=x^3+kx^2-6x+9; k-এর মান কত হলে f(3)=0 হবে",
+  "db_correct": "2",
+  "source_answer": "(ঘ)",
+  "source_url": "https://www.chakribangla.com/bcs-model-test/51-bcs-model-test-12.html",
+  "source_batch": null
+ },
+ {
+  "question_id": 3737,
+  "db_text": "বাংলাদেশের কোন অঞ্চলের পরিবেশ বন্যা নিয়ন্ত্রণ, পানি নিষ্কাশন ও সেচের (FCDI) কারণে খুব বেশি ক্ষতিগ্রস্ত হয়েছে ?",
+  "db_correct": "উপকূলীয়অঞ্চল",
+  "source_answer": "(ক)",
+  "source_url": "https://www.chakribangla.com/bcs-model-test/51-bcs-model-test-10.html",
+  "source_batch": null
+ },
+ {
+  "question_id": 3031,
+  "db_text": "বাংলাদেশের কোথায় সুরমা অও কুশিয়ারা নদী মিলিত হয়ে মেঘনা নাম ধারন করেছে ?",
+  "db_correct": "ভৈরব",
+  "source_answer": "(ঘ)",
+  "source_url": "https://www.chakribangla.com/bcs-model-test/51-bcs-model-test-4.html",
+  "source_batch": null
+ },
+ {
+  "question_id": 2967,
+  "db_text": "গ্রীন হাউস এফেক্টের জন্য বাংলাদেশে কোন ধরনের ক্ষতি হতে পারে ?",
+  "db_correct": "উপরেরসবগুলো",
+  "source_answer": "(ক)",
+  "source_url": "https://www.chakribangla.com/bcs-model-test/51-bcs-model-test-5.html",
+  "source_batch": null
+ },
+ {
+  "question_id": 3738,
+  "db_text": "সার্ক দুর্যোগ ব্যবস্থাপনা কেন্দ্র কোথায় অবস্থিত?",
+  "db_correct": "নতুনদিল্লি",
+  "source_answer": "(ক)",
+  "source_url": "https://www.chakribangla.com/bcs-model-test/51-bcs-model-test-9.html",
+  "source_batch": null
+ },
+ {
+  "question_id": 4461,
+  "db_text": "বাংলাদেশের মধ্যম আয়ের ফাঁদে (Middle-Income Trap) পড়ার ঝুঁকি মূলত কোন্ কাঠামোগত প্রতিবন্ধকতার সঙ্গে যুক্ত?",
+  "db_correct": "পুঁজিবৃদ্ধিসত্ত্বেওমোটউৎপাদনশীলতারtotalfactorproductivityবৃদ্ধিধীরগতিরহওয়া",
+  "source_answer": "(ঘ)",
+  "source_url": "https://www.chakribangla.com/bcs-model-test/51-bcs-model-test-1.html",
+  "source_batch": null
+ },
+ {
+  "question_id": 3050,
+  "db_text": "মালয়েশিয়ার সাবেক প্রধানমন্ত্রী ড: মাহাথির মোহাম্মদ কত বছর ক্ষমতায় ছিলেন?",
+  "db_correct": "22বছর",
+  "source_answer": "(গ)",
+  "source_url": "https://www.chakribangla.com/bcs-model-test/51-bcs-model-test-11.html",
+  "source_batch": null
+ },
+ {
+  "question_id": 3573,
+  "db_text": "বিশ্বের কোন দেশের স্বাক্ষরতার হার ১০০% ?",
+  "db_correct": "স্লোভাকিয়া",
+  "source_answer": "(খ)",
+  "source_url": "https://www.chakribangla.com/bcs-model-test/51-bcs-model-test-4.html",
+  "source_batch": null
+ },
+ {
+  "question_id": 4134,
+  "db_text": "UNDP সুশাসন নিশ্চিতকরণে কয়টি উপাদান উল্লেখ করেছে?",
+  "db_correct": "8টি",
+  "source_answer": "(ঘ)",
+  "source_url": "https://www.chakribangla.com/bcs-model-test/51-bcs-model-test-11.html",
+  "source_batch": null
+ },
+ {
+  "question_id": 4126,
+  "db_text": "ব্যক্তিগত মূল্যবোধ লালন করে —-",
+  "db_correct": "স্বাধীনতারমূল্যবোধকে",
+  "source_answer": "(ক)",
+  "source_url": "https://www.chakribangla.com/bcs-model-test/51-bcs-model-test-11.html",
+  "source_batch": null
+ },
+ {
+  "question_id": 4470,
+  "db_text": "সংবাদপত্রের স্বাধীনতা কোন্ ধরণের অধিকার?",
+  "db_correct": "সামাজিক",
+  "source_answer": "(গ)",
+  "source_url": "https://www.chakribangla.com/bcs-model-test/51-bcs-model-test-2.html",
+  "source_batch": null
+ },
+ {
+  "question_id": 950,
+  "db_text": "মহামান্য রাষ্ট্রপতি মোঃ আব্দুল হামিদ বাংলাদেশের কততম রাষ্ট্রপতি ?",
+  "db_correct": "20তম",
+  "source_answer": "(গ)",
+  "source_url": "https://www.chakribangla.com/ntrca-model-test/ntrca-model-test-10.html",
+  "source_batch": null
+ },
+ {
+  "question_id": 755,
+  "db_text": "বাংলাদেশের রুটির ঝুড়ি বলা হয় কোন জেলাকে?",
+  "db_correct": "ঠাকুরগাঁও",
+  "source_answer": "(গ)",
+  "source_url": "https://www.chakribangla.com/ntrca-model-test/ntrca-model-test-3.html",
+  "source_batch": null
+ },
+ {
+  "question_id": 778,
+  "db_text": "বাংলাদেশের সর্বাধিক বৈদেশিক মুদ্রা অর্জনকারী খাত কী?",
+  "db_correct": "rmg",
+  "source_answer": "(ক)",
+  "source_url": "https://www.chakribangla.com/ntrca-model-test/ntrca-model-test-4.html",
+  "source_batch": null
+ },
+ {
+  "question_id": 862,
+  "db_text": "শর্করা জাতীয় খাদ্য যে কাজে ব্যয় হয়",
+  "db_correct": "দেহেরবৃদ্ধিরজন্য",
+  "source_answer": "(ক)",
+  "source_url": "https://www.chakribangla.com/ntrca-model-test/ntrca-model-test-9.html",
+  "source_batch": null
+ },
+ {
+  "question_id": 842,
+  "db_text": "'হাড়-হাভাতে' বাগ্‌ধারাটির অর্থ কী?",
+  "db_correct": "নিরেটমূর্খ",
+  "source_answer": "(ক)",
+  "source_url": "https://www.chakribangla.com/ntrca-model-test/ntrca-model-test-1.html",
+  "source_batch": null
+ },
+ {
+  "question_id": 955,
+  "db_text": "নিচের কোনটি প্রত্যয়যোগে গঠিত স্ত্রীবাচক শব্দ ?",
+  "db_correct": "জেলেনী",
+  "source_answer": "(গ)",
+  "source_url": "https://www.chakribangla.com/ntrca-model-test/ntrca-model-test-2.html",
+  "source_batch": null
+ },
+ {
+  "question_id": 559,
+  "db_text": "নিচের কোন শব্দটি প্রাতিপদিক?",
+  "db_correct": "লাঙল",
+  "source_answer": "(ক)",
+  "source_url": "https://www.chakribangla.com/ntrca-model-test/ntrca-model-test-2.html",
+  "source_batch": null
+ },
+ {
+  "question_id": 504,
+  "db_text": "সন্ধি ব্যাকরণের কোন অংশে আলোচিত হয়?",
+  "db_correct": "ধ্বনিতত্ত্বে",
+  "source_answer": "(খ)",
+  "source_url": "https://www.chakribangla.com/ntrca-model-test/ntrca-model-test-3.html",
+  "source_batch": null
+ },
+ {
+  "question_id": 557,
+  "db_text": "ভাষার মূল উপকরণ কী?",
+  "db_correct": "ধ্বনি",
+  "source_answer": "(ক)",
+  "source_url": "https://www.chakribangla.com/ntrca-model-test/ntrca-model-test-6.html",
+  "source_batch": null
+ },
+ {
+  "question_id": 922,
+  "db_text": "কোনটির স্ত্রীলিঙ্গ ভিন্ন শব্দ ?",
+  "db_correct": "দাদা",
+  "source_answer": "(ক)",
+  "source_url": "https://www.chakribangla.com/ntrca-model-test/ntrca-model-test-9.html",
+  "source_batch": null
+ },
+ {
+  "question_id": 486,
+  "db_text": "বাংলা ভাষার উৎস কী?",
+  "db_correct": "অনার্যভাষা",
+  "source_answer": "(খ)",
+  "source_url": "https://www.chakribangla.com/ntrca-model-test/ntrca-model-test-9.html",
+  "source_batch": null
+ },
+ {
+  "question_id": 557,
+  "db_text": "ভাষার মূল উপকরণ কী?",
+  "db_correct": "ধ্বনি",
+  "source_answer": "(গ)",
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/bangla/bhasha-o-bhasharity.html",
+  "source_batch": null
+ },
+ {
+  "question_id": 1609,
+  "db_text": "A person whose head is on the clouds is-",
+  "db_correct": "adaydreamer",
+  "source_answer": "(ক)",
+  "source_url": "https://www.chakribangla.com/ntrca-model-test/ntrca-model-test-10.html",
+  "source_batch": null
+ },
+ {
+  "question_id": 1661,
+  "db_text": "Tooth and nail’ means?",
+  "db_correct": "tryhard",
+  "source_answer": "(c)",
+  "source_url": "https://www.chakribangla.com/ntrca-model-test/ntrca-model-test-11.html",
+  "source_batch": null
+ },
+ {
+  "question_id": 1606,
+  "db_text": "‘ভাসা ভাসা পড়ায় কাজ হবে না’। The correct English translation of the sentence is",
+  "db_correct": "readingbyabirdseyeviewwillnotdo",
+  "source_answer": "(ক)",
+  "source_url": "https://www.chakribangla.com/ntrca-model-test/ntrca-model-test-11.html",
+  "source_batch": null
+ },
+ {
+  "question_id": 324,
+  "db_text": "What is the appropriate meaning of 'Achilles heel'?",
+  "db_correct": "vulnerable",
+  "source_answer": "(গ)",
+  "source_url": "https://www.chakribangla.com/ntrca-model-test/ntrca-model-test-5.html",
+  "source_batch": null
+ },
+ {
+  "question_id": 979,
+  "db_text": "x>y এবং z<0 হলে, নিচের কোনটি সঠিক ?",
+  "db_correct": "zx<yz",
+  "source_answer": "(ঘ)",
+  "source_url": "https://www.chakribangla.com/ntrca-model-test/ntrca-model-test-1.html",
+  "source_batch": null
+ },
+ {
+  "question_id": 1026,
+  "db_text": "পুত্র ও পিতার বর্তমান বয়সের পার্থক্য ২০। ৮ বছর পর তাদের বয়সের সমষ্টি ৭২ বছর হলে পুত্রের বর্তমান বয়স-",
+  "db_correct": "18বছর",
+  "source_answer": "(খ)",
+  "source_url": "https://www.chakribangla.com/ntrca-model-test/ntrca-model-test-12.html",
+  "source_batch": null
+ }
+]

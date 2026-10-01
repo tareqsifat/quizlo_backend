@@ -13,7 +13,20 @@ class QuestionRepository implements QuestionRepositoryInterface
     {
         $query = Question::where('lesson_id', $lessonId)
             ->where('is_active', true)
-            ->with('options');
+            ->with(['options', 'appearances.examType']);
+
+        if ($difficulty) {
+            $query->where('difficulty', $difficulty);
+        }
+
+        return $query->get();
+    }
+
+    public function getByTopic(int $topicId, ?string $difficulty = null): Collection
+    {
+        $query = Question::where('topic_id', $topicId)
+            ->where('is_active', true)
+            ->with(['options', 'appearances.examType']);
 
         if ($difficulty) {
             $query->where('difficulty', $difficulty);

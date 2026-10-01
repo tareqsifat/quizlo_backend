@@ -1,0 +1,142 @@
+{
+  "pipeline": "harvest-match-topup",
+  "phase": 3,
+  "notes": "Phase 1 = harvest compilation sources per subject/exam_type into research_state/exam_sources/*.json. Do NOT match against DB or write to DB in Phase 1 - that is Phase 2/3, done by the user later in the main session.",
+  "known_working_sources": [
+    "https://www.chakribangla.com (direct curl works with browser User-Agent + Accept headers; plain curl gets HTTP 406)",
+    "https://www.sattacademy.com"
+  ],
+  "known_dead_ends": [
+    "10minuteschool.com (blind guesses failed)",
+    "bcsadmission.com (blind guesses failed)",
+    "bcsandbank.com (blind guesses failed)",
+    "bdjobspreparation.com (blind guesses failed)",
+    "prosnoban.com (blind guesses failed)",
+    "chakritips.com (blind guesses failed)"
+  ],
+  "subjects": {
+    "bcs_bangla_literature": {
+      "exam_type": "BCS Preliminary",
+      "subject": "Bangla Literature",
+      "status": "done",
+      "entries": 959,
+      "note": "chakribangla.com repeated-questions compilation + batch pages"
+    },
+    "bcs_bangladesh_affairs": {
+      "exam_type": "BCS Preliminary",
+      "subject": "Bangladesh Affairs",
+      "status": "done",
+      "entries": 787,
+      "note": "chakribangla.com BCS 10th-50th question-solution pages"
+    },
+    "bcs_computer_it": {
+      "exam_type": "BCS Preliminary",
+      "subject": "Computer & IT",
+      "status": "done",
+      "entries": 193,
+      "note": "sattacademy.com 47th/50th BCS; page 2+ login-gated"
+    },
+    "bcs_english_grammar": {
+      "exam_type": "BCS Preliminary",
+      "subject": "English Grammar",
+      "status": "done",
+      "entries": 983,
+      "note": "chakribangla.com BCS 10th-50th question-solution pages; section is \"English Language and Literature\" so includes literature items"
+    },
+    "bcs_ethics_governance": {
+      "exam_type": "BCS Preliminary",
+      "subject": "Ethics & Governance",
+      "status": "done",
+      "entries": 128,
+      "note": "chakribangla.com BCS 10th-50th question-solution pages"
+    },
+    "bcs_general_science": {
+      "exam_type": "BCS Preliminary",
+      "subject": "General Science",
+      "status": "done",
+      "entries": 400,
+      "note": "chakribangla.com BCS 10th-50th question-solution pages"
+    },
+    "bcs_geography_environment": {
+      "exam_type": "BCS Preliminary",
+      "subject": "Geography & Environment",
+      "status": "done",
+      "entries": 132,
+      "note": "chakribangla.com BCS 10th-50th question-solution pages"
+    },
+    "bcs_international_affairs": {
+      "exam_type": "BCS Preliminary",
+      "subject": "International Affairs",
+      "status": "done",
+      "entries": 610,
+      "note": "chakribangla.com BCS 43rd/44th/45th sections"
+    },
+    "bcs_mathematics": {
+      "exam_type": "BCS Preliminary",
+      "subject": "Mathematics",
+      "status": "done",
+      "entries": 344,
+      "note": "chakribangla.com BCS 10th-50th question-solution pages"
+    },
+    "bcs_mental_ability": {
+      "exam_type": "BCS Preliminary",
+      "subject": "Mental Ability",
+      "status": "done",
+      "entries": 128,
+      "note": "chakribangla.com BCS 10th-50th question-solution pages"
+    },
+    "ntrca_bangla": {
+      "exam_type": "NTRCA",
+      "subject": "Bangla",
+      "status": "done",
+      "entries": 674,
+      "note": "chakribangla.com NTRCA 10th-18th question-solution pages (school/school-2/college)"
+    },
+    "ntrca_english": {
+      "exam_type": "NTRCA",
+      "subject": "English",
+      "status": "done",
+      "entries": 672,
+      "note": "chakribangla.com NTRCA 10th-18th question-solution pages (school/school-2/college)"
+    },
+    "ntrca_general_knowledge": {
+      "exam_type": "NTRCA",
+      "subject": "General Knowledge",
+      "status": "done",
+      "entries": 675,
+      "note": "chakribangla.com NTRCA 10th-18th question-solution pages (school/school-2/college)"
+    },
+    "ntrca_general_math": {
+      "exam_type": "NTRCA",
+      "subject": "General Math",
+      "status": "done",
+      "entries": 689,
+      "note": "sattacademy.com General Math listing; page 2+ login-gated, ~594 total available"
+    },
+    "ntrca_general_science": {
+      "exam_type": "NTRCA",
+      "subject": "General Science",
+      "status": "no_source_section",
+      "entries": 0,
+      "note": "NTRCA papers have no separate General Science section; science questions are inside ntrca_general_knowledge.json. Match NTRCA General Science DB questions against that file in Phase 2."
+    }
+  },
+  "runs": [
+    {
+      "date": "2026-08-31",
+      "result": "Initial 15-agent dispatch. WebSearch budget was already 0/200 for every agent (exhausted by an earlier per-batch pass in the same session). 4 subjects got data via lucky WebFetch fallback guesses at chakribangla.com/sattacademy.com. 11 subjects got 0."
+    },
+    {
+      "date": "2026-09-26",
+      "result": "Direct curl scrape of chakribangla.com (no WebSearch needed). 41 BCS papers + 27 NTRCA papers downloaded; single-subject sections parsed with options/answer/explanation. Filled 10 previously empty subjects (4,923 entries). Skipped combined older-BCS sections (math-mental, science-computer, bangladesh-international, etc.), 30 image-based and 10 answerless items. Parsers: scratchpad harvest/parse_bcs.py, parse_ntrca.py."
+    },
+    {
+      "date": "2026-09-26",
+      "result": "Filled partial subjects (7,374 harvest entries total). Phase 2+3 done on the LOCAL DB: 3,700 new questions inserted (ids >= 4631), 7,022 question_exam_appearances rows created (table was empty before). Dedup: normalized/fuzzy text + option overlap + same-answer rule, number/negation guard, 16 hand-confirmed overrides; first run had an importer bug (text-only guard) repaired by reconcile.py/apply_reconcile.php. Final scan: 0 duplicate pairs involving imported rows. Not imported: 178 borderline lookalikes (import_2026-09-26/review_borderline.json), 115 unresolved answers, 41 no-options/needs-figure. 142 answer disagreements with pre-existing questions logged in answer_conflicts.json (DB not changed). Backups: storage/app/backup_quizlo_before_harvest_import_2026-09-26.sql, backup_quizlo_after_first_import_2026-09-26.sql. Railway/production DB NOT touched."
+    },
+    {
+      "date": "2026-09-26",
+      "result": "Top-up to 10,000 live questions (LOCAL DB only). Scraped 160 more chakribangla.com pages (12 BCS 51st model tests, 12 NTRCA model tests, BCS/NTRCA preparation pages; the 50-series BCS model tests are redirects to 51). 8,360 MCQs parsed; Q&A items without options skipped. Dedup in 3 layers: plan_more.py (previous rules + same-stem/same-answer), suspect_scan.py (same answer + similar stem, or partial stem + 2 shared options: 484 dropped), select.py loose check (1,130 more skipped). 1,842 inserted (ids 8408-10249), 239 appearances only for BCS-tagged past-paper items. Post-import scan: 0 duplicates. NTRCA GK science pages routed to NTRCA General Science. Backup: storage/app/backup_quizlo_before_topup_2026-09-26.sql. Scripts/logs: research_state/topup_2026-09-26/."
+    }
+  ]
+}

@@ -7,6 +7,8 @@ use App\Modules\Admin\Controllers\ContentManagementController;
 use App\Modules\Admin\Controllers\UserManagementController;
 use App\Modules\Admin\Controllers\SubjectManagementController;
 use App\Modules\Admin\Controllers\ExamTypeSubjectManagementController;
+use App\Modules\Admin\Controllers\TopicManagementController;
+use App\Modules\Admin\Controllers\QuestionAppearanceController;
 
 Route::middleware(['auth:api', 'admin'])->group(function () {
     // Dashboard Stats
@@ -35,12 +37,26 @@ Route::middleware(['auth:api', 'admin'])->group(function () {
     Route::put('/exam-type-subjects/{examTypeSubject}', [ExamTypeSubjectManagementController::class, 'update']);
     Route::delete('/exam-type-subjects/{examTypeSubject}', [ExamTypeSubjectManagementController::class, 'destroy']);
 
+    // Topics CRUD (Feature 3)
+    Route::get('/topics', [TopicManagementController::class, 'index']);
+    Route::get('/topics/for-exam-type-subject/{examTypeSubject}', [TopicManagementController::class, 'allForExamTypeSubject']);
+    Route::post('/topics', [TopicManagementController::class, 'store']);
+    Route::put('/topics/{topic}', [TopicManagementController::class, 'update']);
+    Route::delete('/topics/{topic}', [TopicManagementController::class, 'destroy']);
+
     // Content Management (Questions)
     Route::get('/questions', [ContentManagementController::class, 'listQuestions']);
+    Route::get('/questions/years', [ContentManagementController::class, 'listQuestionYears']);
     Route::post('/questions', [ContentManagementController::class, 'storeQuestion']);
     Route::put('/questions/{question}', [ContentManagementController::class, 'updateQuestion']);
     Route::delete('/questions/{question}', [ContentManagementController::class, 'destroyQuestion']);
     Route::post('/questions/import', [ContentManagementController::class, 'import']);
+
+    // Question Exam-Year Appearances (duplicate tracking / search-similar)
+    Route::get('/questions/search-similar', [QuestionAppearanceController::class, 'searchSimilar'])->middleware('throttle:30,1');
+    Route::get('/questions/{question}/appearances', [QuestionAppearanceController::class, 'index']);
+    Route::post('/questions/{question}/appearances', [QuestionAppearanceController::class, 'store']);
+    Route::delete('/questions/{question}/appearances/{appearance}', [QuestionAppearanceController::class, 'destroy']);
 
     // Content Management (Lessons)
     Route::get('/lessons', [ContentManagementController::class, 'listLessons']);

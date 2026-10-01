@@ -35,6 +35,10 @@ use App\Modules\Content\Services\Contracts\QuestionServiceInterface;
 use App\Modules\Content\Services\QuestionService;
 use App\Modules\Content\Repositories\Contracts\QuestionRepositoryInterface;
 use App\Modules\Content\Repositories\QuestionRepository;
+use App\Modules\Content\Services\Contracts\TopicServiceInterface;
+use App\Modules\Content\Services\TopicService;
+use App\Modules\Content\Repositories\Contracts\TopicRepositoryInterface;
+use App\Modules\Content\Repositories\TopicRepository;
 
 // Gamification
 use App\Modules\Gamification\Services\Contracts\XpServiceInterface;
@@ -100,6 +104,8 @@ class AppServiceProvider extends ServiceProvider
         $this->app->bind(LessonRepositoryInterface::class, LessonRepository::class);
         $this->app->bind(QuestionServiceInterface::class, QuestionService::class);
         $this->app->bind(QuestionRepositoryInterface::class, QuestionRepository::class);
+        $this->app->bind(TopicServiceInterface::class, TopicService::class);
+        $this->app->bind(TopicRepositoryInterface::class, TopicRepository::class);
 
         // ── Gamification ──────────────────────────────────
         $this->app->bind(XpServiceInterface::class, XpService::class);

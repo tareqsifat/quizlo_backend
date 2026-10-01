@@ -1,0 +1,4920 @@
+{
+  "subject": "Computer and Information Technology",
+  "exam_type_code": "BCS Preliminary",
+  "entries": [
+    {
+      "question_text": "ডিজিটাল ঘড়ি বা ক্যালকুলেটরে কালচে অনুজ্জ্বল যে লেখা ফুটে উঠে তা কিসের ভিত্তিতে তৈরি?",
+      "year": null,
+      "source_batch": "BCS-26",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/26-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "এলইডি"
+        },
+        {
+          "label": "খ",
+          "text": "আইসি"
+        },
+        {
+          "label": "গ",
+          "text": "এলসিডি"
+        },
+        {
+          "label": "ঘ",
+          "text": "সিলিকন চিপ"
+        }
+      ],
+      "options_raw": "(ক) এলইডি (খ) আইসি (গ) এলসিডি (ঘ) সিলিকন চিপ",
+      "correct_answer": "(গ) এলসিডি",
+      "explanation": "ডিজিটাল ঘড়ি, ক্যালকুলেটর এবং অনেক মনিটরে যে লেখা বা ছবি দেখা যায় তা এলসিডি (LCD - Liquid Crystal Display) প্রযুক্তির মাধ্যমে তৈরি হয়। এই প্রযুক্তিতে তরল ক্রিস্টালের মধ্য দিয়ে আলোর চলাচল নিয়ন্ত্রণ করে ছবি বা লেখা ফুটিয়ে তোলা হয়।"
+    },
+    {
+      "question_text": "কোন রং বেশি দূর থেকে দেখা যায়?",
+      "year": 2015,
+      "source_batch": "BCS-35",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/35-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "সাদা"
+        },
+        {
+          "label": "খ",
+          "text": "কালো"
+        },
+        {
+          "label": "গ",
+          "text": "হলুদ"
+        },
+        {
+          "label": "ঘ",
+          "text": "লাল"
+        }
+      ],
+      "options_raw": "(ক) সাদা (খ) কালো (গ) হলুদ (ঘ) লাল",
+      "correct_answer": "(ঘ) লাল",
+      "explanation": "লাল আলোর তরঙ্গদৈর্ঘ্য সবচেয়ে বেশি, ফলে বায়ুমণ্ডলের কণা দ্বারা এর বিক্ষেপণ সবচেয়ে কম হয়। একারণে লাল আলো অনেক দূর থেকে স্পষ্ট দেখা যায়।"
+    },
+    {
+      "question_text": "ক্যান্সার চিকিৎসায় ব্যবহৃত গামা বিকিরণের উৎস হলো –",
+      "year": 2015,
+      "source_batch": "BCS-35",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/35-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "আইসোটোন"
+        },
+        {
+          "label": "খ",
+          "text": "আইসোটোপ"
+        },
+        {
+          "label": "গ",
+          "text": "আইসোবার"
+        },
+        {
+          "label": "ঘ",
+          "text": "রাসায়নিক পদার্থ"
+        }
+      ],
+      "options_raw": "(ক) আইসোটোন (খ) আইসোটোপ (গ) আইসোবার (ঘ) রাসায়নিক পদার্থ",
+      "correct_answer": "(খ) আইসোটোপ",
+      "explanation": "কোবাল্ট-৬০ (Cobalt-60) নামক একটি তেজস্ক্রিয় আইসোটোপ ক্যান্সার চিকিৎসায় (রেডিওথেরাপি) গামা রশ্মির উৎস হিসেবে ব্যবহৃত হয়।"
+    },
+    {
+      "question_text": "কম্পিউটার সিস্টেম এ Scanner একটি কোন ধরনের যন্ত্র?",
+      "year": 2015,
+      "source_batch": "BCS-35",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/35-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "Input"
+        },
+        {
+          "label": "খ",
+          "text": "Out put"
+        },
+        {
+          "label": "গ",
+          "text": "উভয়েই"
+        },
+        {
+          "label": "ঘ",
+          "text": "কোনোটিই নয়"
+        }
+      ],
+      "options_raw": "(ক) Input (খ) Out put (গ) উভয়েই (ঘ) কোনোটিই নয়",
+      "correct_answer": "(ক) Input",
+      "explanation": "স্ক্যানার ছবি বা ডকুমেন্টকে ডিজিটাল ফাইলে রূপান্তর করে কম্পিউটারে প্রবেশ করায়, তাই এটি একটি ইনপুট ডিভাইস।"
+    },
+    {
+      "question_text": "কম্পিউটারের মূল মেমোরি তৈরি হয় কি দিয়ে?",
+      "year": 2015,
+      "source_batch": "BCS-35",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/35-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "এলুমিনিয়াম"
+        },
+        {
+          "label": "খ",
+          "text": "প্লাসটিক"
+        },
+        {
+          "label": "গ",
+          "text": "সিলিকন"
+        },
+        {
+          "label": "ঘ",
+          "text": "কোনোটিই নয়"
+        }
+      ],
+      "options_raw": "(ক) এলুমিনিয়াম (খ) প্লাসটিক (গ) সিলিকন (ঘ) কোনোটিই নয়",
+      "correct_answer": "(গ) সিলিকন",
+      "explanation": "কম্পিউটারের মূল মেমোরি (র‍্যাম) এবং প্রসেসর (সিপিইউ) সিলিকন নামক অর্ধপরিবাহী পদার্থ দিয়ে তৈরি চিপের উপর ভিত্তি করে নির্মিত হয়।"
+    },
+    {
+      "question_text": "Back up প্রোগ্রাম বলতে কী বোঝানো হয়?",
+      "year": 2015,
+      "source_batch": "BCS-35",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/35-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "নির্ধারিত ফাইল কপি করা"
+        },
+        {
+          "label": "খ",
+          "text": "আগের প্রোগ্রামে ফিরে যাওয়া"
+        },
+        {
+          "label": "গ",
+          "text": "সবশেষ পরিবর্তন Undo করা"
+        },
+        {
+          "label": "ঘ",
+          "text": "কোনোটিই নয়"
+        }
+      ],
+      "options_raw": "(ক) নির্ধারিত ফাইল কপি করা (খ) আগের প্রোগ্রামে ফিরে যাওয়া (গ) সবশেষ পরিবর্তন Undo করা (ঘ) কোনোটিই নয়",
+      "correct_answer": "(ক) নির্ধারিত ফাইল কপি করা",
+      "explanation": "ব্যাকআপ বলতে কোনো ডেটা বা ফাইলের একটি অতিরিক্ত কপি তৈরি করে রাখা বোঝায়, যাতে মূল ফাইলটি নষ্ট বা হারিয়ে গেলে তা পুনরুদ্ধার করা যায়।"
+    },
+    {
+      "question_text": "একটি প্রতিষ্ঠানে ডিভাইস ভাগাভাগি করে নেয়ার সুবিধা হলো —-",
+      "year": 2015,
+      "source_batch": "BCS-35",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/35-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "অর্থ সাশ্রয়"
+        },
+        {
+          "label": "খ",
+          "text": "সময় সাশ্রয়"
+        },
+        {
+          "label": "গ",
+          "text": "স্থানের সাশ্রয়"
+        },
+        {
+          "label": "ঘ",
+          "text": "উপরের সবকটি"
+        }
+      ],
+      "options_raw": "(ক) অর্থ সাশ্রয় (খ) সময় সাশ্রয় (গ) স্থানের সাশ্রয় (ঘ) উপরের সবকটি",
+      "correct_answer": "(ঘ) উপরের সবকটি",
+      "explanation": "নেটওয়ার্কের মাধ্যমে প্রিন্টার, স্ক্যানার ইত্যাদি ডিভাইস শেয়ার করলে আলাদা আলাদা ডিভাইস কেনার প্রয়োজন হয় না, যা অর্থ, সময় ও স্থান সবকিছুরই সাশ্রয় করে।"
+    },
+    {
+      "question_text": "নিচের কোনটি ছাড়া Internet- এ প্রবেশ করা সহজ নয়?",
+      "year": 2015,
+      "source_batch": "BCS-35",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/35-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "Task bar"
+        },
+        {
+          "label": "খ",
+          "text": "Notification area"
+        },
+        {
+          "label": "গ",
+          "text": "Menu bar"
+        },
+        {
+          "label": "ঘ",
+          "text": "Web browser"
+        }
+      ],
+      "options_raw": "(ক) Task bar (খ) Notification area (গ) Menu bar (ঘ) Web browser",
+      "correct_answer": "(ঘ) Web browser",
+      "explanation": "ওয়েব ব্রাউজার হলো একটি অ্যাপ্লিকেশন সফটওয়্যার যা ব্যবহারকারীকে ইন্টারনেটে থাকা ওয়েবসাইট ও তথ্য অ্যাক্সেস করতে এবং দেখতে সাহায্য করে।"
+    },
+    {
+      "question_text": "কম্পিউটার মেমোরি থেকে সংরক্ষিত ডাটা উত্তোলনের পদ্ধতিকে কি বলে?",
+      "year": 2015,
+      "source_batch": "BCS-35",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/35-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "Read-out"
+        },
+        {
+          "label": "খ",
+          "text": "Read from"
+        },
+        {
+          "label": "গ",
+          "text": "Read"
+        },
+        {
+          "label": "ঘ",
+          "text": "উপরের সবগুলোই"
+        }
+      ],
+      "options_raw": "(ক) Read-out (খ) Read from (গ) Read (ঘ) উপরের সবগুলোই",
+      "correct_answer": "(গ) Read",
+      "explanation": "মেমোরি থেকে ডেটা পড়া বা অ্যাক্সেস করার প্রক্রিয়াকে 'Read' অপারেশন বলা হয়।"
+    },
+    {
+      "question_text": "MICR-এর পূর্ণরূপ কি?",
+      "year": 2015,
+      "source_batch": "BCS-35",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/35-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "Magnetic Ink Character Reader"
+        },
+        {
+          "label": "খ",
+          "text": "Magnetic Ink Code"
+        },
+        {
+          "label": "গ",
+          "text": "Magnetic Ink Case Reader"
+        },
+        {
+          "label": "ঘ",
+          "text": "কোনোটিই নয়"
+        }
+      ],
+      "options_raw": "(ক) Magnetic Ink Character Reader (খ) Magnetic Ink Code (গ) Magnetic Ink Case Reader (ঘ) কোনোটিই নয়",
+      "correct_answer": "(ক) Magnetic Ink Character Reader",
+      "explanation": "MICR এর পূর্ণরূপ হলো Magnetic Ink Character Recognition (বা Reader)। এটি ব্যাংক চেকে থাকা বিশেষ চুম্বকীয় কালির লেখা পড়তে ব্যবহৃত হয়।"
+    },
+    {
+      "question_text": "নিচের কোনটি ডাটাবেজ ল্যাংগুয়েজ?",
+      "year": 2015,
+      "source_batch": "BCS-35",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/35-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "Data Definition Language"
+        },
+        {
+          "label": "খ",
+          "text": "Data Manipulation Language"
+        },
+        {
+          "label": "গ",
+          "text": "Query Language"
+        },
+        {
+          "label": "ঘ",
+          "text": "উপরের সবগুলোই"
+        }
+      ],
+      "options_raw": "(ক) Data Definition Language (খ) Data Manipulation Language (গ) Query Language (ঘ) উপরের সবগুলোই",
+      "correct_answer": "(ঘ) উপরের সবগুলোই",
+      "explanation": "DDL, DML, এবং QL (যেমন SQL) সবগুলোই ডেটাবেস পরিচালনার জন্য ব্যবহৃত ল্যাঙ্গুয়েজের অংশ বা প্রকারভেদ।"
+    },
+    {
+      "question_text": "সোশ্যাল নেটওয়ার্কিং টুইটার কত সালে তৈরি হয়?",
+      "year": 2015,
+      "source_batch": "BCS-35",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/35-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "২০০৪"
+        },
+        {
+          "label": "খ",
+          "text": "২০০৬"
+        },
+        {
+          "label": "গ",
+          "text": "২০০৩"
+        },
+        {
+          "label": "ঘ",
+          "text": "২০০৮"
+        }
+      ],
+      "options_raw": "(ক) ২০০৪ (খ) ২০০৬ (গ) ২০০৩ (ঘ) ২০০৮",
+      "correct_answer": "(খ) ২০০৬",
+      "explanation": "টুইটার (বর্তমানে X) ২০০৬ সালের মার্চ মাসে প্রতিষ্ঠিত হয়।"
+    },
+    {
+      "question_text": "নিচের কোন স্মার্টফোন অপারেটিং সিস্টেমটি ওপেন সোর্স প্লাটফর্ম?",
+      "year": 2015,
+      "source_batch": "BCS-35",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/35-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "IOS"
+        },
+        {
+          "label": "খ",
+          "text": "Windows phone"
+        },
+        {
+          "label": "গ",
+          "text": "Android"
+        },
+        {
+          "label": "ঘ",
+          "text": "Symbian"
+        }
+      ],
+      "options_raw": "(ক) IOS (খ) Windows phone (গ) Android (ঘ) Symbian",
+      "correct_answer": "(গ) Android",
+      "explanation": "অ্যান্ড্রয়েড একটি ওপেন-সোর্স অপারেটিং সিস্টেম, যার সোর্স কোড সকলের জন্য উন্মুক্ত। iOS, Windows Phone ইত্যাদি ক্লোজড-সোর্স।"
+    },
+    {
+      "question_text": "মোবাইল কমিউনিকেশনে 4G-এর ক্ষেত্রে 3G এর তুলনায় অতিরিক্ত বৈশিষ্ট্য কি?",
+      "year": 2015,
+      "source_batch": "BCS-35",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/35-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "ভয়েস টেলিফোনি"
+        },
+        {
+          "label": "খ",
+          "text": "ভিডিও কল"
+        },
+        {
+          "label": "গ",
+          "text": "মোবাইল টিভি"
+        },
+        {
+          "label": "ঘ",
+          "text": "ব্রডব্যান্ড ইন্টারনেট সেবা"
+        }
+      ],
+      "options_raw": "(ক) ভয়েস টেলিফোনি (খ) ভিডিও কল (গ) মোবাইল টিভি (ঘ) ব্রডব্যান্ড ইন্টারনেট সেবা",
+      "correct_answer": "(ঘ) ব্রডব্যান্ড ইন্টারনেট সেবা",
+      "explanation": "4G প্রযুক্তির প্রধান উন্নতি হলো 3G-এর তুলনায় অনেক দ্রুতগতির ব্রডব্যান্ড ইন্টারনেট সেবা প্রদান করা, যা উচ্চ-মানের ভিডিও স্ট্রিমিং ও গেমিংকে সম্ভব করেছে।"
+    },
+    {
+      "question_text": "Oracle Corporation–এর প্রতিষ্ঠাতা কে?",
+      "year": 2015,
+      "source_batch": "BCS-35",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/35-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "Bill Gatea"
+        },
+        {
+          "label": "খ",
+          "text": "Tim Cook"
+        },
+        {
+          "label": "গ",
+          "text": "Andrew S Grove"
+        },
+        {
+          "label": "ঘ",
+          "text": "Lawrence J. Ellison"
+        }
+      ],
+      "options_raw": "(ক) Bill Gatea (খ) Tim Cook (গ) Andrew S Grove (ঘ) Lawrence J. Ellison",
+      "correct_answer": "(ঘ) Lawrence J. Ellison",
+      "explanation": "ওরাকল কর্পোরেশনের সহ-প্রতিষ্ঠাতা এবং সাবেক সিইও হলেন ল্যারি এলিসন (Lawrence J. Ellison)।"
+    },
+    {
+      "question_text": "প্রোগ্রাম থেকে কপি করা ডাটা কোথায় থাকে?",
+      "year": 2015,
+      "source_batch": "BCS-35",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/35-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "RAM"
+        },
+        {
+          "label": "খ",
+          "text": "Clipboard"
+        },
+        {
+          "label": "গ",
+          "text": "Terminal"
+        },
+        {
+          "label": "ঘ",
+          "text": "Hard Disk"
+        }
+      ],
+      "options_raw": "(ক) RAM (খ) Clipboard (গ) Terminal (ঘ) Hard Disk",
+      "correct_answer": "(খ) Clipboard",
+      "explanation": "কোনো ডেটা কপি বা কাট করা হলে তা সাময়িকভাবে ক্লিপবোর্ড নামক একটি অস্থায়ী মেমোরি লোকেশনে সংরক্ষিত থাকে।"
+    },
+    {
+      "question_text": "Social Networking Site – এ যোগাযোগে কোন media ব্যবহৃত হয়?",
+      "year": 2016,
+      "source_batch": "BCS-36",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/36-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "image /video"
+        },
+        {
+          "label": "খ",
+          "text": "Audio"
+        },
+        {
+          "label": "গ",
+          "text": "Text"
+        },
+        {
+          "label": "ঘ",
+          "text": "উপরের সবগুলো"
+        }
+      ],
+      "options_raw": "(ক) image /video (খ) Audio (গ) Text (ঘ) উপরের সবগুলো",
+      "correct_answer": "(ঘ) উপরের সবগুলো",
+      "explanation": "সামাজিক যোগাযোগ মাধ্যমে ব্যবহারকারীরা টেক্সট, ছবি, ভিডিও এবং অডিও সহ সকল ধরনের মিডিয়া ব্যবহার করে যোগাযোগ স্থাপন করে।"
+    },
+    {
+      "question_text": "CPU কোন address generate করে?",
+      "year": 2016,
+      "source_batch": "BCS-36",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/36-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "Physical address"
+        },
+        {
+          "label": "খ",
+          "text": "Logical Address"
+        },
+        {
+          "label": "গ",
+          "text": "Both physical and logical addresses"
+        },
+        {
+          "label": "ঘ",
+          "text": "উপরের কোনটি নয়"
+        }
+      ],
+      "options_raw": "(ক) Physical address (খ) Logical Address (গ) Both physical and logical addresses (ঘ) উপরের কোনটি নয়",
+      "correct_answer": "(খ) Logical Address",
+      "explanation": "সিপিইউ একটি লজিক্যাল বা ভার্চুয়াল অ্যাড্রেস তৈরি করে, যা মেমোরি ম্যানেজমেন্ট ইউনিট (MMU) দ্বারা ফিজিক্যাল অ্যাড্রেসে রূপান্তরিত হয়।"
+    },
+    {
+      "question_text": "নিচের কোন প্রােগ্রামটি একটি সম্পূর্ণ কম্পিউটার প্রোগ্রামকে একবারে অনুবাদ ও সম্পাদন করে?",
+      "year": 2016,
+      "source_batch": "BCS-36",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/36-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "Interpreter"
+        },
+        {
+          "label": "খ",
+          "text": "Emulator"
+        },
+        {
+          "label": "গ",
+          "text": "Compiler"
+        },
+        {
+          "label": "ঘ",
+          "text": "Simulator"
+        }
+      ],
+      "options_raw": "(ক) Interpreter (খ) Emulator (গ) Compiler (ঘ) Simulator",
+      "correct_answer": "(গ) Compiler",
+      "explanation": "কম্পাইলার একটি অনুবাদক প্রোগ্রাম যা হাই-লেভেল ল্যাঙ্গুয়েজে লেখা সম্পূর্ণ প্রোগ্রামটিকে একবারে মেশিন ল্যাঙ্গুয়েজে রূপান্তর করে।"
+    },
+    {
+      "question_text": "নিচের কোনটি একই সাথে ইনপুট ও আউটপুট হিসেবে কাজ করে?",
+      "year": 2016,
+      "source_batch": "BCS-36",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/36-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "Mouse"
+        },
+        {
+          "label": "খ",
+          "text": "Microphone"
+        },
+        {
+          "label": "গ",
+          "text": "Touch Screen"
+        },
+        {
+          "label": "ঘ",
+          "text": "Printer"
+        }
+      ],
+      "options_raw": "(ক) Mouse (খ) Microphone (গ) Touch Screen (ঘ) Printer",
+      "correct_answer": "(গ) Touch Screen",
+      "explanation": "টাচ স্ক্রিন একই সাথে ইনপুট (স্পর্শের মাধ্যমে নির্দেশনা গ্রহণ) এবং আউটপুট (তথ্য প্রদর্শন) ডিভাইস হিসেবে কাজ করে।"
+    },
+    {
+      "question_text": "নিচের কোনটি জিআইএস (GIS) সফটওয়্যার নয় ?",
+      "year": 2016,
+      "source_batch": "BCS-36",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/36-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "ArcGIS"
+        },
+        {
+          "label": "খ",
+          "text": "QGIS"
+        },
+        {
+          "label": "গ",
+          "text": "Google Earth"
+        },
+        {
+          "label": "ঘ",
+          "text": "কোনটিই নয়"
+        }
+      ],
+      "options_raw": "(ক) ArcGIS (খ) QGIS (গ) Google Earth (ঘ) কোনটিই নয়",
+      "correct_answer": "গ) Google Earth",
+      "explanation": "ArcGIS এবং QGIS হলো পেশাদার জিআইএস সফটওয়্যার। Google Earth একটি জিও-ব্রাউজার যা পৃথিবীর ত্রিমাত্রিক উপস্থাপনা দেখায়, কিন্তু এটি একটি পূর্ণাঙ্গ GIS সফটওয়্যারের মতো ডেটা বিশ্লেষণ করতে পারে না।"
+    },
+    {
+      "question_text": "নিচের কোন সাইবার আক্রমণ সংঘটিত হলে গ্রাহক তার নিজের কম্পিউটার সিস্টেম ব্যবহার করতে পারেন না এবং কম্পিউটার সিস্টেমকে ব্যবহার উপযোগী করতে অর্থ দাবি করা হয়?",
+      "year": 2016,
+      "source_batch": "BCS-36",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/36-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "Phishing"
+        },
+        {
+          "label": "খ",
+          "text": "Denial of Service"
+        },
+        {
+          "label": "গ",
+          "text": "Ransomware"
+        },
+        {
+          "label": "ঘ",
+          "text": "Man-in-the-Middle"
+        }
+      ],
+      "options_raw": "(ক) Phishing (খ) Denial of Service (গ) Ransomware (ঘ) Man-in-the-Middle",
+      "correct_answer": "(গ) Ransomware",
+      "explanation": "র‍্যানসমওয়্যার (Ransomware) হলো এক ধরনের ম্যালওয়্যার যা ব্যবহারকারীর ফাইল বা সিস্টেমকে এনক্রিপ্ট করে অকেজো করে দেয় এবং ফাইলগুলো ফেরত দেওয়ার বিনিময়ে মুক্তিপণ (Ransom) দাবি করে।"
+    },
+    {
+      "question_text": "নিচের কোন মেমোরীটি Non-volatile?",
+      "year": 2016,
+      "source_batch": "BCS-36",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/36-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "SRAM"
+        },
+        {
+          "label": "খ",
+          "text": "DRAM"
+        },
+        {
+          "label": "গ",
+          "text": "ROM"
+        },
+        {
+          "label": "ঘ",
+          "text": "উপরের সবগুলোই"
+        }
+      ],
+      "options_raw": "(ক) SRAM (খ) DRAM (গ) ROM (ঘ) উপরের সবগুলোই",
+      "correct_answer": "(গ) ROM",
+      "explanation": "Non-volatile মেমোরিতে বিদ্যুৎ সংযোগ বিচ্ছিন্ন হলেও ডেটা মুছে যায় না। ROM (Read-Only Memory) একটি Non-volatile মেমোরি। SRAM ও DRAM হলো Volatile মেমোরি।"
+    },
+    {
+      "question_text": "নিচের কোনটি 3G Language নয়?",
+      "year": 2016,
+      "source_batch": "BCS-36",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/36-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "C"
+        },
+        {
+          "label": "খ",
+          "text": "Java"
+        },
+        {
+          "label": "গ",
+          "text": "Assembly Language"
+        },
+        {
+          "label": "ঘ",
+          "text": "C++"
+        }
+      ],
+      "options_raw": "(ক) C (খ) Java (গ) Assembly Language (ঘ) C++",
+      "correct_answer": "(গ) Assembly Language",
+      "explanation": "অ্যাসেম্বলি ল্যাঙ্গুয়েজ একটি দ্বিতীয় প্রজন্মের (2G) বা নিম্নস্তরের ভাষা। C, Java, C++ ইত্যাদি তৃতীয় প্রজন্মের (3G) বা উচ্চস্তরের ভাষা।"
+    },
+    {
+      "question_text": "নিচের কোন উক্তিটি সঠিক?",
+      "year": 2016,
+      "source_batch": "BCS-36",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/36-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "১ কিলোবাইট = ১০২৪ বাইট"
+        },
+        {
+          "label": "খ",
+          "text": "১ মেগাবাইট = ১০২৪ বাইট"
+        },
+        {
+          "label": "গ",
+          "text": "১ কিলোবাইট = ১০০০ বাইট"
+        },
+        {
+          "label": "ঘ",
+          "text": "১ মেগাবাইট = ১০০০ বাইট"
+        }
+      ],
+      "options_raw": "(ক) ১ কিলোবাইট = ১০২৪ বাইট (খ) ১ মেগাবাইট = ১০২৪ বাইট (গ) ১ কিলোবাইট = ১০০০ বাইট (ঘ) ১ মেগাবাইট = ১০০০ বাইট",
+      "correct_answer": "(ক) ১ কিলোবাইট = ১০২৪ বাইট",
+      "explanation": "কম্পিউটার মেমোরির একক হিসেবে, 1 Kilobyte (KB) = 1024 Bytes।"
+    },
+    {
+      "question_text": "Wi-fi কোন স্ট্যান্ডর্ড-এর উপর ভিত্তি করে কাজ করে?",
+      "year": 2016,
+      "source_batch": "BCS-36",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/36-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "IEEE 802.11"
+        },
+        {
+          "label": "খ",
+          "text": "IEEE 804.11"
+        },
+        {
+          "label": "গ",
+          "text": "IEEE 803.11"
+        },
+        {
+          "label": "ঘ",
+          "text": "IEEE 806.11"
+        }
+      ],
+      "options_raw": "(ক) IEEE 802.11 (খ) IEEE 804.11 (গ) IEEE 803.11 (ঘ) IEEE 806.11",
+      "correct_answer": "(ক) IEEE 802.11",
+      "explanation": "Wi-Fi প্রযুক্তি IEEE (Institute of Electrical and Electronics Engineers) এর 802.11 স্ট্যান্ডার্ড অনুসরণ করে।"
+    },
+    {
+      "question_text": "নিচের কোনটিতে সাধারণত ইনফ্রারেড ডিভাইস ব্যবহার করা হয়?",
+      "year": 2016,
+      "source_batch": "BCS-36",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/36-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "WAN"
+        },
+        {
+          "label": "খ",
+          "text": "Satellite Communication"
+        },
+        {
+          "label": "গ",
+          "text": "MAN"
+        },
+        {
+          "label": "ঘ",
+          "text": "TV রিমোর্ট কন্ট্রোলে"
+        }
+      ],
+      "options_raw": "(ক) WAN (খ) Satellite Communication (গ) MAN (ঘ) TV রিমোর্ট কন্ট্রোলে",
+      "correct_answer": "(ঘ) TV রিমোর্ট কন্ট্রোলে",
+      "explanation": "টিভি রিমোট কন্ট্রোলার সংকেত পাঠানোর জন্য ইনফ্রারেড (Infrared) রশ্মি ব্যবহার করে।"
+    },
+    {
+      "question_text": "(1011)₂ + (0101)₂=?",
+      "year": 2016,
+      "source_batch": "BCS-36",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/36-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "(1100)₂"
+        },
+        {
+          "label": "খ",
+          "text": "(11000)₂"
+        },
+        {
+          "label": "গ",
+          "text": "(01100)₂"
+        },
+        {
+          "label": "ঘ",
+          "text": "কোনোটিই নয়"
+        }
+      ],
+      "options_raw": "(ক) (1100)₂ (খ) (11000)₂ (গ) (01100)₂ (ঘ) কোনোটিই নয়",
+      "correct_answer": "(ঘ) কোনোটিই নয়",
+      "explanation": "(1011)₂ = 11₁₀ এবং (0101)₂ = 5₁₀।\n11 + 5 = 16₁₀।\n16₁₀ = (10000)₂। সুতরাং সঠিক উত্তর (10000)₂ যা কোনো বিকল্পে নেই।"
+    },
+    {
+      "question_text": "WI MAX- এর পূর্ণরূপ কি?",
+      "year": 2016,
+      "source_batch": "BCS-36",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/36-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "Worldwide Interoperability for Microwave Access"
+        },
+        {
+          "label": "খ",
+          "text": "Worldwide Internet for Microwave Access"
+        },
+        {
+          "label": "গ",
+          "text": "Worldwide Interconection for Microwave Access"
+        },
+        {
+          "label": "ঘ",
+          "text": "কোনোটিই নয়"
+        }
+      ],
+      "options_raw": "(ক) Worldwide Interoperability for Microwave Access (খ) Worldwide Internet for Microwave Access (গ) Worldwide Interconection for Microwave Access (ঘ) কোনোটিই নয়",
+      "correct_answer": "(ক) Worldwide Interoperability for Microwave Access",
+      "explanation": "WiMAX এর পূর্ণরূপ হলো Worldwide Interoperability for Microwave Access।"
+    },
+    {
+      "question_text": "Boolean Algebra – এর নিচের কোনটি সঠিক?",
+      "year": 2016,
+      "source_batch": "BCS-36",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/36-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "A + Ā = 1"
+        },
+        {
+          "label": "খ",
+          "text": "A . A = 1"
+        },
+        {
+          "label": "গ",
+          "text": "A + A = 2A"
+        },
+        {
+          "label": "ঘ",
+          "text": "উপরের কোনোটিই নয়"
+        }
+      ],
+      "options_raw": "(ক) A + Ā = 1 (খ) A . A = 1 (গ) A + A = 2A (ঘ) উপরের কোনোটিই নয়",
+      "correct_answer": "(ক) A + Ā = 1",
+      "explanation": "বুলিয়ান বীজগণিতে, একটি চলক এবং তার পূরকের (complement) OR অপারেশন সর্বদা ১ হয়।"
+    },
+    {
+      "question_text": "8086 কত বিটের মাইক্রো প্রসেসর?",
+      "year": 2016,
+      "source_batch": "BCS-36",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/36-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "8"
+        },
+        {
+          "label": "খ",
+          "text": "16"
+        },
+        {
+          "label": "গ",
+          "text": "32"
+        },
+        {
+          "label": "ঘ",
+          "text": "উপরের কোনোটিই নয়"
+        }
+      ],
+      "options_raw": "(ক) 8 (খ) 16 (গ) 32 (ঘ) উপরের কোনোটিই নয়",
+      "correct_answer": "(খ) 16",
+      "explanation": "Intel 8086 একটি ১৬-বিটের মাইক্রোপ্রসেসর, যা ১৯৭৮ সালে বাজারে আসে এবং x86 আর্কিটেকচারের সূচনা করে।"
+    },
+    {
+      "question_text": "কম্পিউটার সিপিইউ (CPU) – এর কোন অংশ গাণিতিক সিদ্ধান্ত গ্রহণের কাজ করে?",
+      "year": 2016,
+      "source_batch": "BCS-37",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/37-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "এএলইউ (ALU)"
+        },
+        {
+          "label": "খ",
+          "text": "কন্ট্রোল ইউনিট (control unit)"
+        },
+        {
+          "label": "গ",
+          "text": "রেজিস্টার সেট (Register set)"
+        },
+        {
+          "label": "ঘ",
+          "text": "কোনোটিই নয়"
+        }
+      ],
+      "options_raw": "(ক) এএলইউ (ALU) (খ) কন্ট্রোল ইউনিট (control unit) (গ) রেজিস্টার সেট (Register set) (ঘ) কোনোটিই নয়",
+      "correct_answer": "(ক) এএলইউ (ALU)",
+      "explanation": "ALU (Arithmetic Logic Unit) বা গাণিতিক-যুক্তি অংশ সিপিইউ-এর ভেতরে সকল প্রকার গাণিতিক (যোগ, বিয়োগ ইত্যাদি) এবং যৌক্তিক (AND, OR, NOT) কাজ সম্পাদন করে।"
+    },
+    {
+      "question_text": "একটি ২(দুই) ইনপুট লজিক সেটের আউটপুট ০ হবে, যদি এর ইনপুটগুলো সমান হয় – এর উক্তিটি কোন সেটের জন্য সত্য?",
+      "year": 2016,
+      "source_batch": "BCS-37",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/37-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "AND"
+        },
+        {
+          "label": "খ",
+          "text": "NOR"
+        },
+        {
+          "label": "গ",
+          "text": "Ex-OR"
+        },
+        {
+          "label": "ঘ",
+          "text": "OR"
+        }
+      ],
+      "options_raw": "(ক) AND (খ) NOR (গ) Ex-OR (ঘ) OR",
+      "correct_answer": "(গ) Ex-OR",
+      "explanation": "এক্সক্লুসিভ-অর (Ex-OR) গেটের বৈশিষ্ট্য হলো, এর ইনপুটগুলো ভিন্ন হলে আউটপুট ১ হয় এবং ইনপুটগুলো সমান (দুটিই ০ অথবা দুটিই ১) হলে আউটপুট ০ হয়।"
+    },
+    {
+      "question_text": "কোনটি অপারেটিং সিস্টেম নয়?",
+      "year": 2016,
+      "source_batch": "BCS-37",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/37-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "C"
+        },
+        {
+          "label": "খ",
+          "text": "DOS"
+        },
+        {
+          "label": "গ",
+          "text": "CP/M"
+        },
+        {
+          "label": "ঘ",
+          "text": "XENIX"
+        }
+      ],
+      "options_raw": "(ক) C (খ) DOS (গ) CP/M (ঘ) XENIX",
+      "correct_answer": "(ক) C",
+      "explanation": "C একটি প্রোগ্রামিং ল্যাঙ্গুয়েজ। DOS, CP/M, XENIX ইত্যাদি হলো বিভিন্ন ধরনের অপারেটিং সিস্টেম।"
+    },
+    {
+      "question_text": "ক্লাউড সার্ভার নিচের কোনটিতে সবচেয়ে ভালো বর্ণনা করা সম্ভব?",
+      "year": 2016,
+      "source_batch": "BCS-37",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/37-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "নেটওয়ার্কের মাধ্যমে যুক্ত একাধিক কম্পিউটার সার্ভার"
+        },
+        {
+          "label": "খ",
+          "text": "একটি বিশাল ক্ষমতা সম্পন্ন কম্পিউটার সার্ভার"
+        },
+        {
+          "label": "গ",
+          "text": "ব্যবহারকারীর চাহিদা অনুযায়ী কম্পিউটিং সেবা দেয়া"
+        },
+        {
+          "label": "ঘ",
+          "text": "উপরের কোনোটিই নয়"
+        }
+      ],
+      "options_raw": "(ক) নেটওয়ার্কের মাধ্যমে যুক্ত একাধিক কম্পিউটার সার্ভার (খ) একটি বিশাল ক্ষমতা সম্পন্ন কম্পিউটার সার্ভার (গ) ব্যবহারকারীর চাহিদা অনুযায়ী কম্পিউটিং সেবা দেয়া (ঘ) উপরের কোনোটিই নয়",
+      "correct_answer": "(গ) ব্যবহারকারীর চাহিদা অনুযায়ী কম্পিউটিং সেবা দেয়া",
+      "explanation": "ক্লাউড কম্পিউটিং এর মূল বৈশিষ্ট্য হলো ব্যবহারকারীর চাহিদা অনুযায়ী (on-demand) ইন্টারনেট-এর মাধ্যমে কম্পিউটিং সেবা (যেমন সার্ভার, স্টোরেজ) প্রদান করা।"
+    },
+    {
+      "question_text": "IP-V6 এড্রেস কত বিটের?",
+      "year": 2016,
+      "source_batch": "BCS-37",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/37-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "১২৮"
+        },
+        {
+          "label": "খ",
+          "text": "৩২"
+        },
+        {
+          "label": "গ",
+          "text": "১২"
+        },
+        {
+          "label": "ঘ",
+          "text": "৬"
+        }
+      ],
+      "options_raw": "(ক) ১২৮ (খ) ৩২ (গ) ১২ (ঘ) ৬",
+      "correct_answer": "(ক) ১২৮",
+      "explanation": "IPv4 অ্যাড্রেস ৩২ বিটের, যা শেষ হয়ে আসায় ১২৮ বিটের IPv6 অ্যাড্রেস চালু করা হয়েছে।"
+    },
+    {
+      "question_text": "নিচের কোনটি ইনপুট ডিভাইস?",
+      "year": 2016,
+      "source_batch": "BCS-37",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/37-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "OMR"
+        },
+        {
+          "label": "খ",
+          "text": "COM"
+        },
+        {
+          "label": "গ",
+          "text": "Plotter"
+        },
+        {
+          "label": "ঘ",
+          "text": "Monitor"
+        }
+      ],
+      "options_raw": "(ক) OMR (খ) COM (গ) Plotter (ঘ) Monitor",
+      "correct_answer": "(ক) OMR",
+      "explanation": "OMR (Optical Mark Reader) একটি ইনপুট ডিভাইস যা পেন্সিলের দাগ বা চিহ্ন শনাক্ত করে তথ্য কম্পিউটারে প্রবেশ করায়। প্লটার ও মনিটর আউটপুট ডিভাইস।"
+    },
+    {
+      "question_text": "ইউনিকোডের মাধ্যমে সম্ভাব্য কতগুলো চিহ্নকে নির্দিষ্ট করা যায়?",
+      "year": 2016,
+      "source_batch": "BCS-37",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/37-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "২৫৬ টি"
+        },
+        {
+          "label": "খ",
+          "text": "৪০৯৬ টি"
+        },
+        {
+          "label": "গ",
+          "text": "৬৫৫৩৬ টি"
+        },
+        {
+          "label": "ঘ",
+          "text": "৪২৯৪৯৬৭২৯৬ টি"
+        }
+      ],
+      "options_raw": "(ক) ২৫৬ টি (খ) ৪০৯৬ টি (গ) ৬৫৫৩৬ টি (ঘ) ৪২৯৪৯৬৭২৯৬ টি",
+      "correct_answer": "(গ) ৬৫৫৩৬ টি",
+      "explanation": "প্রাথমিক ইউনিকোড স্ট্যান্ডার্ড ছিল ১৬-বিটের, যা ৬৫,৫৩৬টি (2¹⁶) স্বতন্ত্র চিহ্নকে নির্দিষ্ট করতে পারত। বর্তমানে ইউনিকোডের পরিসর আরও বাড়ানো হয়েছে।"
+    },
+    {
+      "question_text": "এনড্রয়েড অপারেটিং সিস্টিমের ক্ষেত্রে নিচের কোনটি সঠিক?",
+      "year": 2016,
+      "source_batch": "BCS-37",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/37-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "এটির নির্মাতা গুগল"
+        },
+        {
+          "label": "খ",
+          "text": "এটি লিনাক্স কার্নেল নির্ভর"
+        },
+        {
+          "label": "গ",
+          "text": "এটি প্রধানত টাচস্ক্রিন মোবাইল ডিভাইসের জন্য তৈরি"
+        },
+        {
+          "label": "ঘ",
+          "text": "উপরের সবগুলো সঠিক"
+        }
+      ],
+      "options_raw": "(ক) এটির নির্মাতা গুগল (খ) এটি লিনাক্স কার্নেল নির্ভর (গ) এটি প্রধানত টাচস্ক্রিন মোবাইল ডিভাইসের জন্য তৈরি (ঘ) উপরের সবগুলো সঠিক",
+      "correct_answer": "(ঘ) উপরের সবগুলো সঠিক",
+      "explanation": "অ্যান্ড্রয়েড অপারেটিং সিস্টেমটি গুগল কর্তৃক নির্মিত, এটি লিনাক্স কার্নেলের উপর ভিত্তি করে তৈরি এবং এটি মূলত স্মার্টফোন ও ট্যাবলেটের মতো টাচস্ক্রিন ডিভাইসের জন্য ডিজাইন করা হয়েছে।"
+    },
+    {
+      "question_text": "আইওএস (IOS) মোবাইল অপারেটিং সিস্টেমটি কোন প্রতিষ্ঠান বাজারজাত করে?",
+      "year": 2016,
+      "source_batch": "BCS-37",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/37-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "অ্যাপল"
+        },
+        {
+          "label": "খ",
+          "text": "গুগল"
+        },
+        {
+          "label": "গ",
+          "text": "মাইক্রোসফট"
+        },
+        {
+          "label": "ঘ",
+          "text": "আইবিএম"
+        }
+      ],
+      "options_raw": "(ক) অ্যাপল (খ) গুগল (গ) মাইক্রোসফট (ঘ) আইবিএম",
+      "correct_answer": "(ক) অ্যাপল",
+      "explanation": "iOS (পূর্বে iPhone OS) হলো Apple Inc. কর্তৃক নির্মিত এবং বাজারজাতকৃত একটি মোবাইল অপারেটিং সিস্টেম, যা শুধুমাত্র অ্যাপলের হার্ডওয়্যারে চলে।"
+    },
+    {
+      "question_text": "EDSAC কম্পিউটার -এ ডাটা সংরক্ষণের জন্য কি ধরনের মেমোরি ব্যবহার হতো?",
+      "year": 2016,
+      "source_batch": "BCS-37",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/37-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "RAM"
+        },
+        {
+          "label": "খ",
+          "text": "ROM"
+        },
+        {
+          "label": "গ",
+          "text": "Mercury Delay Lines"
+        },
+        {
+          "label": "ঘ",
+          "text": "Registors"
+        }
+      ],
+      "options_raw": "(ক) RAM (খ) ROM (গ) Mercury Delay Lines (ঘ) Registors",
+      "correct_answer": "(গ) Mercury Delay Lines",
+      "explanation": "EDSAC (Electronic Delay Storage Automatic Calculator), যা প্রথম দিকের একটি কম্পিউটার, এতে ডেটা সংরক্ষণের জন্য পারদের মধ্যে শব্দতরঙ্গ পাঠিয়ে ডেটা বিলম্বিত করার কৌশল (Mercury Delay Lines) ব্যবহৃত হতো।"
+    },
+    {
+      "question_text": "ই-কমার্স সাইট amazon.com কত সালে প্রতিষ্ঠিত হয়?",
+      "year": 2016,
+      "source_batch": "BCS-37",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/37-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "১৯৯০ সালে"
+        },
+        {
+          "label": "খ",
+          "text": "১৯৮৮ সালে"
+        },
+        {
+          "label": "গ",
+          "text": "১৯৯৪ সালে"
+        },
+        {
+          "label": "ঘ",
+          "text": "১৯৯৮ সালে"
+        }
+      ],
+      "options_raw": "(ক) ১৯৯০ সালে (খ) ১৯৮৮ সালে (গ) ১৯৯৪ সালে (ঘ) ১৯৯৮ সালে",
+      "correct_answer": "(গ) ১৯৯৪ সালে",
+      "explanation": "জেফ বেজোস ১৯৯৪ সালের ৫ জুলাই Amazon.com প্রতিষ্ঠা করেন।"
+    },
+    {
+      "question_text": "ই-মেইল আদান প্রদানে ব্যবহৃত SMTP এর পূর্ণরূপ কি?",
+      "year": 2016,
+      "source_batch": "BCS-37",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/37-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "Simple Message Transmission Protocol"
+        },
+        {
+          "label": "খ",
+          "text": "Strategic Mail Transfer Protocol"
+        },
+        {
+          "label": "গ",
+          "text": "Strategic Mail Transmission Protocol"
+        },
+        {
+          "label": "ঘ",
+          "text": "Simple Mail Transfer Protocol"
+        }
+      ],
+      "options_raw": "(ক) Simple Message Transmission Protocol (খ) Strategic Mail Transfer Protocol (গ) Strategic Mail Transmission Protocol (ঘ) Simple Mail Transfer Protocol",
+      "correct_answer": "(ঘ) Simple Mail Transfer Protocol",
+      "explanation": "SMTP-এর পূর্ণরূপ হলো Simple Mail Transfer Protocol। এটি ই-মেইল প্রেরণের জন্য ব্যবহৃত একটি স্ট্যান্ডার্ড প্রোটোকল।"
+    },
+    {
+      "question_text": "TCP দিয়ে কোনটি বোঝানো হয়?",
+      "year": 2016,
+      "source_batch": "BCS-37",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/37-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "প্রোগ্রাম"
+        },
+        {
+          "label": "খ",
+          "text": "প্রোটোকল"
+        },
+        {
+          "label": "গ",
+          "text": "প্রোগ্রামিং"
+        },
+        {
+          "label": "ঘ",
+          "text": "ফ্লোচার্ট"
+        }
+      ],
+      "options_raw": "(ক) প্রোগ্রাম (খ) প্রোটোকল (গ) প্রোগ্রামিং (ঘ) ফ্লোচার্ট",
+      "correct_answer": "(খ) প্রোটোকল",
+      "explanation": "TCP (Transmission Control Protocol) হলো ইন্টারনেট প্রোটোকল স্যুটের একটি মূল প্রোটোকল, যা দুটি ডিভাইসের মধ্যে নির্ভরযোগ্য ডেটা আদান-প্রদান নিশ্চিত করে।"
+    },
+    {
+      "question_text": "Push এবং Pop নিচের কার সাথে সম্পর্কিত?",
+      "year": 2016,
+      "source_batch": "BCS-37",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/37-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "Queue"
+        },
+        {
+          "label": "খ",
+          "text": "Stack"
+        },
+        {
+          "label": "গ",
+          "text": "Union"
+        },
+        {
+          "label": "ঘ",
+          "text": "Array"
+        }
+      ],
+      "options_raw": "(ক) Queue (খ) Stack (গ) Union (ঘ) Array",
+      "correct_answer": "(খ) Stack",
+      "explanation": "কম্পিউটার বিজ্ঞানে, Stack হলো একটি ডেটা স্ট্রাকচার যেখানে ডেটা যুক্ত করাকে Push এবং ডেটা সরানোকে Pop বলা হয়। এটি Last-In, First-Out (LIFO) নীতিতে কাজ করে।"
+    },
+    {
+      "question_text": "ওয়াই-ফাই (Wi- Fi) নেটওয়ার্কে সংযোগের জন্য সংশ্লিষ্ট ডিভাইসটির সংযোগ মাধ্যম কোনটি?",
+      "year": 2016,
+      "source_batch": "BCS-37",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/37-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "তামার তার"
+        },
+        {
+          "label": "খ",
+          "text": "অপটিক্যাল ফাইবার"
+        },
+        {
+          "label": "গ",
+          "text": "তারহীন সংযোগ"
+        },
+        {
+          "label": "ঘ",
+          "text": "উপরের সবকটি"
+        }
+      ],
+      "options_raw": "(ক) তামার তার (খ) অপটিক্যাল ফাইবার (গ) তারহীন সংযোগ (ঘ) উপরের সবকটি",
+      "correct_answer": "(গ) তারহীন সংযোগ",
+      "explanation": "Wi-Fi (Wireless Fidelity) হলো একটি তারবিহীন নেটওয়ার্কিং প্রযুক্তি যা বেতার তরঙ্গ ব্যবহার করে ডিভাইসগুলোকে ইন্টারনেটের সাথে সংযুক্ত করে।"
+    },
+    {
+      "question_text": "ই-মেইল গ্রহণ করার অধিক ব্যবহৃত প্রোটকল কোনটি?",
+      "year": 2017,
+      "source_batch": "BCS-38",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/38-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "POP3"
+        },
+        {
+          "label": "খ",
+          "text": "POP9"
+        },
+        {
+          "label": "গ",
+          "text": "HTML"
+        },
+        {
+          "label": "ঘ",
+          "text": "SMTP"
+        }
+      ],
+      "options_raw": "(ক) POP3 (খ) POP9 (গ) HTML (ঘ) SMTP",
+      "correct_answer": "(ক) POP3",
+      "explanation": "ই-মেইল গ্রহণের জন্য ব্যবহৃত প্রোটোকলগুলো হলো POP3 (Post Office Protocol 3) এবং IMAP (Internet Message Access Protocol)। অন্যদিকে, ই-মেইল প্রেরণের জন্য SMTP (Simple Mail Transfer Protocol) ব্যবহৃত হয়।"
+    },
+    {
+      "question_text": "কোনটি সঠিক নয়?",
+      "year": 2017,
+      "source_batch": "BCS-38",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/38-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "A+0=A"
+        },
+        {
+          "label": "খ",
+          "text": "A. 1=A"
+        },
+        {
+          "label": "গ",
+          "text": "A+A’=1"
+        },
+        {
+          "label": "ঘ",
+          "text": "A.A’=1"
+        }
+      ],
+      "options_raw": "(ক) A+0=A (খ) A. 1=A (গ) A+A’=1 (ঘ) A.A’=1",
+      "correct_answer": "(ঘ) A.A’=1",
+      "explanation": "বুলিয়ান অ্যালজেবরায়, একটি চলক এবং তার পূরকের (complement) AND অপারেশন করলে ফলাফল সর্বদা 0 হয়। অর্থাৎ, A.A' = 0। সুতরাং (ঘ) A.A' = 1 সঠিক নয়।"
+    },
+    {
+      "question_text": "এক word কত বিট বিশিষ্ট হয়?",
+      "year": 2017,
+      "source_batch": "BCS-38",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/38-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "8"
+        },
+        {
+          "label": "খ",
+          "text": "16"
+        },
+        {
+          "label": "গ",
+          "text": "4"
+        },
+        {
+          "label": "ঘ",
+          "text": "2"
+        }
+      ],
+      "options_raw": "(ক) 8 (খ) 16 (গ) 4 (ঘ) 2",
+      "correct_answer": "(খ) 16",
+      "explanation": "কম্পিউটারের আর্কিটেকচারে 'Word' এর সাইজ নির্দিষ্ট নয়, এটি প্রসেসরের উপর নির্ভর করে (যেমন ৮, ১৬, ৩২, ৬৪ বিট)। তবে সাধারণত বা ডিফল্ট হিসেবে ১৬ বিটকে এক ওয়ার্ড ধরা হয়। (২ বাইট = ১৬ বিট)।"
+    },
+    {
+      "question_text": "কোন ধরনের bus ব্যবহৃত হয় না?",
+      "year": 2017,
+      "source_batch": "BCS-38",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/38-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "address bus"
+        },
+        {
+          "label": "খ",
+          "text": "input-reader bus"
+        },
+        {
+          "label": "গ",
+          "text": "data bus"
+        },
+        {
+          "label": "ঘ",
+          "text": "control bus"
+        }
+      ],
+      "options_raw": "(ক) address bus (খ) input-reader bus (গ) data bus (ঘ) control bus",
+      "correct_answer": "(খ) input-reader bus",
+      "explanation": "কম্পিউটারের প্রধান তিনটি বাস হলো Address Bus (মেমোরি অ্যাড্রেস পরিবহনের জন্য), Data Bus (ডেটা পরিবহনের জন্য), এবং Control Bus (নিয়ন্ত্রণ সংকেত পরিবহনের জন্য)। 'Input-reader bus' নামে কোনো বাস নেই।"
+    },
+    {
+      "question_text": "ROM ভিত্তিক প্রোগ্রামের নাম কি?",
+      "year": 2017,
+      "source_batch": "BCS-38",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/38-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "malware"
+        },
+        {
+          "label": "খ",
+          "text": "firmware"
+        },
+        {
+          "label": "গ",
+          "text": "virus"
+        },
+        {
+          "label": "ঘ",
+          "text": "lip-lop"
+        }
+      ],
+      "options_raw": "(ক) malware (খ) firmware (গ) virus (ঘ) lip-lop",
+      "correct_answer": "(খ) firmware",
+      "explanation": "ফার্মওয়্যার (Firmware) হলো এক ধরনের স্থায়ী সফটওয়্যার যা হার্ডওয়্যারের রিড-অনলি মেমোরিতে (ROM) প্রোগ্রাম করা থাকে। এটি হার্ডওয়্যারকে নিয়ন্ত্রণের জন্য প্রাথমিক নির্দেশনা প্রদান করে।"
+    },
+    {
+      "question_text": "একটি লজিক গেট-এর আউটপুট 1 হয় যখন এর সব ইনপুট 0 থাকে। এই গেটটি–",
+      "year": 2017,
+      "source_batch": "BCS-38",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/38-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "AND"
+        },
+        {
+          "label": "খ",
+          "text": "OR"
+        },
+        {
+          "label": "গ",
+          "text": "XOR"
+        },
+        {
+          "label": "ঘ",
+          "text": "NAND"
+        }
+      ],
+      "options_raw": "(ক) AND (খ) OR (গ) XOR (ঘ) NAND",
+      "correct_answer": "বাতিল করা হয়েছে",
+      "explanation": "NOR গেটের ক্ষেত্রে সব ইনপুট ০ হলে আউটপুট ১ হয়। NAND গেটের ক্ষেত্রে সব ইনপুট ০ হলে আউটপুট ১ হয়। যেহেতু দুটি উত্তরই সঠিক, তাই পিএসসি প্রশ্নটি বাতিল করে দেয়।"
+    },
+    {
+      "question_text": "কোনটি মাইক্রোসফটের প্রথম প্রোগ্রাম?",
+      "year": 2017,
+      "source_batch": "BCS-38",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/38-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "Windows XP"
+        },
+        {
+          "label": "খ",
+          "text": "Windows 98"
+        },
+        {
+          "label": "গ",
+          "text": "MS DOS"
+        },
+        {
+          "label": "ঘ",
+          "text": "Windows 7"
+        }
+      ],
+      "options_raw": "(ক) Windows XP (খ) Windows 98 (গ) MS DOS (ঘ) Windows 7",
+      "correct_answer": "(গ) MS DOS",
+      "explanation": "মাইক্রোসফটের প্রথম এবং সবচেয়ে প্রভাবশালী অপারেটিং সিস্টেম ছিল MS-DOS (Microsoft Disk Operating System), যা ১৯৮১ সালে আইবিএম পিসির জন্য তৈরি করা হয়েছিল।"
+    },
+    {
+      "question_text": "ডিস্ক ডিফ্রাগমেন্টেশান ব্যবহৃত হয় —-",
+      "year": 2017,
+      "source_batch": "BCS-38",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/38-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "ভাইরাস ধ্বংসের জন্য"
+        },
+        {
+          "label": "খ",
+          "text": "খারাপ সেক্টরসমূহ পরীক্ষা করতে"
+        },
+        {
+          "label": "গ",
+          "text": "ডিস্কের ফাইলগুলোকে পুনর্বিন্যস্ত করতে"
+        },
+        {
+          "label": "ঘ",
+          "text": "ডিস্ক ফরমেট করতে"
+        }
+      ],
+      "options_raw": "(ক) ভাইরাস ধ্বংসের জন্য (খ) খারাপ সেক্টরসমূহ পরীক্ষা করতে (গ) ডিস্কের ফাইলগুলোকে পুনর্বিন্যস্ত করতে (ঘ) ডিস্ক ফরমেট করতে",
+      "correct_answer": "(গ) ডিস্কের ফাইলগুলোকে পুনর্বিন্যস্ত করতে",
+      "explanation": "ডিস্ক ডিফ্রাগমেন্টেশন হলো একটি প্রক্রিয়া যা হার্ডডিস্কের খণ্ডিত (fragmented) ফাইলগুলোকে একত্রিত করে এবং ফাইলগুলোকে পর পর সাজিয়ে রাখে। এতে ডিস্কের পারফরম্যান্স বা গতি বৃদ্ধি পায়।"
+    },
+    {
+      "question_text": "কোন সাইটটি কেনা-বেচার জন্য নয়?",
+      "year": 2017,
+      "source_batch": "BCS-38",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/38-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "ekhanei.com"
+        },
+        {
+          "label": "খ",
+          "text": "olx.com"
+        },
+        {
+          "label": "গ",
+          "text": "google.com"
+        },
+        {
+          "label": "ঘ",
+          "text": "amazon.com"
+        }
+      ],
+      "options_raw": "(ক) ekhanei.com (খ) olx.com (গ) google.com (ঘ) amazon.com",
+      "correct_answer": "(গ) google.com",
+      "explanation": "Amazon.com একটি ই-কমার্স সাইট। Ekhanei.com এবং olx.com ছিল ক্লাসিফায়েড বিজ্ঞাপন সাইট (কেনা-বেচার প্ল্যাটফর্ম)। Google.com একটি সার্চ ইঞ্জিন।"
+    },
+    {
+      "question_text": "কম্পিউটার নেটওয়ার্ক OSI মডেমের স্তর কয়টি?",
+      "year": 2017,
+      "source_batch": "BCS-38",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/38-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "৭"
+        },
+        {
+          "label": "খ",
+          "text": "৫"
+        },
+        {
+          "label": "গ",
+          "text": "৯"
+        },
+        {
+          "label": "ঘ",
+          "text": "৮"
+        }
+      ],
+      "options_raw": "(ক) ৭ (খ) ৫ (গ) ৯ (ঘ) ৮",
+      "correct_answer": "(ক) ৭",
+      "explanation": "OSI (Open Systems Interconnection) মডেল হলো নেটওয়ার্ক যোগাযোগের জন্য একটি ধারণাগত মডেল। এতে ৭টি স্তর বা লেয়ার রয়েছে: ফিজিক্যাল, ডেটা লিঙ্ক, নেটওয়ার্ক, ট্রান্সপোর্ট, সেশন, প্রেজেন্টেশন এবং অ্যাপ্লিকেশন।"
+    },
+    {
+      "question_text": "কোন প্রটোকলটি ইন্টারনেট সংযোগের ক্ষেত্রে সর্বাধিক ব্যবহৃত হয়?",
+      "year": 2017,
+      "source_batch": "BCS-38",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/38-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "TCP/IP"
+        },
+        {
+          "label": "খ",
+          "text": "Novel Netware"
+        },
+        {
+          "label": "গ",
+          "text": "Net BEUI"
+        },
+        {
+          "label": "ঘ",
+          "text": "Linux"
+        }
+      ],
+      "options_raw": "(ক) TCP/IP (খ) Novel Netware (গ) Net BEUI (ঘ) Linux",
+      "correct_answer": "(ক) TCP/IP",
+      "explanation": "TCP/IP (Transmission Control Protocol/Internet Protocol) হলো ইন্টারনেটের মৌলিক কমিউনিকেশন প্রোটোকল স্যুট। এটিই ইন্টারনেট সংযোগের জন্য বিশ্বব্যাপী ব্যবহৃত হয়।"
+    },
+    {
+      "question_text": "কোন চিহ্নটি ই-মেইল ঠিকানায় অবশ্যই থাকবে?",
+      "year": 2017,
+      "source_batch": "BCS-38",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/38-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "$"
+        },
+        {
+          "label": "খ",
+          "text": "#"
+        },
+        {
+          "label": "গ",
+          "text": "&"
+        },
+        {
+          "label": "ঘ",
+          "text": "@"
+        }
+      ],
+      "options_raw": "(ক) $ (খ) # (গ) & (ঘ) @",
+      "correct_answer": "(ঘ) @",
+      "explanation": "একটি ই-মেইল ঠিকানায় অবশ্যই '@' (at sign) চিহ্নটি থাকতে হবে। এটি ব্যবহারকারীর নাম (username) এবং ডোমেইন নামকে (domain name) পৃথক করে।"
+    },
+    {
+      "question_text": "নিচের কোনটি সামঞ্জস্যপূর্ণ নয়?",
+      "year": 2017,
+      "source_batch": "BCS-38",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/38-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "ফেসবুক"
+        },
+        {
+          "label": "খ",
+          "text": "টুইটার"
+        },
+        {
+          "label": "গ",
+          "text": "লিংকড ইন"
+        },
+        {
+          "label": "ঘ",
+          "text": "উইকিপিডিয়া"
+        }
+      ],
+      "options_raw": "(ক) ফেসবুক (খ) টুইটার (গ) লিংকড ইন (ঘ) উইকিপিডিয়া",
+      "correct_answer": "(ঘ) উইকিপিডিয়া",
+      "explanation": "ফেসবুক, টুইটার এবং লিংকডইন হলো সামাজিক যোগাযোগ মাধ্যম (Social Media)। উইকিপিডিয়া হলো একটি অনলাইন বিশ্বকোষ (Online Encyclopedia)।"
+    },
+    {
+      "question_text": "10101111 এর 1’s complement কোনটি?",
+      "year": 2017,
+      "source_batch": "BCS-38",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/38-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "1111 1111"
+        },
+        {
+          "label": "খ",
+          "text": "0000 0000"
+        },
+        {
+          "label": "গ",
+          "text": "0101 0000"
+        },
+        {
+          "label": "ঘ",
+          "text": "1100 0011"
+        }
+      ],
+      "options_raw": "(ক) 1111 1111 (খ) 0000 0000 (গ) 0101 0000 (ঘ) 1100 0011",
+      "correct_answer": "(গ) 0101 0000",
+      "explanation": "1's complement বের করার জন্য বাইনারি সংখ্যার প্রতিটি বিটকে উল্টে দেওয়া হয় (0 কে 1 এবং 1 কে 0 করা হয়)। সুতরাং, 10101111 এর 1's complement হলো 01010000।"
+    },
+    {
+      "question_text": "কোন মাধ্যমে আলোর পালস ব্যবহৃত হয়?",
+      "year": 2017,
+      "source_batch": "BCS-38",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/38-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "তামার তার"
+        },
+        {
+          "label": "খ",
+          "text": "কো-এক্সিয়াল ক্যাবল"
+        },
+        {
+          "label": "গ",
+          "text": "অপটিকাল ফাইবার"
+        },
+        {
+          "label": "ঘ",
+          "text": "ওয়্যারলেস মিডিয়া"
+        }
+      ],
+      "options_raw": "(ক) তামার তার (খ) কো-এক্সিয়াল ক্যাবল (গ) অপটিকাল ফাইবার (ঘ) ওয়্যারলেস মিডিয়া",
+      "correct_answer": "(গ) অপটিকাল ফাইবার",
+      "explanation": "অপটিক্যাল ফাইবার ক্যাবলে ডেটা স্থানান্তরের জন্য বৈদ্যুতিক সংকেতের পরিবর্তে আলোর স্পন্দন বা পালস ব্যবহার করা হয়, যা পূর্ণ অভ্যন্তরীণ প্রতিফলনের মাধ্যমে বাহিত হয়।"
+    },
+    {
+      "question_text": "Social Networking Site – এ যোগাযোগে কোন media ব্যবহৃত হয়?",
+      "year": 2019,
+      "source_batch": "BCS-40",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/40-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "image /video"
+        },
+        {
+          "label": "খ",
+          "text": "Audio"
+        },
+        {
+          "label": "গ",
+          "text": "Text"
+        },
+        {
+          "label": "ঘ",
+          "text": "উপরের সবগুলো"
+        }
+      ],
+      "options_raw": "(ক) image /video (খ) Audio (গ) Text (ঘ) উপরের সবগুলো",
+      "correct_answer": "(ঘ) উপরের সবগুলো",
+      "explanation": "সামাজিক যোগাযোগ মাধ্যমে ব্যবহারকারীরা টেক্সট, ছবি, ভিডিও এবং অডিও সহ সকল ধরনের মিডিয়া ব্যবহার করে যোগাযোগ স্থাপন করে।"
+    },
+    {
+      "question_text": "CPU কোন address generate করে?",
+      "year": 2019,
+      "source_batch": "BCS-40",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/40-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "Physical address"
+        },
+        {
+          "label": "খ",
+          "text": "Logical Address"
+        },
+        {
+          "label": "গ",
+          "text": "Both physical and logical addresses"
+        },
+        {
+          "label": "ঘ",
+          "text": "উপরের কোনটি নয়"
+        }
+      ],
+      "options_raw": "(ক) Physical address (খ) Logical Address (গ) Both physical and logical addresses (ঘ) উপরের কোনটি নয়",
+      "correct_answer": "(খ) Logical Address",
+      "explanation": "সিপিইউ একটি লজিক্যাল বা ভার্চুয়াল অ্যাড্রেস তৈরি করে, যা মেমোরি ম্যানেজমেন্ট ইউনিট (MMU) দ্বারা ফিজিক্যাল অ্যাড্রেসে রূপান্তরিত হয়।"
+    },
+    {
+      "question_text": "নিচের কোন প্রােগ্রামটি একটি সম্পূর্ণ কম্পিউটার প্রোগ্রামকে একবারে অনুবাদ ও সম্পাদন করে?",
+      "year": 2019,
+      "source_batch": "BCS-40",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/40-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "Interpreter"
+        },
+        {
+          "label": "খ",
+          "text": "Emulator"
+        },
+        {
+          "label": "গ",
+          "text": "Compiler"
+        },
+        {
+          "label": "ঘ",
+          "text": "Simulator"
+        }
+      ],
+      "options_raw": "(ক) Interpreter (খ) Emulator (গ) Compiler (ঘ) Simulator",
+      "correct_answer": "(গ) Compiler",
+      "explanation": "কম্পাইলার একটি অনুবাদক প্রোগ্রাম যা হাই-লেভেল ল্যাঙ্গুয়েজে লেখা সম্পূর্ণ প্রোগ্রামটিকে একবারে মেশিন ল্যাঙ্গুয়েজে রূপান্তর করে।"
+    },
+    {
+      "question_text": "নিচের কোনটি একই সাথে ইনপুট ও আউটপুট হিসেবে কাজ করে?",
+      "year": 2019,
+      "source_batch": "BCS-40",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/40-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "Mouse"
+        },
+        {
+          "label": "খ",
+          "text": "Microphone"
+        },
+        {
+          "label": "গ",
+          "text": "Touch Screen"
+        },
+        {
+          "label": "ঘ",
+          "text": "Printer"
+        }
+      ],
+      "options_raw": "(ক) Mouse (খ) Microphone (গ) Touch Screen (ঘ) Printer",
+      "correct_answer": "(গ) Touch Screen",
+      "explanation": "টাচ স্ক্রিন একই সাথে ইনপুট (স্পর্শের মাধ্যমে নির্দেশনা গ্রহণ) এবং আউটপুট (তথ্য প্রদর্শন) ডিভাইস হিসেবে কাজ করে।"
+    },
+    {
+      "question_text": "নিচের কোনটি জিআইএস (GIS) সফটওয়্যার নয় ?",
+      "year": 2019,
+      "source_batch": "BCS-40",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/40-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "ArcGIS"
+        },
+        {
+          "label": "খ",
+          "text": "QGIS"
+        },
+        {
+          "label": "গ",
+          "text": "Google Earth"
+        },
+        {
+          "label": "ঘ",
+          "text": "কোনটিই নয়"
+        }
+      ],
+      "options_raw": "(ক) ArcGIS (খ) QGIS (গ) Google Earth (ঘ) কোনটিই নয়",
+      "correct_answer": "গ) Google Earth",
+      "explanation": "ArcGIS এবং QGIS হলো পেশাদার জিআইএস সফটওয়্যার। Google Earth একটি জিও-ব্রাউজার যা পৃথিবীর ত্রিমাত্রিক উপস্থাপনা দেখায়, কিন্তু এটি একটি পূর্ণাঙ্গ GIS সফটওয়্যারের মতো ডেটা বিশ্লেষণ করতে পারে না।"
+    },
+    {
+      "question_text": "নিচের কোন সাইবার আক্রমণ সংঘটিত হলে গ্রাহক তার নিজের কম্পিউটার সিস্টেম ব্যবহার করতে পারেন না এবং কম্পিউটার সিস্টেমকে ব্যবহার উপযোগী করতে অর্থ দাবি করা হয়?",
+      "year": 2019,
+      "source_batch": "BCS-40",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/40-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "Phishing"
+        },
+        {
+          "label": "খ",
+          "text": "Denial of Service"
+        },
+        {
+          "label": "গ",
+          "text": "Ransomware"
+        },
+        {
+          "label": "ঘ",
+          "text": "Man-in-the-Middle"
+        }
+      ],
+      "options_raw": "(ক) Phishing (খ) Denial of Service (গ) Ransomware (ঘ) Man-in-the-Middle",
+      "correct_answer": "(গ) Ransomware",
+      "explanation": "র‍্যানসমওয়্যার (Ransomware) হলো এক ধরনের ম্যালওয়্যার যা ব্যবহারকারীর ফাইল বা সিস্টেমকে এনক্রিপ্ট করে অকেজো করে দেয় এবং ফাইলগুলো ফেরত দেওয়ার বিনিময়ে মুক্তিপণ (Ransom) দাবি করে।"
+    },
+    {
+      "question_text": "Apache এক ধরনের-",
+      "year": 2021,
+      "source_batch": "BCS-41",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/41-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "Database Management System (DBMS)"
+        },
+        {
+          "label": "খ",
+          "text": "Web Server"
+        },
+        {
+          "label": "গ",
+          "text": "Web Browser"
+        },
+        {
+          "label": "ঘ",
+          "text": "Protocol"
+        }
+      ],
+      "options_raw": "(ক) Database Management System (DBMS) (খ) Web Server (গ) Web Browser (ঘ) Protocol",
+      "correct_answer": "(খ) Web Server",
+      "explanation": "Apache HTTP Server একটি জনপ্রিয়,ฟรี এবং ওপেন-সোর্স ওয়েব সার্ভার সফটওয়্যার, যা ইন্টারনেটে ওয়েবপেজ পরিবেশন করার কাজে ব্যবহৃত হয়।"
+    },
+    {
+      "question_text": "ক্লাউড কম্পিউটিং-এর সার্ভিস মডেল কোনটি?",
+      "year": 2021,
+      "source_batch": "BCS-41",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/41-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "অবকাঠামোগত"
+        },
+        {
+          "label": "খ",
+          "text": "প্লাটফর্মভিত্তিক"
+        },
+        {
+          "label": "গ",
+          "text": "সফটওয়্যার"
+        },
+        {
+          "label": "ঘ",
+          "text": "উপরের সবগুলাে"
+        }
+      ],
+      "options_raw": "(ক) অবকাঠামোগত (খ) প্লাটফর্মভিত্তিক (গ) সফটওয়্যার (ঘ) উপরের সবগুলাে",
+      "correct_answer": "(ঘ) উপরের সবগুলাে",
+      "explanation": "ক্লাউড কম্পিউটিং এর প্রধান তিনটি সেবা মডেল হলো: IaaS (Infrastructure as a Service), PaaS (Platform as a Service), এবং SaaS (Software as a Service)। তাই উপরের সবগুলোই সঠিক।"
+    },
+    {
+      "question_text": "কোন নেটওয়ার্ক টপােলজিতে হাব (hub) ব্যবহার করা হয়?",
+      "year": 2021,
+      "source_batch": "BCS-41",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/41-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "বাস টপােলজি"
+        },
+        {
+          "label": "খ",
+          "text": "রিং টপােলজি"
+        },
+        {
+          "label": "গ",
+          "text": "স্টার টপােলজি"
+        },
+        {
+          "label": "ঘ",
+          "text": "ট্রি টপােলজি"
+        }
+      ],
+      "options_raw": "(ক) বাস টপােলজি (খ) রিং টপােলজি (গ) স্টার টপােলজি (ঘ) ট্রি টপােলজি",
+      "correct_answer": "(গ) স্টার টপােলজি",
+      "explanation": "স্টার টপোলজিতে নেটওয়ার্কের সকল ডিভাইস একটি কেন্দ্রীয় কানেক্টিং ডিভাইস (যেমন: হাব বা সুইচ) এর সাথে যুক্ত থাকে।"
+    },
+    {
+      "question_text": "একটি কম্পিউটার boot করতে পারে না যদি তাতে না থাকে-",
+      "year": 2021,
+      "source_batch": "BCS-41",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/41-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "compiler"
+        },
+        {
+          "label": "খ",
+          "text": "loader"
+        },
+        {
+          "label": "গ",
+          "text": "operating system"
+        },
+        {
+          "label": "ঘ",
+          "text": "bootstrap"
+        }
+      ],
+      "options_raw": "(ক) compiler (খ) loader (গ) operating system (ঘ) bootstrap",
+      "correct_answer": "(গ) operating system",
+      "explanation": "অপারেটিং সিস্টেম হলো এমন একটি সিস্টেম সফটওয়্যার যা কম্পিউটারের হার্ডওয়্যার ও অন্যান্য সফটওয়্যারকে পরিচালনা করে। এটি ছাড়া কম্পিউটার ব্যবহার উপযোগী হয় না বা বুট করতে পারে না।"
+    },
+    {
+      "question_text": "মাইক্রোসফট IIS হচ্ছে একটি-",
+      "year": 2021,
+      "source_batch": "BCS-41",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/41-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "ইমেইল সার্ভার"
+        },
+        {
+          "label": "খ",
+          "text": "ওয়েব সার্ভার"
+        },
+        {
+          "label": "গ",
+          "text": "ডাটাবেইস সার্ভার"
+        },
+        {
+          "label": "ঘ",
+          "text": "ফাইল সার্ভার"
+        }
+      ],
+      "options_raw": "(ক) ইমেইল সার্ভার (খ) ওয়েব সার্ভার (গ) ডাটাবেইস সার্ভার (ঘ) ফাইল সার্ভার",
+      "correct_answer": "(খ) ওয়েব সার্ভার",
+      "explanation": "IIS (Internet Information Services) হলো মাইক্রোসফট কর্তৃক নির্মিত একটি ওয়েব সার্ভার সফটওয়্যার, যা উইন্ডোজ সার্ভারে চলে।"
+    },
+    {
+      "question_text": "ব্লুটুথ কত দূরত্ব পর্যন্ত কাজ করে?",
+      "year": 2021,
+      "source_batch": "BCS-41",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/41-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "১০-৩০ মিটার"
+        },
+        {
+          "label": "খ",
+          "text": "১০-৫০ মিটার।"
+        },
+        {
+          "label": "গ",
+          "text": "১০-১০০ মিটার"
+        },
+        {
+          "label": "ঘ",
+          "text": "১০-৩০০ মিটার"
+        }
+      ],
+      "options_raw": "(ক) ১০-৩০ মিটার (খ) ১০-৫০ মিটার। (গ) ১০-১০০ মিটার (ঘ) ১০-৩০০ মিটার",
+      "correct_answer": "(গ) ১০-১০০ মিটার",
+      "explanation": "ব্লুটুথের বিভিন্ন ক্লাস রয়েছে। ক্লাস ২ (সবচেয়ে সাধারণ) প্রায় ১০ মিটার পর্যন্ত কাজ করে, আর ক্লাস ১ সর্বোচ্চ ১০০ মিটার পর্যন্ত কাজ করতে পারে। তাই ১০-১০০ মিটার হলো সঠিক পরিসর।"
+    },
+    {
+      "question_text": "একটি সিস্টেম যেখানে আইটেমগুলো এক প্রান্তে সংযোজিত হয় কিন্তু অন্য প্রান্ত থেকে সরানো হয় তার নাম-",
+      "year": 2021,
+      "source_batch": "BCS-41",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/41-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "Array"
+        },
+        {
+          "label": "খ",
+          "text": "Linked list"
+        },
+        {
+          "label": "গ",
+          "text": "Stack"
+        },
+        {
+          "label": "ঘ",
+          "text": "Queue"
+        }
+      ],
+      "options_raw": "(ক) Array (খ) Linked list (গ) Stack (ঘ) Queue",
+      "correct_answer": "(ঘ) Queue",
+      "explanation": "Queue (সারি) হলো একটি ডেটা স্ট্রাকচার যা First-In, First-Out (FIFO) নীতি অনুসরণ করে। এখানে ডেটা এক প্রান্ত (Rear) দিয়ে ঢোকে এবং অন্য প্রান্ত (Front) দিয়ে বের হয়।"
+    },
+    {
+      "question_text": "নিচের কোনটি anti-virus সফটওয়্যার নয়?",
+      "year": 2021,
+      "source_batch": "BCS-41",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/41-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "Oracle"
+        },
+        {
+          "label": "খ",
+          "text": "McAfee"
+        },
+        {
+          "label": "গ",
+          "text": "Norton"
+        },
+        {
+          "label": "ঘ",
+          "text": "Kaspersky"
+        }
+      ],
+      "options_raw": "(ক) Oracle (খ) McAfee (গ) Norton (ঘ) Kaspersky",
+      "correct_answer": "(ক) Oracle",
+      "explanation": "Oracle একটি ডেটাবেস ম্যানেজমেন্ট সিস্টেম (DBMS)। McAfee, Norton এবং Kaspersky হলো জনপ্রিয় অ্যান্টি-ভাইরাস সফটওয়্যার।"
+    },
+    {
+      "question_text": "যে কম্পিউটার ভাষায় সবকিছু শুধুমাত্র বাইনারি কোডে লেখা হয় তাকে বলে-",
+      "year": 2021,
+      "source_batch": "BCS-41",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/41-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "Machine language"
+        },
+        {
+          "label": "খ",
+          "text": "C"
+        },
+        {
+          "label": "গ",
+          "text": "Java"
+        },
+        {
+          "label": "ঘ",
+          "text": "Python"
+        }
+      ],
+      "options_raw": "(ক) Machine language (খ) C (গ) Java (ঘ) Python",
+      "correct_answer": "(ক) Machine language",
+      "explanation": "মেশিন ল্যাঙ্গুয়েজ হলো কম্পিউটারের মৌলিক ভাষা, যা শুধুমাত্র ০ এবং ১ (বাইনারি কোড) দিয়ে গঠিত এবং কম্পিউটার সরাসরি বুঝতে পারে।"
+    },
+    {
+      "question_text": "API মানে-",
+      "year": 2021,
+      "source_batch": "BCS-41",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/41-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "Advanced Processing Information"
+        },
+        {
+          "label": "খ",
+          "text": "Application Processing Information"
+        },
+        {
+          "label": "গ",
+          "text": "Application Programming Interface"
+        },
+        {
+          "label": "ঘ",
+          "text": "Application Processing Interface"
+        }
+      ],
+      "options_raw": "(ক) Advanced Processing Information (খ) Application Processing Information (গ) Application Programming Interface (ঘ) Application Processing Interface",
+      "correct_answer": "(গ) Application Programming Interface",
+      "explanation": "API-এর পূর্ণরূপ হলো Application Programming Interface। এটি দুটি ভিন্ন সফটওয়্যার অ্যাপ্লিকেশনের মধ্যে যোগাযোগ স্থাপন ও ডেটা আদান-প্রদানের একটি মাধ্যম।"
+    },
+    {
+      "question_text": "যে ইলেক্ট্রনিক লজিক গেইটের আউটপুট লাজিক 0 শুধুমাত্র যখন সকল ইনপুট লজিক 1 তার নাম-",
+      "year": 2021,
+      "source_batch": "BCS-41",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/41-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "AND গেইট"
+        },
+        {
+          "label": "খ",
+          "text": "OR গেইট"
+        },
+        {
+          "label": "গ",
+          "text": "NAND গেইট"
+        },
+        {
+          "label": "ঘ",
+          "text": "উপরের কোনটিই নয়"
+        }
+      ],
+      "options_raw": "(ক) AND গেইট (খ) OR গেইট (গ) NAND গেইট (ঘ) উপরের কোনটিই নয়",
+      "correct_answer": "(গ) NAND গেইট",
+      "explanation": "NAND গেইট হলো AND গেইটের বিপরীত। AND গেইটে সকল ইনপুট ১ হলে আউটপুট ১ হয়, অন্যথায় ০। সুতরাং, NAND গেইটে সকল ইনপুট ১ হলে আউটপুট ০ হবে।"
+    },
+    {
+      "question_text": "নিচের কোনটির যােগাযােগের দূরত্ব সবচেয়ে কম?",
+      "year": 2021,
+      "source_batch": "BCS-41",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/41-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "Wi-Fi"
+        },
+        {
+          "label": "খ",
+          "text": "Bluetooth"
+        },
+        {
+          "label": "গ",
+          "text": "Wi-Max"
+        },
+        {
+          "label": "ঘ",
+          "text": "Cellular network"
+        }
+      ],
+      "options_raw": "(ক) Wi-Fi (খ) Bluetooth (গ) Wi-Max (ঘ) Cellular network",
+      "correct_answer": "(খ) Bluetooth",
+      "explanation": "ব্লুটুথ একটি ব্যক্তিগত পরিসরের নেটওয়ার্ক (PAN) প্রযুক্তি, যার কার্যকর দূরত্ব সাধারণত ১০ মিটারের মধ্যে সীমাবদ্ধ, যা প্রদত্ত বিকল্পগুলোর মধ্যে সবচেয়ে কম।"
+    },
+    {
+      "question_text": "নিচের কোনটি ১০০ এর ১ কমপ্লিমেন্ট?",
+      "year": 2021,
+      "source_batch": "BCS-41",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/41-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "১১১"
+        },
+        {
+          "label": "খ",
+          "text": "১০১"
+        },
+        {
+          "label": "গ",
+          "text": "০১১"
+        },
+        {
+          "label": "ঘ",
+          "text": "০০১"
+        }
+      ],
+      "options_raw": "(ক) ১১১ (খ) ১০১ (গ) ০১১ (ঘ) ০০১",
+      "correct_answer": "(গ) ০১১",
+      "explanation": "কোনো বাইনারি সংখ্যার ১-এর পরিপূরক (1's complement) বের করতে হলে প্রতিটি ০-কে ১ এবং প্রতিটি ১-কে ০ দ্বারা প্রতিস্থাপন করতে হয়। সুতরাং, ১০০-এর ১-এর পরিপূরক হলো ০১১।"
+    },
+    {
+      "question_text": "RFID বলতে বুঝায়-",
+      "year": 2021,
+      "source_batch": "BCS-41",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/41-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "Random Frequency Identification"
+        },
+        {
+          "label": "খ",
+          "text": "Random Frequency Information"
+        },
+        {
+          "label": "গ",
+          "text": "Radio Frequency Information"
+        },
+        {
+          "label": "ঘ",
+          "text": "Radio Frequency Identification"
+        }
+      ],
+      "options_raw": "(ক) Random Frequency Identification (খ) Random Frequency Information (গ) Radio Frequency Information (ঘ) Radio Frequency Identification",
+      "correct_answer": "(ঘ) Radio Frequency Identification",
+      "explanation": "RFID-এর পূর্ণরূপ হলো Radio-Frequency Identification। এটি বেতার তরঙ্গ ব্যবহার করে কোনো বস্তু বা ব্যক্তিকে স্বয়ংক্রিয়ভাবে শনাক্ত করার একটি প্রযুক্তি।"
+    },
+    {
+      "question_text": "নিচের কোনটি সঠিক নয়?",
+      "year": 2021,
+      "source_batch": "BCS-41",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/41-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "A+A'=1"
+        },
+        {
+          "label": "খ",
+          "text": "A.A'=0"
+        },
+        {
+          "label": "গ",
+          "text": "A.1=A"
+        },
+        {
+          "label": "ঘ",
+          "text": "A+1=A"
+        }
+      ],
+      "options_raw": "(ক) A+A'=1 (খ) A.A'=0 (গ) A.1=A (ঘ) A+1=A",
+      "correct_answer": "(ঘ) A+1=A",
+      "explanation": "বুলিয়ান অ্যালজেবরায়, A+1 = 1 (কারণ OR গেইটে যেকোনো একটি ইনপুট ১ হলে আউটপুট ১ হয়)। তাই A+1=A উক্তিটি সঠিক নয়। অন্যগুলো বুলিয়ান উপপাদ্য অনুযায়ী সঠিক।"
+    },
+    {
+      "question_text": "RFID বলতে বােঝায়-",
+      "year": 2021,
+      "source_batch": "BCS-43",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/43-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "Random Frequency Identification"
+        },
+        {
+          "label": "খ",
+          "text": "Random Frequency Information"
+        },
+        {
+          "label": "গ",
+          "text": "Radio Frequency Information"
+        },
+        {
+          "label": "ঘ",
+          "text": "Radio Frequency Identification"
+        }
+      ],
+      "options_raw": "(ক) Random Frequency Identification (খ) Random Frequency Information (গ) Radio Frequency Information (ঘ) Radio Frequency Identification",
+      "correct_answer": "(ঘ) Radio Frequency Identification",
+      "explanation": "RFID-এর পূর্ণরূপ হলো Radio-Frequency Identification। এটি বেতার তরঙ্গ ব্যবহার করে কোনো বস্তু বা ব্যক্তিকে স্বয়ংক্রিয়ভাবে শনাক্ত করার একটি প্রযুক্তি।"
+    },
+    {
+      "question_text": "কোন মাধ্যমে আলাের পালস্ ব্যবহৃত হয়?",
+      "year": 2021,
+      "source_batch": "BCS-43",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/43-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "তামার তার"
+        },
+        {
+          "label": "খ",
+          "text": "কো-এক্সিয়াল ক্যাবল"
+        },
+        {
+          "label": "গ",
+          "text": "অপটিক্যাল ফাইবার"
+        },
+        {
+          "label": "ঘ",
+          "text": "ওয়্যারলেস মিডিয়া"
+        }
+      ],
+      "options_raw": "(ক) তামার তার (খ) কো-এক্সিয়াল ক্যাবল (গ) অপটিক্যাল ফাইবার (ঘ) ওয়্যারলেস মিডিয়া",
+      "correct_answer": "(গ) অপটিক্যাল ফাইবার",
+      "explanation": "অপটিক্যাল ফাইবার কাচের তৈরি অত্যন্ত সরু তন্তু, যার মধ্য দিয়ে আলোর পূর্ণ অভ্যন্তরীণ প্রতিফলনের মাধ্যমে ডেটা বা তথ্য আলোর স্পন্দন (Pulse) আকারে পাঠানো হয়।"
+    },
+    {
+      "question_text": "ট্রপিক্যাল সাইক্লোন সৃষ্টির জন্য সাগরপৃষ্ঠের ন্যূনতম তাপমাত্রা কত হওয়া প্রয়ােজন?",
+      "year": 2021,
+      "source_batch": "BCS-43",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/43-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "২৬.৫° সে."
+        },
+        {
+          "label": "খ",
+          "text": "৩৫° সে."
+        },
+        {
+          "label": "গ",
+          "text": "৩৭.৫° সে."
+        },
+        {
+          "label": "ঘ",
+          "text": "৪০.৫° সে."
+        }
+      ],
+      "options_raw": "(ক) ২৬.৫° সে. (খ) ৩৫° সে. (গ) ৩৭.৫° সে. (ঘ) ৪০.৫° সে.",
+      "correct_answer": "(ক) ২৬.৫° সে.",
+      "explanation": "ক্রান্তীয় ঘূর্ণিঝড় (Tropical Cyclone) তৈরি ও শক্তিশালী হওয়ার জন্য সমুদ্রপৃষ্ঠের তাপমাত্রা ন্যূনতম ২৬.৫° সেলসিয়াস বা তার বেশি হওয়া প্রয়োজন।"
+    },
+    {
+      "question_text": "নিচের কোনটি anti-virus সফটওয়্যার নয়?",
+      "year": 2021,
+      "source_batch": "BCS-43",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/43-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "Oracle"
+        },
+        {
+          "label": "খ",
+          "text": "McAfee"
+        },
+        {
+          "label": "গ",
+          "text": "Norton"
+        },
+        {
+          "label": "ঘ",
+          "text": "Kaspersky"
+        }
+      ],
+      "options_raw": "(ক) Oracle (খ) McAfee (গ) Norton (ঘ) Kaspersky",
+      "correct_answer": "(ক) Oracle",
+      "explanation": "Oracle একটি ডেটাবেস ম্যানেজমেন্ট সিস্টেম (DBMS) সফটওয়্যার। McAfee, Norton এবং Kaspersky জনপ্রিয় অ্যান্টি-ভাইরাস সফটওয়্যার।"
+    },
+    {
+      "question_text": "কোন চিহ্নটি ই-মেইল ঠিকানায় অবশ্যই থাকবে?",
+      "year": 2021,
+      "source_batch": "BCS-43",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/43-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "$"
+        },
+        {
+          "label": "খ",
+          "text": "#"
+        },
+        {
+          "label": "গ",
+          "text": "&"
+        },
+        {
+          "label": "ঘ",
+          "text": "@"
+        }
+      ],
+      "options_raw": "(ক) $ (খ) # (গ) & (ঘ) @",
+      "correct_answer": "(ঘ) @",
+      "explanation": "একটি ই-মেইল ঠিকানায় ব্যবহারকারীর নাম এবং ডোমেইন নেমকে পৃথক করার জন্য অবশ্যই '@' চিহ্নটি থাকতে হয়।"
+    },
+    {
+      "question_text": "Keyboard এবং CPU-এর মধ্যে কোন পদ্ধতিতে data transmission হয়?",
+      "year": 2021,
+      "source_batch": "BCS-43",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/43-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "Simplex"
+        },
+        {
+          "label": "খ",
+          "text": "Duplex"
+        },
+        {
+          "label": "গ",
+          "text": "Half duplex"
+        },
+        {
+          "label": "ঘ",
+          "text": "Triplex"
+        }
+      ],
+      "options_raw": "(ক) Simplex (খ) Duplex (গ) Half duplex (ঘ) Triplex",
+      "correct_answer": "(ক) Simplex",
+      "explanation": "সিমপ্লেক্স পদ্ধতিতে ডেটা শুধুমাত্র এক দিকে প্রবাহিত হতে পারে। কীবোর্ড থেকে ডেটা সবসময় সিপিইউ-এর দিকে যায়, কিন্তু সিপিইউ থেকে কীবোর্ডে আসে না। তাই এটি সিমপ্লেক্স।"
+    },
+    {
+      "question_text": "Blockchain-এর প্রতিটি block কী তথ্য বহন করে?",
+      "year": 2021,
+      "source_batch": "BCS-43",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/43-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "A hash pointer to the previous block"
+        },
+        {
+          "label": "খ",
+          "text": "Timestamp"
+        },
+        {
+          "label": "গ",
+          "text": "List of transactions"
+        },
+        {
+          "label": "ঘ",
+          "text": "উপরের সবগুলাে"
+        }
+      ],
+      "options_raw": "(ক) A hash pointer to the previous block (খ) Timestamp (গ) List of transactions (ঘ) উপরের সবগুলাে",
+      "correct_answer": "(ঘ) উপরের সবগুলাে",
+      "explanation": "ব্লকচেইনের প্রতিটি ব্লকে লেনদেনের তালিকা, একটি টাইমস্ট্যাম্প (সময়), এবং পূর্ববর্তী ব্লকের একটি হ্যাশ পয়েন্টার থাকে, যা চেইনটিকে সুরক্ষিত ও অপরিবর্তনীয় করে।"
+    },
+    {
+      "question_text": "নিচের কোনটি Bluetooth-এর IEEE standard?",
+      "year": 2021,
+      "source_batch": "BCS-43",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/43-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "IEEE 802.15"
+        },
+        {
+          "label": "খ",
+          "text": "IEEE 802.1"
+        },
+        {
+          "label": "গ",
+          "text": "IEEE 802.3"
+        },
+        {
+          "label": "ঘ",
+          "text": "IEEE 802.11"
+        }
+      ],
+      "options_raw": "(ক) IEEE 802.15 (খ) IEEE 802.1 (গ) IEEE 802.3 (ঘ) IEEE 802.11",
+      "correct_answer": "(ক) IEEE 802.15",
+      "explanation": "IEEE 802.15 হলো Wireless Personal Area Network (WPAN) এর জন্য নির্ধারিত স্ট্যান্ডার্ড, যার অন্তর্ভুক্ত হলো ব্লুটুথ। IEEE 802.11 হলো Wi-Fi এর স্ট্যান্ডার্ড।"
+    },
+    {
+      "question_text": "১০১১১০ বাইনারি নাম্বারের সমতুল্য ডেসিমাল নাম্বার কোনটি?",
+      "year": 2021,
+      "source_batch": "BCS-43",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/43-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "৪৬"
+        },
+        {
+          "label": "খ",
+          "text": "১৬"
+        },
+        {
+          "label": "গ",
+          "text": "২৪"
+        },
+        {
+          "label": "ঘ",
+          "text": "৫৪"
+        }
+      ],
+      "options_raw": "(ক) ৪৬ (খ) ১৬ (গ) ২৪ (ঘ) ৫৪",
+      "correct_answer": "(ক) ৪৬",
+      "explanation": "(101110)₂ = 1×2⁵ + 0×2⁴ + 1×2³ + 1×2² + 1×2¹ + 0×2⁰ = 32 + 0 + 8 + 4 + 2 + 0 = 46।"
+    },
+    {
+      "question_text": "DNS সার্ভারের কাজ হচ্ছে _____ কে _____ address-এ পরিবর্তন করা।",
+      "year": 2021,
+      "source_batch": "BCS-43",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/43-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "Email, DNS"
+        },
+        {
+          "label": "খ",
+          "text": "MAC Address, IP"
+        },
+        {
+          "label": "গ",
+          "text": "Domain name, IP"
+        },
+        {
+          "label": "ঘ",
+          "text": "Email, IP"
+        }
+      ],
+      "options_raw": "(ক) Email, DNS (খ) MAC Address, IP (গ) Domain name, IP (ঘ) Email, IP",
+      "correct_answer": "(গ) Domain name, IP",
+      "explanation": "DNS (Domain Name System) সার্ভার মানুষের পাঠযোগ্য ডোমেইন নেম (যেমন: chakribangla.com) কে মেশিনের পাঠযোগ্য আইপি অ্যাড্রেসে (যেমন: 192.168.1.1) রূপান্তর করে।"
+    },
+    {
+      "question_text": "নিচের কোনটি Open Source DBMS?",
+      "year": 2021,
+      "source_batch": "BCS-43",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/43-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "MySQL."
+        },
+        {
+          "label": "খ",
+          "text": "Microsoft SQL Server"
+        },
+        {
+          "label": "গ",
+          "text": "Microsoft Access"
+        },
+        {
+          "label": "ঘ",
+          "text": "Oracle"
+        }
+      ],
+      "options_raw": "(ক) MySQL. (খ) Microsoft SQL Server (গ) Microsoft Access (ঘ) Oracle",
+      "correct_answer": "(ক) MySQL.",
+      "explanation": "MySQL একটি জনপ্রিয় ওপেন-সোর্স রিলেশনাল ডেটাবেস ম্যানেজমেন্ট সিস্টেম (RDBMS)। অন্যগুলো মালিকানাধীন বা কমার্শিয়াল সফটওয়্যার।"
+    },
+    {
+      "question_text": "নিচের Job Scheduling Policy সমূহের মধ্যে কোনটি Starvation থেকে মুক্ত?",
+      "year": 2021,
+      "source_batch": "BCS-43",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/43-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "Priority Scheduling"
+        },
+        {
+          "label": "খ",
+          "text": "Shortest Job First"
+        },
+        {
+          "label": "গ",
+          "text": "Youngest Job First"
+        },
+        {
+          "label": "ঘ",
+          "text": "Round-robin"
+        }
+      ],
+      "options_raw": "(ক) Priority Scheduling (খ) Shortest Job First (গ) Youngest Job First (ঘ) Round-robin",
+      "correct_answer": "(ঘ) Round-robin",
+      "explanation": "Round-robin শিডিউলিং-এ প্রতিটি প্রক্রিয়া একটি নির্দিষ্ট সময় (time quantum) পর্যন্ত চলার সুযোগ পায়। ফলে কোনো প্রক্রিয়াকেই অসীম সময় ধরে অপেক্ষা করতে হয় না, যা Starvation (অনাহার) রোধ করে।"
+    },
+    {
+      "question_text": "নিচের কোন প্রযুক্তি Face Recognition System-এর সহায়ক ভূমিকা পালন করে?",
+      "year": 2021,
+      "source_batch": "BCS-43",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/43-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "Applied Artificial Intelligence (AI)"
+        },
+        {
+          "label": "খ",
+          "text": "Applied Internet of Things (IoT)"
+        },
+        {
+          "label": "গ",
+          "text": "Virtual Reality"
+        },
+        {
+          "label": "ঘ",
+          "text": "উপরের কোনটিই নয়"
+        }
+      ],
+      "options_raw": "(ক) Applied Artificial Intelligence (AI) (খ) Applied Internet of Things (IoT) (গ) Virtual Reality (ঘ) উপরের কোনটিই নয়",
+      "correct_answer": "(ক) Applied Artificial Intelligence (AI)",
+      "explanation": "ফেস রিকগনিশন বা চেহারা শনাক্তকরণ ব্যবস্থা কৃত্রিম বুদ্ধিমত্তা (AI) এবং মেশিন লার্নিং অ্যালগরিদম ব্যবহার করে কাজ করে, যা ছবি বা ভিডিও থেকে মুখমন্ডলের বৈশিষ্ট্য বিশ্লেষণ করে ব্যক্তিকে শনাক্ত করে।"
+    },
+    {
+      "question_text": "নিচের কোনটি output device নয়?",
+      "year": 2021,
+      "source_batch": "BCS-43",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/43-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "monitor"
+        },
+        {
+          "label": "খ",
+          "text": "microphone"
+        },
+        {
+          "label": "গ",
+          "text": "printer"
+        },
+        {
+          "label": "ঘ",
+          "text": "speaker"
+        }
+      ],
+      "options_raw": "(ক) monitor (খ) microphone (গ) printer (ঘ) speaker",
+      "correct_answer": "(খ) microphone",
+      "explanation": "মাইক্রোফোন শব্দ গ্রহণ করে কম্পিউটারে প্রবেশ করায়, তাই এটি একটি ইনপুট ডিভাইস। মনিটর, প্রিন্টার এবং স্পিকার তথ্য প্রদর্শন বা আউটপুট করে।"
+    },
+    {
+      "question_text": "নিচের কোনটি একটি প্রতিষ্ঠানের ওয়েব ঠিকানাকে নির্দেশ করে?",
+      "year": 2021,
+      "source_batch": "BCS-43",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/43-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "http"
+        },
+        {
+          "label": "খ",
+          "text": "www"
+        },
+        {
+          "label": "গ",
+          "text": "URL"
+        },
+        {
+          "label": "ঘ",
+          "text": "HTML"
+        }
+      ],
+      "options_raw": "(ক) http (খ) www (গ) URL (ঘ) HTML",
+      "correct_answer": "(গ) URL",
+      "explanation": "URL (Uniform Resource Locator) হলো ইন্টারনেটে কোনো রিসোর্সের (যেমন: একটি ওয়েব পেজ) একটি স্বতন্ত্র ঠিকানা, যা ওয়েব ঠিকানাকে নির্দেশ করে।"
+    },
+    {
+      "question_text": "নিচের কোন প্রযুক্তি ‘Pay as You Go’ সার্ভিস মডেল অনুসরণ করে?",
+      "year": 2021,
+      "source_batch": "BCS-43",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/43-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "Internet of Things (IoT)"
+        },
+        {
+          "label": "খ",
+          "text": "Cloud Computing"
+        },
+        {
+          "label": "গ",
+          "text": "Client-Server Systems"
+        },
+        {
+          "label": "ঘ",
+          "text": "Big Data Analytics"
+        }
+      ],
+      "options_raw": "(ক) Internet of Things (IoT) (খ) Cloud Computing (গ) Client-Server Systems (ঘ) Big Data Analytics",
+      "correct_answer": "(খ) Cloud Computing",
+      "explanation": "ক্লাউড কম্পিউটিং 'Pay-as-you-go' মডেল অনুসরণ করে, যেখানে ব্যবহারকারী শুধুমাত্র ততটুকু সেবার জন্য মূল্য পরিশোধ করে যতটুকু সে ব্যবহার করেছে, কোনো অগ্রিম বিনিয়োগ ছাড়াই।"
+    },
+    {
+      "question_text": "যে সাইবার আক্রমণ সংঘটিত হলে গ্রাহকের বৈধ অনুরােধসমূহ কোন একটি web server সম্পূর্ণ করতে ব্যর্থ হয় সেটি কী নামে পরিচিত?",
+      "year": 2021,
+      "source_batch": "BCS-43",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/43-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "Phishing"
+        },
+        {
+          "label": "খ",
+          "text": "Man-in-the-Middle"
+        },
+        {
+          "label": "গ",
+          "text": "Denial of Service"
+        },
+        {
+          "label": "ঘ",
+          "text": "উপরের কোনটিই নয়"
+        }
+      ],
+      "options_raw": "(ক) Phishing (খ) Man-in-the-Middle (গ) Denial of Service (ঘ) উপরের কোনটিই নয়",
+      "correct_answer": "(গ) Denial of Service",
+      "explanation": "Denial-of-Service (DoS) আক্রমণে কোনো সার্ভার বা নেটওয়ার্কে এত বিপুল পরিমাণে ভুয়া অনুরোধ পাঠানো হয় যে, সার্ভারটি প্রকৃত ব্যবহারকারীদের সেবা দিতে ব্যর্থ হয়।"
+    },
+    {
+      "question_text": "নিচের কোন মেমােরিটিতে Access Time সবচেয়ে কম?",
+      "year": 2021,
+      "source_batch": "BCS-43",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/43-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "Registers"
+        },
+        {
+          "label": "খ",
+          "text": "SSD"
+        },
+        {
+          "label": "গ",
+          "text": "RAM"
+        },
+        {
+          "label": "ঘ",
+          "text": "Cache memory"
+        }
+      ],
+      "options_raw": "(ক) Registers (খ) SSD (গ) RAM (ঘ) Cache memory",
+      "correct_answer": "(ক) Registers",
+      "explanation": "কম্পিউটারের মেমোরিগুলোর মধ্যে গতির ক্রম অনুসারে রেজিস্টার সবচেয়ে দ্রুতগতির, কারণ এটি সরাসরি সিপিইউ-এর ভেতরে থাকে। তাই এর অ্যাক্সেস টাইম সবচেয়ে কম।"
+    },
+    {
+      "question_text": "নিচের কোন ডিভাইসটি ডিজিটাল সিগন্যালকে অ্যানালগ সিগন্যালে পরিবর্তনে ব্যবহৃত হয়?",
+      "year": 2021,
+      "source_batch": "BCS-43",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/43-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "Router"
+        },
+        {
+          "label": "খ",
+          "text": "Switch"
+        },
+        {
+          "label": "গ",
+          "text": "Modem"
+        },
+        {
+          "label": "ঘ",
+          "text": "HUB"
+        }
+      ],
+      "options_raw": "(ক) Router (খ) Switch (গ) Modem (ঘ) HUB",
+      "correct_answer": "(গ) Modem",
+      "explanation": "মডেম (Modem) শব্দটি Modulator-Demodulator থেকে এসেছে। এটি ডিজিটাল সিগন্যালকে অ্যানালগ সিগন্যালে (Modulation) এবং অ্যানালগ সিগন্যালকে ডিজিটাল সিগন্যালে (Demodulation) রূপান্তর করে।"
+    },
+    {
+      "question_text": "নিচের কোনটি multi-tasking operating system নয়?",
+      "year": 2021,
+      "source_batch": "BCS-43",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/43-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "Windows"
+        },
+        {
+          "label": "খ",
+          "text": "Linux"
+        },
+        {
+          "label": "গ",
+          "text": "Windows NT"
+        },
+        {
+          "label": "ঘ",
+          "text": "DOS"
+        }
+      ],
+      "options_raw": "(ক) Windows (খ) Linux (গ) Windows NT (ঘ) DOS",
+      "correct_answer": "(ঘ) DOS",
+      "explanation": "DOS (Disk Operating System) একটি সিঙ্গেল-টাস্কিং অপারেটিং সিস্টেম, যা একবারে কেবল একটি কাজ করতে পারে। Windows, Linux, Windows NT ইত্যাদি মাল্টি-টাস্কিং অপারেটিং সিস্টেম।"
+    },
+    {
+      "question_text": "নিচের কোনটি Structured Query Language নয়?",
+      "year": 2022,
+      "source_batch": "BCS-44",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/44-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "Java"
+        },
+        {
+          "label": "খ",
+          "text": "MySQL"
+        },
+        {
+          "label": "গ",
+          "text": "Oracle"
+        },
+        {
+          "label": "ঘ",
+          "text": "উপরের সবগুলো"
+        }
+      ],
+      "options_raw": "(ক) Java (খ) MySQL (গ) Oracle (ঘ) উপরের সবগুলো",
+      "correct_answer": "(ক) Java",
+      "explanation": "Java একটি অবজেক্ট-ওরিয়েন্টেড প্রোগ্রামিং ল্যাঙ্গুয়েজ। MySQL এবং Oracle হলো ডেটাবেস ম্যানেজমেন্ট সিস্টেম (DBMS), যা SQL (Structured Query Language) ব্যবহার করে ডেটাবেস পরিচালনা করে। SQL নিজে একটি কুয়েরি ল্যাঙ্গুয়েজ, কোনো DBMS বা প্রোগ্রামিং ল্যাঙ্গুয়েজ নয়। প্রশ্নটি কিছুটা বিভ্রান্তিকর হলেও, Java কোনোভাবেই SQL নয়।"
+    },
+    {
+      "question_text": "ইন্টারনেট যোগাযোগ ব্যবস্থায় Hostname-কে IP Address-এ অনুবাদ করে –",
+      "year": 2022,
+      "source_batch": "BCS-44",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/44-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "FTP Server"
+        },
+        {
+          "label": "খ",
+          "text": "Firewall"
+        },
+        {
+          "label": "গ",
+          "text": "DNS Server"
+        },
+        {
+          "label": "ঘ",
+          "text": "Gateway"
+        }
+      ],
+      "options_raw": "(ক) FTP Server (খ) Firewall (গ) DNS Server (ঘ) Gateway",
+      "correct_answer": "(গ) DNS Server",
+      "explanation": "DNS (Domain Name System) সার্ভার মানুষের পাঠযোগ্য ডোমেইন নেম বা হোস্টনেম (যেমন: www.google.com) কে মেশিনের পাঠযোগ্য আইপি অ্যাড্রেসে (যেমন: 172.217.16.196) রূপান্তর করে।"
+    },
+    {
+      "question_text": "নিচের কোন মডেলটি Cloud Computing সেবা প্রদানকারীগণ ব্যবহার করে না?",
+      "year": 2022,
+      "source_batch": "BCS-44",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/44-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "CaaS"
+        },
+        {
+          "label": "খ",
+          "text": "laaS"
+        },
+        {
+          "label": "গ",
+          "text": "PaaS"
+        },
+        {
+          "label": "ঘ",
+          "text": "SaaS"
+        }
+      ],
+      "options_raw": "(ক) CaaS (খ) laaS (গ) PaaS (ঘ) SaaS",
+      "correct_answer": "(ক) CaaS",
+      "explanation": "ক্লাউড কম্পিউটিং এর প্রধান তিনটি সেবা মডেল হলো IaaS (Infrastructure as a Service), PaaS (Platform as a Service), এবং SaaS (Software as a Service)। CaaS (Communication as a Service) একটি স্বীকৃত প্রধান মডেল নয়।"
+    },
+    {
+      "question_text": "অ্যামাজন-এর ক্লাউড প্লাটফর্ম কোনটি?",
+      "year": 2022,
+      "source_batch": "BCS-44",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/44-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "Azure"
+        },
+        {
+          "label": "খ",
+          "text": "AWS"
+        },
+        {
+          "label": "গ",
+          "text": "Cloudera"
+        },
+        {
+          "label": "ঘ",
+          "text": "উপরের সবগুলো"
+        }
+      ],
+      "options_raw": "(ক) Azure (খ) AWS (গ) Cloudera (ঘ) উপরের সবগুলো",
+      "correct_answer": "(খ) AWS",
+      "explanation": "AWS (Amazon Web Services) হলো অ্যামাজন কোম্পানির ক্লাউড কম্পিউটিং প্ল্যাটফর্ম। Azure মাইক্রোসফটের এবং Cloudera একটি স্বতন্ত্র ডেটা প্ল্যাটফর্ম।"
+    },
+    {
+      "question_text": "নিচের কোন সাইবার আক্রমণ সংঘটিত হলে গ্রাহক নিজ Computer System ব্যবহার করতে পারেন না এবং Computer System-কে ব্যবহার উপযোগী করতে অর্থ দাবি করা হয়?",
+      "year": 2022,
+      "source_batch": "BCS-44",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/44-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "Phishing"
+        },
+        {
+          "label": "খ",
+          "text": "Denial of Service"
+        },
+        {
+          "label": "গ",
+          "text": "Ransomware"
+        },
+        {
+          "label": "ঘ",
+          "text": "Man-in-the-Middle"
+        }
+      ],
+      "options_raw": "(ক) Phishing (খ) Denial of Service (গ) Ransomware (ঘ) Man-in-the-Middle",
+      "correct_answer": "(গ) Ransomware",
+      "explanation": "র‍্যানসমওয়্যার (Ransomware) হলো এক ধরনের ম্যালওয়্যার যা ব্যবহারকারীর ফাইল বা সিস্টেমকে এনক্রিপ্ট করে অকেজো করে দেয় এবং ফাইলগুলো ফেরত দেওয়ার বিনিময়ে মুক্তিপণ (Ransom) দাবি করে।"
+    },
+    {
+      "question_text": "SCSI-এর পূর্ণরূপ কী?",
+      "year": 2022,
+      "source_batch": "BCS-44",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/44-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "Small Computer System Interface"
+        },
+        {
+          "label": "খ",
+          "text": "Small Computer Software Interface"
+        },
+        {
+          "label": "গ",
+          "text": "Small Computer Storage Interface"
+        },
+        {
+          "label": "ঘ",
+          "text": "Small Computer Standard Interface"
+        }
+      ],
+      "options_raw": "(ক) Small Computer System Interface (খ) Small Computer Software Interface (গ) Small Computer Storage Interface (ঘ) Small Computer Standard Interface",
+      "correct_answer": "(ক) Small Computer System Interface",
+      "explanation": "SCSI-এর পূর্ণরূপ হলো Small Computer System Interface। এটি কম্পিউটার এবং পেরিফেরাল ডিভাইস (যেমন: হার্ড ড্রাইভ, স্ক্যানার) এর মধ্যে ডেটা আদান-প্রদানের জন্য একটি স্ট্যান্ডার্ড ইন্টারফেস।"
+    },
+    {
+      "question_text": "নিচের কোন ডিভাইসটি ইনপুট ও আউটপুট ডিভাইস হিসাবে কাজ করে?",
+      "year": 2022,
+      "source_batch": "BCS-44",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/44-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "Scanner"
+        },
+        {
+          "label": "খ",
+          "text": "Mouse"
+        },
+        {
+          "label": "গ",
+          "text": "Touch Screen"
+        },
+        {
+          "label": "ঘ",
+          "text": "Projector"
+        }
+      ],
+      "options_raw": "(ক) Scanner (খ) Mouse (গ) Touch Screen (ঘ) Projector",
+      "correct_answer": "(গ) Touch Screen",
+      "explanation": "টাচ স্ক্রিন একই সাথে ইনপুট (স্পর্শের মাধ্যমে নির্দেশনা গ্রহণ) এবং আউটপুট (তথ্য প্রদর্শন) ডিভাইস হিসেবে কাজ করে।"
+    },
+    {
+      "question_text": "নিচের কোন Octal সংখ্যাটি Decimal সংখ্যা ৫৫-এর সমতুল্য?",
+      "year": 2022,
+      "source_batch": "BCS-44",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/44-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "৫৫"
+        },
+        {
+          "label": "খ",
+          "text": "৭৭"
+        },
+        {
+          "label": "গ",
+          "text": "৬৭"
+        },
+        {
+          "label": "ঘ",
+          "text": "৮৭"
+        }
+      ],
+      "options_raw": "(ক) ৫৫ (খ) ৭৭ (গ) ৬৭ (ঘ) ৮৭",
+      "correct_answer": "(গ) ৬৭",
+      "explanation": "ডেসিমেল ৫৫ কে অক্টালে রূপান্তর করতে ৮ দিয়ে ভাগ করতে হয়।\n৫৫ ÷ ৮ = ৬, ভাগশেষ ৭।\n৬ ÷ ৮ = ০, ভাগশেষ ৬।\nনিচ থেকে উপরে সাজালে পাওয়া যায় ৬৭। সুতরাং, (৫৫)₁₀ = (৬৭)₈।"
+    },
+    {
+      "question_text": "নিচের কোনটি systern software নয়?",
+      "year": 2022,
+      "source_batch": "BCS-44",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/44-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "Linux"
+        },
+        {
+          "label": "খ",
+          "text": "Android"
+        },
+        {
+          "label": "গ",
+          "text": "Mozilla Firefox"
+        },
+        {
+          "label": "ঘ",
+          "text": "Apple iOS"
+        }
+      ],
+      "options_raw": "(ক) Linux (খ) Android (গ) Mozilla Firefox (ঘ) Apple iOS",
+      "correct_answer": "(গ) Mozilla Firefox",
+      "explanation": "Linux, Android, এবং iOS হলো সিস্টেম সফটওয়্যার বা অপারেটিং সিস্টেম। Mozilla Firefox হলো একটি অ্যাপ্লিকেশন সফটওয়্যার (ওয়েব ব্রাউজার)।"
+    },
+    {
+      "question_text": "এক মেশিন থেকে অন্য মেশিনে ই-মেইল মেসেজ স্থানান্তর করতে কোন TCP/IP প্রটোকল ব্যবহার হয়?",
+      "year": 2022,
+      "source_batch": "BCS-44",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/44-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "FTP"
+        },
+        {
+          "label": "খ",
+          "text": "RPC"
+        },
+        {
+          "label": "গ",
+          "text": "SNMP"
+        },
+        {
+          "label": "ঘ",
+          "text": "SMTP"
+        }
+      ],
+      "options_raw": "(ক) FTP (খ) RPC (গ) SNMP (ঘ) SMTP",
+      "correct_answer": "(ঘ) SMTP",
+      "explanation": "SMTP (Simple Mail Transfer Protocol) ই-মেইল প্রেরক থেকে প্রাপকের মেইল সার্ভারে ই-মেইল পাঠানোর জন্য ব্যবহৃত হয়।"
+    },
+    {
+      "question_text": "যে কম্পিউটার প্রোগ্রাম নিজে নিজেই অন্য কম্পিউটারে ইন্টারনেটের মাধ্যমে কপি হয় তাকে ____বলে।",
+      "year": 2022,
+      "source_batch": "BCS-44",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/44-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "Program Virus"
+        },
+        {
+          "label": "খ",
+          "text": "Worms"
+        },
+        {
+          "label": "গ",
+          "text": "Trojan Horse"
+        },
+        {
+          "label": "ঘ",
+          "text": "Boot Virus"
+        }
+      ],
+      "options_raw": "(ক) Program Virus (খ) Worms (গ) Trojan Horse (ঘ) Boot Virus",
+      "correct_answer": "(খ) Worms",
+      "explanation": "ওয়ার্ম (Worm) হলো এক ধরনের ম্যালওয়্যার যা কোনো ব্যবহারকারীর হস্তক্ষেপ ছাড়াই নেটওয়ার্কের মাধ্যমে নিজেকে কপি করে এবং অন্যান্য কম্পিউটারে ছড়িয়ে পড়ে।"
+    },
+    {
+      "question_text": "নিচের কোন প্রতিষ্ঠানটি 4G Standard প্রস্তুতকরণে সম্পৃক্ত?",
+      "year": 2022,
+      "source_batch": "BCS-44",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/44-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "ISO"
+        },
+        {
+          "label": "খ",
+          "text": "ITU"
+        },
+        {
+          "label": "গ",
+          "text": "3GPP"
+        },
+        {
+          "label": "ঘ",
+          "text": "ETSI"
+        }
+      ],
+      "options_raw": "(ক) ISO (খ) ITU (গ) 3GPP (ঘ) ETSI",
+      "correct_answer": "(খ) ITU",
+      "explanation": "ITU (International Telecommunication Union) হলো জাতিসংঘের একটি বিশেষায়িত সংস্থা যা তথ্য ও যোগাযোগ প্রযুক্তির স্ট্যান্ডার্ড নির্ধারণ করে। 4G সহ সকল মোবাইল প্রজন্মের স্ট্যান্ডার্ড এই সংস্থা কর্তৃক অনুমোদিত হয়।"
+    },
+    {
+      "question_text": "নিচের কোনটি Open Source Software?",
+      "year": 2022,
+      "source_batch": "BCS-44",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/44-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "Google Chrome"
+        },
+        {
+          "label": "খ",
+          "text": "Microsoft Windows"
+        },
+        {
+          "label": "গ",
+          "text": "Zoom"
+        },
+        {
+          "label": "ঘ",
+          "text": "Adobe Photoshop"
+        }
+      ],
+      "options_raw": "(ক) Google Chrome (খ) Microsoft Windows (গ) Zoom (ঘ) Adobe Photoshop",
+      "correct_answer": "(ক) Google Chrome",
+      "explanation": "Google Chrome ব্রাউজারটি Chromium নামক একটি ওপেন-সোর্স প্রকল্পের উপর ভিত্তি করে তৈরি। যদিও গুগলের চূড়ান্ত প্যাকেজটি মালিকানাধীন, এর মূল ভিত্তি ওপেন-সোর্স। অন্য বিকল্পগুলো সম্পূর্ণ ক্লোজড-সোর্স সফটওয়্যার।"
+    },
+    {
+      "question_text": "নিচের কোন Protocol-টি ইন্টারনেটে তথ্য আদান-প্রদানের নিরাপত্তা নিশ্চিত করে থাকে?",
+      "year": 2022,
+      "source_batch": "BCS-44",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/44-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "FTP"
+        },
+        {
+          "label": "খ",
+          "text": "HTTPS"
+        },
+        {
+          "label": "গ",
+          "text": "TCP"
+        },
+        {
+          "label": "ঘ",
+          "text": "DNS"
+        }
+      ],
+      "options_raw": "(ক) FTP (খ) HTTPS (গ) TCP (ঘ) DNS",
+      "correct_answer": "(খ) HTTPS",
+      "explanation": "HTTPS (Hypertext Transfer Protocol Secure) হলো HTTP-এর একটি নিরাপদ সংস্করণ যা SSL/TLS প্রোটোকল ব্যবহার করে ক্লায়েন্ট ও সার্ভারের মধ্যে ডেটা আদান-প্রদানকে এনক্রিপ্ট করে নিরাপত্তা নিশ্চিত করে।"
+    },
+    {
+      "question_text": "Piconet কী?",
+      "year": 2022,
+      "source_batch": "BCS-44",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/44-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "Wifi Network"
+        },
+        {
+          "label": "খ",
+          "text": "Wide Area Network"
+        },
+        {
+          "label": "গ",
+          "text": "Bluetooth Network"
+        },
+        {
+          "label": "ঘ",
+          "text": "5G Network"
+        }
+      ],
+      "options_raw": "(ক) Wifi Network (খ) Wide Area Network (গ) Bluetooth Network (ঘ) 5G Network",
+      "correct_answer": "(গ) Bluetooth Network",
+      "explanation": "একটি পিকোনেট (Piconet) হলো একটি ছোট পরিসরের ব্যক্তিগত নেটওয়ার্ক যা ব্লুটুথ প্রযুক্তি ব্যবহার করে ডিভাইসগুলোকে সংযুক্ত করে। এতে একটি মাস্টার ডিভাইস এবং সাতটি পর্যন্ত স্লেভ ডিভাইস থাকতে পারে।"
+    },
+    {
+      "question_text": "GPU-এর পূর্ণরূপ কী?",
+      "year": 2023,
+      "source_batch": "BCS-45",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/45-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "Graph Processing Unit"
+        },
+        {
+          "label": "খ",
+          "text": "Graphic Processing Unit"
+        },
+        {
+          "label": "গ",
+          "text": "Graphics Processing Unit"
+        },
+        {
+          "label": "ঘ",
+          "text": "Geographical Processing Unit"
+        }
+      ],
+      "options_raw": "(ক) Graph Processing Unit (খ) Graphic Processing Unit (গ) Graphics Processing Unit (ঘ) Geographical Processing Unit",
+      "correct_answer": "(গ) Graphics Processing Unit",
+      "explanation": "GPU-এর পূর্ণরূপ হলো Graphics Processing Unit। এটি কম্পিউটারে গ্রাফিক্স, ইমেজ এবং ভিডিও রেন্ডারিং এর কাজ দ্রুত করার জন্য ব্যবহৃত একটি বিশেষায়িত প্রসেসর।"
+    },
+    {
+      "question_text": "নিচের কোনটি ALU-এর আউটপুট রাখার জন্য ব্যবহৃত হয়?",
+      "year": 2023,
+      "source_batch": "BCS-45",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/45-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "Register"
+        },
+        {
+          "label": "খ",
+          "text": "ROM"
+        },
+        {
+          "label": "গ",
+          "text": "Flags"
+        },
+        {
+          "label": "ঘ",
+          "text": "Output Unit"
+        }
+      ],
+      "options_raw": "(ক) Register (খ) ROM (গ) Flags (ঘ) Output Unit",
+      "correct_answer": "(ক) Register",
+      "explanation": "ALU (Arithmetic Logic Unit) গাণিতিক ও যৌক্তিক কাজ সম্পাদনের পর তার ফলাফল সাময়িকভাবে সংরক্ষণের জন্য অ্যাকুমুলেটর রেজিস্টার (Accumulator Register) ব্যবহার করে।"
+    },
+    {
+      "question_text": "DBMS-এর পূর্ণরূপ কী?",
+      "year": 2023,
+      "source_batch": "BCS-45",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/45-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "Data Backup Management System"
+        },
+        {
+          "label": "খ",
+          "text": "Database Management Service"
+        },
+        {
+          "label": "গ",
+          "text": "Database Management System"
+        },
+        {
+          "label": "ঘ",
+          "text": "Data of Binary Management System"
+        }
+      ],
+      "options_raw": "(ক) Data Backup Management System (খ) Database Management Service (গ) Database Management System (ঘ) Data of Binary Management System",
+      "correct_answer": "(গ) Database Management System",
+      "explanation": "DBMS-এর পূর্ণরূপ হলো Database Management System। এটি ডেটাবেস তৈরি, পরিচালনা, নিয়ন্ত্রণ ও ব্যবহারের জন্য ব্যবহৃত সফটওয়্যার।"
+    },
+    {
+      "question_text": "2 কিলোবাইট মেমোরি address করার জন্য কতটি address লাইন দরকার?",
+      "year": 2023,
+      "source_batch": "BCS-45",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/45-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "10"
+        },
+        {
+          "label": "খ",
+          "text": "11"
+        },
+        {
+          "label": "গ",
+          "text": "12"
+        },
+        {
+          "label": "ঘ",
+          "text": "14"
+        }
+      ],
+      "options_raw": "(ক) 10 (খ) 11 (গ) 12 (ঘ) 14",
+      "correct_answer": "(খ) 11",
+      "explanation": "2 কিলোবাইট = 2 × 1024 বাইট = 2048 বাইট। আমরা জানি, 2¹⁰ = 1024 এবং 2¹¹ = 2048। সুতরাং, 2048টি ভিন্ন মেমোরি লোকেশনকে অ্যাড্রেস করার জন্য 11টি অ্যাড্রেস লাইন প্রয়োজন।"
+    },
+    {
+      "question_text": "(2FA)₁₆ এই হেক্সাডেসিমেল সংখ্যাটিকে অক্টালে রূপান্তর করুন:",
+      "year": 2023,
+      "source_batch": "BCS-45",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/45-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "(762)₈"
+        },
+        {
+          "label": "খ",
+          "text": "(1372)₈"
+        },
+        {
+          "label": "গ",
+          "text": "(228)₈"
+        },
+        {
+          "label": "ঘ",
+          "text": "(1482)₈"
+        }
+      ],
+      "options_raw": "(ক) (762)₈ (খ) (1372)₈ (গ) (228)₈ (ঘ) (1482)₈",
+      "correct_answer": "(খ) (1372)₈",
+      "explanation": "প্রথমে হেক্সাডেসিমেল থেকে বাইনারিতে রূপান্তর করি (প্রতি ডিজিটের জন্য ৪ বিট): 2→0010, F→1111, A→1010। বাইনারি সংখ্যাটি হলো 001011111010। এবার ডান দিক থেকে ৩ বিট করে গ্রুপ করে অক্টালে রূপান্তর করি: 001→1, 011→3, 111→7, 010→2। সুতরাং, অক্টাল সংখ্যাটি হলো (1372)₈।"
+    },
+    {
+      "question_text": "এম্বেডেড সিস্টেমে সাধারণত কোন ধরনের মেমোরি ব্যবহৃত হয়?",
+      "year": 2023,
+      "source_batch": "BCS-45",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/45-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "RAM"
+        },
+        {
+          "label": "খ",
+          "text": "হার্ডডিস্ক ড্রাইভ"
+        },
+        {
+          "label": "গ",
+          "text": "ফ্লাশ মেমোরি"
+        },
+        {
+          "label": "ঘ",
+          "text": "অপটিকাল ডিস্ক ড্রাইভ"
+        }
+      ],
+      "options_raw": "(ক) RAM (খ) হার্ডডিস্ক ড্রাইভ (গ) ফ্লাশ মেমোরি (ঘ) অপটিকাল ডিস্ক ড্রাইভ",
+      "correct_answer": "(গ) ফ্লাশ মেমোরি",
+      "explanation": "এম্বেডেড সিস্টেম (যেমন: স্মার্টফোন, ওয়াশিং মেশিন) সাধারণত কম শক্তি খরচ করে এবং স্থায়ীভাবে ডেটা সংরক্ষণের জন্য ফ্লাশ মেমোরি (যেমন: ROM, EEPROM) ব্যবহার করে। RAM ব্যবহৃত হলেও, প্রধান অপারেটিং সিস্টেম ও প্রোগ্রাম ফ্লাশ মেমোরিতে থাকে।"
+    },
+    {
+      "question_text": "নিচের কোনটি Spyware এর উদাহরণ?",
+      "year": 2023,
+      "source_batch": "BCS-45",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/45-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "Key loggers"
+        },
+        {
+          "label": "খ",
+          "text": "Avast"
+        },
+        {
+          "label": "গ",
+          "text": "Norton"
+        },
+        {
+          "label": "ঘ",
+          "text": "Kasparasky"
+        }
+      ],
+      "options_raw": "(ক) Key loggers (খ) Avast (গ) Norton (ঘ) Kasparasky",
+      "correct_answer": "(ক) Key loggers",
+      "explanation": "স্পাইওয়্যার হলো এক ধরনের ম্যালওয়্যার যা ব্যবহারকারীর অজান্তে তার তথ্য সংগ্রহ করে। কী-লগার (Key logger) একটি স্পাইওয়্যার যা ব্যবহারকারীর কী-স্ট্রোক রেকর্ড করে পাসওয়ার্ড ও অন্যান্য সংবেদনশীল তথ্য চুরি করে। Avast, Norton, Kaspersky হলো অ্যান্টিভাইরাস সফটওয়্যার।"
+    },
+    {
+      "question_text": "IPv4-এ নিচের কোনটি Google DNS Server এর IP Address?",
+      "year": 2023,
+      "source_batch": "BCS-45",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/45-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "8.8.7.6"
+        },
+        {
+          "label": "খ",
+          "text": "8.7.8.6"
+        },
+        {
+          "label": "গ",
+          "text": "8.8.8.6"
+        },
+        {
+          "label": "ঘ",
+          "text": "8.8.8.8"
+        }
+      ],
+      "options_raw": "(ক) 8.8.7.6 (খ) 8.7.8.6 (গ) 8.8.8.6 (ঘ) 8.8.8.8",
+      "correct_answer": "(ঘ) 8.8.8.8",
+      "explanation": "গুগলের পাবলিক ডিএনএস (Domain Name System) সার্ভারের প্রাইমারি আইপি অ্যাড্রেস হলো 8.8.8.8 এবং সেকেন্ডারি অ্যাড্রেস হলো 8.8.4.4।"
+    },
+    {
+      "question_text": "ফায়ারওয়ালের প্রাথমিক কাজ কী?",
+      "year": 2023,
+      "source_batch": "BCS-45",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/45-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "সমস্ত আগত ট্রাফিক নেটওয়ার্কে ঢুকতে না দেওয়া।"
+        },
+        {
+          "label": "খ",
+          "text": "সমস্ত আগত ট্রাফিক নেটওয়ার্কে ঢুকার অনুমতি দেওয়া।"
+        },
+        {
+          "label": "গ",
+          "text": "আগত এবং বহির্গত নেটওয়ার্ক ট্রাফিক নিরীক্ষা এবং নিয়ন্ত্রণ করা।"
+        },
+        {
+          "label": "ঘ",
+          "text": "সমস্ত নেটওয়ার্ক ট্রাফিক এনক্রিপ্ট করা।"
+        }
+      ],
+      "options_raw": "(ক) সমস্ত আগত ট্রাফিক নেটওয়ার্কে ঢুকতে না দেওয়া। (খ) সমস্ত আগত ট্রাফিক নেটওয়ার্কে ঢুকার অনুমতি দেওয়া। (গ) আগত এবং বহির্গত নেটওয়ার্ক ট্রাফিক নিরীক্ষা এবং নিয়ন্ত্রণ করা। (ঘ) সমস্ত নেটওয়ার্ক ট্রাফিক এনক্রিপ্ট করা।",
+      "correct_answer": "(গ) আগত এবং বহির্গত নেটওয়ার্ক ট্রাফিক নিরীক্ষা এবং নিয়ন্ত্রণ করা।",
+      "explanation": "ফায়ারওয়াল একটি নেটওয়ার্ক নিরাপত্তা ব্যবস্থা যা পূর্ব-নির্ধারিত নিরাপত্তা নিয়ম অনুযায়ী একটি বিশ্বস্ত নেটওয়ার্কে আগত ও বহির্গামী ট্র্যাফিক পর্যবেক্ষণ ও নিয়ন্ত্রণ করে অননুমোদিত প্রবেশ রোধ করে।"
+    },
+    {
+      "question_text": "ইন্টারনেটের মাধ্যমে তথ্য আদান-প্রদানের জন্য সর্বাধিক ব্যবহৃত প্রোটোকল কী?",
+      "year": 2023,
+      "source_batch": "BCS-45",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/45-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "HTTP"
+        },
+        {
+          "label": "খ",
+          "text": "FTP"
+        },
+        {
+          "label": "গ",
+          "text": "DNS"
+        },
+        {
+          "label": "ঘ",
+          "text": "TCP/IP"
+        }
+      ],
+      "options_raw": "(ক) HTTP (খ) FTP (গ) DNS (ঘ) TCP/IP",
+      "correct_answer": "(ঘ) TCP/IP",
+      "explanation": "TCP/IP (Transmission Control Protocol/Internet Protocol) হলো ইন্টারনেটের মৌলিক প্রোটোকল স্যুট, যা সকল প্রকার ডেটা আদান-প্রদান নিয়ন্ত্রণ করে। HTTP, FTP, DNS ইত্যাদি এই TCP/IP এর উপর ভিত্তি করে কাজ করে।"
+    },
+    {
+      "question_text": "একটি কম্পিউটার নেটওয়ার্কে একটি LAN-এর একাধিক ডিভাইসকে একটি WAN-এর সাথে সংযুক্ত করে এমন ডিভাইস কোনটি?",
+      "year": 2023,
+      "source_batch": "BCS-45",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/45-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "রাউটার"
+        },
+        {
+          "label": "খ",
+          "text": "ওয়েব সার্ভার"
+        },
+        {
+          "label": "গ",
+          "text": "ব্রীজ"
+        },
+        {
+          "label": "ঘ",
+          "text": "হাব"
+        }
+      ],
+      "options_raw": "(ক) রাউটার (খ) ওয়েব সার্ভার (গ) ব্রীজ (ঘ) হাব",
+      "correct_answer": "(ক) রাউটার",
+      "explanation": "রাউটার দুটি ভিন্ন নেটওয়ার্ককে (যেমন একটি লোকাল এরিয়া নেটওয়ার্ক বা LAN এবং একটি ওয়াইড এরিয়া নেটওয়ার্ক বা WAN) সংযুক্ত করে এবং তাদের মধ্যে ডেটা প্যাকেট আদান-প্রদান করে।"
+    },
+    {
+      "question_text": "প্রতারণামূলকভাবে সংবেদনশীল তথ্য যেমন পাসওয়ার্ড ও ক্রেডিট কার্ড নম্বর অর্জন করার জন্য ইন্টারনেট ব্যবহার করার অনুশীলনকে কী বলা হয়?",
+      "year": 2023,
+      "source_batch": "BCS-45",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/45-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "Phishing"
+        },
+        {
+          "label": "খ",
+          "text": "Spamming"
+        },
+        {
+          "label": "গ",
+          "text": "Ransom ware"
+        },
+        {
+          "label": "ঘ",
+          "text": "Sniffing"
+        }
+      ],
+      "options_raw": "(ক) Phishing (খ) Spamming (গ) Ransom ware (ঘ) Sniffing",
+      "correct_answer": "(ক) Phishing",
+      "explanation": "ফিশিং (Phishing) হলো এক ধরনের সাইবার আক্রমণ যেখানে আক্রমণকারী বিশ্বস্ত উৎস সেজে ইমেইল বা ওয়েবসাইটের মাধ্যমে ব্যবহারকারীকে প্রতারিত করে তার ব্যক্তিগত ও আর্থিক তথ্য হাতিয়ে নেয়।"
+    },
+    {
+      "question_text": "চিকিৎসা ক্ষেত্রে কম্পিউটার-এর কাজ কোনটি?",
+      "year": 2023,
+      "source_batch": "BCS-45",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/45-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "তথ্য সংরক্ষণ"
+        },
+        {
+          "label": "খ",
+          "text": "ইমেজ বিশ্লেষণ"
+        },
+        {
+          "label": "গ",
+          "text": "রোগী পর্যবেক্ষণ"
+        },
+        {
+          "label": "ঘ",
+          "text": "উপরের সবগুলো"
+        }
+      ],
+      "options_raw": "(ক) তথ্য সংরক্ষণ (খ) ইমেজ বিশ্লেষণ (গ) রোগী পর্যবেক্ষণ (ঘ) উপরের সবগুলো",
+      "correct_answer": "(ঘ) উপরের সবগুলো",
+      "explanation": "আধুনিক চিকিৎসা ক্ষেত্রে কম্পিউটার রোগীর তথ্য সংরক্ষণ (EHR), মেডিকেল ইমেজ (CT স্ক্যান, MRI) বিশ্লেষণ এবং রোগীর অবস্থা সার্বক্ষণিক পর্যবেক্ষণে ব্যাপকভাবে ব্যবহৃত হয়।"
+    },
+    {
+      "question_text": "নিচের কোনটি সার্বজনীন ডিজিটাল লজিক গেইট?",
+      "year": 2023,
+      "source_batch": "BCS-45",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/45-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "XOR"
+        },
+        {
+          "label": "খ",
+          "text": "AND"
+        },
+        {
+          "label": "গ",
+          "text": "NOR"
+        },
+        {
+          "label": "ঘ",
+          "text": "OR"
+        }
+      ],
+      "options_raw": "(ক) XOR (খ) AND (গ) NOR (ঘ) OR",
+      "correct_answer": "(গ) NOR",
+      "explanation": "NAND এবং NOR গেইটকে সার্বজনীন বা Universal Logic Gate বলা হয়, কারণ শুধুমাত্র NAND বা শুধুমাত্র NOR গেইট ব্যবহার করে অন্য সব মৌলিক গেইট (AND, OR, NOT) বাস্তবায়ন করা যায়।"
+    },
+    {
+      "question_text": "নিচের কোনটি ক্লাউড কম্পিউটিং এর বৈশিষ্ট্য নয়?",
+      "year": 2023,
+      "source_batch": "BCS-45",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/45-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "On-demand self service"
+        },
+        {
+          "label": "খ",
+          "text": "Broad network access"
+        },
+        {
+          "label": "গ",
+          "text": "Limited customization"
+        },
+        {
+          "label": "ঘ",
+          "text": "Physical ownership of servers"
+        }
+      ],
+      "options_raw": "(ক) On-demand self service (খ) Broad network access (গ) Limited customization (ঘ) Physical ownership of servers",
+      "correct_answer": "(ঘ) Physical ownership of servers",
+      "explanation": "ক্লাউড কম্পিউটিং-এর মূল ধারণাই হলো ব্যবহারকারীকে সার্ভারের ভৌত মালিকানা ছাড়াই কম্পিউটিং সেবা প্রদান করা। সেবা প্রদানকারী প্রতিষ্ঠান সার্ভারগুলোর মালিক এবং রক্ষণাবেক্ষণ করে। তাই এটি ক্লাউড কম্পিউটিং এর বৈশিষ্ট্য নয়।"
+    },
+    {
+      "question_text": "Windows অপারেটিং সিস্টেম সম্পর্কিত নিম্নের কোন তথ্যটি সঠিক?",
+      "year": 2024,
+      "source_batch": "BCS-46",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/46-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "এটি মাল্টি টাস্কিং অপারেটিং সিস্টেম"
+        },
+        {
+          "label": "খ",
+          "text": "এটি Open source অপারেটিং সিস্টেম"
+        },
+        {
+          "label": "গ",
+          "text": "ক এবং খ উভয়ই সত্য"
+        },
+        {
+          "label": "ঘ",
+          "text": "কোনোটিই সত্য নয়"
+        }
+      ],
+      "options_raw": "(ক) এটি মাল্টি টাস্কিং অপারেটিং সিস্টেম (খ) এটি Open source অপারেটিং সিস্টেম (গ) ক এবং খ উভয়ই সত্য (ঘ) কোনোটিই সত্য নয়",
+      "correct_answer": "(ক) এটি মাল্টি টাস্কিং অপারেটিং সিস্টেম",
+      "explanation": "Windows একটি মাল্টিটাস্কিং অপারেটিং সিস্টেম, কারণ এটি একই সাথে একাধিক প্রোগ্রাম বা কাজ চালাতে পারে। তবে এটি ওপেন সোর্স নয়, এটি মাইক্রোসফটের মালিকানাধীন একটি ক্লোজড সোর্স সফটওয়্যার।"
+    },
+    {
+      "question_text": "নিচের কোনটি কম্পিউটার মেমোরি হিসেবে দ্রুততম?",
+      "year": 2024,
+      "source_batch": "BCS-46",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/46-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "RAM"
+        },
+        {
+          "label": "খ",
+          "text": "Hard Disk"
+        },
+        {
+          "label": "গ",
+          "text": "ROM"
+        },
+        {
+          "label": "ঘ",
+          "text": "Register"
+        }
+      ],
+      "options_raw": "(ক) RAM (খ) Hard Disk (গ) ROM (ঘ) Register",
+      "correct_answer": "(ঘ) Register",
+      "explanation": "কম্পিউটারের মেমোরিগুলোর মধ্যে গতির ক্রম হলো: রেজিস্টার > ক্যাশ মেমোরি > র‍্যাম (RAM) > হার্ড ডিস্ক (HDD/SSD)। রেজিস্টার সরাসরি সিপিইউ-এর অভ্যন্তরে থাকে বলে এটি সবচেয়ে দ্রুতগতির।"
+    },
+    {
+      "question_text": "নিচের কোনটি কম্পিউটার সিস্টেমের কর্মক্ষমতায় কোনো ভূমিকা রাখে না?",
+      "year": 2024,
+      "source_batch": "BCS-46",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/46-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "Size of RAM"
+        },
+        {
+          "label": "খ",
+          "text": "Size of ROM"
+        },
+        {
+          "label": "গ",
+          "text": "Size of Cache Memory"
+        },
+        {
+          "label": "ঘ",
+          "text": "Size of Register"
+        }
+      ],
+      "options_raw": "(ক) Size of RAM (খ) Size of ROM (গ) Size of Cache Memory (ঘ) Size of Register",
+      "correct_answer": "(খ) Size of ROM",
+      "explanation": "র‍্যাম, ক্যাশ মেমোরি ও রেজিস্টারের আকার ও গতি সরাসরি কম্পিউটারের কর্মক্ষমতা বা পারফরম্যান্সকে প্রভাবিত করে। রম (ROM) শুধুমাত্র বুটস্ট্র্যাপ লোডার ও ফার্মওয়্যার ধারণ করে, যা কম্পিউটার চালু হতে সাহায্য করে, কিন্তু চলমান কর্মক্ষমতায় এর তেমন ভূমিকা নেই।"
+    },
+    {
+      "question_text": "নিচের কোনটি অক্টাল সংখ্যা (২৪)₈ এর সঠিক বাইনারি রূপ?",
+      "year": 2024,
+      "source_batch": "BCS-46",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/46-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "(111 101)₂"
+        },
+        {
+          "label": "খ",
+          "text": "(010 100)₂"
+        },
+        {
+          "label": "গ",
+          "text": "(111 100)₂"
+        },
+        {
+          "label": "ঘ",
+          "text": "(101 010)₂"
+        }
+      ],
+      "options_raw": "(ক) (111 101)₂ (খ) (010 100)₂ (গ) (111 100)₂ (ঘ) (101 010)₂",
+      "correct_answer": "(খ) (010 100)₂",
+      "explanation": "অক্টাল থেকে বাইনারিতে রূপান্তরের সময় প্রতিটি অক্টাল ডিজিটকে তার সমতুল্য ৩-বিটের বাইনারিতে লেখা হয়। এখানে, ২ এর বাইনারি হলো ০১০ এবং ৪ এর বাইনারি হলো ১০০। সুতরাং, (২৪)₈ = (০১০ ১০০)₂।"
+    },
+    {
+      "question_text": "একটি অপারেটিং সিস্টেম একজন ব্যক্তিকে বিভিন্ন symbols, icon অথবা visual metaphor এর মাধ্যমে কম্পিউটারের সাথে সংযোগ স্থাপনে ভূমিকা পালন করে। নিচের কোনটি এ শ্রেণির কাজকে নির্দেশ করে?",
+      "year": 2024,
+      "source_batch": "BCS-46",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/46-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "Command-Line Interface"
+        },
+        {
+          "label": "খ",
+          "text": "Graphical User Interface"
+        },
+        {
+          "label": "গ",
+          "text": "Block User Interface"
+        },
+        {
+          "label": "ঘ",
+          "text": "Tap User Interface"
+        }
+      ],
+      "options_raw": "(ক) Command-Line Interface (খ) Graphical User Interface (গ) Block User Interface (ঘ) Tap User Interface",
+      "correct_answer": "(খ) Graphical User Interface",
+      "explanation": "গ্রাফিক্যাল ইউজার ইন্টারফেস (GUI) ব্যবহারকারীদের আইকন, মেনু ও অন্যান্য ভিজ্যুয়াল নির্দেশকের মাধ্যমে ইলেক্ট্রনিক ডিভাইসের সাথে মিথস্ক্রিয়া করতে দেয়। Windows, macOS, Android ইত্যাদি GUI-ভিত্তিক অপারেটিং সিস্টেম।"
+    },
+    {
+      "question_text": "নিচের কোন বিবৃতিটি কম্পাইলার সম্পর্কিত সঠিক?",
+      "year": 2024,
+      "source_batch": "BCS-46",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/46-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "এটি Interpreter-এর চেয়ে অনুবাদ করতে বেশি সময় লাগে"
+        },
+        {
+          "label": "খ",
+          "text": "এটি প্রতি লাইন প্রোগ্রাম পড়ে এবং অনুবাদ করে"
+        },
+        {
+          "label": "গ",
+          "text": "এটি একবারে পুরো প্রোগ্রাম অনুবাদ করে"
+        },
+        {
+          "label": "ঘ",
+          "text": "এটি মেশিন প্রোগ্রামকে সোর্স প্রোগ্রামে রূপান্তর করে"
+        }
+      ],
+      "options_raw": "(ক) এটি Interpreter-এর চেয়ে অনুবাদ করতে বেশি সময় লাগে (খ) এটি প্রতি লাইন প্রোগ্রাম পড়ে এবং অনুবাদ করে (গ) এটি একবারে পুরো প্রোগ্রাম অনুবাদ করে (ঘ) এটি মেশিন প্রোগ্রামকে সোর্স প্রোগ্রামে রূপান্তর করে",
+      "correct_answer": "(গ) এটি একবারে পুরো প্রোগ্রাম অনুবাদ করে",
+      "explanation": "কম্পাইলার একটি অনুবাদক প্রোগ্রাম যা হাই-লেভেল ল্যাঙ্গুয়েজে লেখা সম্পূর্ণ প্রোগ্রামটিকে একবারে মেশিন ল্যাঙ্গুয়েজে রূপান্তর করে। অন্যদিকে, ইন্টারপ্রেটার লাইন বাই লাইন অনুবাদ করে।"
+    },
+    {
+      "question_text": "নিচের কোনটি সোস্যাল মিডিয়া প্ল্যাটফর্ম নয়?",
+      "year": 2024,
+      "source_batch": "BCS-46",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/46-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "Facebook"
+        },
+        {
+          "label": "খ",
+          "text": "Instagram"
+        },
+        {
+          "label": "গ",
+          "text": "Twitter"
+        },
+        {
+          "label": "ঘ",
+          "text": "Google"
+        }
+      ],
+      "options_raw": "(ক) Facebook (খ) Instagram (গ) Twitter (ঘ) Google",
+      "correct_answer": "(ঘ) Google",
+      "explanation": "Facebook, Instagram, এবং Twitter (বর্তমানে X) হলো সামাজিক যোগাযোগ মাধ্যম বা সোস্যাল মিডিয়া প্ল্যাটফর্ম। Google হলো একটি সার্চ ইঞ্জিন।"
+    },
+    {
+      "question_text": "Cellular Data Network এর ক্ষেত্রে GPRS বলতে কী বুঝায়?",
+      "year": 2024,
+      "source_batch": "BCS-46",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/46-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "Global Positioning Radio Service"
+        },
+        {
+          "label": "খ",
+          "text": "General Positioning Radio Service"
+        },
+        {
+          "label": "গ",
+          "text": "Global Packet Radio Service"
+        },
+        {
+          "label": "ঘ",
+          "text": "General Packet Radio Service"
+        }
+      ],
+      "options_raw": "(ক) Global Positioning Radio Service (খ) General Positioning Radio Service (গ) Global Packet Radio Service (ঘ) General Packet Radio Service",
+      "correct_answer": "(ঘ) General Packet Radio Service",
+      "explanation": "GPRS এর পূর্ণরূপ হলো General Packet Radio Service। এটি একটি প্যাকেট-ভিত্তিক মোবাইল ডেটা স্ট্যান্ডার্ড যা 2G এবং 3G সেলুলার যোগাযোগ নেটওয়ার্কে ব্যবহৃত হয়।"
+    },
+    {
+      "question_text": "বাহিরের আক্রমণ থেকে প্রাইভেট নেটওয়ার্ক রক্ষার্থে নিচের কোনটি ব্যবহৃত হয়?",
+      "year": 2024,
+      "source_batch": "BCS-46",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/46-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "Antivirus"
+        },
+        {
+          "label": "খ",
+          "text": "Digital Signature"
+        },
+        {
+          "label": "গ",
+          "text": "Encryption"
+        },
+        {
+          "label": "ঘ",
+          "text": "Firewall"
+        }
+      ],
+      "options_raw": "(ক) Antivirus (খ) Digital Signature (গ) Encryption (ঘ) Firewall",
+      "correct_answer": "(ঘ) Firewall",
+      "explanation": "ফায়ারওয়াল হলো একটি নেটওয়ার্ক নিরাপত্তা ব্যবস্থা যা একটি ব্যক্তিগত নেটওয়ার্ককে অননুমোদিত প্রবেশ বা বহিরাগত আক্রমণ থেকে রক্ষা করার জন্য ইনকামিং এবং আউটগোয়িং ট্র্যাফিক নিরীক্ষণ ও নিয়ন্ত্রণ করে।"
+    },
+    {
+      "question_text": "নিচের কোনটি সার্চ ইঞ্জিন নয়?",
+      "year": 2024,
+      "source_batch": "BCS-46",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/46-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "Bing"
+        },
+        {
+          "label": "খ",
+          "text": "Google"
+        },
+        {
+          "label": "গ",
+          "text": "Yahoo"
+        },
+        {
+          "label": "ঘ",
+          "text": "Safari"
+        }
+      ],
+      "options_raw": "(ক) Bing (খ) Google (গ) Yahoo (ঘ) Safari",
+      "correct_answer": "(ঘ) Safari",
+      "explanation": "Google, Bing, এবং Yahoo হলো জনপ্রিয় সার্চ ইঞ্জিন। Safari হলো Apple Inc. কর্তৃক নির্মিত একটি ওয়েব ব্রাউজার।"
+    },
+    {
+      "question_text": "ইন্টারনেট জগতে hyper-linked document গুলোর কালেকশানকে কী বলে?",
+      "year": 2024,
+      "source_batch": "BCS-46",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/46-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "HTML"
+        },
+        {
+          "label": "খ",
+          "text": "Email"
+        },
+        {
+          "label": "গ",
+          "text": "WWW"
+        },
+        {
+          "label": "ঘ",
+          "text": "DWS"
+        }
+      ],
+      "options_raw": "(ক) HTML (খ) Email (গ) WWW (ঘ) DWS",
+      "correct_answer": "(গ) WWW",
+      "explanation": "ওয়ার্ল্ড ওয়াইড ওয়েব (WWW) হলো ইন্টারনেটের মাধ্যমে قابل رسائی হাইপারলিঙ্কড ডকুমেন্ট এবং অন্যান্য ওয়েব রিসোর্সের একটি সংগ্রহ। HTML হলো এই ডকুমেন্টগুলো তৈরির জন্য ব্যবহৃত মার্কআপ ভাষা।"
+    },
+    {
+      "question_text": "গ্রাহকের চাহিদা অনুযায়ী, ইউটিলিটি-ভিত্তিক কম্পিউটিং পরিষেবা প্রদানের জন্য কোন প্রযুক্তিটি Distributed Computing এর একটি দৃষ্টান্ত?",
+      "year": 2024,
+      "source_batch": "BCS-46",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/46-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "Remote Sensing"
+        },
+        {
+          "label": "খ",
+          "text": "Cloud Computing"
+        },
+        {
+          "label": "গ",
+          "text": "Remote Invocation"
+        },
+        {
+          "label": "ঘ",
+          "text": "Private Computing"
+        }
+      ],
+      "options_raw": "(ক) Remote Sensing (খ) Cloud Computing (গ) Remote Invocation (ঘ) Private Computing",
+      "correct_answer": "(খ) Cloud Computing",
+      "explanation": "ক্লাউড কম্পিউটিং হলো ডিস্ট্রিবিউটেড কম্পিউটিং-এর একটি মডেল যেখানে ইন্টারনেটের মাধ্যমে ব্যবহারকারীদের চাহিদা অনুযায়ী কম্পিউটিং রিসোর্স (যেমন সার্ভার, স্টোরেজ, সফটওয়্যার) প্রদান করা হয়।"
+    },
+    {
+      "question_text": "নিচের কোন নেটওয়ার্কটি সবচেয়ে বেশি জায়গা ব্যাপ্তি হয়?",
+      "year": 2024,
+      "source_batch": "BCS-46",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/46-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "LAN"
+        },
+        {
+          "label": "খ",
+          "text": "WAN"
+        },
+        {
+          "label": "গ",
+          "text": "MAN"
+        },
+        {
+          "label": "ঘ",
+          "text": "PAN"
+        }
+      ],
+      "options_raw": "(ক) LAN (খ) WAN (গ) MAN (ঘ) PAN",
+      "correct_answer": "(খ) WAN",
+      "explanation": "নেটওয়ার্কের ভৌগোলিক ব্যাপ্তির ক্রম হলো: PAN (Personal Area Network) < LAN (Local Area Network) < MAN (Metropolitan Area Network) < WAN (Wide Area Network)। WAN, যেমন ইন্টারনেট, বিশ্বব্যাপী বিস্তৃত হতে পারে।"
+    },
+    {
+      "question_text": "নিচের কোন প্রযুক্তি Face Recognition সিস্টেমে ব্যবহার করা হয়?",
+      "year": 2024,
+      "source_batch": "BCS-46",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/46-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "Applied AI"
+        },
+        {
+          "label": "খ",
+          "text": "Applied IoT"
+        },
+        {
+          "label": "গ",
+          "text": "Virtual Reality"
+        },
+        {
+          "label": "ঘ",
+          "text": "কোনোটিই নয়"
+        }
+      ],
+      "options_raw": "(ক) Applied AI (খ) Applied IoT (গ) Virtual Reality (ঘ) কোনোটিই নয়",
+      "correct_answer": "(ক) Applied AI",
+      "explanation": "ফেস রিকগনিশন বা চেহারা শনাক্তকরণ প্রযুক্তি প্রায়োগিক কৃত্রিম বুদ্ধিমত্তা (Applied AI) এবং মেশিন লার্নিং অ্যালগরিদম ব্যবহার করে মানুষের মুখ শনাক্ত ও যাচাই করে।"
+    },
+    {
+      "question_text": "নেটওয়ার্ক ট্রান্সমিশন রেট বোঝাতে ব্যবহৃত ‘Mbps’ এর পূর্ণরূপ কী?",
+      "year": 2024,
+      "source_batch": "BCS-46",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/46-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "Megabytes per second"
+        },
+        {
+          "label": "খ",
+          "text": "Megabits per second"
+        },
+        {
+          "label": "গ",
+          "text": "Milibits per second"
+        },
+        {
+          "label": "ঘ",
+          "text": "কোনোটিই নয়"
+        }
+      ],
+      "options_raw": "(ক) Megabytes per second (খ) Megabits per second (গ) Milibits per second (ঘ) কোনোটিই নয়",
+      "correct_answer": "(খ) Megabits per second",
+      "explanation": "নেটওয়ার্কের ডেটা স্থানান্তরের গতি বোঝাতে 'Mbps' ব্যবহৃত হয়, যার পূর্ণরূপ হলো Megabits per second। অন্যদিকে ফাইল সাইজ বোঝাতে 'MBps' বা Megabytes per second ব্যবহৃত হয়। (১ বাইট = ৮ বিট)"
+    },
+    {
+      "question_text": "একটি কম্পিউটারের প্রোসেসর ক্লক স্পিড ৪.০০ গিগা হার্জ হলে এর ক্লক সাইকেল টাইম কত?",
+      "year": 2025,
+      "source_batch": "BCS-47",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/47-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "২.৫ ন্যানো সেকেন্ড (ns)"
+        },
+        {
+          "label": "খ",
+          "text": "২.৫ মাইক্রো সেকেন্ড (ms)"
+        },
+        {
+          "label": "গ",
+          "text": "৪ (ms)"
+        },
+        {
+          "label": "ঘ",
+          "text": "৪ (ns)"
+        }
+      ],
+      "options_raw": "(ক) ২.৫ ন্যানো সেকেন্ড (ns) (খ) ২.৫ মাইক্রো সেকেন্ড (ms) (গ) ৪ (ms) (ঘ) ৪ (ns)",
+      "correct_answer": "(ক) ২.৫ ন্যানো সেকেন্ড (ns)",
+      "explanation": "ক্লক টাইম (T) = 1 / ফ্রিকোয়েন্সি (f)। এখানে f = 4 GHz = 4 x 10^9 Hz। T = 1 / (4 x 10^9) = 0.25 x 10^-9 সেকেন্ড = 0.25 ns। অপশনগুলোর মধ্যে এটি নেই, তবে নিকটতম বা টাইপো হিসেবে ২.৫ ধরা হতে পারে যদি স্পিড ৪০০ মেগাহার্জ হতো। তবে গাণিতিক হিসাবে ০.২৫ এনএস।"
+    },
+    {
+      "question_text": "Precision Agriculture এ সাধারণত নিচের কোন প্রযুক্তি ব্যবহৃত হয়?",
+      "year": 2025,
+      "source_batch": "BCS-47",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/47-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "ইনফ্রা রেড ইমেজিং"
+        },
+        {
+          "label": "খ",
+          "text": "আই.ও.টি (IoT), সেন্সর"
+        },
+        {
+          "label": "গ",
+          "text": "তার মাধ্যম সম্পন্ন নেটওয়ার্ক"
+        },
+        {
+          "label": "ঘ",
+          "text": "ও.এল.ই.ডি (OLED) ডিসপ্লে"
+        }
+      ],
+      "options_raw": "(ক) ইনফ্রা রেড ইমেজিং (খ) আই.ও.টি (IoT), সেন্সর (গ) তার মাধ্যম সম্পন্ন নেটওয়ার্ক (ঘ) ও.এল.ই.ডি (OLED) ডিসপ্লে",
+      "correct_answer": "(খ) আই.ও.টি (IoT), সেন্সর",
+      "explanation": "প্রিসিশন এগ্রিকালচার বা নির্ভুল কৃষিতে মাটির আর্দ্রতা, পুষ্টিগুণ ইত্যাদি পর্যবেক্ষণের জন্য IoT এবং বিভিন্ন ধরনের সেন্সর ব্যাপকভাবে ব্যবহৃত হয়।"
+    },
+    {
+      "question_text": "অপারেটিং সিস্টেমে ভার্চুয়াল মেমোরি ব্যবহার করা হয়-",
+      "year": 2025,
+      "source_batch": "BCS-47",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/47-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "অনেক বেশি ডেটা সংরক্ষণের জন্য"
+        },
+        {
+          "label": "খ",
+          "text": "ক্লাউডে ডেটা সংরক্ষণের জন্য"
+        },
+        {
+          "label": "গ",
+          "text": "সেকেন্ডারি স্টোরেজ ব্যবহার করে RAM বাড়াতে"
+        },
+        {
+          "label": "ঘ",
+          "text": "এক্সটারনাল মেমোরি সংযোগের জন্য"
+        }
+      ],
+      "options_raw": "(ক) অনেক বেশি ডেটা সংরক্ষণের জন্য (খ) ক্লাউডে ডেটা সংরক্ষণের জন্য (গ) সেকেন্ডারি স্টোরেজ ব্যবহার করে RAM বাড়াতে (ঘ) এক্সটারনাল মেমোরি সংযোগের জন্য",
+      "correct_answer": "(গ) সেকেন্ডারি স্টোরেজ ব্যবহার করে RAM বাড়াতে",
+      "explanation": "ভার্চুয়াল মেমোরি কৌশল ব্যবহার করে হার্ডডিস্ক বা সেকেন্ডারি স্টোরেজের একটি অংশকে অস্থায়ী RAM হিসেবে ব্যবহার করা হয়, যাতে কম্পিউটার তার ফিজিক্যাল RAM-এর চেয়ে বড় প্রোগ্রাম চালাতে পারে।"
+    },
+    {
+      "question_text": "কম্পিউটার সিস্টেমের বেঞ্চমার্কিং করা হয় কী পরিমাপের জন্য?",
+      "year": 2025,
+      "source_batch": "BCS-47",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/47-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "সিস্টেমের দাম"
+        },
+        {
+          "label": "খ",
+          "text": "সিস্টেমের কর্ম ক্ষমতা (Performance)"
+        },
+        {
+          "label": "গ",
+          "text": "শুধু বিদ্যুৎ শক্তি খরচের পরিমাণ"
+        },
+        {
+          "label": "ঘ",
+          "text": "স্টোরেজের ধারণ ক্ষমতা"
+        }
+      ],
+      "options_raw": "(ক) সিস্টেমের দাম (খ) সিস্টেমের কর্ম ক্ষমতা (Performance) (গ) শুধু বিদ্যুৎ শক্তি খরচের পরিমাণ (ঘ) স্টোরেজের ধারণ ক্ষমতা",
+      "correct_answer": "(খ) সিস্টেমের কর্ম ক্ষমতা (Performance)",
+      "explanation": "বেঞ্চমার্কিং হলো কম্পিউটার সিস্টেম বা উপাদানের পারফরম্যান্স বা কার্যক্ষমতা পরিমাপ ও তুলনা করার একটি পদ্ধতি।"
+    },
+    {
+      "question_text": "নিচের কোন ডিভাইসটি প্রধানত এম্বেডেড সিস্টেম ব্যবহৃত হয়?",
+      "year": 2025,
+      "source_batch": "BCS-47",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/47-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "রাউটার"
+        },
+        {
+          "label": "খ",
+          "text": "সুপার কম্পিউটার"
+        },
+        {
+          "label": "গ",
+          "text": "হাই-অ্যান্ড সার্ভার"
+        },
+        {
+          "label": "ঘ",
+          "text": "মাইক্রোকন্ট্রোলার"
+        }
+      ],
+      "options_raw": "(ক) রাউটার (খ) সুপার কম্পিউটার (গ) হাই-অ্যান্ড সার্ভার (ঘ) মাইক্রোকন্ট্রোলার",
+      "correct_answer": "(ঘ) মাইক্রোকন্ট্রোলার",
+      "explanation": "এম্বেডেড সিস্টেমে (যেমন ওয়াশিং মেশিন, মাইক্রোওয়েভ ওভেন) নিয়ন্ত্রণের জন্য প্রধানত মাইক্রোকন্ট্রোলার ব্যবহৃত হয়।"
+    },
+    {
+      "question_text": "ই-কমার্সে সুরক্ষিত অনলাইন লেনদেনে প্রধানত কোন প্রটোকল ব্যবহৃত হয়?",
+      "year": 2025,
+      "source_batch": "BCS-47",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/47-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "DHCP"
+        },
+        {
+          "label": "খ",
+          "text": "SMTP"
+        },
+        {
+          "label": "গ",
+          "text": "HTTPS"
+        },
+        {
+          "label": "ঘ",
+          "text": "ARP"
+        }
+      ],
+      "options_raw": "(ক) DHCP (খ) SMTP (গ) HTTPS (ঘ) ARP",
+      "correct_answer": "(গ) HTTPS",
+      "explanation": "অনলাইনে নিরাপদ তথ্য আদান-প্রদান এবং লেনদেনের জন্য HTTPS (Hypertext Transfer Protocol Secure) প্রটোকল ব্যবহৃত হয়, যা তথ্য এনক্রিপ্ট করে।"
+    },
+    {
+      "question_text": "বিভিন্ন নেটওয়ার্কের মধ্যে যোগাযোগ স্থাপনের জন্য নিচের কোন ডিভাইসটি ব্যবহৃত হয়?",
+      "year": 2025,
+      "source_batch": "BCS-47",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/47-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "রাউটার"
+        },
+        {
+          "label": "খ",
+          "text": "সুইচ"
+        },
+        {
+          "label": "গ",
+          "text": "ব্রিজ"
+        },
+        {
+          "label": "ঘ",
+          "text": "হাব"
+        }
+      ],
+      "options_raw": "(ক) রাউটার (খ) সুইচ (গ) ব্রিজ (ঘ) হাব",
+      "correct_answer": "(ক) রাউটার",
+      "explanation": "রাউটার ভিন্ন ভিন্ন নেটওয়ার্কের মধ্যে ডেটা প্যাকেট আদান-প্রদান বা যোগাযোগ স্থাপনে ব্যবহৃত হয়।"
+    },
+    {
+      "question_text": "ক্লাউড কম্পিউটিং এর কোন মডেলটি অ্যাপ্লিকেশন তৈরি করার জন্য প্রোগ্রামারদেরকে প্লাটফর্ম সরবরাহ করে?",
+      "year": 2025,
+      "source_batch": "BCS-47",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/47-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "laaS"
+        },
+        {
+          "label": "খ",
+          "text": "SaaS"
+        },
+        {
+          "label": "গ",
+          "text": "PaaS"
+        },
+        {
+          "label": "ঘ",
+          "text": "DaaS"
+        }
+      ],
+      "options_raw": "(ক) laaS (খ) SaaS (গ) PaaS (ঘ) DaaS",
+      "correct_answer": "(গ) PaaS",
+      "explanation": "PaaS (Platform as a Service) মডেলটি ডেভেলপারদের অ্যাপ্লিকেশন তৈরি, পরীক্ষা ও ডিপ্লয় করার জন্য প্রয়োজনীয় হার্ডওয়্যার ও সফটওয়্যার টুলস সরবরাহ করে।"
+    },
+    {
+      "question_text": "একটি কম্পিউটার সিস্টেমে (১১০০১০১১)২ বাইনারি সংখ্যাটির মান ডেসিমেল এ কত হবে?",
+      "year": 2025,
+      "source_batch": "BCS-47",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/47-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "– ৫২"
+        },
+        {
+          "label": "খ",
+          "text": "– ৫৩"
+        },
+        {
+          "label": "গ",
+          "text": "২০৩"
+        },
+        {
+          "label": "ঘ",
+          "text": "উপরের সবকটি হতে পারে"
+        }
+      ],
+      "options_raw": "(ক) – ৫২ (খ) – ৫৩ (গ) ২০৩ (ঘ) উপরের সবকটি হতে পারে",
+      "correct_answer": "(ঘ) উপরের সবকটি হতে পারে",
+      "explanation": "আনসাইনড (Unsigned) সংখ্যা হিসেবে এর মান ২০৩। ২-এর পরিপূরক (2's complement) পদ্ধতিতে এটি ঋণাত্মক সংখ্যা -৫৩। ১-এর পরিপূরক পদ্ধতিতে এটি -৫২। তাই সিস্টেমের রিপ্রেজেন্টেশন অনুযায়ী সবকটিই হতে পারে।"
+    },
+    {
+      "question_text": "কোন CPU আর্কিটেকচার স্মার্টফোনে বেশি ব্যবহৃত হয়?",
+      "year": 2025,
+      "source_batch": "BCS-47",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/47-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "X86"
+        },
+        {
+          "label": "খ",
+          "text": "X64"
+        },
+        {
+          "label": "গ",
+          "text": "Qualcomm"
+        },
+        {
+          "label": "ঘ",
+          "text": "RISC"
+        }
+      ],
+      "options_raw": "(ক) X86 (খ) X64 (গ) Qualcomm (ঘ) RISC",
+      "correct_answer": "(ঘ) RISC",
+      "explanation": "স্মার্টফোনে ব্যবহৃত প্রসেসরগুলো (যেমন ARM) সাধারণত RISC (Reduced Instruction Set Computing) আর্কিটেকচারের ওপর ভিত্তি করে তৈরি হয় কারণ এটি বিদ্যুৎ সাশ্রয়ী।"
+    },
+    {
+      "question_text": "কম্পিউটার টার্ন অন এর সময় সঠিক অর্ডার নিচের কোনটি?",
+      "year": 2025,
+      "source_batch": "BCS-47",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/47-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "POST → Kernel → Bootloader"
+        },
+        {
+          "label": "খ",
+          "text": "Kernel → POST → Bootloader"
+        },
+        {
+          "label": "গ",
+          "text": "Kernel → Bootloader → POST"
+        },
+        {
+          "label": "ঘ",
+          "text": "POST → Bootloader → Kernel"
+        }
+      ],
+      "options_raw": "(ক) POST → Kernel → Bootloader (খ) Kernel → POST → Bootloader (গ) Kernel → Bootloader → POST (ঘ) POST → Bootloader → Kernel",
+      "correct_answer": "(ঘ) POST → Bootloader → Kernel",
+      "explanation": "বুটিং প্রক্রিয়ায় প্রথমে POST (Power-On Self Test) হয়, তারপর বুটলোডার রান করে এবং শেষে কার্নেল লোড হয়।"
+    },
+    {
+      "question_text": "কোন ধরনের Storage Device সবচেয়ে দ্রুত গতি সম্পন্ন?",
+      "year": 2025,
+      "source_batch": "BCS-47",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/47-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "HDD"
+        },
+        {
+          "label": "খ",
+          "text": "Floppy Disk"
+        },
+        {
+          "label": "গ",
+          "text": "SSD"
+        },
+        {
+          "label": "ঘ",
+          "text": "SSHD"
+        }
+      ],
+      "options_raw": "(ক) HDD (খ) Floppy Disk (গ) SSD (ঘ) SSHD",
+      "correct_answer": "(গ) SSD",
+      "explanation": "SSD (Solid State Drive) ফ্ল্যাশ মেমোরি প্রযুক্তি ব্যবহার করে, যা HDD বা অন্যান্য ম্যাগনেটিক ডিস্কের তুলনায় অনেক দ্রুত ডেটা রিড/রাইট করতে পারে।"
+    },
+    {
+      "question_text": "ধরা যাক Algorithm A এর running time O(n2) এবং Algorithm B এর running time O(n)। তাহলে নিচের কোনটি সবচেয়ে সঠিক?",
+      "year": 2025,
+      "source_batch": "BCS-47",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/47-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "Algorithm A, Algorithm B এর চেয়ে ধীর গতির"
+        },
+        {
+          "label": "খ",
+          "text": "Algorithm A, Algorithm B এর চেয়ে দ্রুত গতির"
+        },
+        {
+          "label": "গ",
+          "text": "Algorithm A, Algorithm B এর চেয়ে asymptotically ধীর গতির"
+        },
+        {
+          "label": "ঘ",
+          "text": "Algorithm B সর্বদা Algorithm A এর চেয়ে দ্রুত চলে"
+        }
+      ],
+      "options_raw": "(ক) Algorithm A, Algorithm B এর চেয়ে ধীর গতির (খ) Algorithm A, Algorithm B এর চেয়ে দ্রুত গতির (গ) Algorithm A, Algorithm B এর চেয়ে asymptotically ধীর গতির (ঘ) Algorithm B সর্বদা Algorithm A এর চেয়ে দ্রুত চলে",
+      "correct_answer": "(গ) Algorithm A, Algorithm B এর চেয়ে asymptotically ধীর গতির",
+      "explanation": "O(n²) গ্রোথ রেট O(n) এর চেয়ে বেশি। তাই বড় ইনপুট সাইজের জন্য Algorithm A, Algorithm B এর চেয়ে ধীর হবে। একে অ্যাসিম্পটোটিকালি ধীর বলা হয়।"
+    },
+    {
+      "question_text": "LLM চালানোর জন্য নিম্নোক্ত কম্পিউটারের কোন যন্ত্রাংশ সবচেয়ে বেশি গুরুত্বপূর্ণ?",
+      "year": 2025,
+      "source_batch": "BCS-47",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/47-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "RAM"
+        },
+        {
+          "label": "খ",
+          "text": "Processor"
+        },
+        {
+          "label": "গ",
+          "text": "Graphics Card"
+        },
+        {
+          "label": "ঘ",
+          "text": "Storage Device"
+        }
+      ],
+      "options_raw": "(ক) RAM (খ) Processor (গ) Graphics Card (ঘ) Storage Device",
+      "correct_answer": "(গ) Graphics Card",
+      "explanation": "লার্জ ল্যাঙ্গুয়েজ মডেল (LLM) প্রসেস করার জন্য প্রচুর প্যারালাল প্রসেসিং ক্ষমতার প্রয়োজন হয়, যা উচ্চক্ষমতাসম্পন্ন গ্রাফিক্স কার্ড (GPU) প্রদান করতে পারে।"
+    },
+    {
+      "question_text": "Quantum Computing এর জনক কাকে মনে করা হয়?",
+      "year": 2025,
+      "source_batch": "BCS-47",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/47-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "David Deutsch"
+        },
+        {
+          "label": "খ",
+          "text": "Richard Feynman"
+        },
+        {
+          "label": "গ",
+          "text": "Paul Benloff"
+        },
+        {
+          "label": "ঘ",
+          "text": "Alexei Kitaev"
+        }
+      ],
+      "options_raw": "(ক) David Deutsch (খ) Richard Feynman (গ) Paul Benloff (ঘ) Alexei Kitaev",
+      "correct_answer": "(ক) David Deutsch",
+      "explanation": "ডেভিড ডয়েচকে কোয়ান্টাম কম্পিউটিংয়ের জনক বলা হয়, কারণ তিনি প্রথম ইউনিভার্সাল কোয়ান্টাম কম্পিউটারের গাণিতিক মডেল প্রস্তাব করেছিলেন।"
+    },
+    {
+      "question_text": "0x1234 সংখ্যার বাইনারিরূপ কোনটি?",
+      "year": 2026,
+      "source_batch": "BCS-50",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/50-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "001010011100"
+        },
+        {
+          "label": "খ",
+          "text": "0010010010100"
+        },
+        {
+          "label": "গ",
+          "text": "1110101111001011"
+        },
+        {
+          "label": "ঘ",
+          "text": "0001001000110100"
+        }
+      ],
+      "options_raw": "(ক) 001010011100 (খ) 0010010010100 (গ) 1110101111001011 (ঘ) 0001001000110100",
+      "correct_answer": "(ঘ) 0001001000110100",
+      "explanation": "হেক্সাডেসিমাল প্রতিটি অঙ্ক ৪ বিটে: 1=0001, 2=0010, 3=0011, 4=0100 → 0001001000110100।"
+    },
+    {
+      "question_text": "কোনটি ই-কমার্সের প্লাটফর্ম হিসাবে কাজ করতে পারে?",
+      "year": 2026,
+      "source_batch": "BCS-50",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/50-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "Facebook"
+        },
+        {
+          "label": "খ",
+          "text": "Amazon"
+        },
+        {
+          "label": "গ",
+          "text": "YouTube"
+        },
+        {
+          "label": "ঘ",
+          "text": "All of the above"
+        }
+      ],
+      "options_raw": "(ক) Facebook (খ) Amazon (গ) YouTube (ঘ) All of the above",
+      "correct_answer": "(ঘ) All of the above",
+      "explanation": "Facebook, Amazon ও YouTube—সবই ই-কমার্স প্ল্যাটফর্ম হিসেবে ব্যবহৃত হতে পারে।"
+    },
+    {
+      "question_text": "'Pixel' দ্বারা কী বুঝায়?",
+      "year": 2026,
+      "source_batch": "BCS-50",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/50-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "Pixie land"
+        },
+        {
+          "label": "খ",
+          "text": "Person length"
+        },
+        {
+          "label": "গ",
+          "text": "Pixure length"
+        },
+        {
+          "label": "ঘ",
+          "text": "Picture element"
+        }
+      ],
+      "options_raw": "(ক) Pixie land (খ) Person length (গ) Pixure length (ঘ) Picture element",
+      "correct_answer": "(ঘ) Picture element",
+      "explanation": "Pixel-এর পূর্ণরূপ Picture Element—ডিজিটাল ছবির ক্ষুদ্রতম একক।"
+    },
+    {
+      "question_text": "ক্লাউড কম্পিউটিং কোন্ পরিষেবা প্রদান করে?",
+      "year": 2026,
+      "source_batch": "BCS-50",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/50-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "শুধুমাত্র লোকাল স্টোরেজ"
+        },
+        {
+          "label": "খ",
+          "text": "ভার্চুয়াল কম্পিউটিং রিসোর্সেস"
+        },
+        {
+          "label": "গ",
+          "text": "শুধুমাত্র ভার্চুয়াল স্টোরেজ"
+        },
+        {
+          "label": "ঘ",
+          "text": "উপরের সবগুলো"
+        }
+      ],
+      "options_raw": "(ক) শুধুমাত্র লোকাল স্টোরেজ (খ) ভার্চুয়াল কম্পিউটিং রিসোর্সেস (গ) শুধুমাত্র ভার্চুয়াল স্টোরেজ (ঘ) উপরের সবগুলো",
+      "correct_answer": "(ঘ) উপরের সবগুলো",
+      "explanation": "ক্লাউড কম্পিউটিং ভার্চুয়াল স্টোরেজ ও কম্পিউটিং রিসোর্স—উভয় ধরনের পরিষেবাই প্রদান করে।"
+    },
+    {
+      "question_text": "একটা 4-bit বাইনারি সিস্টেমে শূণ্য এর 2's complement এর ডেসিম্যাল মান কত হবে?",
+      "year": 2026,
+      "source_batch": "BCS-50",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/50-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "১৬"
+        },
+        {
+          "label": "খ",
+          "text": "০"
+        },
+        {
+          "label": "গ",
+          "text": "১৫"
+        },
+        {
+          "label": "ঘ",
+          "text": "কোনটিই নয়"
+        }
+      ],
+      "options_raw": "(ক) ১৬ (খ) ০ (গ) ১৫ (ঘ) কোনটিই নয়",
+      "correct_answer": "(খ) ০",
+      "explanation": "শূন্যের 2's complement শূন্যই থাকে; এর ডেসিমেল মান ০।"
+    },
+    {
+      "question_text": "GHz কিসের একক?",
+      "year": 2026,
+      "source_batch": "BCS-50",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/50-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "মেমরির আকার"
+        },
+        {
+          "label": "খ",
+          "text": "প্রসেসরের গতি"
+        },
+        {
+          "label": "গ",
+          "text": "তথ্য স্থানান্তরের গতি"
+        },
+        {
+          "label": "ঘ",
+          "text": "তথ্য উৎপাদনের পরিমাণ"
+        }
+      ],
+      "options_raw": "(ক) মেমরির আকার (খ) প্রসেসরের গতি (গ) তথ্য স্থানান্তরের গতি (ঘ) তথ্য উৎপাদনের পরিমাণ",
+      "correct_answer": "(খ) প্রসেসরের গতি",
+      "explanation": "GHz প্রসেসরের গতি তথা ক্লক স্পিড মাপার একক।"
+    },
+    {
+      "question_text": "কম্পিউটার সায়েন্সে Trojan Horse একটি-",
+      "year": 2026,
+      "source_batch": "BCS-50",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/50-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "ছবি এডিট করার সফটওয়্যার"
+        },
+        {
+          "label": "খ",
+          "text": "অপারেটিং সিস্টেম"
+        },
+        {
+          "label": "গ",
+          "text": "প্রোগ্রামিং ল্যাঙ্গুয়েজ"
+        },
+        {
+          "label": "ঘ",
+          "text": "ম্যালওয়্যার"
+        }
+      ],
+      "options_raw": "(ক) ছবি এডিট করার সফটওয়্যার (খ) অপারেটিং সিস্টেম (গ) প্রোগ্রামিং ল্যাঙ্গুয়েজ (ঘ) ম্যালওয়্যার",
+      "correct_answer": "(ঘ) ম্যালওয়্যার",
+      "explanation": "Trojan Horse একটি ম্যালওয়্যার, যা বৈধ প্রোগ্রামের ছদ্মবেশে ক্ষতি করে।"
+    },
+    {
+      "question_text": "ডেটাবেস হল-",
+      "year": 2026,
+      "source_batch": "BCS-50",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/50-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "তথ্য রাখার হার্ডওয়্যারসমূহ"
+        },
+        {
+          "label": "খ",
+          "text": "তথ্য রাখার প্রোগ্রামসমুহ"
+        },
+        {
+          "label": "গ",
+          "text": "তথ্যসমূহের সুসঙ্গঠিত রূপ"
+        },
+        {
+          "label": "ঘ",
+          "text": "তথ্য স্থানান্তরের জন্য ইন্টারনেট পরিষেবা"
+        }
+      ],
+      "options_raw": "(ক) তথ্য রাখার হার্ডওয়্যারসমূহ (খ) তথ্য রাখার প্রোগ্রামসমুহ (গ) তথ্যসমূহের সুসঙ্গঠিত রূপ (ঘ) তথ্য স্থানান্তরের জন্য ইন্টারনেট পরিষেবা",
+      "correct_answer": "(গ) তথ্যসমূহের সুসঙ্গঠিত রূপ",
+      "explanation": "ডেটাবেজ হলো তথ্যসমূহের সুসংগঠিত রূপ।"
+    },
+    {
+      "question_text": "Transmission Control Protocol (TCP) OSI রেফারেন্স মডেলের কোন্ লেয়ারের প্রোটোকল?",
+      "year": 2026,
+      "source_batch": "BCS-50",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/50-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "অ্যাপ্লিকেশন লেয়ার"
+        },
+        {
+          "label": "খ",
+          "text": "নেটওয়ার্ক লেয়ার"
+        },
+        {
+          "label": "গ",
+          "text": "ট্রান্সপোর্ট লেয়ার"
+        },
+        {
+          "label": "ঘ",
+          "text": "ডেটালিঙ্ক লেয়ার"
+        }
+      ],
+      "options_raw": "(ক) অ্যাপ্লিকেশন লেয়ার (খ) নেটওয়ার্ক লেয়ার (গ) ট্রান্সপোর্ট লেয়ার (ঘ) ডেটালিঙ্ক লেয়ার",
+      "correct_answer": "(গ) ট্রান্সপোর্ট লেয়ার",
+      "explanation": "TCP হলো OSI মডেলের ট্রান্সপোর্ট লেয়ারের প্রোটোকল।"
+    },
+    {
+      "question_text": "আপনার পারসোনাল কম্পিউটারে (পিসি) কোন একটি প্রোগ্রাম এর কর্মদক্ষতা (performance) বৃদ্ধির জন্য কোন্ কাজটি করা সর্বোত্তম হবে বলে আপনি মনে করেন?",
+      "year": 2026,
+      "source_batch": "BCS-50",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/50-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "প্রোগ্রামটির জন্য এমন একটা এলগরিদম তৈরি করা যা asymptotically faster"
+        },
+        {
+          "label": "খ",
+          "text": "পিসির Configuration উন্নত করা"
+        },
+        {
+          "label": "গ",
+          "text": "খুব দ্রুত গতির I/O devices লাগানো"
+        },
+        {
+          "label": "ঘ",
+          "text": "খ এবং গ উভয়েই"
+        }
+      ],
+      "options_raw": "(ক) প্রোগ্রামটির জন্য এমন একটা এলগরিদম তৈরি করা যা asymptotically faster (খ) পিসির Configuration উন্নত করা (গ) খুব দ্রুত গতির I/O devices লাগানো (ঘ) খ এবং গ উভয়েই",
+      "correct_answer": "(ঘ) খ এবং গ উভয়েই",
+      "explanation": "কনফিগারেশন উন্নয়ন ও দ্রুতগতির I/O ডিভাইস—উভয়ই প্রোগ্রামের কর্মদক্ষতা বাড়ায়।"
+    },
+    {
+      "question_text": "আন্তর্জাতিক নিরাপত্তা আলোচনায় নিচের কোন্ সাইবার হমকিটি ক্রমবর্ধমানভাবে তাৎপর্যপূর্ণ হয়ে উঠেছে?",
+      "year": 2026,
+      "source_batch": "BCS-50",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/50-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "ফিশিং (Phishing)"
+        },
+        {
+          "label": "খ",
+          "text": "স্প্যাম ইমেইল (Spam e-mail)"
+        },
+        {
+          "label": "গ",
+          "text": "র‍্যানসমওয়ার অ্যাটাক (Ransomware Attack)"
+        },
+        {
+          "label": "ঘ",
+          "text": "পরিচয় চুরি (Identity Theft)"
+        }
+      ],
+      "options_raw": "(ক) ফিশিং (Phishing) (খ) স্প্যাম ইমেইল (Spam e-mail) (গ) র‍্যানসমওয়ার অ্যাটাক (Ransomware Attack) (ঘ) পরিচয় চুরি (Identity Theft)",
+      "correct_answer": "(গ) র‍্যানসমওয়ার অ্যাটাক",
+      "explanation": "র‍্যানসমওয়্যার আক্রমণ আন্তর্জাতিক সাইবার নিরাপত্তায় ক্রমবর্ধমান গুরুত্বপূর্ণ হুমকি।"
+    },
+    {
+      "question_text": "কোনটি কম্বিনেশনাল লজিক সার্কিট নয়?",
+      "year": 2026,
+      "source_batch": "BCS-50",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/50-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "রেজিস্টার"
+        },
+        {
+          "label": "খ",
+          "text": "ডিকোডার"
+        },
+        {
+          "label": "গ",
+          "text": "মাল্টিপ্লেক্সার"
+        },
+        {
+          "label": "ঘ",
+          "text": "NAND গেট"
+        }
+      ],
+      "options_raw": "(ক) রেজিস্টার (খ) ডিকোডার (গ) মাল্টিপ্লেক্সার (ঘ) NAND গেট",
+      "correct_answer": "(ক) রেজিস্টার",
+      "explanation": "রেজিস্টার একটি সিকুয়েন্সিয়াল (স্মৃতিধারী) সার্কিট, কম্বিনেশনাল সার্কিট নয়।"
+    },
+    {
+      "question_text": "মোবাইল ফোন অপারেটররা কোন্ অ্যালগরিদম ব্যবহার করে লোকেশন ট্র্যাক করে?",
+      "year": 2026,
+      "source_batch": "BCS-50",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/50-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "Shortest Path"
+        },
+        {
+          "label": "খ",
+          "text": "Triangulation"
+        },
+        {
+          "label": "গ",
+          "text": "Nearest-neighbour"
+        },
+        {
+          "label": "ঘ",
+          "text": "Encryption"
+        }
+      ],
+      "options_raw": "(ক) Shortest Path (খ) Triangulation (গ) Nearest-neighbour (ঘ) Encryption",
+      "correct_answer": "(খ) Triangulation",
+      "explanation": "মোবাইল অপারেটররা ট্রায়াঙ্গুলেশন পদ্ধতিতে গ্রাহকের অবস্থান নির্ণয় করে।"
+    },
+    {
+      "question_text": "HTTPS কোন বৈশিষ্ট্য HTTP-এর সাথে যোগ করে?",
+      "year": 2026,
+      "source_batch": "BCS-50",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/50-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "Security"
+        },
+        {
+          "label": "খ",
+          "text": "Standardization"
+        },
+        {
+          "label": "গ",
+          "text": "Software"
+        },
+        {
+          "label": "ঘ",
+          "text": "Sense"
+        }
+      ],
+      "options_raw": "(ক) Security (খ) Standardization (গ) Software (ঘ) Sense",
+      "correct_answer": "(ক) Security",
+      "explanation": "HTTPS, HTTP-এর সঙ্গে নিরাপত্তা (Security/SSL এনক্রিপশন) যোগ করে।"
+    },
+    {
+      "question_text": "OCR __ থেকে __ এ রূপান্তরের জন্য ব্যবহার করা হয়।",
+      "year": 2026,
+      "source_batch": "BCS-50",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/50-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "অডিও হতে টেক্সট"
+        },
+        {
+          "label": "খ",
+          "text": "ইমেজ হতে টেক্সট"
+        },
+        {
+          "label": "গ",
+          "text": "ভিডিও হতে টেক্সট"
+        },
+        {
+          "label": "ঘ",
+          "text": "বাইনারি হতে ডেসিমেল"
+        }
+      ],
+      "options_raw": "(ক) অডিও হতে টেক্সট (খ) ইমেজ হতে টেক্সট (গ) ভিডিও হতে টেক্সট (ঘ) বাইনারি হতে ডেসিমেল",
+      "correct_answer": "(খ) ইমেজ হতে টেক্সট",
+      "explanation": "OCR (Optical Character Recognition) ইমেজ থেকে টেক্সটে রূপান্তরের কাজ করে।"
+    },
+    {
+      "question_text": "স্মার্টফোনে GPS ব্যবহারের জন্য কোনটি প্রয়োজন?",
+      "year": 2026,
+      "source_batch": "BCS-50",
+      "source_url": "https://www.chakribangla.com/bcs-question-solution/50-bcs.html",
+      "options": [
+        {
+          "label": "ক",
+          "text": "DHCP"
+        },
+        {
+          "label": "খ",
+          "text": "Accelerometer"
+        },
+        {
+          "label": "গ",
+          "text": "Gyroscope"
+        },
+        {
+          "label": "ঘ",
+          "text": "Satellite Signal"
+        }
+      ],
+      "options_raw": "(ক) DHCP (খ) Accelerometer (গ) Gyroscope (ঘ) Satellite Signal",
+      "correct_answer": "(ঘ) Satellite Signal",
+      "explanation": "স্মার্টফোনে GPS ব্যবহারের জন্য স্যাটেলাইট সিগন্যাল প্রয়োজন।"
+    },
+    {
+      "question_text": "গতির ক্ষেত্রে নিচের কোনটি সঠিক? এখানে X > Y এর অর্থ হলো X, Y থেকে দ্রুততর।",
+      "year": 2025,
+      "source_batch": "47th BCS Preliminary",
+      "source_url": "https://sattacademy.com/question-bank/%E0%A6%AC%E0%A6%BF%E0%A6%B8%E0%A6%BF%E0%A6%8F%E0%A6%B8-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BF%E0%A6%B2%E0%A6%BF%E0%A6%AE%E0%A6%BF%E0%A6%A8%E0%A6%BE%E0%A6%B0%E0%A6%BF/%E0%A6%A4%E0%A6%A5%E0%A7%8D%E0%A6%AF-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%AF%E0%A7%81%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%BF/mcq"
+    },
+    {
+      "question_text": "সেলুলার ডাটা নেটওয়ার্কে LTE বলতে কী বোঝায়?",
+      "year": 2025,
+      "source_batch": "47th BCS Preliminary",
+      "source_url": "https://sattacademy.com/question-bank/%E0%A6%AC%E0%A6%BF%E0%A6%B8%E0%A6%BF%E0%A6%8F%E0%A6%B8-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BF%E0%A6%B2%E0%A6%BF%E0%A6%AE%E0%A6%BF%E0%A6%A8%E0%A6%BE%E0%A6%B0%E0%A6%BF/%E0%A6%A4%E0%A6%A5%E0%A7%8D%E0%A6%AF-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%AF%E0%A7%81%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%BF/mcq"
+    },
+    {
+      "question_text": "নিচের কোনটি XOR গেটকে প্রতিনিধিত্ব করে?",
+      "year": 2025,
+      "source_batch": "47th BCS Preliminary",
+      "source_url": "https://sattacademy.com/question-bank/%E0%A6%AC%E0%A6%BF%E0%A6%B8%E0%A6%BF%E0%A6%8F%E0%A6%B8-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BF%E0%A6%B2%E0%A6%BF%E0%A6%AE%E0%A6%BF%E0%A6%A8%E0%A6%BE%E0%A6%B0%E0%A6%BF/%E0%A6%A4%E0%A6%A5%E0%A7%8D%E0%A6%AF-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%AF%E0%A7%81%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%BF/mcq"
+    },
+    {
+      "question_text": "অনলাইন পেমেন্ট সুরক্ষিত করার জন্য নিচের কোনটি ব্যাপকভাবে ব্যবহৃত হয়?",
+      "year": 2025,
+      "source_batch": "47th BCS Preliminary",
+      "source_url": "https://sattacademy.com/question-bank/%E0%A6%AC%E0%A6%BF%E0%A6%B8%E0%A6%BF%E0%A6%8F%E0%A6%B8-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BF%E0%A6%B2%E0%A6%BF%E0%A6%AE%E0%A6%BF%E0%A6%A8%E0%A6%BE%E0%A6%B0%E0%A6%BF/%E0%A6%A4%E0%A6%A5%E0%A7%8D%E0%A6%AF-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%AF%E0%A7%81%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%BF/mcq"
+    },
+    {
+      "question_text": "নিচের কোনটি asymptomatically সবচেয়ে দ্রুততম?",
+      "year": 2025,
+      "source_batch": "47th BCS Preliminary",
+      "source_url": "https://sattacademy.com/question-bank/%E0%A6%AC%E0%A6%BF%E0%A6%B8%E0%A6%BF%E0%A6%8F%E0%A6%B8-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BF%E0%A6%B2%E0%A6%BF%E0%A6%AE%E0%A6%BF%E0%A6%A8%E0%A6%BE%E0%A6%B0%E0%A6%BF/%E0%A6%A4%E0%A6%A5%E0%A7%8D%E0%A6%AF-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%AF%E0%A7%81%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%BF/mcq"
+    },
+    {
+      "question_text": "বাইনারি বিয়োগের সঠিক উত্তরটি বাছাই করুন - 100102 - 110112",
+      "year": 2025,
+      "source_batch": "47th BCS Preliminary",
+      "source_url": "https://sattacademy.com/question-bank/%E0%A6%AC%E0%A6%BF%E0%A6%B8%E0%A6%BF%E0%A6%8F%E0%A6%B8-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BF%E0%A6%B2%E0%A6%BF%E0%A6%AE%E0%A6%BF%E0%A6%A8%E0%A6%BE%E0%A6%B0%E0%A6%BF/%E0%A6%A4%E0%A6%A5%E0%A7%8D%E0%A6%AF-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%AF%E0%A7%81%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%BF/mcq"
+    },
+    {
+      "question_text": "Hard Disk Drive এ পৃথিবীর কোন বিরল উপাদানটি সবচেয়ে বেশি ব্যবহৃত হয়?",
+      "year": 2025,
+      "source_batch": "47th BCS Preliminary",
+      "source_url": "https://sattacademy.com/question-bank/%E0%A6%AC%E0%A6%BF%E0%A6%B8%E0%A6%BF%E0%A6%8F%E0%A6%B8-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BF%E0%A6%B2%E0%A6%BF%E0%A6%AE%E0%A6%BF%E0%A6%A8%E0%A6%BE%E0%A6%B0%E0%A6%BF/%E0%A6%A4%E0%A6%A5%E0%A7%8D%E0%A6%AF-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%AF%E0%A7%81%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%BF/mcq"
+    },
+    {
+      "question_text": "ফ্র্যাগমেন্টেশনের ফলে কোন ধরণের স্টোরেজ ডিভাইস প্রভাবিত হতে পারে?",
+      "year": 2025,
+      "source_batch": "47th BCS Preliminary",
+      "source_url": "https://sattacademy.com/question-bank/%E0%A6%AC%E0%A6%BF%E0%A6%B8%E0%A6%BF%E0%A6%8F%E0%A6%B8-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BF%E0%A6%B2%E0%A6%BF%E0%A6%AE%E0%A6%BF%E0%A6%A8%E0%A6%BE%E0%A6%B0%E0%A6%BF/%E0%A6%A4%E0%A6%A5%E0%A7%8D%E0%A6%AF-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%AF%E0%A7%81%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%BF/mcq"
+    },
+    {
+      "question_text": "SQL এর পূর্ণরূপ",
+      "year": 2025,
+      "source_batch": "47th BCS Preliminary",
+      "source_url": "https://sattacademy.com/question-bank/%E0%A6%AC%E0%A6%BF%E0%A6%B8%E0%A6%BF%E0%A6%8F%E0%A6%B8-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BF%E0%A6%B2%E0%A6%BF%E0%A6%AE%E0%A6%BF%E0%A6%A8%E0%A6%BE%E0%A6%B0%E0%A6%BF/%E0%A6%A4%E0%A6%A5%E0%A7%8D%E0%A6%AF-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%AF%E0%A7%81%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%BF/mcq"
+    },
+    {
+      "question_text": "এন্ড্রোয়েড অপারেটিং সিস্টেমে মূলত ভিত্তি করে",
+      "year": 2025,
+      "source_batch": "47th BCS Preliminary",
+      "source_url": "https://sattacademy.com/question-bank/%E0%A6%AC%E0%A6%BF%E0%A6%B8%E0%A6%BF%E0%A6%8F%E0%A6%B8-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BF%E0%A6%B2%E0%A6%BF%E0%A6%AE%E0%A6%BF%E0%A6%A8%E0%A6%BE%E0%A6%B0%E0%A6%BF/%E0%A6%A4%E0%A6%A5%E0%A7%8D%E0%A6%AF-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%AF%E0%A7%81%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%BF/mcq"
+    },
+    {
+      "question_text": "নিচের কোনটি কোয়ান্টাম তথ্যের একক?",
+      "year": 2025,
+      "source_batch": "47th BCS Preliminary",
+      "source_url": "https://sattacademy.com/question-bank/%E0%A6%AC%E0%A6%BF%E0%A6%B8%E0%A6%BF%E0%A6%8F%E0%A6%B8-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BF%E0%A6%B2%E0%A6%BF%E0%A6%AE%E0%A6%BF%E0%A6%A8%E0%A6%BE%E0%A6%B0%E0%A6%BF/%E0%A6%A4%E0%A6%A5%E0%A7%8D%E0%A6%AF-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%AF%E0%A7%81%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%BF/mcq"
+    },
+    {
+      "question_text": "প্রথম প্রজন্মের কম্পিউটারে নিচের কোনটি পাওয়া যায়?",
+      "year": 2025,
+      "source_batch": "47th BCS Preliminary",
+      "source_url": "https://sattacademy.com/question-bank/%E0%A6%AC%E0%A6%BF%E0%A6%B8%E0%A6%BF%E0%A6%8F%E0%A6%B8-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BF%E0%A6%B2%E0%A6%BF%E0%A6%AE%E0%A6%BF%E0%A6%A8%E0%A6%BE%E0%A6%B0%E0%A6%BF/%E0%A6%A4%E0%A6%A5%E0%A7%8D%E0%A6%AF-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%AF%E0%A7%81%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%BF/mcq"
+    },
+    {
+      "question_text": "মোবাইল ফোনে সাধারণত কোন CPU architecture ব্যবহৃত হয়?",
+      "year": 2025,
+      "source_batch": "47th BCS Preliminary",
+      "source_url": "https://sattacademy.com/question-bank/%E0%A6%AC%E0%A6%BF%E0%A6%B8%E0%A6%BF%E0%A6%8F%E0%A6%B8-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BF%E0%A6%B2%E0%A6%BF%E0%A6%AE%E0%A6%BF%E0%A6%A8%E0%A6%BE%E0%A6%B0%E0%A6%BF/%E0%A6%A4%E0%A6%A5%E0%A7%8D%E0%A6%AF-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%AF%E0%A7%81%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%BF/mcq"
+    },
+    {
+      "question_text": "নিচের কোনটি মূলত গ্রাফিক্স এবং ছবি প্রক্রিয়াকরণের জন্য দায়ী?",
+      "year": 2025,
+      "source_batch": "47th BCS Preliminary",
+      "source_url": "https://sattacademy.com/question-bank/%E0%A6%AC%E0%A6%BF%E0%A6%B8%E0%A6%BF%E0%A6%8F%E0%A6%B8-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BF%E0%A6%B2%E0%A6%BF%E0%A6%AE%E0%A6%BF%E0%A6%A8%E0%A6%BE%E0%A6%B0%E0%A6%BF/%E0%A6%A4%E0%A6%A5%E0%A7%8D%E0%A6%AF-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%AF%E0%A7%81%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%BF/mcq"
+    },
+    {
+      "question_text": "কম্পিউটার সায়েন্সে Trojan Horse একটি",
+      "year": 2026,
+      "source_batch": "50th BCS Preliminary",
+      "source_url": "https://sattacademy.com/question-bank/%E0%A6%AC%E0%A6%BF%E0%A6%B8%E0%A6%BF%E0%A6%8F%E0%A6%B8-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BF%E0%A6%B2%E0%A6%BF%E0%A6%AE%E0%A6%BF%E0%A6%A8%E0%A6%BE%E0%A6%B0%E0%A6%BF/%E0%A6%A4%E0%A6%A5%E0%A7%8D%E0%A6%AF-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%AF%E0%A7%81%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%BF/mcq"
+    }
+  ],
+  "sources_checked": [
+    "https://sattacademy.com/question-bank/%E0%A6%AC%E0%A6%BF%E0%A6%B8%E0%A6%BF%E0%A6%8F%E0%A6%B8-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BF%E0%A6%B2%E0%A6%BF%E0%A6%AE%E0%A6%BF%E0%A6%A8%E0%A6%BE%E0%A6%B0%E0%A6%BF/%E0%A6%A4%E0%A6%A5%E0%A7%8D%E0%A6%AF-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%AF%E0%A7%81%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%BF/mcq",
+    "https://www.chakribangla.com/bcs-question-solution/bcs-question-solution.html",
+    "https://www.chakribangla.com/bcs-question-solution/26-bcs.html",
+    "https://www.chakribangla.com/bcs-question-solution/35-bcs.html",
+    "https://www.chakribangla.com/bcs-question-solution/36-bcs.html",
+    "https://www.chakribangla.com/bcs-question-solution/37-bcs.html",
+    "https://www.chakribangla.com/bcs-question-solution/38-bcs.html",
+    "https://www.chakribangla.com/bcs-question-solution/40-bcs.html",
+    "https://www.chakribangla.com/bcs-question-solution/41-bcs.html",
+    "https://www.chakribangla.com/bcs-question-solution/43-bcs.html",
+    "https://www.chakribangla.com/bcs-question-solution/44-bcs.html",
+    "https://www.chakribangla.com/bcs-question-solution/45-bcs.html",
+    "https://www.chakribangla.com/bcs-question-solution/46-bcs.html",
+    "https://www.chakribangla.com/bcs-question-solution/47-bcs.html",
+    "https://www.chakribangla.com/bcs-question-solution/50-bcs.html"
+  ],
+  "note": "Harvested 2026-09-26 from chakribangla.com BCS question-solution pages (10th-50th BCS), single-subject section \"ict\" only. Combined sections on older papers (math-mental, science-computer, bangladesh-international, etc.) were not included."
+}

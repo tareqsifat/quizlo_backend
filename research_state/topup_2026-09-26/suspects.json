@@ -1,0 +1,4358 @@
+[
+ {
+  "candidate": "'সবুজপত্র' পত্রিকার সম্পাদক ও চলিত গদ্যরীতির প্রবর্তক কে?",
+  "candidate_answer": "প্রমথ চৌধুরী",
+  "matches": "db#6992",
+  "match_text": "সবুজপত্র পত্রিকাটির সম্পাদক কে?",
+  "reason": "same answer",
+  "score": 96.2,
+  "subject_file": "bcs_bangla_literature"
+ },
+ {
+  "candidate": "চর্যাপদের টীকাকার কে?",
+  "candidate_answer": "মুনিদত্ত",
+  "matches": "db#6984",
+  "match_text": "চর্যাপদের টীকাকারের নাম কি?",
+  "reason": "same answer",
+  "score": 100.0,
+  "subject_file": "bcs_bangla_literature"
+ },
+ {
+  "candidate": "আখ গবেষণা ইনস্টিটিউট কোথায়?",
+  "candidate_answer": "ঈশ্বরদী",
+  "matches": "db#8305",
+  "match_text": "বাংলাদেশে চিনি শিল্পের ট্রেনিং ইনস্টিটিউট কোথায় অবস্থিত?",
+  "reason": "same answer",
+  "score": 78.3,
+  "subject_file": "bcs_bangladesh_affairs"
+ },
+ {
+  "candidate": "সংবিধানের কোন অনুচ্ছেদে রাষ্ট্রভাষা বাংলার কথা আছে?",
+  "candidate_answer": "অনুচ্ছেদ ৩",
+  "matches": "db#7754",
+  "match_text": "‘প্রজাতন্ত্রের রাষ্ট্রভাষা বাংলা’ কথাটি সংবিধানের কোন্‌ অনুচ্ছেদে বলা হয়েছে?",
+  "reason": "same answer",
+  "score": 75.6,
+  "subject_file": "bcs_bangladesh_affairs"
+ },
+ {
+  "candidate": "জাতীয় পশু কোনটি?",
+  "candidate_answer": "রয়েল বেঙ্গল টাইগার",
+  "matches": "db#2971",
+  "match_text": "বাংলাদেশের জাতীয় পশু কোনটি?",
+  "reason": "same answer",
+  "score": 100.0,
+  "subject_file": "bcs_bangladesh_affairs"
+ },
+ {
+  "candidate": "বিশ্ব পরিবেশ দিবস কবে?",
+  "candidate_answer": "৫ জুন",
+  "matches": "db#3724",
+  "match_text": "’বিশ্ব পরিবেশ দিবস’ কোনটি ?",
+  "reason": "same answer",
+  "score": 100.0,
+  "subject_file": "bcs_international_affairs"
+ },
+ {
+  "candidate": "বাংলাদেশ জাতিসংঘের সদস্য হয় কবে?",
+  "candidate_answer": "১৯৭৪",
+  "matches": "db#8313",
+  "match_text": "বাংলাদেশ OIC -এর সদস্য হয় কোন সনে?",
+  "reason": "same answer",
+  "score": 73.7,
+  "subject_file": "bcs_international_affairs"
+ },
+ {
+  "candidate": "GDP-তে সবচেয়ে বেশি অবদান কোন খাতের?",
+  "candidate_answer": "সেবা",
+  "matches": "db#7394",
+  "match_text": "বাংলাদেশের জিডিপি (GDP)-তে কোন খাতের অবদান সবচেয়ে বেশি?",
+  "reason": "same answer",
+  "score": 100.0,
+  "subject_file": "bcs_bangladesh_affairs"
+ },
+ {
+  "candidate": "কোন বানানটি শুদ্ধ?",
+  "candidate_answer": "মুমূর্ষু",
+  "matches": "db#2289",
+  "match_text": "শুদ্ধ বানান কোনটি ?",
+  "reason": "same answer",
+  "score": 88.9,
+  "subject_file": "bcs_bangla_literature"
+ },
+ {
+  "candidate": "চর্যাপদের আদি কবি কে?",
+  "candidate_answer": "লুইপা",
+  "matches": "db#2815",
+  "match_text": "বাংলা সাহিত্যের আদি কবি কে?",
+  "reason": "same answer",
+  "score": 82.8,
+  "subject_file": "bcs_bangla_literature"
+ },
+ {
+  "candidate": "‘রবীন্দ্র’ শব্দের সন্ধিবিচ্ছেদ কোনটি?",
+  "candidate_answer": "রবি+ইন্দ্র",
+  "matches": "db#2880",
+  "match_text": "‘ রবীন্দ্র’ –এর সঠিক সন্ধি বিচ্ছেদ কোনটি?",
+  "reason": "same answer",
+  "score": 82.4,
+  "subject_file": "bcs_bangla_literature"
+ },
+ {
+  "candidate": "বাংলাদেশের প্রধান রপ্তানি পণ্য কোনটি?",
+  "candidate_answer": "তৈরি পোশাক",
+  "matches": "db#5718",
+  "match_text": "(তৎকালীন সাম্প্রতিক প্রশ্ন, বর্তমান সময়ে প্রযোজ্য নয়।) বাংলাদেশের রপ্তানি আয়ের শীর্ষ পণ্য কোনটি?",
+  "reason": "same answer",
+  "score": 89.6,
+  "subject_file": "bcs_bangladesh_affairs"
+ },
+ {
+  "candidate": "NATO কবে প্রতিষ্ঠিত হয়?",
+  "candidate_answer": "১৯৪৯",
+  "matches": "db#3824",
+  "match_text": "নর্থ আটলান্টিক ট্রিটি অর্গানাইজেশন (NATO) কোন বছর প্রতিষ্ঠিত হয়?",
+  "reason": "same answer",
+  "score": 100.0,
+  "subject_file": "bcs_international_affairs"
+ },
+ {
+  "candidate": "'বিষাদ-সিন্ধু' গ্রন্থের রচয়িতা কে?",
+  "candidate_answer": "মীর মশাররফ হোসেন",
+  "matches": "db#2666",
+  "match_text": "‘বিষাদ সিন্ধু’ কার রচনা?",
+  "reason": "same answer",
+  "score": 78.9,
+  "subject_file": "bcs_bangla_literature"
+ },
+ {
+  "candidate": "বাংলা বর্ণমালায় ‘কার’ কয়টি?",
+  "candidate_answer": "১০টি",
+  "matches": "db#3475",
+  "match_text": "বাংলা বর্ণমালায় মাত্রাবিহীন বর্ণের সংখ্যা কত?",
+  "reason": "same answer",
+  "score": 92.3,
+  "subject_file": "bcs_bangla_literature"
+ },
+ {
+  "candidate": "‘পদ্মাবতী’ কাব্যের রচয়িতা কে?",
+  "candidate_answer": "আলাওল",
+  "matches": "db#2585",
+  "match_text": "হিন্দি ‘পদুমাবৎ’ এর অবলম্বনে ‘পদ্মাবতী’ কাব্যের রচয়িতা-",
+  "reason": "same answer",
+  "score": 100.0,
+  "subject_file": "bcs_bangla_literature"
+ },
+ {
+  "candidate": "‘আলমারি’ শব্দটি কোন ভাষা থেকে আগত?",
+  "candidate_answer": "পর্তুগিজ",
+  "matches": "db#3869",
+  "match_text": "পেয়ারা- কোন ভাষা থেকে আগত শব্দ?",
+  "reason": "same answer",
+  "score": 82.5,
+  "subject_file": "bcs_bangla_literature"
+ },
+ {
+  "candidate": "‘নিরামিষ’ কোন সমাস?",
+  "candidate_answer": "অব্যয়ীভাব",
+  "matches": "new",
+  "match_text": "‘আমরণ’ কোন সমাস?",
+  "reason": "same answer",
+  "score": 83.3,
+  "subject_file": "bcs_bangla_literature"
+ },
+ {
+  "candidate": "BINA কোথায় অবস্থিত?",
+  "candidate_answer": "ময়মনসিংহ",
+  "matches": "db#7766",
+  "match_text": "বাংলাদেশের মৎস্য প্রজাতি গবেষণাগার কোথায় অবস্থিত?",
+  "reason": "same answer",
+  "score": 88.9,
+  "subject_file": "bcs_bangladesh_affairs"
+ },
+ {
+  "candidate": "বাংলাদেশের সীমান্তবর্তী দেশ কয়টি?",
+  "candidate_answer": "২টি",
+  "matches": "db#7041",
+  "match_text": "বাংলাদেশের সীমান্তবর্তী ভারতের রাজ্য কয়টি?",
+  "reason": "similar stem + shared options",
+  "score": 94.1,
+  "subject_file": "bcs_bangladesh_affairs"
+ },
+ {
+  "candidate": "মণিপুরি নৃত্য কোন অঞ্চলের?",
+  "candidate_answer": "সিলেট",
+  "matches": "db#2999",
+  "match_text": "বাংলাদেশের বিখ্যাত মনিপুরী নাচ কোন অঞ্চলের?",
+  "reason": "same answer",
+  "score": 80.0,
+  "subject_file": "bcs_bangladesh_affairs"
+ },
+ {
+  "candidate": "শিলা কত প্রকার?",
+  "candidate_answer": "৩",
+  "matches": "db#2821",
+  "match_text": "বাংলা ভাষায় ছন্দ প্রধানত কত প্রকার ?",
+  "reason": "same answer",
+  "score": 77.8,
+  "subject_file": "bcs_geography_environment"
+ },
+ {
+  "candidate": "SAARC-এর সদর দপ্তর কোথায়?",
+  "candidate_answer": "কাঠমান্ডু",
+  "matches": "db#4123",
+  "match_text": "সার্কের সদর দপ্তর কোথায়?",
+  "reason": "same answer",
+  "score": 87.8,
+  "subject_file": "bcs_international_affairs"
+ },
+ {
+  "candidate": "ASEAN-এর সদর দপ্তর কোথায়?",
+  "candidate_answer": "জাকার্তা",
+  "matches": "db#8352",
+  "match_text": "TI- এর সদর দপ্ত কোথায়?",
+  "reason": "similar stem + shared options",
+  "score": 91.9,
+  "subject_file": "bcs_international_affairs"
+ },
+ {
+  "candidate": "তথ্য অধিকার আইন কবে প্রণীত হয়?",
+  "candidate_answer": "২০০৯",
+  "matches": "db#7103",
+  "match_text": "তথ্য অধিকার আইন কোন সালে চালু হয়?",
+  "reason": "same answer",
+  "score": 84.2,
+  "subject_file": "bcs_ethics_governance"
+ },
+ {
+  "candidate": "বাংলা সাহিত্যে আধুনিকতার প্রবর্তক কে?",
+  "candidate_answer": "মাইকেল মধুসূদন দত্ত",
+  "matches": "db#2748",
+  "match_text": "বাংলা সাহিত্যে সনেট রচনার প্রবর্তক কে?",
+  "reason": "same answer",
+  "score": 82.1,
+  "subject_file": "bcs_bangla_literature"
+ },
+ {
+  "candidate": "ধাতুর সঙ্গে যুক্ত প্রত্যয়কে কী বলে?",
+  "candidate_answer": "কৃৎ প্রত্যয়",
+  "matches": "new",
+  "match_text": "নাম-শব্দের সঙ্গে যুক্ত প্রত্যয়কে কী বলে?",
+  "reason": "similar stem + shared options",
+  "score": 92.3,
+  "subject_file": "bcs_bangla_literature"
+ },
+ {
+  "candidate": "শুদ্ধ শব্দ কোনটি?",
+  "candidate_answer": "সৌজন্য",
+  "matches": "db#2354",
+  "match_text": "কোনটি শুদ্ধ ?",
+  "reason": "same answer",
+  "score": 100.0,
+  "subject_file": "bcs_bangla_literature"
+ },
+ {
+  "candidate": "‘পরস্পর’ কোন সন্ধির উদাহরণ?",
+  "candidate_answer": "নিপাতনে সিদ্ধ",
+  "matches": "db#4910",
+  "match_text": "সন্ধি-সাধিত শব্দ ‘পরস্পর’ কোন ধরনের সন্ধির দৃষ্টান্ত?",
+  "reason": "same answer",
+  "score": 83.7,
+  "subject_file": "bcs_bangla_literature"
+ },
+ {
+  "candidate": "বাংলাদেশের প্রধান শিল্প কোনটি?",
+  "candidate_answer": "তৈরি পোশাক",
+  "matches": "db#5718",
+  "match_text": "(তৎকালীন সাম্প্রতিক প্রশ্ন, বর্তমান সময়ে প্রযোজ্য নয়।) বাংলাদেশের রপ্তানি আয়ের শীর্ষ পণ্য কোনটি?",
+  "reason": "same answer",
+  "score": 72.3,
+  "subject_file": "bcs_bangladesh_affairs"
+ },
+ {
+  "candidate": "কোন বানানটি শুদ্ধ?",
+  "candidate_answer": "দ্বন্দ্ব",
+  "matches": "db#4856",
+  "match_text": "কোনটি শুদ্ধ বানান?",
+  "reason": "same answer",
+  "score": 88.9,
+  "subject_file": "bcs_bangla_literature"
+ },
+ {
+  "candidate": "‘চাকু’ শব্দটি কোন ভাষা থেকে এসেছে?",
+  "candidate_answer": "তুর্কি",
+  "matches": "db#4907",
+  "match_text": "‘উজবুক’ শব্দটি কোন ভাষা থেকে বাংলা ভাষায় এসেছে?",
+  "reason": "same answer",
+  "score": 91.5,
+  "subject_file": "bcs_bangla_literature"
+ },
+ {
+  "candidate": "বাংলাদেশ ক্রিকেটে টেস্ট মর্যাদা পায় কবে?",
+  "candidate_answer": "২০০০",
+  "matches": "db#3030",
+  "match_text": "ক্রিকেটে বাংলাদেশ কোন সালে টেষ্ট মর্যাদা লাভ করে?",
+  "reason": "same answer",
+  "score": 82.0,
+  "subject_file": "bcs_bangladesh_affairs"
+ },
+ {
+  "candidate": "প্রথম ফুটবল বিশ্বকাপ কবে হয়?",
+  "candidate_answer": "১৯৩০",
+  "matches": "db#7842",
+  "match_text": "ফিফা বিশ্বকাপ ফুটবল কখন প্রথম অনুষ্ঠিত হয়?",
+  "reason": "same answer",
+  "score": 100.0,
+  "subject_file": "bcs_international_affairs"
+ },
+ {
+  "candidate": "প্রধান গ্রিনহাউস গ্যাস কোনটি?",
+  "candidate_answer": "কার্বন ডাই-অক্সাইড",
+  "matches": "new",
+  "match_text": "বৈশ্বিক উষ্ণায়নের প্রধান দায়ী গ্যাস কোনটি?",
+  "reason": "same answer",
+  "score": 79.2,
+  "subject_file": "bcs_international_affairs"
+ },
+ {
+  "candidate": "‘বিধু’ শব্দের অর্থ কী?",
+  "candidate_answer": "চাঁদ",
+  "matches": "new",
+  "match_text": "‘শশী’ শব্দের অর্থ কী?",
+  "reason": "same answer",
+  "score": 88.9,
+  "subject_file": "bcs_bangla_literature"
+ },
+ {
+  "candidate": "তত্ত্বাবধায়ক সরকার ব্যবস্থা বাতিল হয় কোন সংশোধনীতে?",
+  "candidate_answer": "১৫তম",
+  "matches": "db#3125",
+  "match_text": "তত্ত্বাবধায়ক সরকার ব্যবস্থা সংবিধানের কততম সংশোধনীর মাধ্যমে রদ করা হয়েছে?",
+  "reason": "same answer",
+  "score": 80.0,
+  "subject_file": "bcs_bangladesh_affairs"
+ },
+ {
+  "candidate": "ইন্টারনেটের যোগাযোগ প্রোটোকল কোনটি?",
+  "candidate_answer": "TCP/IP",
+  "matches": "db#7802",
+  "match_text": "ইন্টারনেটের মাধ্যমে তথ্য আদান-প্রদানের জন্য সর্বাধিক ব্যবহৃত প্রোটোকল কী?",
+  "reason": "same answer",
+  "score": 72.1,
+  "subject_file": "bcs_computer_it"
+ },
+ {
+  "candidate": "পেশাগত নৈতিকতার মূলনীতি কোনটি?",
+  "candidate_answer": "সততা",
+  "matches": "new",
+  "match_text": "নৈতিকতার শ্রেষ্ঠ গুণ কোনটি?",
+  "reason": "same answer",
+  "score": 71.4,
+  "subject_file": "bcs_ethics_governance"
+ },
+ {
+  "candidate": "নিচের কোন বানানটি সঠিক?",
+  "candidate_answer": "Rendezvous",
+  "matches": "db#8110",
+  "match_text": "নিম্নে উল্লিখিত শব্দগুলোর মধ্যে কোন বানানটি সঠিক খুঁজে বের করুন?",
+  "reason": "same answer",
+  "score": 100.0,
+  "subject_file": "bcs_mental_ability"
+ },
+ {
+  "candidate": "কোনটি শুদ্ধ বানান?",
+  "candidate_answer": "ভবিষ্যৎ",
+  "matches": "new",
+  "match_text": "শুদ্ধ বানান/প্রয়োগ কোনটি?",
+  "reason": "same answer",
+  "score": 100.0,
+  "subject_file": "bcs_bangla_literature"
+ },
+ {
+  "candidate": "জাতীয় সংসদের সংরক্ষিত নারী আসন বর্তমানে কতটি?",
+  "candidate_answer": "৫০",
+  "matches": "db#2982",
+  "match_text": "জাতীয় সংসদে নারীদের সংরক্ষিত আসন কয়টি",
+  "reason": "same answer",
+  "score": 84.2,
+  "subject_file": "bcs_bangladesh_affairs"
+ },
+ {
+  "candidate": "প্রাকৃতিক গ্যাসের প্রধান উপাদান হলাে-",
+  "candidate_answer": "মিথেন",
+  "matches": "db#3177",
+  "match_text": "বাংলাদেশের প্রাকৃতিক গ্যাসের প্রধান উপাদান কী?",
+  "reason": "same answer",
+  "score": 92.5,
+  "subject_file": "bcs_general_science"
+ },
+ {
+  "candidate": "৫ × ০.০০৫ × ০.০০৫ = ?",
+  "candidate_answer": "০.০০০১২৫",
+  "matches": "db#8217",
+  "match_text": "০.৫ × ০.০০৫ × ০.০০৫ = ?",
+  "reason": "same answer",
+  "score": 100.0,
+  "subject_file": "bcs_mathematics"
+ },
+ {
+  "candidate": "৪৭˙ কে সাধারণ ভগ্নাংশে পরিণত করলে কত হবে?",
+  "candidate_answer": "৪৩/৯০",
+  "matches": "db#3618",
+  "match_text": "0.৪৭ কে সাধারণ ভগ্নাংশে পরিণত করলে কত হবে ?",
+  "reason": "similar stem + shared options",
+  "score": 97.1,
+  "subject_file": "bcs_mathematics"
+ },
+ {
+  "candidate": "১২ + ০.০০১২ + ০.০০০০১২ + …….. ধারাটির অসীম পদ পর্যন্ত যোগফল-",
+  "candidate_answer": "৪/৯৯",
+  "matches": "db#7170",
+  "match_text": "০.১২ + ০.০০১২ + ০.০০০০১২ + …….. ধারাটির অসীম পদ পর্যন্ত যোগফল-",
+  "reason": "same answer",
+  "score": 100.0,
+  "subject_file": "bcs_mathematics"
+ },
+ {
+  "candidate": "23x-8 = 3² হলে x এর মান কত?",
+  "candidate_answer": "2",
+  "matches": "db#4971",
+  "match_text": "36.23x-8 = 3² হলে x এর মান কত?",
+  "reason": "same answer",
+  "score": 100.0,
+  "subject_file": "bcs_mathematics"
+ },
+ {
+  "candidate": "৪ X ০.০২ X ০.০৮ =?",
+  "candidate_answer": "০.০০০৬৪",
+  "matches": "db#5809",
+  "match_text": "০.৪ X ০.০২ X ০.০৮ =?",
+  "reason": "same answer",
+  "score": 100.0,
+  "subject_file": "bcs_mental_ability"
+ },
+ {
+  "candidate": "ধারাটির পরবর্তী পদ কত? ১, ৪, ৯, ১৬, ২৫, ...",
+  "candidate_answer": "৩৬",
+  "matches": "db#4533",
+  "match_text": "১, ৪, ৯, ১৬, ২৫, ….. অনুক্রমটির পরবর্তী সংখ্যাটি কত?",
+  "reason": "same answer",
+  "score": 77.6,
+  "subject_file": "bcs_mental_ability"
+ },
+ {
+  "candidate": "মানবাধিকার দিবস কবে?",
+  "candidate_answer": "১০ ডিসেম্বর",
+  "matches": "db#4095",
+  "match_text": "বিশ্ব মানবাধিকার দিবস’",
+  "reason": "same answer",
+  "score": 100.0,
+  "subject_file": "bcs_international_affairs"
+ },
+ {
+  "candidate": "IMF ও বিশ্বব্যাংকের সদর দপ্তর কোথায়?",
+  "candidate_answer": "ওয়াশিংটন",
+  "matches": "db#4077",
+  "match_text": "NASA-এর সদরদপ্তর কোথায় ?",
+  "reason": "same answer",
+  "score": 87.2,
+  "subject_file": "bcs_international_affairs"
+ },
+ {
+  "candidate": "জাতিসংঘের বর্তমান সদস্য সংখ্যা কত?",
+  "candidate_answer": "১৯৩",
+  "matches": "db#3745",
+  "match_text": "বর্তমানে জাতিসংঘের সদস্য সংখ্যা – (২০১২)",
+  "reason": "same answer",
+  "score": 90.9,
+  "subject_file": "bcs_international_affairs"
+ },
+ {
+  "candidate": "কোনটি সুশাসনের অভাবে সমাজের ‘hidden cost’-এর উদাহরণ?",
+  "candidate_answer": "মেধা পাচার",
+  "matches": "db#4625",
+  "match_text": "কোনটি সুশাসনের অনুপস্থিতিতে সমাজ যে ‘hidden cost’ বহন করে তার উৎকৃষ্ট উদাহরণ?",
+  "reason": "same answer",
+  "score": 84.0,
+  "subject_file": "bcs_ethics_governance"
+ },
+ {
+  "candidate": "দুর্নীতি পরিমাপক সূচক (CPI) প্রকাশ করে কোন সংস্থা?",
+  "candidate_answer": "Transparency International",
+  "matches": "new",
+  "match_text": "দুর্নীতি পরিমাপ করে কোন সংস্থা?",
+  "reason": "same answer",
+  "score": 87.3,
+  "subject_file": "bcs_ethics_governance"
+ },
+ {
+  "candidate": "বিশ্ব মানবাধিকার দিবস কবে পালিত হয়?",
+  "candidate_answer": "১০ ডিসেম্বর",
+  "matches": "db#4095",
+  "match_text": "বিশ্ব মানবাধিকার দিবস’",
+  "reason": "same answer",
+  "score": 100.0,
+  "subject_file": "bcs_ethics_governance"
+ },
+ {
+  "candidate": "গণতান্ত্রিক ব্যবস্থার ফলপ্রসূতায় সবচেয়ে বেশি অগ্রাধিকার পাওয়া উচিত কোনটি?",
+  "candidate_answer": "গুণগত শিক্ষা",
+  "matches": "db#8239",
+  "match_text": "গণতান্ত্রিক ব্যবস্থার ফলপ্রসূতার জন্য অগ্রাধিকার পাবে:",
+  "reason": "same answer",
+  "score": 76.9,
+  "subject_file": "bcs_ethics_governance"
+ },
+ {
+  "candidate": "মূল্যবোধের অবক্ষয় রোধে সবচেয়ে কার্যকর উপায় কী?",
+  "candidate_answer": "নৈতিক শিক্ষা",
+  "matches": "new",
+  "match_text": "মূল্যবোধের অবক্ষয়ের প্রতিকার কী?",
+  "reason": "same answer",
+  "score": 83.0,
+  "subject_file": "bcs_ethics_governance"
+ },
+ {
+  "candidate": "নৈতিকতা ও আইনের মূল পার্থক্য কী?",
+  "candidate_answer": "অভ্যন্তরীণ ও বাহ্যিক",
+  "matches": "new",
+  "match_text": "নৈতিকতা ও আইনের প্রধান পার্থক্য কী?",
+  "reason": "same answer",
+  "score": 92.3,
+  "subject_file": "bcs_ethics_governance"
+ },
+ {
+  "candidate": "‘আইনের চোখে সবাই সমান’—এটি বাংলাদেশের সংবিধানের কোন অনুচ্ছেদে বলা হয়েছে?",
+  "candidate_answer": "২৭",
+  "matches": "new",
+  "match_text": "আইনের চোখে সবাই সমান—এটি সংবিধানের কোন অনুচ্ছেদে?",
+  "reason": "same answer",
+  "score": 100.0,
+  "subject_file": "bcs_ethics_governance"
+ },
+ {
+  "candidate": "‘সুশাসন’ (Good Governance) ধারণাটি সর্বপ্রথম জনপ্রিয় করে কোন সংস্থা?",
+  "candidate_answer": "বিশ্বব্যাংক",
+  "matches": "new",
+  "match_text": "‘সুশাসন’ ধারণাটি কে জনপ্রিয় করে?",
+  "reason": "same answer",
+  "score": 100.0,
+  "subject_file": "bcs_ethics_governance"
+ },
+ {
+  "candidate": "অ্যামনেস্টি ইন্টারন্যাশনাল কোন ক্ষেত্রে কাজ করে?",
+  "candidate_answer": "মানবাধিকার সংরক্ষণ",
+  "matches": "db#5469",
+  "match_text": "নিম্নের কোন কার্যক্রমের সাথে অ্যামনেস্টি ইন্টারন্যাশনাল যুক্ত?",
+  "reason": "same answer",
+  "score": 78.5,
+  "subject_file": "bcs_ethics_governance"
+ },
+ {
+  "candidate": "মূল্যবোধসম্পন্ন শাসনব্যবস্থার একটি প্রধান বৈশিষ্ট্য কী?",
+  "candidate_answer": "নাগরিকের অংশগ্রহণ",
+  "matches": "db#4627",
+  "match_text": "সাধারণের দৃষ্টিতে কোনটি মূল্যবোধ সম্পন্ন শাসন ব্যবস্থার বৈশিষ্ট্য?",
+  "reason": "same answer",
+  "score": 85.1,
+  "subject_file": "bcs_ethics_governance"
+ },
+ {
+  "candidate": "৮ম সংশোধনী?",
+  "candidate_answer": "ইসলাম রাষ্ট্রধর্ম",
+  "matches": "new",
+  "match_text": "৪র্থ সংশোধনী?",
+  "reason": "similar stem + shared options",
+  "score": 90.0,
+  "subject_file": "ntrca_general_knowledge"
+ },
+ {
+  "candidate": "রাষ্ট্রপতির অভিশংসন — কত সংখ্যাগরিষ্ঠতা?",
+  "candidate_answer": "২/৩",
+  "matches": "new",
+  "match_text": "সংশোধনে কত সংখ্যাগরিষ্ঠতা?",
+  "reason": "same answer",
+  "score": 85.0,
+  "subject_file": "ntrca_general_knowledge"
+ },
+ {
+  "candidate": "১৯৭২-এ স্বাধীন বাংলাদেশের ১ম প্রধানমন্ত্রী?",
+  "candidate_answer": "বঙ্গবন্ধু",
+  "matches": "new",
+  "match_text": "বাংলাদেশের প্রথম প্রধানমন্ত্রী?",
+  "reason": "similar stem + shared options",
+  "score": 91.2,
+  "subject_file": "ntrca_general_knowledge"
+ },
+ {
+  "candidate": "সংসদ ভবন স্থপতি?",
+  "candidate_answer": "লুই আই. কান",
+  "matches": "db#781",
+  "match_text": "জাতীয় সংসদ ভবনের স্থপতি কে?",
+  "reason": "same answer",
+  "score": 86.7,
+  "subject_file": "ntrca_general_knowledge"
+ },
+ {
+  "candidate": "সংসদ আহ্বান করেন?",
+  "candidate_answer": "রাষ্ট্রপতি",
+  "matches": "db#6128",
+  "match_text": "সংসদ অধিবেশন কে আহ্বান করেন?",
+  "reason": "same answer",
+  "score": 100.0,
+  "subject_file": "ntrca_general_knowledge"
+ },
+ {
+  "candidate": "দুদক প্রতিষ্ঠা?",
+  "candidate_answer": "২০০৪",
+  "matches": "db#5863",
+  "match_text": "ফেসবুক প্রতিষ্ঠা করা হয় কত সালে?",
+  "reason": "same answer",
+  "score": 85.7,
+  "subject_file": "ntrca_general_knowledge"
+ },
+ {
+  "candidate": "‘ময়মনসিংহ’ বিভাগের জেলা?",
+  "candidate_answer": "৪",
+  "matches": "new",
+  "match_text": "‘সিলেট’ বিভাগের জেলা?",
+  "reason": "same answer",
+  "score": 85.7,
+  "subject_file": "ntrca_general_knowledge"
+ },
+ {
+  "candidate": "‘রংপুর’ বিভাগের জেলা?",
+  "candidate_answer": "৮",
+  "matches": "new",
+  "match_text": "‘রাজশাহী’ বিভাগের জেলা?",
+  "reason": "same answer",
+  "score": 83.9,
+  "subject_file": "ntrca_general_knowledge"
+ },
+ {
+  "candidate": "‘বাংলাদেশ’ নামের রাষ্ট্রের জাতীয় পতাকা — নকশাকার?",
+  "candidate_answer": "কামরুল হাসান",
+  "matches": "db#6627",
+  "match_text": "বাংলাদেশের জাতীয় পতাকার ডিজাইনার কে?",
+  "reason": "same answer",
+  "score": 71.8,
+  "subject_file": "ntrca_general_knowledge"
+ },
+ {
+  "candidate": "জাতীয় খেলা?",
+  "candidate_answer": "হা-ডু-ডু (কাবাডি)",
+  "matches": "db#6542",
+  "match_text": "বাংলাদেশের জাতীয় খেলা —",
+  "reason": "similar stem + shared options",
+  "score": 100.0,
+  "subject_file": "ntrca_general_knowledge"
+ },
+ {
+  "candidate": "একমাত্র প্রবাল দ্বীপ?",
+  "candidate_answer": "সেন্ট মার্টিন",
+  "matches": "db#5516",
+  "match_text": "বাংলাদেশের একমাত্র প্রবাল দ্বীপের নাম কী?",
+  "reason": "same answer",
+  "score": 100.0,
+  "subject_file": "ntrca_general_knowledge"
+ },
+ {
+  "candidate": "বৃহত্তম দ্বীপ?",
+  "candidate_answer": "ভোলা",
+  "matches": "db#7955",
+  "match_text": "বাংলাদেশের বৃহত্তম ব-দ্বীপ কোন জেলা?",
+  "reason": "same answer",
+  "score": 100.0,
+  "subject_file": "ntrca_general_knowledge"
+ },
+ {
+  "candidate": "ঋতু সংখ্যা?",
+  "candidate_answer": "৬",
+  "matches": "db#1098",
+  "match_text": "সুষম বহুভুজের একটি অন্তঃকোণের পরিমাণ ১২০ ডিগ্রী হলে এর বাহুর সংখ্যা কত ?",
+  "reason": "same answer",
+  "score": 84.2,
+  "subject_file": "ntrca_general_knowledge"
+ },
+ {
+  "candidate": "প্রথম EPZ?",
+  "candidate_answer": "চট্টগ্রাম",
+  "matches": "db#5855",
+  "match_text": "বাংলাদেশে প্রথম ও একমাত্র 'ওয়ার্ল্ড ট্রেড সেন্টার' কোথায় অবস্থিত?",
+  "reason": "same answer",
+  "score": 71.4,
+  "subject_file": "ntrca_general_knowledge"
+ },
+ {
+  "candidate": "‘RMG-উৎপাদনে’ বিশ্বে?",
+  "candidate_answer": "২য় — চীনের পরে",
+  "matches": "new",
+  "match_text": "‘ধান-উৎপাদনে’ বিশ্বে?",
+  "reason": "similar stem + shared options",
+  "score": 90.9,
+  "subject_file": "ntrca_general_knowledge"
+ },
+ {
+  "candidate": "বাংলার প্রাচীনতম জনপদ?",
+  "candidate_answer": "পুণ্ড্র",
+  "matches": "db#6613",
+  "match_text": "বাংলার সর্বপ্রাচীন জনপদের নাম কী?",
+  "reason": "same answer",
+  "score": 81.0,
+  "subject_file": "ntrca_general_knowledge"
+ },
+ {
+  "candidate": "বঙ্গভঙ্গ করেন?",
+  "candidate_answer": "লর্ড কার্জন",
+  "matches": "db#6072",
+  "match_text": "কার সময়ে বঙ্গভঙ্গ হয়?",
+  "reason": "same answer",
+  "score": 77.4,
+  "subject_file": "ntrca_general_knowledge"
+ },
+ {
+  "candidate": "বঙ্গবন্ধুর ৬-দফা কত সালে?",
+  "candidate_answer": "১৯৬৬",
+  "matches": "db#5847",
+  "match_text": "বঙ্গবন্ধু ৬-দফা দাবি পেশ করেন কত সালে?",
+  "reason": "same answer",
+  "score": 87.2,
+  "subject_file": "ntrca_general_knowledge"
+ },
+ {
+  "candidate": "মুজিবনগর সরকার গঠন?",
+  "candidate_answer": "১০ এপ্রিল ১৯৭১",
+  "matches": "db#4983",
+  "match_text": "মুজিবনগর সরকার গঠন করা হয়েছিল কবে?",
+  "reason": "same answer",
+  "score": 100.0,
+  "subject_file": "ntrca_general_knowledge"
+ },
+ {
+  "candidate": "অস্থায়ী রাষ্ট্রপতি (মুজিবনগর)?",
+  "candidate_answer": "সৈয়দ নজরুল ইসলাম",
+  "matches": "new",
+  "match_text": "অস্থায়ী রাষ্ট্রপতি (১৯৭১)?",
+  "reason": "similar stem + shared options",
+  "score": 90.9,
+  "subject_file": "ntrca_general_knowledge"
+ },
+ {
+  "candidate": "সংবিধান গৃহীত?",
+  "candidate_answer": "৪ নভে ১৯৭২",
+  "matches": "new",
+  "match_text": "সংবিধান গৃহীত হয়?",
+  "reason": "same answer",
+  "score": 100.0,
+  "subject_file": "ntrca_general_knowledge"
+ },
+ {
+  "candidate": "সংবিধান কার্যকর?",
+  "candidate_answer": "১৬ ডিসে ১৯৭২",
+  "matches": "new",
+  "match_text": "সংবিধান কার্যকর হয় কত তারিখে?",
+  "reason": "same answer",
+  "score": 100.0,
+  "subject_file": "ntrca_general_knowledge"
+ },
+ {
+  "candidate": "৩য় প্রজন্মের প্রধান উপাদান?",
+  "candidate_answer": "IC",
+  "matches": "new",
+  "match_text": "২য় প্রজন্মের প্রধান উপাদান?",
+  "reason": "similar stem + shared options",
+  "score": 98.1,
+  "subject_file": "ntrca_general_knowledge"
+ },
+ {
+  "candidate": "ROM-এর পূর্ণরূপ?",
+  "candidate_answer": "Read Only Memory",
+  "matches": "db#793",
+  "match_text": "ROM এর পূর্ণ অর্থ কী?",
+  "reason": "same answer",
+  "score": 85.7,
+  "subject_file": "ntrca_general_knowledge"
+ },
+ {
+  "candidate": "১ MB = কত KB?",
+  "candidate_answer": "১০২৪",
+  "matches": "new",
+  "match_text": "১ KB = কত Byte?",
+  "reason": "same answer",
+  "score": 82.4,
+  "subject_file": "ntrca_general_knowledge"
+ },
+ {
+  "candidate": "১ GB = কত MB?",
+  "candidate_answer": "১০২৪",
+  "matches": "new",
+  "match_text": "১ KB = কত Byte?",
+  "reason": "same answer",
+  "score": 82.4,
+  "subject_file": "ntrca_general_knowledge"
+ },
+ {
+  "candidate": "RAM-এর প্রকার?",
+  "candidate_answer": "উভয়েই",
+  "matches": "new",
+  "match_text": "ROM-এর প্রকার নয়?",
+  "reason": "similar stem + shared options",
+  "score": 90.0,
+  "subject_file": "ntrca_general_knowledge"
+ },
+ {
+  "candidate": "DVD-এর ধারণক্ষমতা (Single Layer)?",
+  "candidate_answer": "৪.৭ GB",
+  "matches": "new",
+  "match_text": "CD-এর ধারণক্ষমতা?",
+  "reason": "similar stem + shared options",
+  "score": 92.3,
+  "subject_file": "ntrca_general_knowledge"
+ },
+ {
+  "candidate": "পাকিস্তান রাষ্ট্রপতি (২০২৪)?",
+  "candidate_answer": "আসিফ জারদারি",
+  "matches": "new",
+  "match_text": "পাকিস্তান PM?",
+  "reason": "similar stem + shared options",
+  "score": 90.9,
+  "subject_file": "ntrca_general_knowledge"
+ },
+ {
+  "candidate": "২০২৩ মহিলা T20 WC?",
+  "candidate_answer": "অস্ট্রেলিয়া",
+  "matches": "new",
+  "match_text": "২০২৪ মহিলা T20 WC?",
+  "reason": "similar stem + shared options",
+  "score": 94.1,
+  "subject_file": "ntrca_general_knowledge"
+ },
+ {
+  "candidate": "ওজোন স্তর ক্ষয়ের জন্য দায়ী গ্যাস —",
+  "candidate_answer": "CFC",
+  "matches": "db#5029",
+  "match_text": "কোন গ্যাস ওজোনস্তর ক্ষয়ের জন্য দায়ী?",
+  "reason": "same answer",
+  "score": 91.9,
+  "subject_file": "ntrca_general_knowledge"
+ },
+ {
+  "candidate": "বিশ্ব পরিবেশ দিবস কবে?",
+  "candidate_answer": "৫ জুন",
+  "matches": "db#968",
+  "match_text": "বিশ্ব পরিবেশ দিবস পালন করা হয় কত তারিখে ?",
+  "reason": "same answer",
+  "score": 100.0,
+  "subject_file": "ntrca_general_knowledge"
+ },
+ {
+  "candidate": "ওজোন স্তর কোথায়?",
+  "candidate_answer": "স্ট্র্যাটোস্ফিয়ার",
+  "matches": "new",
+  "match_text": "ওজোন স্তর বায়ুমণ্ডলের কোন স্তরে থাকে?",
+  "reason": "same answer",
+  "score": 84.8,
+  "subject_file": "ntrca_general_knowledge"
+ },
+ {
+  "candidate": "ওজোনের সংকেত —",
+  "candidate_answer": "O₃",
+  "matches": "new",
+  "match_text": "ওজোনের রাসায়নিক সংকেত কী?",
+  "reason": "same answer",
+  "score": 100.0,
+  "subject_file": "ntrca_general_knowledge"
+ },
+ {
+  "candidate": "বাংলাদেশের বৃহত্তম ম্যানগ্রোভ —",
+  "candidate_answer": "সুন্দরবন",
+  "matches": "new",
+  "match_text": "বিশ্বের বৃহত্তম ম্যানগ্রোভ বন কোনটি?",
+  "reason": "same answer",
+  "score": 84.2,
+  "subject_file": "ntrca_general_knowledge"
+ },
+ {
+  "candidate": "সুন্দরবন UNESCO World Heritage হয় —",
+  "candidate_answer": "১৯৯৭",
+  "matches": "new",
+  "match_text": "সুন্দরবন UNESCO হেরিটেজ?",
+  "reason": "same answer",
+  "score": 82.1,
+  "subject_file": "ntrca_general_knowledge"
+ },
+ {
+  "candidate": "বিশ্ব ধরিত্রী দিবস —",
+  "candidate_answer": "২২ এপ্রিল",
+  "matches": "new",
+  "match_text": "বিশ্ব বসুন্ধরা দিবস (Earth Day) কবে?",
+  "reason": "same answer",
+  "score": 71.4,
+  "subject_file": "ntrca_general_knowledge"
+ },
+ {
+  "candidate": "বায়ু মান পরিমাপক সূচক —",
+  "candidate_answer": "AQI",
+  "matches": "new",
+  "match_text": "বায়ুর মান পরিমাপে ব্যবহৃত সূচক কোনটি?",
+  "reason": "same answer",
+  "score": 82.9,
+  "subject_file": "ntrca_general_knowledge"
+ },
+ {
+  "candidate": "পলিব্যাগ নিষিদ্ধ হয় বাংলাদেশে —",
+  "candidate_answer": "২০০২",
+  "matches": "new",
+  "match_text": "বাংলাদেশ কত সালে পলিথিন নিষিদ্ধ করে?",
+  "reason": "same answer",
+  "score": 72.4,
+  "subject_file": "ntrca_general_knowledge"
+ },
+ {
+  "candidate": "দ্রুততম মেমরি?",
+  "candidate_answer": "Register",
+  "matches": "new",
+  "match_text": "দ্রুততম মেমরি কোনটি?",
+  "reason": "same answer",
+  "score": 100.0,
+  "subject_file": "ntrca_general_knowledge"
+ },
+ {
+  "candidate": "RAM কেমন মেমরি?",
+  "candidate_answer": "Volatile",
+  "matches": "new",
+  "match_text": "RAM কোন ধরনের মেমরি?",
+  "reason": "same answer",
+  "score": 78.3,
+  "subject_file": "ntrca_general_knowledge"
+ },
+ {
+  "candidate": "Blu-ray-এর Laser-এর রঙ?",
+  "candidate_answer": "Blue",
+  "matches": "new",
+  "match_text": "CD-এর Laser-এর রঙ?",
+  "reason": "similar stem + shared options",
+  "score": 90.0,
+  "subject_file": "ntrca_general_knowledge"
+ },
+ {
+  "candidate": "CD সর্বোচ্চ ধারণক্ষমতা?",
+  "candidate_answer": "700 MB",
+  "matches": "new",
+  "match_text": "CD-এর ধারণক্ষমতা?",
+  "reason": "same answer",
+  "score": 100.0,
+  "subject_file": "ntrca_general_knowledge"
+ },
+ {
+  "candidate": "DVD Single Layer ধারণক্ষমতা?",
+  "candidate_answer": "4.7 GB",
+  "matches": "new",
+  "match_text": "CD-এর ধারণক্ষমতা?",
+  "reason": "similar stem + shared options",
+  "score": 91.7,
+  "subject_file": "ntrca_general_knowledge"
+ },
+ {
+  "candidate": "DVD Dual Layer ধারণক্ষমতা?",
+  "candidate_answer": "8.5 GB",
+  "matches": "new",
+  "match_text": "CD-এর ধারণক্ষমতা?",
+  "reason": "similar stem + shared options",
+  "score": 91.7,
+  "subject_file": "ntrca_general_knowledge"
+ },
+ {
+  "candidate": "USB 3.0-এর সর্বোচ্চ গতি?",
+  "candidate_answer": "5 Gbps",
+  "matches": "new",
+  "match_text": "USB 2.0-এর সর্বোচ্চ গতি?",
+  "reason": "similar stem + shared options",
+  "score": 95.2,
+  "subject_file": "ntrca_general_knowledge"
+ },
+ {
+  "candidate": "8K Resolution?",
+  "candidate_answer": "7680×4320",
+  "matches": "new",
+  "match_text": "4K Resolution মানে?",
+  "reason": "similar stem + shared options",
+  "score": 92.3,
+  "subject_file": "ntrca_general_knowledge"
+ },
+ {
+  "candidate": "UN মহাসচিব (২০২৪)?",
+  "candidate_answer": "আন্তোনিও গুতেরেস",
+  "matches": "new",
+  "match_text": "UN মহাসচিব?",
+  "reason": "same answer",
+  "score": 100.0,
+  "subject_file": "ntrca_general_knowledge"
+ },
+ {
+  "candidate": "WHO সদর?",
+  "candidate_answer": "জেনেভা",
+  "matches": "db#5485",
+  "match_text": "রেডক্রসের সদর দপ্তর কোথায় অবস্থিত?",
+  "reason": "same answer",
+  "score": 100.0,
+  "subject_file": "ntrca_general_knowledge"
+ },
+ {
+  "candidate": "UNICEF সদর?",
+  "candidate_answer": "নিউইয়র্ক",
+  "matches": "new",
+  "match_text": "UN সদর?",
+  "reason": "same answer",
+  "score": 80.0,
+  "subject_file": "ntrca_general_knowledge"
+ },
+ {
+  "candidate": "ILO সদর?",
+  "candidate_answer": "জেনেভা",
+  "matches": "db#6112",
+  "match_text": "WIPO — এর সদর দপ্তর কোথায় অবস্থিত?",
+  "reason": "same answer",
+  "score": 85.7,
+  "subject_file": "ntrca_general_knowledge"
+ },
+ {
+  "candidate": "FAO সদর?",
+  "candidate_answer": "রোম",
+  "matches": "db#945",
+  "match_text": "FAO- এর সদর দপ্তর কোথায় ?",
+  "reason": "same answer",
+  "score": 100.0,
+  "subject_file": "ntrca_general_knowledge"
+ },
+ {
+  "candidate": "UPU সদর?",
+  "candidate_answer": "জেনেভা",
+  "matches": "new",
+  "match_text": "UN সদর?",
+  "reason": "similar stem + shared options",
+  "score": 90.9,
+  "subject_file": "ntrca_general_knowledge"
+ },
+ {
+  "candidate": "WTO সদর?",
+  "candidate_answer": "জেনেভা",
+  "matches": "new",
+  "match_text": "WMO সদর?",
+  "reason": "same answer",
+  "score": 85.7,
+  "subject_file": "ntrca_general_knowledge"
+ },
+ {
+  "candidate": "NATO প্রতিষ্ঠা?",
+  "candidate_answer": "৪ এপ্রিল ১৯৪৯",
+  "matches": "new",
+  "match_text": "WHO প্রতিষ্ঠা?",
+  "reason": "similar stem + shared options",
+  "score": 100.0,
+  "subject_file": "ntrca_general_knowledge"
+ },
+ {
+  "candidate": "NATO সদর?",
+  "candidate_answer": "ব্রাসেলস",
+  "matches": "new",
+  "match_text": "EU সদর?",
+  "reason": "same answer",
+  "score": 80.0,
+  "subject_file": "ntrca_general_knowledge"
+ },
+ {
+  "candidate": "OIC সদর?",
+  "candidate_answer": "জেদ্দা",
+  "matches": "new",
+  "match_text": "IDB সদর?",
+  "reason": "same answer",
+  "score": 76.9,
+  "subject_file": "ntrca_general_knowledge"
+ },
+ {
+  "candidate": "BIMSTEC সদর?",
+  "candidate_answer": "ঢাকা",
+  "matches": "db#5071",
+  "match_text": "'BIMSTEC' — এর সদর দপ্তর কোথায়?",
+  "reason": "same answer",
+  "score": 100.0,
+  "subject_file": "ntrca_general_knowledge"
+ },
+ {
+  "candidate": "G7-এর সদস্য?",
+  "candidate_answer": "৭",
+  "matches": "new",
+  "match_text": "BIMSTEC সদস্য?",
+  "reason": "same answer",
+  "score": 85.7,
+  "subject_file": "ntrca_general_knowledge"
+ },
+ {
+  "candidate": "আরব লীগ প্রতিষ্ঠা?",
+  "candidate_answer": "১৯৪৫",
+  "matches": "new",
+  "match_text": "WHO প্রতিষ্ঠা?",
+  "reason": "similar stem + shared options",
+  "score": 100.0,
+  "subject_file": "ntrca_general_knowledge"
+ },
+ {
+  "candidate": "OPEC সদর?",
+  "candidate_answer": "ভিয়েনা",
+  "matches": "db#6503",
+  "match_text": "OPEC-এর সচিবালয় কোথায় অবস্থিত?",
+  "reason": "same answer",
+  "score": 85.7,
+  "subject_file": "ntrca_general_knowledge"
+ },
+ {
+  "candidate": "WEF সদর?",
+  "candidate_answer": "জেনেভা",
+  "matches": "new",
+  "match_text": "WMO সদর?",
+  "reason": "same answer",
+  "score": 72.7,
+  "subject_file": "ntrca_general_knowledge"
+ },
+ {
+  "candidate": "WIPO সদর?",
+  "candidate_answer": "জেনেভা",
+  "matches": "db#6112",
+  "match_text": "WIPO — এর সদর দপ্তর কোথায় অবস্থিত?",
+  "reason": "same answer",
+  "score": 100.0,
+  "subject_file": "ntrca_general_knowledge"
+ },
+ {
+  "candidate": "ITU সদর?",
+  "candidate_answer": "জেনেভা",
+  "matches": "new",
+  "match_text": "UN সদর?",
+  "reason": "similar stem + shared options",
+  "score": 90.9,
+  "subject_file": "ntrca_general_knowledge"
+ },
+ {
+  "candidate": "UNEP সদর?",
+  "candidate_answer": "নাইরোবি",
+  "matches": "db#7555",
+  "match_text": "জাতিসংঘ পরিবেশ কর্মসূচি (UNEP) এর সদর দপ্তর অবস্থিত —",
+  "reason": "same answer",
+  "score": 100.0,
+  "subject_file": "ntrca_general_knowledge"
+ },
+ {
+  "candidate": "UNCTAD প্রতিষ্ঠা?",
+  "candidate_answer": "১৯৬৪",
+  "matches": "new",
+  "match_text": "ADB প্রতিষ্ঠা?",
+  "reason": "similar stem + shared options",
+  "score": 96.0,
+  "subject_file": "ntrca_general_knowledge"
+ },
+ {
+  "candidate": "UNHCR সদর?",
+  "candidate_answer": "জেনেভা",
+  "matches": "db#6518",
+  "match_text": "UNHCR এর সদর দপ্তর কোথায়?",
+  "reason": "same answer",
+  "score": 100.0,
+  "subject_file": "ntrca_general_knowledge"
+ },
+ {
+  "candidate": "UN-Women সদর?",
+  "candidate_answer": "নিউইয়র্ক",
+  "matches": "new",
+  "match_text": "UN সদর?",
+  "reason": "same answer",
+  "score": 100.0,
+  "subject_file": "ntrca_general_knowledge"
+ },
+ {
+  "candidate": "ChatGPT কোন কোম্পানির?",
+  "candidate_answer": "OpenAI",
+  "matches": "new",
+  "match_text": "ChatGPT — কে তৈরি?",
+  "reason": "same answer",
+  "score": 80.0,
+  "subject_file": "ntrca_general_knowledge"
+ },
+ {
+  "candidate": "3D Printing-এর উপকরণ?",
+  "candidate_answer": "Filament/Resin",
+  "matches": "new",
+  "match_text": "3D Printer-এর উপকরণ?",
+  "reason": "same answer",
+  "score": 84.8,
+  "subject_file": "ntrca_general_knowledge"
+ },
+ {
+  "candidate": "Hash Algorithm?",
+  "candidate_answer": "SHA-256",
+  "matches": "new",
+  "match_text": "Bitcoin Hash Algorithm?",
+  "reason": "same answer",
+  "score": 100.0,
+  "subject_file": "ntrca_general_knowledge"
+ },
+ {
+  "candidate": "CIH-এর অন্য নাম?",
+  "candidate_answer": "Chernobyl",
+  "matches": "new",
+  "match_text": "কম্পিউটার ভাইরাস ‘CIH’ অন্য নাম?",
+  "reason": "same answer",
+  "score": 100.0,
+  "subject_file": "ntrca_general_knowledge"
+ },
+ {
+  "candidate": "NIC মানে?",
+  "candidate_answer": "Network Interface Card",
+  "matches": "db#1428",
+  "match_text": "What is a NIC?",
+  "reason": "same answer",
+  "score": 100.0,
+  "subject_file": "ntrca_general_knowledge"
+ },
+ {
+  "candidate": "IPv6 Address কত-bit?",
+  "candidate_answer": "128",
+  "matches": "new",
+  "match_text": "IPv4 Address কত-bit?",
+  "reason": "similar stem + shared options",
+  "score": 93.8,
+  "subject_file": "ntrca_general_knowledge"
+ },
+ {
+  "candidate": "SMTP-এর Port?",
+  "candidate_answer": "25",
+  "matches": "new",
+  "match_text": "FTP-এর Port?",
+  "reason": "similar stem + shared options",
+  "score": 93.3,
+  "subject_file": "ntrca_general_knowledge"
+ },
+ {
+  "candidate": "TLD-এর উদাহরণ?",
+  "candidate_answer": "সবগুলো",
+  "matches": "new",
+  "match_text": "Cloud Storage উদাহরণ?",
+  "reason": "same answer",
+  "score": 82.4,
+  "subject_file": "ntrca_general_knowledge"
+ },
+ {
+  "candidate": "WhatsApp প্রতিষ্ঠা?",
+  "candidate_answer": "২০০৯",
+  "matches": "new",
+  "match_text": "BRICS প্রতিষ্ঠা?",
+  "reason": "same answer",
+  "score": 80.0,
+  "subject_file": "ntrca_general_knowledge"
+ },
+ {
+  "candidate": "Bangladesh-এ Internet কত সালে?",
+  "candidate_answer": "১৯৯৬",
+  "matches": "db#148",
+  "match_text": "In which year did the internet first start in Bangladesh?",
+  "reason": "same answer",
+  "score": 84.4,
+  "subject_file": "ntrca_general_knowledge"
+ },
+ {
+  "candidate": "Cloud Provider — সবচেয়ে বড়?",
+  "candidate_answer": "AWS",
+  "matches": "new",
+  "match_text": "সবচেয়ে বড় Cloud Provider?",
+  "reason": "same answer",
+  "score": 100.0,
+  "subject_file": "ntrca_general_knowledge"
+ },
+ {
+  "candidate": "Gmail/Office 365 — কোন Cloud Model?",
+  "candidate_answer": "SaaS",
+  "matches": "new",
+  "match_text": "Gmail কোন Model?",
+  "reason": "same answer",
+  "score": 100.0,
+  "subject_file": "ntrca_general_knowledge"
+ },
+ {
+  "candidate": "178 = ?10",
+  "candidate_answer": "15",
+  "matches": "new",
+  "match_text": "11112 = ?10",
+  "reason": "same answer",
+  "score": 80.0,
+  "subject_file": "ntrca_general_knowledge"
+ },
+ {
+  "candidate": "A · 0 = ?",
+  "candidate_answer": "0",
+  "matches": "db#5317",
+  "match_text": "√m + 1/√m = 2 হলে, √m − 1/√m = কত?",
+  "reason": "same answer",
+  "score": 80.0,
+  "subject_file": "ntrca_general_knowledge"
+ },
+ {
+  "candidate": "A + 1 = ?",
+  "candidate_answer": "1",
+  "matches": "db#6764",
+  "match_text": "x + 1/x = 4 হলে x/(x² − 3x + 1) এর মান কত?",
+  "reason": "same answer",
+  "score": 100.0,
+  "subject_file": "ntrca_general_knowledge"
+ },
+ {
+  "candidate": "10102 Decimal?",
+  "candidate_answer": "10",
+  "matches": "new",
+  "match_text": "Decimal-এর Base?",
+  "reason": "same answer",
+  "score": 73.7,
+  "subject_file": "ntrca_general_knowledge"
+ },
+ {
+  "candidate": "Microsoft-এর প্রতিষ্ঠাতা?",
+  "candidate_answer": "উভয়েই",
+  "matches": "new",
+  "match_text": "Google-এর প্রতিষ্ঠাতা?",
+  "reason": "same answer",
+  "score": 80.0,
+  "subject_file": "ntrca_general_knowledge"
+ },
+ {
+  "candidate": "Android কোন কোম্পানির?",
+  "candidate_answer": "Google",
+  "matches": "new",
+  "match_text": "Gemini AI কোন কোম্পানির?",
+  "reason": "same answer",
+  "score": 87.8,
+  "subject_file": "ntrca_general_knowledge"
+ },
+ {
+  "candidate": "iOS কোন কোম্পানির?",
+  "candidate_answer": "Apple",
+  "matches": "new",
+  "match_text": "Gemini AI কোন কোম্পানির?",
+  "reason": "similar stem + shared options",
+  "score": 94.4,
+  "subject_file": "ntrca_general_knowledge"
+ },
+ {
+  "candidate": "POST-এর পূর্ণরূপ?",
+  "candidate_answer": "Power On Self Test",
+  "matches": "new",
+  "match_text": "POST কী?",
+  "reason": "same answer",
+  "score": 100.0,
+  "subject_file": "ntrca_general_knowledge"
+ },
+ {
+  "candidate": "Virtual Memory-এর জন্য Page File কোথায়?",
+  "candidate_answer": "HDD/SSD",
+  "matches": "new",
+  "match_text": "Virtual Memory আসলে কোথায়?",
+  "reason": "same answer",
+  "score": 89.8,
+  "subject_file": "ntrca_general_knowledge"
+ },
+ {
+  "candidate": "৪র্থ প্রজন্মের ভাষা?",
+  "candidate_answer": "SQL",
+  "matches": "new",
+  "match_text": "১ম প্রজন্মের ভাষা?",
+  "reason": "similar stem + shared options",
+  "score": 93.8,
+  "subject_file": "ntrca_general_knowledge"
+ },
+ {
+  "candidate": "COBOL-এর জনক?",
+  "candidate_answer": "Grace Hopper",
+  "matches": "new",
+  "match_text": "COBOL ভাষার মা?",
+  "reason": "same answer",
+  "score": 80.0,
+  "subject_file": "ntrca_general_knowledge"
+ },
+ {
+  "candidate": "Java-র File Extension?",
+  "candidate_answer": ".java",
+  "matches": "new",
+  "match_text": "C-র File Extension?",
+  "reason": "similar stem + shared options",
+  "score": 97.1,
+  "subject_file": "ntrca_general_knowledge"
+ },
+ {
+  "candidate": ".mp4 কোন ধরনের?",
+  "candidate_answer": "Video",
+  "matches": "new",
+  "match_text": ".mp3 কোন ধরনের ফাইল?",
+  "reason": "similar stem + shared options",
+  "score": 92.9,
+  "subject_file": "ntrca_general_knowledge"
+ },
+ {
+  "candidate": "পক প্রণালী কোথায়?",
+  "candidate_answer": "ভারত-শ্রীলঙ্কা",
+  "matches": "new",
+  "match_text": "মালাক্কা প্রণালী কোথায়?",
+  "reason": "similar stem + shared options",
+  "score": 94.4,
+  "subject_file": "ntrca_general_knowledge"
+ },
+ {
+  "candidate": "পাকিস্তানের মুদ্রা?",
+  "candidate_answer": "রুপি",
+  "matches": "new",
+  "match_text": "ভারতের মুদ্রা?",
+  "reason": "same answer",
+  "score": 83.3,
+  "subject_file": "ntrca_general_knowledge"
+ },
+ {
+  "candidate": "জাপানের মুদ্রা?",
+  "candidate_answer": "ইয়েন",
+  "matches": "new",
+  "match_text": "চীনের মুদ্রা?",
+  "reason": "similar stem + shared options",
+  "score": 90.9,
+  "subject_file": "ntrca_general_knowledge"
+ },
+ {
+  "candidate": "UK-এর মুদ্রা?",
+  "candidate_answer": "পাউন্ড স্টার্লিং",
+  "matches": "new",
+  "match_text": "EU মুদ্রা?",
+  "reason": "similar stem + shared options",
+  "score": 94.1,
+  "subject_file": "ntrca_general_knowledge"
+ },
+ {
+  "candidate": "রাশিয়ার মুদ্রা?",
+  "candidate_answer": "রুবল",
+  "matches": "db#6069",
+  "match_text": "রাশিয়ার মুদ্রার নাম কী?",
+  "reason": "same answer",
+  "score": 100.0,
+  "subject_file": "ntrca_general_knowledge"
+ },
+ {
+  "candidate": "‘খয়ের খাঁ’ অর্থ কী?",
+  "candidate_answer": "চাটুকার",
+  "matches": "db#6672",
+  "match_text": "'খয়ের খাঁ' বাগধারাটির অর্থ কী?",
+  "reason": "same answer",
+  "score": 100.0,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘আকাশ কুসুম’ অর্থ কী?",
+  "candidate_answer": "অসম্ভব কল্পনা",
+  "matches": "db#1601",
+  "match_text": "‘আকাশ কুসুম’ বাগধারাটির অর্থ কী?",
+  "reason": "same answer",
+  "score": 100.0,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘তামার বিষ’ অর্থ কী?",
+  "candidate_answer": "অর্থের কুপ্রভাব",
+  "matches": "db#454",
+  "match_text": "তামার বিষ বাগধারাটির অর্থ কী?",
+  "reason": "same answer",
+  "score": 100.0,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘শিরে সংক্রান্তি’ অর্থ কী?",
+  "candidate_answer": "আসন্ন বিপদ",
+  "matches": "db#467",
+  "match_text": "শিরে-সংক্রান্তি বাগধারাটির অর্থ কী?",
+  "reason": "same answer",
+  "score": 100.0,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘উড়নচণ্ডী’ অর্থ কী?",
+  "candidate_answer": "অমিতব্যয়ী",
+  "matches": "db#1549",
+  "match_text": "উড়নচণ্ডী - বাগধারটির অর্থ:",
+  "reason": "same answer",
+  "score": 100.0,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘নেই আঁকড়া’ অর্থ কী?",
+  "candidate_answer": "একগুঁয়ে",
+  "matches": "db#6151",
+  "match_text": "'নেই আঁকড়া' বাগধারাটির অর্থ —",
+  "reason": "same answer",
+  "score": 100.0,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘ঘটিরাম’ অর্থ কী?",
+  "candidate_answer": "অপদার্থ",
+  "matches": "db#1538",
+  "match_text": "'কচুবনের কালাচাঁদ' বাগধারাটির অর্থ?",
+  "reason": "same answer",
+  "score": 84.2,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘দুধের মাছি’ কেমন বন্ধুর প্রতীক?",
+  "candidate_answer": "সুসময়ের বন্ধু",
+  "matches": "new",
+  "match_text": "‘দুধের মাছি’ অর্থ কী?",
+  "reason": "same answer",
+  "score": 84.6,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘চোখের মণি’ অর্থ কী?",
+  "candidate_answer": "অতি প্রিয়",
+  "matches": "new",
+  "match_text": "‘নয়নের মণি’ অর্থ কী?",
+  "reason": "same answer",
+  "score": 84.6,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "শুদ্ধ বানান?",
+  "candidate_answer": "দ্বন্দ্ব",
+  "matches": "db#1567",
+  "match_text": "কোন বানানটি শুদ্ধ?",
+  "reason": "same answer",
+  "score": 75.9,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "শুদ্ধ বানান?",
+  "candidate_answer": "ন্যূনতম",
+  "matches": "db#8379",
+  "match_text": "নিচের কোন বানানটি শুদ্ধ?",
+  "reason": "same answer",
+  "score": 75.9,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "শুদ্ধ বানান?",
+  "candidate_answer": "পিপীলিকা",
+  "matches": "db#8389",
+  "match_text": "নিচের কোন বানানটি শুদ্ধ?",
+  "reason": "same answer",
+  "score": 75.9,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "শুদ্ধ বানান?",
+  "candidate_answer": "মুমূর্ষু",
+  "matches": "db#8375",
+  "match_text": "কোন বানানটি শুদ্ধ?",
+  "reason": "same answer",
+  "score": 75.9,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "শুদ্ধ বানান?",
+  "candidate_answer": "মুহূর্ত",
+  "matches": "db#8383",
+  "match_text": "কোনটি শুদ্ধ বানান?",
+  "reason": "same answer",
+  "score": 100.0,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "শুদ্ধ বানান?",
+  "candidate_answer": "স্বায়ত্ত",
+  "matches": "db#8398",
+  "match_text": "কোন বানানটি শুদ্ধ?",
+  "reason": "same answer",
+  "score": 75.9,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "শুদ্ধ বানান?",
+  "candidate_answer": "সমীচীন",
+  "matches": "db#8362",
+  "match_text": "কোন বানানটি শুদ্ধ?",
+  "reason": "same answer",
+  "score": 75.9,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "শুদ্ধ বানান?",
+  "candidate_answer": "অপরাহ্ণ",
+  "matches": "db#5087",
+  "match_text": "শুদ্ধ বানান কোনটি?",
+  "reason": "same answer",
+  "score": 100.0,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘( )’ — কোন চিহ্ন?",
+  "candidate_answer": "বন্ধনী",
+  "matches": "db#5176",
+  "match_text": "একটি অপূর্ণ বাক্যের পরে অন্য একটি বাক্যের অবতারণা করতে হলে কোন চিহ্ন বসে?",
+  "reason": "similar stem + shared options",
+  "score": 100.0,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "বাংলা সাহিত্যের আদিম নিদর্শন কী?",
+  "candidate_answer": "চর্যাপদ",
+  "matches": "db#1587",
+  "match_text": "বাংলা ভাষার আদি নিদর্শন কোনটি?",
+  "reason": "same answer",
+  "score": 78.4,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "মধ্যযুগের প্রথম রচনা কোনটি?",
+  "candidate_answer": "শ্রীকৃষ্ণকীর্তন",
+  "matches": "db#487",
+  "match_text": "বাংলা ভাষা ও সাহিত্যের মধ্যযুগের প্রথম নিদর্শন কোনটি?",
+  "reason": "same answer",
+  "score": 89.8,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "ব্রজবুলির জনক কে?",
+  "candidate_answer": "বিদ্যাপতি",
+  "matches": "db#603",
+  "match_text": "ব্রজবুলিতে কোন কবি পদাবলি রচনা করেন?",
+  "reason": "same answer",
+  "score": 80.0,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "বাংলাদেশের জাতীয় কবি?",
+  "candidate_answer": "নজরুল",
+  "matches": "new",
+  "match_text": "জাতীয় কবি?",
+  "reason": "same answer",
+  "score": 100.0,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "প্রমথ চৌধুরী কোন পত্রিকার মাধ্যমে চলিত রীতি প্রচার করেন?",
+  "candidate_answer": "সবুজপত্র",
+  "matches": "db#490",
+  "match_text": "প্রমথ চৌধুরী সম্পাদিত পত্রিকার নাম কী?",
+  "reason": "same answer",
+  "score": 81.2,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "বাংলা গদ্যের জনক বলা হয় কাকে?",
+  "candidate_answer": "ঈশ্বরচন্দ্র বিদ্যাসাগর",
+  "matches": "db#534",
+  "match_text": "বাংলা গদ্যের জনক কে?",
+  "reason": "same answer",
+  "score": 100.0,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "নাটকের সংলাপে কোন রীতি বেশি উপযোগী?",
+  "candidate_answer": "চলিত",
+  "matches": "db#5897",
+  "match_text": "নাটকের সংলাপের উপযোগী ভাষার কোন রীতি?",
+  "reason": "same answer",
+  "score": 86.5,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "বাংলা ভাষা কোন ভাষাপরিবারের অন্তর্গত?",
+  "candidate_answer": "ইন্দো-ইউরোপীয়",
+  "matches": "db#5196",
+  "match_text": "বাংলা ভাষা কোন মূল ভাষার অন্তর্গত?",
+  "reason": "same answer",
+  "score": 84.5,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "বাংলা ভাষার প্রাচীনতম নিদর্শন কোনটি?",
+  "candidate_answer": "চর্যাপদ",
+  "matches": "db#1587",
+  "match_text": "বাংলা ভাষার আদি নিদর্শন কোনটি?",
+  "reason": "same answer",
+  "score": 92.9,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘সবুজপত্র’ পত্রিকা প্রকাশিত হয় কোন সালে?",
+  "candidate_answer": "১৯১৪",
+  "matches": "new",
+  "match_text": "‘সবুজপত্র’ — কত সাল?",
+  "reason": "same answer",
+  "score": 85.7,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "বাংলায় যৌগিক স্বরধ্বনি কয়টি?",
+  "candidate_answer": "২৫",
+  "matches": "new",
+  "match_text": "মৌলিক স্বরধ্বনি কয়টি?",
+  "reason": "similar stem + shared options",
+  "score": 90.3,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "অল্পপ্রাণ ধ্বনি কোনটি?",
+  "candidate_answer": "ক",
+  "matches": "new",
+  "match_text": "অঘোষ ধ্বনি কোনটি?",
+  "reason": "same answer",
+  "score": 84.8,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘শরীর → শরীল’ কোন পরিবর্তন?",
+  "candidate_answer": "বিষমীভবন",
+  "matches": "db#6142",
+  "match_text": "'শরীর > শরীল' শব্দটিতে ধ্বনি পরিবর্তনের কোন ধরনের নিয়ম প্রযোজ্য?",
+  "reason": "same answer",
+  "score": 71.8,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘রামায়ণ’-এ ‘ণ’ কেন?",
+  "candidate_answer": "র-এর পরে",
+  "matches": "new",
+  "match_text": "‘ব্রাহ্মণ’-এ ‘ণ’ কেন?",
+  "reason": "same answer",
+  "score": 82.8,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘হঠাৎ’-এর ‘ৎ’ কী?",
+  "candidate_answer": "খণ্ড-ত",
+  "matches": "new",
+  "match_text": "‘ৎ’ কে কী বলে?",
+  "reason": "same answer",
+  "score": 100.0,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "বাংলা ভাষায় ‘ব’ কয়টি?",
+  "candidate_answer": "২টি",
+  "matches": "db#8374",
+  "match_text": "বাংলা ভাষারীতির কয়টি রূপ?",
+  "reason": "same answer",
+  "score": 83.3,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘লাফ → ফাল’ কোন পরিবর্তন?",
+  "candidate_answer": "বিপর্যাস",
+  "matches": "new",
+  "match_text": "‘পিশাচ → পিচাশ’ কোন পরিবর্তন?",
+  "reason": "same answer",
+  "score": 80.0,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘জয় করার ইচ্ছা’ — এক কথায়?",
+  "candidate_answer": "জিগীষা",
+  "matches": "new",
+  "match_text": "‘জানার ইচ্ছা’ — এক কথায়?",
+  "reason": "similar stem + shared options",
+  "score": 91.9,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘হনন করার ইচ্ছা’ — এক কথায়?",
+  "candidate_answer": "জিঘাংসা",
+  "matches": "db#6656",
+  "match_text": "'হনন করার ইচ্ছা' — এর বাক্য সংকোচন কোনটি?",
+  "reason": "same answer",
+  "score": 80.0,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘যা পূর্বে ছিল এখন নেই’ — এক কথায়?",
+  "candidate_answer": "ভূতপূর্ব",
+  "matches": "db#616",
+  "match_text": "পূর্বে ছিল এখন নেই- বাক্য সংকোচন কোনটি?",
+  "reason": "same answer",
+  "score": 78.4,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘যা বলা হয়নি’ — এক কথায়?",
+  "candidate_answer": "অনুক্ত",
+  "matches": "db#478",
+  "match_text": "যা বলা হয়নি- এক কথায় তাকে কী বলে?",
+  "reason": "same answer",
+  "score": 100.0,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘যা দীপ্তি পাচ্ছে’ — এক কথায়?",
+  "candidate_answer": "দেদীপ্যমান",
+  "matches": "db#921",
+  "match_text": "‘দীপ্তি পাচ্ছে এমন’-এক কথায় কী হবে ?",
+  "reason": "same answer",
+  "score": 93.6,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘অনুকরণ করার ইচ্ছা’ — এক কথায়?",
+  "candidate_answer": "অনুচিকীর্ষা",
+  "matches": "new",
+  "match_text": "‘উপকার করার ইচ্ছা’ — এক কথায়?",
+  "reason": "similar stem + shared options",
+  "score": 91.7,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘গমন করার ইচ্ছা’ — এক কথায়?",
+  "candidate_answer": "জিগমিষা",
+  "matches": "new",
+  "match_text": "‘জানার ইচ্ছা’ — এক কথায়?",
+  "reason": "similar stem + shared options",
+  "score": 91.9,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘বলার ইচ্ছা’ — এক কথায়?",
+  "candidate_answer": "বিবক্ষা",
+  "matches": "new",
+  "match_text": "‘জানার ইচ্ছা’ — এক কথায়?",
+  "reason": "similar stem + shared options",
+  "score": 94.4,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘জলে চরে যা’ — এক কথায়?",
+  "candidate_answer": "জলচর",
+  "matches": "new",
+  "match_text": "‘জল ও স্থল উভয় স্থানে চরে যা’ — এক কথায়?",
+  "reason": "similar stem + shared options",
+  "score": 94.4,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘ভ্রমরের ডাক’ — এক কথায়?",
+  "candidate_answer": "গুঞ্জন",
+  "matches": "new",
+  "match_text": "‘ময়ূরের ডাক’ — এক কথায়?",
+  "reason": "similar stem + shared options",
+  "score": 91.9,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘যা কষ্টে লাভ করা যায়’ — এক কথায়?",
+  "candidate_answer": "দুর্লভ",
+  "matches": "new",
+  "match_text": "‘যা লাভ করা কঠিন’ — এক কথায়?",
+  "reason": "same answer",
+  "score": 88.4,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘যা পান করার যোগ্য’ — এক কথায়?",
+  "candidate_answer": "উভয়ই",
+  "matches": "new",
+  "match_text": "‘যা দমন করা যায় না’ — এক কথায়?",
+  "reason": "same answer",
+  "score": 77.8,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘যা পূর্বে দেখা যায়নি’ — এক কথায়?",
+  "candidate_answer": "অদৃষ্টপূর্ব",
+  "matches": "db#7972",
+  "match_text": "'দেখা যায়নি যা' — এক কথায় কী বলে?",
+  "reason": "similar stem + shared options",
+  "score": 93.0,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘যা জলে ও স্থলে উভয় জায়গায় বাস করে’ — এক কথায়?",
+  "candidate_answer": "উভচর",
+  "matches": "new",
+  "match_text": "‘জল ও স্থল উভয় স্থানে চরে যা’ — এক কথায়?",
+  "reason": "same answer",
+  "score": 75.6,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘চাষি’ — শব্দে কোন প্রত্যয়?",
+  "candidate_answer": "তদ্ধিত",
+  "matches": "new",
+  "match_text": "‘মানবতা’ — কোন প্রত্যয়?",
+  "reason": "same answer",
+  "score": 82.4,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "বাংলায় প্রকৃতি কত প্রকার?",
+  "candidate_answer": "২",
+  "matches": "new",
+  "match_text": "উক্তি কত প্রকার?",
+  "reason": "same answer",
+  "score": 87.0,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "সম্বন্ধ পদের বিভক্তি?",
+  "candidate_answer": "-র / -এর",
+  "matches": "db#526",
+  "match_text": "সম্বন্ধ পদে কোন বিভক্তি যুক্ত হয়?",
+  "reason": "same answer",
+  "score": 85.7,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘রা’ — কোন বহুবচন প্রত্যয়?",
+  "candidate_answer": "বাংলা",
+  "matches": "new",
+  "match_text": "‘সবজিওয়ালা’ — কোন প্রত্যয়?",
+  "reason": "same answer",
+  "score": 78.9,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘ধনী’ — কোন প্রত্যয়?",
+  "candidate_answer": "তদ্ধিত",
+  "matches": "new",
+  "match_text": "‘মানবতা’ — কোন প্রত্যয়?",
+  "reason": "same answer",
+  "score": 90.3,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘খেলোয়াড়’ — কোন প্রত্যয়?",
+  "candidate_answer": "বাংলা",
+  "matches": "new",
+  "match_text": "‘সবজিওয়ালা’ — কোন প্রত্যয়?",
+  "reason": "same answer",
+  "score": 80.0,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "নিচের কোন বানানটি শুদ্ধ?",
+  "candidate_answer": "পোশাক",
+  "matches": "db#607",
+  "match_text": "কোন বানানটি শুদ্ধ? (মাষ্টার/পোশাক/জিনিষ/পোষ্ট অফিস)",
+  "reason": "same answer",
+  "score": 100.0,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘নিষেধ’ শব্দে ষ হয়েছে কীসের পরে?",
+  "candidate_answer": "ই",
+  "matches": "new",
+  "match_text": "‘পুরুষ’ শব্দে ষ হয়েছে কীসের পরে?",
+  "reason": "similar stem + shared options",
+  "score": 92.9,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘মণ্ডল’ শব্দে ণ হওয়ার কারণ—",
+  "candidate_answer": "ট-বর্গের (ড) আগে",
+  "matches": "new",
+  "match_text": "‘কাণ্ড’ শব্দে ণ হওয়ার কারণ কী?",
+  "reason": "same answer",
+  "score": 95.8,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘শ্রেষ্ঠ’ শব্দে ষ হওয়ার কারণ—",
+  "candidate_answer": "ঠ-এর আগে",
+  "matches": "new",
+  "match_text": "‘কষ্ট’ শব্দে ষ হওয়ার কারণ কী?",
+  "reason": "similar stem + shared options",
+  "score": 93.6,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘গুণ’ শব্দটি—",
+  "candidate_answer": "স্বভাব-ণ",
+  "matches": "new",
+  "match_text": "‘লবণ’ শব্দটি কোন শ্রেণির ণ?",
+  "reason": "same answer",
+  "score": 80.0,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "নিচের কোনটি শুদ্ধ?",
+  "candidate_answer": "মুমূর্ষু",
+  "matches": "db#510",
+  "match_text": "কোন বানানটি শুদ্ধ? (মুমুর্ষু/মুমূর্ষু/মূমুর্ষু/মূমূর্ষূ)",
+  "reason": "same answer",
+  "score": 83.3,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘বণিক’ শব্দটি—",
+  "candidate_answer": "স্বভাব-ণ",
+  "matches": "new",
+  "match_text": "‘লবণ’ শব্দটি কোন শ্রেণির ণ?",
+  "reason": "same answer",
+  "score": 85.7,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "বাক্যে বিভক্তি-যুক্ত শব্দকে কী বলে?",
+  "candidate_answer": "পদ",
+  "matches": "db#6650",
+  "match_text": "বিভক্তিযুক্ত শব্দকে কী বলে?",
+  "reason": "same answer",
+  "score": 94.7,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "বিশেষ্য পদ কত প্রকার?",
+  "candidate_answer": "৬",
+  "matches": "new",
+  "match_text": "পদ কত প্রকার?",
+  "reason": "similar stem + shared options",
+  "score": 100.0,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘দল, সভা’ — কোন বিশেষ্য?",
+  "candidate_answer": "সমষ্টিবাচক",
+  "matches": "new",
+  "match_text": "‘ঢাকা’ — কোন বিশেষ্য?",
+  "reason": "similar stem + shared options",
+  "score": 90.3,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘সততা’ — কোন বিশেষ্য?",
+  "candidate_answer": "ভাববাচক",
+  "matches": "new",
+  "match_text": "‘ঢাকা’ — কোন বিশেষ্য?",
+  "reason": "similar stem + shared options",
+  "score": 90.3,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "ক্রিয়া কত প্রকার?",
+  "candidate_answer": "৭",
+  "matches": "new",
+  "match_text": "বাংলায় বিভক্তি কত প্রকার?",
+  "reason": "same answer",
+  "score": 80.0,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘ভর’ কোন উপসর্গ?",
+  "candidate_answer": "বাংলা",
+  "matches": "new",
+  "match_text": "‘প্র, পরা, অপ’ কোন উপসর্গ?",
+  "reason": "similar stem + shared options",
+  "score": 92.3,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘অভিনন্দন’ — উপসর্গ?",
+  "candidate_answer": "অভি",
+  "matches": "new",
+  "match_text": "‘অভিযান’ — উপসর্গ?",
+  "reason": "same answer",
+  "score": 78.6,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘অনুসরণ’ — উপসর্গ?",
+  "candidate_answer": "অনু",
+  "matches": "new",
+  "match_text": "‘অনুরাগ’ — উপসর্গ?",
+  "reason": "same answer",
+  "score": 84.6,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘বাতিল / অকার্যকর’ কোন শব্দের পরিভাষা?",
+  "candidate_answer": "ক ও গ উভয়ই",
+  "matches": "new",
+  "match_text": "‘বিজ্ঞপ্তি’ কোন শব্দের পরিভাষা?",
+  "reason": "same answer",
+  "score": 81.6,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘সন্ধি’ শব্দটির আভিধানিক অর্থ কী?",
+  "candidate_answer": "মিলন",
+  "matches": "db#1571",
+  "match_text": "‘সন্ধি’ শব্দের অর্থ কী",
+  "reason": "same answer",
+  "score": 77.4,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘মতৈক্য’ — সন্ধি-বিচ্ছেদ?",
+  "candidate_answer": "মত + ঐক্য",
+  "matches": "db#5129",
+  "match_text": "'মতৈক্য' শব্দের সঠিক সন্ধি বিচ্ছেদ কোনটি?",
+  "reason": "same answer",
+  "score": 100.0,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘চতুষ্পদ’ — সন্ধি?",
+  "candidate_answer": "চতুঃ + পদ",
+  "matches": "db#496",
+  "match_text": "চতুষ্পদ শব্দের সন্ধি-বিচ্ছেদ কোনটি? (চতুর+পদ/চতুষ+পদ/চতু+পদ/চতুঃ+পদ)",
+  "reason": "same answer",
+  "score": 100.0,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘অয়্‌ ও অব্‌-আদেশ’ — কোন সন্ধির অন্তর্গত?",
+  "candidate_answer": "স্বরসন্ধি",
+  "matches": "new",
+  "match_text": "‘ণ-আদেশ’ কোন সন্ধির অন্তর্গত?",
+  "reason": "similar stem + shared options",
+  "score": 98.1,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘জ্যোছনা’ কোন শ্রেণির শব্দ?",
+  "candidate_answer": "অর্ধ-তৎসম",
+  "matches": "db#5535",
+  "match_text": "'গিন্নি' কোন শব্দ?",
+  "reason": "same answer",
+  "score": 72.0,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘কুড়ি’ (বিশ) কোন শ্রেণির শব্দ?",
+  "candidate_answer": "দেশি",
+  "matches": "new",
+  "match_text": "‘চাঁদ’ কোন শ্রেণির শব্দ?",
+  "reason": "similar stem + shared options",
+  "score": 90.0,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘ইসলাম’ কোন ভাষার শব্দ?",
+  "candidate_answer": "আরবি",
+  "matches": "db#5561",
+  "match_text": "'চশমা' কোন ভাষার শব্দ?",
+  "reason": "similar stem + shared options",
+  "score": 91.9,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘গরিব’ কোন ভাষার শব্দ?",
+  "candidate_answer": "আরবি",
+  "matches": "new",
+  "match_text": "‘চা’ ও ‘চিনি’ কোন ভাষার শব্দ?",
+  "reason": "similar stem + shared options",
+  "score": 91.9,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘পেন্নাম’ কোন শ্রেণির শব্দ?",
+  "candidate_answer": "অর্ধ-তৎসম",
+  "matches": "db#5535",
+  "match_text": "'গিন্নি' কোন শব্দ?",
+  "reason": "same answer",
+  "score": 72.0,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘টেবিল’ কোন ভাষার শব্দ?",
+  "candidate_answer": "ইংরেজি",
+  "matches": "db#7558",
+  "match_text": "'পাউরুটি' কোন ভাষার শব্দ?",
+  "reason": "similar stem + shared options",
+  "score": 92.3,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘সুনামি’ কোন ভাষার শব্দ?",
+  "candidate_answer": "জাপানি",
+  "matches": "db#1012",
+  "match_text": "‘রিক্সা কোন ভাষার শব্দ?",
+  "reason": "same answer",
+  "score": 90.0,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘ফেরেশতা’ কোন ভাষার শব্দ?",
+  "candidate_answer": "ফারসি",
+  "matches": "db#5561",
+  "match_text": "'চশমা' কোন ভাষার শব্দ?",
+  "reason": "same answer",
+  "score": 92.3,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘পীতাম্বর’ (কৃষ্ণ অর্থে) কোন জাতীয় শব্দ?",
+  "candidate_answer": "যোগরূঢ়",
+  "matches": "new",
+  "match_text": "‘পঙ্কজ’ কোন জাতীয় শব্দ?",
+  "reason": "same answer",
+  "score": 87.2,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘আদালত’ কোন ভাষার শব্দ?",
+  "candidate_answer": "আরবি",
+  "matches": "new",
+  "match_text": "‘হজ’ ও ‘জাকাত’ কোন ভাষার শব্দ?",
+  "reason": "same answer",
+  "score": 92.3,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘দোকান’ কোন ভাষার শব্দ?",
+  "candidate_answer": "ফারসি",
+  "matches": "db#5561",
+  "match_text": "'চশমা' কোন ভাষার শব্দ?",
+  "reason": "same answer",
+  "score": 89.5,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘কেষ্ট’ কোন শ্রেণির শব্দ?",
+  "candidate_answer": "অর্ধ-তৎসম (কৃষ্ণ → কেষ্ট)",
+  "matches": "new",
+  "match_text": "‘চাঁদ’ কোন শ্রেণির শব্দ?",
+  "reason": "similar stem + shared options",
+  "score": 90.0,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘বাগান’ ও ‘গোলাপ’ কোন ভাষার শব্দ?",
+  "candidate_answer": "ফারসি",
+  "matches": "db#5561",
+  "match_text": "'চশমা' কোন ভাষার শব্দ?",
+  "reason": "same answer",
+  "score": 89.5,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘বাঁশি’ কোন জাতীয় শব্দ?",
+  "candidate_answer": "রূঢ়ি",
+  "matches": "new",
+  "match_text": "‘সন্দেশ’ (মিষ্টি অর্থে) কোন জাতীয় শব্দ?",
+  "reason": "same answer",
+  "score": 87.2,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘মহাযাত্রা’ (মৃত্যু অর্থে) কোন জাতীয় শব্দ?",
+  "candidate_answer": "যোগরূঢ়",
+  "matches": "new",
+  "match_text": "‘পঙ্কজ’ কোন জাতীয় শব্দ?",
+  "reason": "same answer",
+  "score": 87.2,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "নিচের কোনটি তদ্ভব শব্দ?",
+  "candidate_answer": "মাথা",
+  "matches": "new",
+  "match_text": "‘মস্তক’-এর তদ্ভব রূপ কোনটি?",
+  "reason": "same answer",
+  "score": 82.8,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘জানালা’ কোন ভাষার শব্দ?",
+  "candidate_answer": "ফারসি",
+  "matches": "db#5561",
+  "match_text": "'চশমা' কোন ভাষার শব্দ?",
+  "reason": "same answer",
+  "score": 91.9,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘খদ্দর’ কোন ভাষার শব্দ?",
+  "candidate_answer": "গুজরাটি",
+  "matches": "db#924",
+  "match_text": "‘হরতাল’ কোন ভাষার শব্দ ?",
+  "reason": "same answer",
+  "score": 89.5,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘দৌহিত্র’ কোন জাতীয় শব্দ?",
+  "candidate_answer": "যৌগিক",
+  "matches": "new",
+  "match_text": "‘কর্তব্য’ কোন জাতীয় শব্দ?",
+  "reason": "same answer",
+  "score": 86.4,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘ডাক্তারখানা’ কোন জাতীয় শব্দ?",
+  "candidate_answer": "মিশ্র (ইংরেজি+ফারসি)",
+  "matches": "new",
+  "match_text": "‘হেড-মৌলভি’ কোন জাতীয় শব্দ?",
+  "reason": "same answer",
+  "score": 77.3,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘আজ’ কোন শ্রেণির শব্দ?",
+  "candidate_answer": "তদ্ভব (অদ্য → আজ)",
+  "matches": "new",
+  "match_text": "‘চাঁদ’ কোন শ্রেণির শব্দ?",
+  "reason": "similar stem + shared options",
+  "score": 94.7,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘পেঁপে’ কোন ভাষার শব্দ?",
+  "candidate_answer": "পর্তুগিজ",
+  "matches": "db#5896",
+  "match_text": "'আনারস' কোন ভাষার শব্দ?",
+  "reason": "same answer",
+  "score": 86.5,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘লিচু’ কোন ভাষার শব্দ?",
+  "candidate_answer": "চীনা",
+  "matches": "new",
+  "match_text": "‘চা’ ও ‘চিনি’ কোন ভাষার শব্দ?",
+  "reason": "same answer",
+  "score": 91.9,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘বোতাম’ কোন ভাষার শব্দ?",
+  "candidate_answer": "পর্তুগিজ",
+  "matches": "db#5896",
+  "match_text": "'আনারস' কোন ভাষার শব্দ?",
+  "reason": "same answer",
+  "score": 87.2,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘ছিরি’ কোন শ্রেণির শব্দ?",
+  "candidate_answer": "অর্ধ-তৎসম (শ্রী → ছিরি)",
+  "matches": "new",
+  "match_text": "‘চাঁদ’ কোন শ্রেণির শব্দ?",
+  "reason": "similar stem + shared options",
+  "score": 90.0,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "অর্থ-অনুসারে শব্দ কত প্রকার?",
+  "candidate_answer": "৩",
+  "matches": "new",
+  "match_text": "বাচ্য কত প্রকার?",
+  "reason": "same answer",
+  "score": 81.8,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘চাঁদ’ — কোন শব্দ?",
+  "candidate_answer": "তদ্ভব",
+  "matches": "new",
+  "match_text": "‘চাঁদ’ কোন শ্রেণির শব্দ?",
+  "reason": "same answer",
+  "score": 100.0,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘কুঁড়ি’ — কোন শব্দ?",
+  "candidate_answer": "দেশি",
+  "matches": "new",
+  "match_text": "‘ঢেঁকি’ — কোন শব্দ?",
+  "reason": "same answer",
+  "score": 84.6,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘বালতি’ — কোন ভাষা?",
+  "candidate_answer": "পর্তুগিজ",
+  "matches": "db#453",
+  "match_text": "পেয়ারা কোন ভাষা থেকে আগত শব্দ? (বাংলা/পর্তুগিজ/ফারসি/হিন্দি)",
+  "reason": "same answer",
+  "score": 75.0,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘চাবি’ — কোন ভাষা?",
+  "candidate_answer": "পর্তুগিজ",
+  "matches": "db#453",
+  "match_text": "পেয়ারা কোন ভাষা থেকে আগত শব্দ? (বাংলা/পর্তুগিজ/ফারসি/হিন্দি)",
+  "reason": "same answer",
+  "score": 78.6,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘রিকশা’ — কোন ভাষা?",
+  "candidate_answer": "জাপানি",
+  "matches": "db#1012",
+  "match_text": "‘রিক্সা কোন ভাষার শব্দ?",
+  "reason": "same answer",
+  "score": 86.7,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘চা’ — কোন ভাষা?",
+  "candidate_answer": "চীনা",
+  "matches": "new",
+  "match_text": "‘চা’ ও ‘চিনি’ কোন ভাষার শব্দ?",
+  "reason": "same answer",
+  "score": 83.3,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘চিনি’ — কোন ভাষা?",
+  "candidate_answer": "চীনা",
+  "matches": "new",
+  "match_text": "‘চা’ ও ‘চিনি’ কোন ভাষার শব্দ?",
+  "reason": "same answer",
+  "score": 100.0,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘মসজিদ’ — কোন ভাষা?",
+  "candidate_answer": "আরবি",
+  "matches": "db#491",
+  "match_text": "কলম শব্দটি কোন ভাষা থেকে গৃহীত?",
+  "reason": "same answer",
+  "score": 75.0,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘দারোগা’ — কোন ভাষা?",
+  "candidate_answer": "তুর্কি",
+  "matches": "new",
+  "match_text": "‘বেগম’ — কোন ভাষা?",
+  "reason": "same answer",
+  "score": 85.7,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘সূর্য’-এর সমার্থক?",
+  "candidate_answer": "সবগুলো",
+  "matches": "db#6673",
+  "match_text": "'গঙ্গা' শব্দের সমার্থক শব্দ কোনটি?",
+  "reason": "same answer",
+  "score": 70.0,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘জল’-এর সমার্থক?",
+  "candidate_answer": "সবগুলো",
+  "matches": "db#6673",
+  "match_text": "'গঙ্গা' শব্দের সমার্থক শব্দ কোনটি?",
+  "reason": "same answer",
+  "score": 82.4,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘পদ্ম’-এর সমার্থক?",
+  "candidate_answer": "সবগুলো",
+  "matches": "db#6673",
+  "match_text": "'গঙ্গা' শব্দের সমার্থক শব্দ কোনটি?",
+  "reason": "same answer",
+  "score": 75.0,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘আকাশ’-এর সমার্থক?",
+  "candidate_answer": "সবগুলো",
+  "matches": "db#6673",
+  "match_text": "'গঙ্গা' শব্দের সমার্থক শব্দ কোনটি?",
+  "reason": "same answer",
+  "score": 73.7,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘বায়ু’-এর সমার্থক?",
+  "candidate_answer": "সবগুলো",
+  "matches": "db#6673",
+  "match_text": "'গঙ্গা' শব্দের সমার্থক শব্দ কোনটি?",
+  "reason": "same answer",
+  "score": 70.0,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘নদী’-এর সমার্থক?",
+  "candidate_answer": "সবগুলো",
+  "matches": "db#6673",
+  "match_text": "'গঙ্গা' শব্দের সমার্থক শব্দ কোনটি?",
+  "reason": "same answer",
+  "score": 81.8,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘সমুদ্র’-এর সমার্থক?",
+  "candidate_answer": "সবগুলো",
+  "matches": "new",
+  "match_text": "‘চন্দ্র’-এর সমার্থক?",
+  "reason": "same answer",
+  "score": 88.0,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘চক্ষু’-এর সমার্থক?",
+  "candidate_answer": "সবগুলো",
+  "matches": "db#6673",
+  "match_text": "'গঙ্গা' শব্দের সমার্থক শব্দ কোনটি?",
+  "reason": "same answer",
+  "score": 70.0,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘স্বর্ণ’-এর সমার্থক?",
+  "candidate_answer": "সবগুলো",
+  "matches": "new",
+  "match_text": "‘চন্দ্র’-এর সমার্থক?",
+  "reason": "same answer",
+  "score": 83.3,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘হাতি’-এর সমার্থক?",
+  "candidate_answer": "সবগুলো",
+  "matches": "db#6673",
+  "match_text": "'গঙ্গা' শব্দের সমার্থক শব্দ কোনটি?",
+  "reason": "same answer",
+  "score": 73.7,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘রাত্রি’-এর সমার্থক?",
+  "candidate_answer": "সবগুলো",
+  "matches": "new",
+  "match_text": "‘চন্দ্র’-এর সমার্থক?",
+  "reason": "same answer",
+  "score": 83.3,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘বন’-এর সমার্থক?",
+  "candidate_answer": "সবগুলো",
+  "matches": "db#6673",
+  "match_text": "'গঙ্গা' শব্দের সমার্থক শব্দ কোনটি?",
+  "reason": "same answer",
+  "score": 82.4,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘রাজা’-এর সমার্থক?",
+  "candidate_answer": "সবগুলো",
+  "matches": "db#6673",
+  "match_text": "'গঙ্গা' শব্দের সমার্থক শব্দ কোনটি?",
+  "reason": "same answer",
+  "score": 75.0,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘অক্কা পাওয়া’?",
+  "candidate_answer": "মারা যাওয়া",
+  "matches": "new",
+  "match_text": "‘অক্কা পাওয়া’ অর্থ কী?",
+  "reason": "same answer",
+  "score": 100.0,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘চোখের বালি’?",
+  "candidate_answer": "চক্ষুশূল/শত্রু",
+  "matches": "new",
+  "match_text": "‘চোখের বালি’ অর্থ কী?",
+  "reason": "same answer",
+  "score": 100.0,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘সোনায় সোহাগা’?",
+  "candidate_answer": "উপযুক্ত মিলন",
+  "matches": "new",
+  "match_text": "‘সোনায় সোহাগা’ অর্থ কী?",
+  "reason": "same answer",
+  "score": 100.0,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘উপকারীর প্রতি অপকার করা’?",
+  "candidate_answer": "কৃতঘ্ন",
+  "matches": "db#984",
+  "match_text": "যে উপকারীর অপকার করে ?",
+  "reason": "same answer",
+  "score": 79.1,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘উপকারীর উপকার স্বীকার করে যে’?",
+  "candidate_answer": "কৃতজ্ঞ",
+  "matches": "new",
+  "match_text": "‘উপকারীর উপকার করে যে’ — এক কথায়?",
+  "reason": "same answer",
+  "score": 83.3,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘আকাশে চরে যে’?",
+  "candidate_answer": "খেচর",
+  "matches": "new",
+  "match_text": "‘আকাশে বেড়ায় যে’ — এক কথায়?",
+  "reason": "same answer",
+  "score": 80.0,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘যা পূর্বে ছিল এখন নেই’?",
+  "candidate_answer": "ভূতপূর্ব",
+  "matches": "db#616",
+  "match_text": "পূর্বে ছিল এখন নেই- বাক্য সংকোচন কোনটি?",
+  "reason": "same answer",
+  "score": 92.3,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘যা বলা হয়নি’?",
+  "candidate_answer": "অনুক্ত",
+  "matches": "db#478",
+  "match_text": "যা বলা হয়নি- এক কথায় তাকে কী বলে?",
+  "reason": "same answer",
+  "score": 100.0,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘প্রিয় বাক্য বলে যে নারী’?",
+  "candidate_answer": "প্রিয়ংবদা",
+  "matches": "new",
+  "match_text": "‘যে নারী প্রিয় কথা বলে’ — এক কথায়?",
+  "reason": "same answer",
+  "score": 82.4,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘খাতক’-এর বিপরীত?",
+  "candidate_answer": "মহাজন",
+  "matches": "db#919",
+  "match_text": "খাতক শব্দের বিপরীত শব্দ কোনটি ?",
+  "reason": "same answer",
+  "score": 100.0,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘গোবর গণেশ’?",
+  "candidate_answer": "মূর্খ",
+  "matches": "new",
+  "match_text": "‘গোবর গণেশ’ অর্থ কী?",
+  "reason": "same answer",
+  "score": 100.0,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘তামার বিষ’?",
+  "candidate_answer": "অর্থের কুপ্রভাব",
+  "matches": "db#454",
+  "match_text": "তামার বিষ বাগধারাটির অর্থ কী?",
+  "reason": "same answer",
+  "score": 100.0,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘মা’-এর সমার্থক?",
+  "candidate_answer": "সবগুলো",
+  "matches": "db#6673",
+  "match_text": "'গঙ্গা' শব্দের সমার্থক শব্দ কোনটি?",
+  "reason": "same answer",
+  "score": 82.4,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘সর্প’-এর সমার্থক?",
+  "candidate_answer": "সবগুলো",
+  "matches": "db#6673",
+  "match_text": "'গঙ্গা' শব্দের সমার্থক শব্দ কোনটি?",
+  "reason": "same answer",
+  "score": 75.0,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘হাতির ডাক’?",
+  "candidate_answer": "বৃংহিত",
+  "matches": "new",
+  "match_text": "‘হাতির ডাক’ — এক কথায়?",
+  "reason": "similar stem + shared options",
+  "score": 100.0,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "বাংলা ব্যাকরণে প্রধান সমাস কয় প্রকার?",
+  "candidate_answer": "৬",
+  "matches": "new",
+  "match_text": "কারক কয় প্রকার?",
+  "reason": "same answer",
+  "score": 85.7,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "ব্যাসবাক্যের আরেক নাম?",
+  "candidate_answer": "বিগ্রহবাক্য",
+  "matches": "db#5556",
+  "match_text": "ব্যাসবাক্যের অপর নাম কী?",
+  "reason": "same answer",
+  "score": 88.9,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘সিংহাসন’ — সমাস?",
+  "candidate_answer": "মধ্যপদলোপী কর্মধারয়",
+  "matches": "db#6680",
+  "match_text": "'সিংহাসন' কোন সমাস?",
+  "reason": "same answer",
+  "score": 100.0,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘অসাধারণ’ — সমাস?",
+  "candidate_answer": "নঞ তৎপুরুষ",
+  "matches": "new",
+  "match_text": "‘অনাচার’ — সমাস?",
+  "reason": "same answer",
+  "score": 78.3,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘উপবন’ — সমাস?",
+  "candidate_answer": "অব্যয়ীভাব",
+  "matches": "new",
+  "match_text": "‘উপকূল’ — সমাস?",
+  "reason": "same answer",
+  "score": 73.7,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘জলদ’ — সমাস?",
+  "candidate_answer": "উপপদ তৎপুরুষ",
+  "matches": "new",
+  "match_text": "‘পঙ্কজ’ — সমাস?",
+  "reason": "same answer",
+  "score": 85.7,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘দিগম্বর’ — সমাস?",
+  "candidate_answer": "বহুব্রীহি",
+  "matches": "new",
+  "match_text": "‘পীতাম্বর’ — সমাস?",
+  "reason": "same answer",
+  "score": 85.7,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘ভাইবোন’ — সমাস?",
+  "candidate_answer": "দ্বন্দ্ব",
+  "matches": "db#7973",
+  "match_text": "যে সমাসে সমস্যমান প্রত্যেকটি পদের অর্থের সমান প্রাধান্য থাকে তাকে কোন সমাস বলে?",
+  "reason": "same answer",
+  "score": 80.0,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘ত্রিকাল’ — সমাস?",
+  "candidate_answer": "দ্বিগু",
+  "matches": "new",
+  "match_text": "‘ত্রিভুবন’ — সমাস?",
+  "reason": "same answer",
+  "score": 72.0,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘প্রতিদ্বন্দ্ব’ — সমাস?",
+  "candidate_answer": "অব্যয়ীভাব",
+  "matches": "new",
+  "match_text": "‘প্রতিদিন’ — সমাস?",
+  "reason": "same answer",
+  "score": 77.4,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘প্রপৌত্র’ — সমাস?",
+  "candidate_answer": "অব্যয়ীভাব",
+  "matches": "new",
+  "match_text": "‘আমরণ’ — সমাস?",
+  "reason": "same answer",
+  "score": 80.0,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘সমকাল’ — সমাস?",
+  "candidate_answer": "অব্যয়ীভাব",
+  "matches": "new",
+  "match_text": "‘উপকূল’ — সমাস?",
+  "reason": "same answer",
+  "score": 77.8,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘জন্ম-মৃত্যু’ — কোন দ্বন্দ্ব?",
+  "candidate_answer": "বিপরীত",
+  "matches": "new",
+  "match_text": "‘অহিনকুল’ — কোন দ্বন্দ্ব?",
+  "reason": "same answer",
+  "score": 83.3,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘রামসীতা’ — কোন দ্বন্দ্ব?",
+  "candidate_answer": "মিলনার্থক",
+  "matches": "new",
+  "match_text": "‘রাম-লক্ষ্মণ’ — কোন দ্বন্দ্ব?",
+  "reason": "same answer",
+  "score": 81.1,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "সংখ্যাবাচক পূর্বপদে কোন সমাস হয়?",
+  "candidate_answer": "দ্বিগু",
+  "matches": "db#547",
+  "match_text": "সংখ্যাবাচক শব্দ পূর্বে বসে সমষ্টি বা সমাহার বা মিলন বোঝালে কোন সমাস হয়?",
+  "reason": "same answer",
+  "score": 81.6,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘চৌপাট’ — কোন সমাস?",
+  "candidate_answer": "দ্বিগু",
+  "matches": "db#547",
+  "match_text": "সংখ্যাবাচক শব্দ পূর্বে বসে সমষ্টি বা সমাহার বা মিলন বোঝালে কোন সমাস হয়?",
+  "reason": "same answer",
+  "score": 81.5,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘ধনী-দরিদ্র’ — কোন দ্বন্দ্ব?",
+  "candidate_answer": "বিপরীত",
+  "matches": "new",
+  "match_text": "‘অহিনকুল’ — কোন দ্বন্দ্ব?",
+  "reason": "same answer",
+  "score": 80.0,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "‘নিরন্ন’ — সমাস?",
+  "candidate_answer": "নঞ বহুব্রীহি",
+  "matches": "new",
+  "match_text": "‘নিরাশ’ — সমাস?",
+  "reason": "same answer",
+  "score": 76.2,
+  "subject_file": "ntrca_bangla"
+ },
+ {
+  "candidate": "২ এর ২০% কত?",
+  "candidate_answer": "০.০৪",
+  "matches": "db#5621",
+  "match_text": "০.২ এর ২০% কত?",
+  "reason": "same answer",
+  "score": 100.0,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "একটি বর্গক্ষেত্রের কর্ণের দৈর্ঘ্য 4√2 একক হলে, ঐ বর্গক্ষেত্রের ক্ষেত্রফল কত বর্গ একক?",
+  "candidate_answer": "16 বর্গ একক",
+  "matches": "db#5989",
+  "match_text": "একটি বর্গের কর্ণের দৈর্ঘ্য 4√2 একক হলে ঐ বর্গের ক্ষেত্রফল কত?",
+  "reason": "same answer",
+  "score": 92.5,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "৫ এবং ১৩.৫ এর সমানুপাতী কত?",
+  "candidate_answer": "৪.৫",
+  "matches": "db#7659",
+  "match_text": "১.৫ এবং ১৩.৫ এর সমানুপাতী কত?",
+  "reason": "same answer",
+  "score": 100.0,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "x+1/x=2; x³+1/x³=?",
+  "candidate_answer": "2",
+  "matches": "new",
+  "match_text": "x+1/x=2; x²+1/x²=?",
+  "reason": "same answer",
+  "score": 87.5,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "16 = 2^?",
+  "candidate_answer": "4",
+  "matches": "db#5627",
+  "match_text": "x এর মান কত হলে 2^(4x − 12) = 16 হবে?",
+  "reason": "same answer",
+  "score": 100.0,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "81 = 3^?",
+  "candidate_answer": "4",
+  "matches": "db#5348",
+  "match_text": "3^(3x − 8) = 3⁴ হলে x-এর মান কত?",
+  "reason": "same answer",
+  "score": 72.7,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "(2/3)² = ?",
+  "candidate_answer": "4/9",
+  "matches": "db#5629",
+  "match_text": "a + b = 17 এবং ab = 60 হলে (a − b)² এর মান কত?",
+  "reason": "same answer",
+  "score": 75.0,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "log₃81 = ?",
+  "candidate_answer": "4",
+  "matches": "db#927",
+  "match_text": "log381 এর মান কত?",
+  "reason": "same answer",
+  "score": 93.3,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "log₁₀1000 = ?",
+  "candidate_answer": "3",
+  "matches": "new",
+  "match_text": "log₁₀100 = ?",
+  "reason": "similar stem + shared options",
+  "score": 90.0,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "log_a 1 = ?",
+  "candidate_answer": "0",
+  "matches": "new",
+  "match_text": "(A')' = ?",
+  "reason": "similar stem + shared options",
+  "score": 100.0,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "3x + 5 = 20 হলে x?",
+  "candidate_answer": "5",
+  "matches": "db#7655",
+  "match_text": "2ˣ · 5ˣ = 100000 হলে, x = কত?",
+  "reason": "same answer",
+  "score": 70.3,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "2^(2x+1) = 8 হলে x?",
+  "candidate_answer": "1",
+  "matches": "new",
+  "match_text": "(A')' = ?",
+  "reason": "similar stem + shared options",
+  "score": 100.0,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "5^x = 125 হলে x?",
+  "candidate_answer": "3",
+  "matches": "db#1150",
+  "match_text": "2x 4 ^(3x – 5) = 512 হলে x এর মান-",
+  "reason": "same answer",
+  "score": 80.0,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "4^x = 64 হলে x?",
+  "candidate_answer": "3",
+  "matches": "new",
+  "match_text": "3^x = 27 হলে x?",
+  "reason": "same answer",
+  "score": 81.5,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "a+b = 10, ab = 21 হলে a−b?",
+  "candidate_answer": "4",
+  "matches": "new",
+  "match_text": "(a+b)³ = 64 হলে a+b = ?",
+  "reason": "same answer",
+  "score": 78.3,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "ত্রিভুজের কোণ-সমষ্টি?",
+  "candidate_answer": "১৮০°",
+  "matches": "db#5998",
+  "match_text": "কোনো ত্রিভুজের একটি বহিঃস্থ কোণ ও এর অন্তঃস্থ সন্নিহিত কোণের সমষ্টি কত?",
+  "reason": "same answer",
+  "score": 100.0,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "ষড়ভুজের কোণ-সমষ্টি?",
+  "candidate_answer": "৭২০°",
+  "matches": "new",
+  "match_text": "পঞ্চভুজের কোণ-সমষ্টি?",
+  "reason": "similar stem + shared options",
+  "score": 91.9,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "সমবাহু ত্রিভুজের প্রতি কোণ?",
+  "candidate_answer": "৬০°",
+  "matches": "db#6771",
+  "match_text": "সমবাহু ত্রিভুজের প্রত্যেকটি কোণের পরিমাণ কত?",
+  "reason": "same answer",
+  "score": 87.5,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "ত্রিভুজের ক্ষেত্রফল?",
+  "candidate_answer": "½×ভূমি×উচ্চতা",
+  "matches": "db#5303",
+  "match_text": "ত্রিভুজের ক্ষেত্রফল নির্ণয়ের সূত্র কোনটি?",
+  "reason": "same answer",
+  "score": 100.0,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "সমবাহু ত্রিভুজের ক্ষেত্রফল (বাহু a)?",
+  "candidate_answer": "(√3/4)a²",
+  "matches": "db#5296",
+  "match_text": "সমবাহু ত্রিভুজের এক বাহুর দৈর্ঘ্য a একক হলে এর ক্ষেত্রফল কত বর্গ একক?",
+  "reason": "same answer",
+  "score": 91.2,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "কর্ণ ৬ ও ৮ রম্বসের ক্ষেত্রফল?",
+  "candidate_answer": "২৪",
+  "matches": "db#6271",
+  "match_text": "একটি রম্বসের প্রতিটি বাহুর দৈর্ঘ্য 5 সে.মি.। রম্বসটির ক্ষেত্রফল কত বর্গ সে.মি.?",
+  "reason": "same answer",
+  "score": 75.6,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "ঘনকের পৃষ্ঠতলের ক্ষেত্রফল?",
+  "candidate_answer": "6a²",
+  "matches": "db#6304",
+  "match_text": "ঘনকের ধার a একক হলে ঘনকের সমগ্র তলের ক্ষেত্রফল কত?",
+  "reason": "same answer",
+  "score": 80.0,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "বেলনের আয়তন?",
+  "candidate_answer": "πr²h",
+  "matches": "db#7642",
+  "match_text": "একটি সমবৃত্তভূমিক বেলনের ভূমির ব্যাসার্ধ r এবং উচ্চতা h হলে উহার আয়তন —",
+  "reason": "same answer",
+  "score": 100.0,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "৭০° কোণের সম্পূরক?",
+  "candidate_answer": "১১০°",
+  "matches": "db#6282",
+  "match_text": "৭০° এর সম্পূরক কোণ কত?",
+  "reason": "same answer",
+  "score": 94.1,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "লম্ব রেখার প্রতীক?",
+  "candidate_answer": "⊥",
+  "matches": "new",
+  "match_text": "সমান্তরাল রেখার প্রতীক?",
+  "reason": "similar stem + shared options",
+  "score": 90.3,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "৪৫° ও ৪৫° হলে তৃতীয় কোণ?",
+  "candidate_answer": "৯০°",
+  "matches": "new",
+  "match_text": "৩০° ও ৬০° হলে তৃতীয় কোণ?",
+  "reason": "same answer",
+  "score": 89.5,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "১০ × ৬ আয়তক্ষেত্রের ক্ষেত্রফল?",
+  "candidate_answer": "৬০",
+  "matches": "db#8023",
+  "match_text": "একটি আয়তক্ষেত্রের দৈর্ঘ্য প্রস্থের দেড়গুণ। ক্ষেত্রফল 216 বর্গমিটার হলে তার পরিসীমা কত মিটার?",
+  "reason": "same answer",
+  "score": 86.8,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "বাহু ৬, ৮, ১০ ত্রিভুজের ক্ষেত্রফল?",
+  "candidate_answer": "২৪",
+  "matches": "new",
+  "match_text": "ভূমি ৬, উচ্চতা ৮ ত্রিভুজের ক্ষেত্রফল?",
+  "reason": "same answer",
+  "score": 85.2,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "পরিধি ÷ ব্যাস = ?",
+  "candidate_answer": "π",
+  "matches": "db#1091",
+  "match_text": "বৃত্তের্ পরিধি ব্যাসের অনুপাত কত?",
+  "reason": "same answer",
+  "score": 80.0,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "সামান্তরিকের বিপরীত কোণ?",
+  "candidate_answer": "সমান",
+  "matches": "new",
+  "match_text": "বিপ্রতীপ কোণ সম্পর্কে সত্য?",
+  "reason": "same answer",
+  "score": 70.6,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "বর্গের বাহু দ্বিগুণ হলে ক্ষেত্রফল?",
+  "candidate_answer": "চারগুণ",
+  "matches": "new",
+  "match_text": "বৃত্তের ব্যাসার্ধ দ্বিগুণ হলে ক্ষেত্রফল?",
+  "reason": "same answer",
+  "score": 82.8,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "গোলকের ব্যাসার্ধ দ্বিগুণ হলে আয়তন?",
+  "candidate_answer": "৮ গুণ",
+  "matches": "new",
+  "match_text": "ঘনকের বাহু দ্বিগুণ হলে আয়তন?",
+  "reason": "same answer",
+  "score": 78.3,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "P(নিশ্চিত ঘটনা) = ?",
+  "candidate_answer": "১",
+  "matches": "new",
+  "match_text": "(A')' = ?",
+  "reason": "similar stem + shared options",
+  "score": 100.0,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "P(অসম্ভব ঘটনা) = ?",
+  "candidate_answer": "০",
+  "matches": "new",
+  "match_text": "(A')' = ?",
+  "reason": "similar stem + shared options",
+  "score": 100.0,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "দুই ছক্কায় যোগফল ৭ পাওয়ার সম্ভাবনা?",
+  "candidate_answer": "১/৬",
+  "matches": "new",
+  "match_text": "ছক্কায় ৪ পাওয়ার সম্ভাবনা?",
+  "reason": "same answer",
+  "score": 96.0,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "১, ২, ৩, ৪, ৫ — মধ্যক?",
+  "candidate_answer": "৩",
+  "matches": "db#6873",
+  "match_text": "সাতটি সরলরেখার দৈর্ঘ্য যথাক্রমে 1, 2, 3, 4, 5, 6 ও 7 সে.মি.। কয়টি ক্ষেত্রে চারটি বাহু দিয়ে চতুর্ভুজ অঙ্কন করা সম্ভব নয়?",
+  "reason": "same answer",
+  "score": 75.0,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "১³+২³+...+৫³ = ?",
+  "candidate_answer": "২২৫",
+  "matches": "new",
+  "match_text": "৫³ = ?",
+  "reason": "similar stem + shared options",
+  "score": 100.0,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "৩/৪ + ১/৪ = ?",
+  "candidate_answer": "১",
+  "matches": "db#813",
+  "match_text": "How many triangles can be formed by choosing three of four line segments of length 1 cm, 2 cm, 3 cm, and 4 cm?",
+  "reason": "same answer",
+  "score": 71.4,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "৪০-এর ২৫% = ?",
+  "candidate_answer": "১০",
+  "matches": "db#6878",
+  "match_text": "ax² + b এর মান x = 1 হলে 1 এবং x = 3 হলে 25 হয়। x = 2 হলে এর মান কত?",
+  "reason": "same answer",
+  "score": 72.7,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "ঘড়িতে ৩:০০ অবস্থায় কোণ?",
+  "candidate_answer": "৯০°",
+  "matches": "new",
+  "match_text": "ঘড়িতে ৬:০০ অবস্থায় কাঁটাদ্বয়ের কোণ?",
+  "reason": "similar stem + shared options",
+  "score": 91.7,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "৯০° = কত রেডিয়ান?",
+  "candidate_answer": "π/২",
+  "matches": "new",
+  "match_text": "১৮০° = কত রেডিয়ান?",
+  "reason": "similar stem + shared options",
+  "score": 96.3,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "একমাত্র জোড় মৌলিক সংখ্যা?",
+  "candidate_answer": "২",
+  "matches": "db#1075",
+  "match_text": "A = {x : x জোড় মৌলিক সংখ্যা }, তালিকা পদ্ধতিতে কি হবে ?",
+  "reason": "same answer",
+  "score": 82.6,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "১২৬ কি ৬ দ্বারা বিভাজ্য?",
+  "candidate_answer": "হ্যাঁ",
+  "matches": "new",
+  "match_text": "৪২৩ কি ৩ দ্বারা বিভাজ্য?",
+  "reason": "same answer",
+  "score": 87.2,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "দুই সংখ্যার গ.সা.গু ৬ ও ল.সা.গু ৩৬; একটি ১২ হলে অপরটি?",
+  "candidate_answer": "১৮",
+  "matches": "db#5387",
+  "match_text": "দুইটি সংখ্যার ল.সা.গু ৩৬ ও গ.সা.গু ৬। একটি সংখ্যা ১২ হলে, অপর সংখ্যাটি কত?",
+  "reason": "same answer",
+  "score": 87.8,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "সহমৌলিক সংখ্যার গ.সা.গু কত?",
+  "candidate_answer": "১",
+  "matches": "db#5378",
+  "match_text": "0, 2, 3 এর গ.সা.গু কত?",
+  "reason": "same answer",
+  "score": 76.2,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "৮ ও ৯-এর গ.সা.গু?",
+  "candidate_answer": "১",
+  "matches": "db#5331",
+  "match_text": "x + y, x − y, x² − y² এর গ.সা.গু কত?",
+  "reason": "same answer",
+  "score": 76.9,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "ক্ষুদ্রতম পূর্ণ সংখ্যা (Whole)?",
+  "candidate_answer": "০",
+  "matches": "new",
+  "match_text": "ক্ষুদ্রতম পূর্ণ সংখ্যা (Integer) কোনটি?",
+  "reason": "similar stem + shared options",
+  "score": 90.2,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "১৮ ও ২৪-এর ল.সা.গু?",
+  "candidate_answer": "৭২",
+  "matches": "new",
+  "match_text": "২৪ ও ৩৬-এর ল.সা.গু?",
+  "reason": "same answer",
+  "score": 88.9,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "১২৩৪৫৬ কি ৮ দ্বারা বিভাজ্য?",
+  "candidate_answer": "হ্যাঁ",
+  "matches": "new",
+  "match_text": "৪২৩ কি ৩ দ্বারা বিভাজ্য?",
+  "reason": "same answer",
+  "score": 86.5,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "১২৩৪৫৬৭৮৯ কি ৯ দ্বারা বিভাজ্য?",
+  "candidate_answer": "হ্যাঁ",
+  "matches": "new",
+  "match_text": "৪২৩ কি ৩ দ্বারা বিভাজ্য?",
+  "reason": "same answer",
+  "score": 86.5,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "০-এর বর্গ ও ঘন?",
+  "candidate_answer": "০",
+  "matches": "db#6804",
+  "match_text": "4 সে.মি., 5 সে.মি. ও 9 সে.মি. বাহুবিশিষ্ট ত্রিভুজের ক্ষেত্রফল কত বর্গ একক?",
+  "reason": "same answer",
+  "score": 70.6,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "০! = ?",
+  "candidate_answer": "১",
+  "matches": "db#5329",
+  "match_text": "a ≠ 0 হলে a⁰ = কত?",
+  "reason": "same answer",
+  "score": 100.0,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "৩৬ ও ৪৮-এর গ.সা.গু?",
+  "candidate_answer": "১২",
+  "matches": "new",
+  "match_text": "২৪ ও ৩৬-এর গ.সা.গু?",
+  "reason": "same answer",
+  "score": 93.3,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "দুটি সংখ্যা ৭:১১ অনুপাতে; ল.সা.গু ৭৭ হলে গ.সা.গু?",
+  "candidate_answer": "১",
+  "matches": "db#5378",
+  "match_text": "0, 2, 3 এর গ.সা.গু কত?",
+  "reason": "same answer",
+  "score": 76.2,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "একটি সংখ্যার তিনগুণের সাথে ৭ যোগ করলে ২৫ হয়; সংখ্যা?",
+  "candidate_answer": "৬",
+  "matches": "new",
+  "match_text": "একটি সংখ্যা ও তার বর্গের যোগফল 42; সংখ্যাটি?",
+  "reason": "same answer",
+  "score": 70.3,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "১/৪ = কত %?",
+  "candidate_answer": "২৫%",
+  "matches": "new",
+  "match_text": "১, ৪, ৯, ১৬, ? — পরের?",
+  "reason": "same answer",
+  "score": 88.9,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "১/৮ = কত %?",
+  "candidate_answer": "১২.৫%",
+  "matches": "new",
+  "match_text": "১, ৮, ২৭, ৬৪, ? — পরের?",
+  "reason": "same answer",
+  "score": 88.9,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "০.১২৫ = কত %?",
+  "candidate_answer": "১২.৫%",
+  "matches": "new",
+  "match_text": "৫³ = ?",
+  "reason": "same answer",
+  "score": 85.7,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "একটি সংখ্যা ২৫% কমে ৭৫ হলে; পূর্বের সংখ্যা?",
+  "candidate_answer": "১০০",
+  "matches": "new",
+  "match_text": "একটি সংখ্যা ২০% বৃদ্ধি পেয়ে ১২০ হলে; পূর্বের সংখ্যা?",
+  "reason": "same answer",
+  "score": 82.1,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "২০% বৃদ্ধি, পরে ২০% হ্রাস; নেট?",
+  "candidate_answer": "৪% হ্রাস",
+  "matches": "new",
+  "match_text": "১০% বৃদ্ধি, পরে ১০% হ্রাস; নেট পরিবর্তন?",
+  "reason": "similar stem + shared options",
+  "score": 92.3,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "১০টি দ্রব্যের ক্রয়মূল্য = ৮টির বিক্রয়মূল্য; লাভ%?",
+  "candidate_answer": "২৫%",
+  "matches": "new",
+  "match_text": "‘ক্রয়মূল্য বিক্রয়মূল্যের ৮০%’; লাভ%?",
+  "reason": "same answer",
+  "score": 78.1,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "৪০-এর ১৫০% =?",
+  "candidate_answer": "৬০",
+  "matches": "new",
+  "match_text": "৪২০-এর ১/৭ = ?",
+  "reason": "same answer",
+  "score": 71.4,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "২৫% লাভে বিক্রি; CP=১২০; SP?",
+  "candidate_answer": "১৫০",
+  "matches": "new",
+  "match_text": "CP=২০০, ২৫% ক্ষতিতে SP?",
+  "reason": "same answer",
+  "score": 72.7,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "একই SP-তে ২০% লাভ ও ২০% ক্ষতি; মোট?",
+  "candidate_answer": "৪% ক্ষতি",
+  "matches": "new",
+  "match_text": "একই দরে দুটি ঘড়ি বিক্রি, ১টিতে ২০% লাভ, ১টিতে ২০% ক্ষতি; মোট?",
+  "reason": "same answer",
+  "score": 84.0,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "SP=১১০, ১০% লাভে; CP?",
+  "candidate_answer": "১০০",
+  "matches": "new",
+  "match_text": "SP=১২০, ২০% লাভে CP?",
+  "reason": "same answer",
+  "score": 88.2,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "১২৫০-এর ০.৮% =?",
+  "candidate_answer": "১০",
+  "matches": "new",
+  "match_text": "০.২৫ × ৪০ = ?",
+  "reason": "same answer",
+  "score": 76.2,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "১২:১৮-এর লঘিষ্ঠ আকার?",
+  "candidate_answer": "২:৩",
+  "matches": "new",
+  "match_text": "৪:৬-এর লঘিষ্ঠ আকার?",
+  "reason": "same answer",
+  "score": 88.9,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "a:b = c:d হলে কোনটি সত্য?",
+  "candidate_answer": "ad=bc",
+  "matches": "db#6310",
+  "match_text": "a, b, c, d ক্রমিক সমানুপাতী হলে নিচের কোনটি সঠিক?",
+  "reason": "same answer",
+  "score": 82.1,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "২:৩ = ৪:x; x =?",
+  "candidate_answer": "৬",
+  "matches": "new",
+  "match_text": "x = 3 + √2 হলে x + 1/x = ?",
+  "reason": "same answer",
+  "score": 71.4,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "৩:৫ = ৬:x; x =?",
+  "candidate_answer": "১০",
+  "matches": "db#6878",
+  "match_text": "ax² + b এর মান x = 1 হলে 1 এবং x = 3 হলে 25 হয়। x = 2 হলে এর মান কত?",
+  "reason": "same answer",
+  "score": 71.4,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "১, ২, ৩, ৪, ৫-এর গড়?",
+  "candidate_answer": "৩",
+  "matches": "db#6873",
+  "match_text": "সাতটি সরলরেখার দৈর্ঘ্য যথাক্রমে 1, 2, 3, 4, 5, 6 ও 7 সে.মি.। কয়টি ক্ষেত্রে চারটি বাহু দিয়ে চতুর্ভুজ অঙ্কন করা সম্ভব নয়?",
+  "reason": "same answer",
+  "score": 81.8,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "১০, ২০, ৩০-এর গড়?",
+  "candidate_answer": "২০",
+  "matches": "new",
+  "match_text": "১১০-এর কত % ২২?",
+  "reason": "same answer",
+  "score": 80.0,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "৩, ৬, ৯, ১২, ১৫-এর গড়?",
+  "candidate_answer": "৯",
+  "matches": "db#6787",
+  "match_text": "৭, ১২, ১৭, ৩, ১১, ৬, ১৩, ৩ সংখ্যাগুলোর গড় কত?",
+  "reason": "same answer",
+  "score": 80.0,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "৪ ও ৯-এর GM?",
+  "candidate_answer": "৬",
+  "matches": "new",
+  "match_text": "৪ ও ৯-এর মধ্য সমানুপাতী?",
+  "reason": "same answer",
+  "score": 85.7,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "২ থেকে ১০ এর জোড় সংখ্যার গড়?",
+  "candidate_answer": "৬",
+  "matches": "new",
+  "match_text": "প্রথম ৫ জোড় সংখ্যার গড়?",
+  "reason": "same answer",
+  "score": 83.7,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "৩০ ও ৪৫ কিমি/ঘণ্টায় সমদূরত্বে; গড় গতিবেগ?",
+  "candidate_answer": "৩৬",
+  "matches": "new",
+  "match_text": "৫০ ও ৩০ কিমি/ঘণ্টায় সমদূরত্বে; গড়?",
+  "reason": "similar stem + shared options",
+  "score": 91.2,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "৩ সংখ্যা ১:২:৩ অনুপাতে; সমষ্টি ১৮০; মধ্যম সংখ্যা?",
+  "candidate_answer": "৬০",
+  "matches": "new",
+  "match_text": "গড় ১২, সংখ্যা ৫; সমষ্টি কত?",
+  "reason": "same answer",
+  "score": 74.3,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "ব্যস্ত সমানুপাতের সূত্র?",
+  "candidate_answer": "y=k/x",
+  "matches": "new",
+  "match_text": "সরল সমানুপাতের সূত্র?",
+  "reason": "same answer",
+  "score": 91.9,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "৫% সরল সুদে মূলধন কত বছরে দ্বিগুণ?",
+  "candidate_answer": "২০",
+  "matches": "new",
+  "match_text": "১০% সরল সুদে মূলধন কত বছরে দ্বিগুণ?",
+  "reason": "similar stem + shared options",
+  "score": 98.2,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "সরল সুদে ৪ বছরে দ্বিগুণ; হার?",
+  "candidate_answer": "২৫%",
+  "matches": "db#1157",
+  "match_text": "সরল সুদে কোনো আসলে ১২ বছরে সুদে- আসলে চার গুণ হলে সুদের হার কত?",
+  "reason": "same answer",
+  "score": 77.3,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "সরল সুদে ৫ বছরে দ্বিগুণ; হার?",
+  "candidate_answer": "২০%",
+  "matches": "db#1135",
+  "match_text": "১০০ টাকা ৫ বছরে সুদে-আসলে ২০০ টাকা হলে, সুদের হার____",
+  "reason": "same answer",
+  "score": 71.4,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "৬% হারে ২ বছরে চক্রবৃদ্ধি সুদ ১২৩.৬০ হলে মূলধন?",
+  "candidate_answer": "১০০০",
+  "matches": "new",
+  "match_text": "১০% হারে ২ বছরে CI − SI = ১০ হলে মূলধন?",
+  "reason": "same answer",
+  "score": 76.4,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "মূলধন ৫ বছরে দ্বিগুণ (সরল); ১৫ বছরে কত গুণ?",
+  "candidate_answer": "৪",
+  "matches": "new",
+  "match_text": "সরল সুদে ২৫ বছরে দ্বিগুণ; হার?",
+  "reason": "same answer",
+  "score": 72.7,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "কত % সুদে ৪ বছরে ৫০০ টাকার সরল সুদ ১০০?",
+  "candidate_answer": "৫%",
+  "matches": "new",
+  "match_text": "৪% হারে কত বছরে ১০০ টাকা সরল সুদে ১২০ হবে?",
+  "reason": "same answer",
+  "score": 77.1,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "৮% সরল সুদে ৪ বছরে মোট সুদ আসলের ৩২% — সঠিক?",
+  "candidate_answer": "সঠিক",
+  "matches": "new",
+  "match_text": "সরল সুদে ২ বছরের সুদ ৩ বছরের সুদের ২/৩ — সঠিক?",
+  "reason": "same answer",
+  "score": 74.0,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "কত হারে ৫ বছরে ৮০০ টাকার সরল সুদ ৪০০?",
+  "candidate_answer": "১০%",
+  "matches": "new",
+  "match_text": "কত হারে ৫ বছরে ১০০ টাকা সরল সুদে ১৫০ হবে?",
+  "reason": "same answer",
+  "score": 88.9,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "P=১০০০, r=১০%, চক্রবৃদ্ধিতে ২ বছরে সুদ কত?",
+  "candidate_answer": "২১০",
+  "matches": "new",
+  "match_text": "P=১০০০, r=১০%, t=২ বছর; চক্রবৃদ্ধি সুদ?",
+  "reason": "same answer",
+  "score": 92.8,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "চক্রবৃদ্ধিতে ৬ বছরে দ্বিগুণ; আনুমানিক হার?",
+  "candidate_answer": "১২%",
+  "matches": "new",
+  "match_text": "৬% চক্রবৃদ্ধিতে দ্বিগুণ সময় ≈?",
+  "reason": "same answer",
+  "score": 86.3,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "১০% হারে ৩ বছরে ১০০০ টাকা চক্রবৃদ্ধি সবৃদ্ধিমূল?",
+  "candidate_answer": "১৩৩১",
+  "matches": "new",
+  "match_text": "P=১০০০, r=১০%, n=৩; চক্রবৃদ্ধি সবৃদ্ধিমূল?",
+  "reason": "same answer",
+  "score": 79.4,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "\"বছরে দুইবার চক্রবৃদ্ধি\" = অর্ধবার্ষিক — সঠিক?",
+  "candidate_answer": "সঠিক",
+  "matches": "new",
+  "match_text": "\"চক্রবৃদ্ধি = সুদের উপর সুদ\" — সঠিক?",
+  "reason": "same answer",
+  "score": 70.8,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "সরল সুদে ৪ বছরে ৩ গুণ; হার?",
+  "candidate_answer": "৫০%",
+  "matches": "new",
+  "match_text": "মূলধন ৬ বছরে ৪ গুণ (সরল); হার?",
+  "reason": "same answer",
+  "score": 83.7,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "১৩৫ টাকার ৪ বছরের সরল সুদ ৫৪; হার?",
+  "candidate_answer": "১০%",
+  "matches": "new",
+  "match_text": "কত হারে ৫ বছরে ১০০ টাকা সরল সুদে ১৫০ হবে?",
+  "reason": "same answer",
+  "score": 75.4,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "৩ বছরে চক্রবৃদ্ধি A = P(১+r/১০০)³ — সঠিক?",
+  "candidate_answer": "সঠিক",
+  "matches": "new",
+  "match_text": "\"চক্রবৃদ্ধি = সুদের উপর সুদ\" — সঠিক?",
+  "reason": "same answer",
+  "score": 70.8,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "৯% হারে কত বছরে ১০০০ টাকা সরল সুদে ১৩৬০ হবে?",
+  "candidate_answer": "৪",
+  "matches": "new",
+  "match_text": "৭৫০ টাকার ৪ বছরের সরল সুদ ১২০; হার?",
+  "reason": "same answer",
+  "score": 72.2,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "A ১২ দিনে, B ১৬ দিনে; একসাথে?",
+  "candidate_answer": "৬.৮৬",
+  "matches": "new",
+  "match_text": "A ১০ দিনে, B ১৫ দিনে; একসাথে কত দিনে?",
+  "reason": "similar stem + shared options",
+  "score": 91.7,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "২৫০ মি ট্রেন ৯০ কিমি/ঘণ্টা; খুঁটি অতিক্রম?",
+  "candidate_answer": "১০",
+  "matches": "new",
+  "match_text": "৩৬ কিমি/ঘণ্টা = কত মি/সে?",
+  "reason": "same answer",
+  "score": 76.5,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "একই দূরত্বে ৬০ ও ৪০ কিমি/ঘণ্টা; গড় গতি?",
+  "candidate_answer": "৪৮",
+  "matches": "new",
+  "match_text": "৬০ ও ৪০ কিমি/ঘণ্টায় সমদূরত্বে; গড় গতিবেগ?",
+  "reason": "same answer",
+  "score": 86.1,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "৪টি পাইপ একসাথে একটি চৌবাচ্চা ৬ ঘণ্টায় ভরে; ১টি পাইপ একা কত ঘণ্টায়?",
+  "candidate_answer": "২৪",
+  "matches": "new",
+  "match_text": "A পাইপ ৬ ঘণ্টায়, B পাইপ ৪ ঘণ্টায় ভরে; একসাথে?",
+  "reason": "same answer",
+  "score": 92.6,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "একটি গাড়ি ৫ ঘণ্টায় ৩০০ কিমি; গতি?",
+  "candidate_answer": "৬০",
+  "matches": "new",
+  "match_text": "২৪০ কিমি ৪ ঘণ্টায়; গতি?",
+  "reason": "same answer",
+  "score": 84.2,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "পাইপ A ও B একসাথে ১২ মিনিটে ভরে; A একা ২০ মিনিটে; B একা?",
+  "candidate_answer": "৩০",
+  "matches": "new",
+  "match_text": "A ও B একসাথে ১২ দিনে; A একা ২০ দিনে; B একা?",
+  "reason": "same answer",
+  "score": 88.9,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "১২ জন ১৬ দিনে কাজ; ৪ দিন পর ৪ জন চলে যায়; বাকি কাজ কত দিনে?",
+  "candidate_answer": "১৮",
+  "matches": "new",
+  "match_text": "৬ জন ১২ দিনে কাজ; ৪ জন কত দিনে?",
+  "reason": "same answer",
+  "score": 94.1,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "৩ জন ৫ ঘণ্টা/দিন কাজ করে ৬ দিনে শেষ করে; ৬ জন ১০ ঘণ্টা/দিন কত দিনে?",
+  "candidate_answer": "১.৫",
+  "matches": "new",
+  "match_text": "১৫ জন ১০ দিনে কাজ; ১০ জন কত দিনে?",
+  "reason": "same answer",
+  "score": 90.3,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "ঘণ্টা-কাঁটা ১২ ঘণ্টায় কত ডিগ্রি ঘোরে?",
+  "candidate_answer": "৩৬০",
+  "matches": "new",
+  "match_text": "একটি ঘড়ির মিনিট-কাঁটা ১ ঘণ্টায় কত ডিগ্রি ঘোরে?",
+  "reason": "same answer",
+  "score": 92.3,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "সেকেন্ড-কাঁটা ১ মিনিটে কত ডিগ্রি ঘোরে?",
+  "candidate_answer": "৩৬০",
+  "matches": "new",
+  "match_text": "একটি ঘড়ির মিনিট-কাঁটা ১ ঘণ্টায় কত ডিগ্রি ঘোরে?",
+  "reason": "same answer",
+  "score": 72.7,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "পাইপ A ৪ ঘণ্টায় ভরে, B ৬ ঘণ্টায় ভরে, C ১২ ঘণ্টায় খালি করে; সব খোলা; সময়?",
+  "candidate_answer": "৩ ঘ",
+  "matches": "new",
+  "match_text": "দুই পাইপ ৬ ও ৪ ঘণ্টায় ভরে, একটি ১২ ঘণ্টায় খালি করে; সব খোলা; সময়?",
+  "reason": "same answer",
+  "score": 95.8,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "৪৫ কিমি/ঘণ্টা গতিতে ২০ মিনিটে কত কিমি?",
+  "candidate_answer": "১৫",
+  "matches": "new",
+  "match_text": "গতি ৬০ কিমি/ঘণ্টা; ১৫ মিনিটে কত দূর?",
+  "reason": "same answer",
+  "score": 76.7,
+  "subject_file": "ntrca_general_math"
+ },
+ {
+  "candidate": "প্রথম অ্যান্টিবায়োটিক পেনিসিলিন আবিষ্কার করেন কে?",
+  "candidate_answer": "ফ্লেমিং",
+  "matches": "new",
+  "match_text": "পেনিসিলিন আবিষ্কারক?",
+  "reason": "same answer",
+  "score": 94.7,
+  "subject_file": "ntrca_general_science"
+ },
+ {
+  "candidate": "আয়োডিনের ঘাটতিতে —",
+  "candidate_answer": "গলগণ্ড",
+  "matches": "new",
+  "match_text": "থাইরক্সিন হরমোনের ঘাটতিতে কী হয়?",
+  "reason": "same answer",
+  "score": 83.9,
+  "subject_file": "ntrca_general_science"
+ },
+ {
+  "candidate": "মানুষের দাঁত কয় প্রকার?",
+  "candidate_answer": "৪",
+  "matches": "new",
+  "match_text": "অব্যয় কত প্রকার?",
+  "reason": "same answer",
+  "score": 81.8,
+  "subject_file": "ntrca_general_science"
+ },
+ {
+  "candidate": "মহাবিশ্বে সবচেয়ে বেশি পাওয়া মৌল কোনটি?",
+  "candidate_answer": "হাইড্রোজেন",
+  "matches": "db#5008",
+  "match_text": "সবচেয়ে হালকা গ্যাস কোনটি?",
+  "reason": "same answer",
+  "score": 70.0,
+  "subject_file": "ntrca_general_science"
+ },
+ {
+  "candidate": "ভূত্বকে সবচেয়ে বেশি পাওয়া ধাতু কোনটি?",
+  "candidate_answer": "অ্যালুমিনিয়াম",
+  "matches": "db#6631",
+  "match_text": "প্রকৃতিতে সবচেয়ে বেশি পাওয়া যায় কোন ধাতু?",
+  "reason": "same answer",
+  "score": 79.5,
+  "subject_file": "ntrca_general_science"
+ },
+ {
+  "candidate": "গাড়ির ব্যাটারিতে কোন অ্যাসিড ব্যবহৃত হয়?",
+  "candidate_answer": "H₂SO₄",
+  "matches": "db#6632",
+  "match_text": "গাড়ির ব্যাটারিতে ব্যবহৃত এসিড কোনটি?",
+  "reason": "same answer",
+  "score": 90.7,
+  "subject_file": "ntrca_general_science"
+ },
+ {
+  "candidate": "স্বাভাবিক তাপমাত্রায় তরল ধাতু কোনটি?",
+  "candidate_answer": "পারদ",
+  "matches": "db#5517",
+  "match_text": "কোন মৌলিক ধাতু সাধারণ তাপমাত্রায় তরল থাকে?",
+  "reason": "same answer",
+  "score": 74.1,
+  "subject_file": "ntrca_general_science"
+ },
+ {
+  "candidate": "বায়োগ্যাসের প্রধান উপাদান —",
+  "candidate_answer": "মিথেন",
+  "matches": "new",
+  "match_text": "প্রাকৃতিক গ্যাসের প্রধান উপাদান কী?",
+  "reason": "same answer",
+  "score": 87.5,
+  "subject_file": "ntrca_general_science"
+ },
+ {
+  "candidate": "এসিড বৃষ্টির জন্য দায়ী গ্যাস —",
+  "candidate_answer": "SO₂ ও NOx",
+  "matches": "new",
+  "match_text": "এসিড বৃষ্টির কারণ —",
+  "reason": "same answer",
+  "score": 86.7,
+  "subject_file": "ntrca_general_science"
+ },
+ {
+  "candidate": "ভারী পানির সংকেত কী?",
+  "candidate_answer": "D₂O",
+  "matches": "db#6078",
+  "match_text": "ভারী পানির সংকেত কোনটি?",
+  "reason": "same answer",
+  "score": 100.0,
+  "subject_file": "ntrca_general_science"
+ },
+ {
+  "candidate": "LPG-এর প্রধান উপাদান —",
+  "candidate_answer": "প্রোপেন ও বিউটেন",
+  "matches": "new",
+  "match_text": "প্রাকৃতিক গ্যাসের প্রধান উপাদান কী?",
+  "reason": "similar stem + shared options",
+  "score": 90.3,
+  "subject_file": "ntrca_general_science"
+ },
+ {
+  "candidate": "রসায়নের জনক —",
+  "candidate_answer": "জাবির ইবনে হাইয়ান",
+  "matches": "new",
+  "match_text": "আধুনিক রসায়নের জনক কে?",
+  "reason": "similar stem + shared options",
+  "score": 100.0,
+  "subject_file": "ntrca_general_science"
+ },
+ {
+  "candidate": "আধুনিক পর্যায় সারণির জনক —",
+  "candidate_answer": "মেন্ডেলিফ",
+  "matches": "new",
+  "match_text": "পর্যায় সারণির জনক কে?",
+  "reason": "same answer",
+  "score": 100.0,
+  "subject_file": "ntrca_general_science"
+ },
+ {
+  "candidate": "ইলেকট্রন আবিষ্কার করেন —",
+  "candidate_answer": "জে. জে. থমসন",
+  "matches": "new",
+  "match_text": "নিউট্রন আবিষ্কার করেন কে?",
+  "reason": "similar stem + shared options",
+  "score": 92.3,
+  "subject_file": "ntrca_general_science"
+ },
+ {
+  "candidate": "পারমাণবিক সংখ্যা কাকে বলে?",
+  "candidate_answer": "প্রোটন সংখ্যা",
+  "matches": "new",
+  "match_text": "পারমাণবিক সংখ্যা বলতে বোঝায় —",
+  "reason": "same answer",
+  "score": 100.0,
+  "subject_file": "ntrca_general_science"
+ },
+ {
+  "candidate": "আপেলে কোন অ্যাসিড থাকে?",
+  "candidate_answer": "ম্যালিক",
+  "matches": "new",
+  "match_text": "পিঁপড়ার কামড়ে কোন অ্যাসিড থাকে?",
+  "reason": "similar stem + shared options",
+  "score": 90.5,
+  "subject_file": "ntrca_general_science"
+ },
+ {
+  "candidate": "দুধ ও দইয়ে কোন অ্যাসিড?",
+  "candidate_answer": "ল্যাকটিক",
+  "matches": "new",
+  "match_text": "দুধ টক হয় কোন অ্যাসিডের কারণে?",
+  "reason": "same answer",
+  "score": 79.1,
+  "subject_file": "ntrca_general_science"
+ },
+ {
+  "candidate": "পিঁপড়ার কামড়ে জ্বালা করে কোন অ্যাসিড?",
+  "candidate_answer": "ফরমিক",
+  "matches": "new",
+  "match_text": "পিঁপড়ার কামড়ে কোন অ্যাসিড থাকে?",
+  "reason": "same answer",
+  "score": 91.8,
+  "subject_file": "ntrca_general_science"
+ },
+ {
+  "candidate": "ব্যাটারিতে ব্যবহৃত অ্যাসিড —",
+  "candidate_answer": "H₂SO₄",
+  "matches": "db#6632",
+  "match_text": "গাড়ির ব্যাটারিতে ব্যবহৃত এসিড কোনটি?",
+  "reason": "same answer",
+  "score": 84.6,
+  "subject_file": "ntrca_general_science"
+ },
+ {
+  "candidate": "বায়ুমণ্ডলে সর্বাধিক গ্যাস —",
+  "candidate_answer": "নাইট্রোজেন",
+  "matches": "db#6564",
+  "match_text": "বায়ুমণ্ডলে কোন গ্যাস সর্বাধিক পরিমাণে পাওয়া যায়?",
+  "reason": "same answer",
+  "score": 100.0,
+  "subject_file": "ntrca_general_science"
+ },
+ {
+  "candidate": "বায়ুমণ্ডলে অক্সিজেন প্রায় কত?",
+  "candidate_answer": "২১%",
+  "matches": "new",
+  "match_text": "বায়ুমণ্ডলে O₂ প্রায় —",
+  "reason": "same answer",
+  "score": 92.3,
+  "subject_file": "ntrca_general_science"
+ },
+ {
+  "candidate": "কস্টিক সোডা কী?",
+  "candidate_answer": "NaOH",
+  "matches": "new",
+  "match_text": "কস্টিক সোডার সংকেত —",
+  "reason": "same answer",
+  "score": 100.0,
+  "subject_file": "ntrca_general_science"
+ },
+ {
+  "candidate": "পৃথিবীর সবচেয়ে শক্ত প্রাকৃতিক পদার্থ —",
+  "candidate_answer": "হীরা",
+  "matches": "new",
+  "match_text": "সবচেয়ে কঠিন প্রাকৃতিক পদার্থ —",
+  "reason": "same answer",
+  "score": 90.6,
+  "subject_file": "ntrca_general_science"
+ },
+ {
+  "candidate": "আলোর ৩টি মৌলিক রঙ —",
+  "candidate_answer": "লাল, সবুজ, নীল",
+  "matches": "new",
+  "match_text": "আলোর তিনটি মৌলিক রঙ কী কী?",
+  "reason": "same answer",
+  "score": 90.0,
+  "subject_file": "ntrca_general_science"
+ },
+ {
+  "candidate": "বিপদ সংকেত লাল কেন?",
+  "candidate_answer": "তরঙ্গদৈর্ঘ্য বেশি বলে দূর থেকে দেখা যায়",
+  "matches": "new",
+  "match_text": "বিপদ সংকেতে লাল আলো ব্যবহৃত হয় কেন?",
+  "reason": "same answer",
+  "score": 88.2,
+  "subject_file": "ntrca_general_science"
+ },
+ {
+  "candidate": "গাড়ির পিছনের দৃশ্য দেখার দর্পণ —",
+  "candidate_answer": "উত্তল",
+  "matches": "new",
+  "match_text": "গাড়ির পেছনে দেখার আয়না (রিয়ারভিউ মিরর) কোন দর্পণ?",
+  "reason": "same answer",
+  "score": 73.5,
+  "subject_file": "ntrca_general_science"
+ },
+ {
+  "candidate": "শব্দের একক (উচ্চতা) —",
+  "candidate_answer": "ডেসিবেল",
+  "matches": "new",
+  "match_text": "শব্দ দূষণের একক —",
+  "reason": "same answer",
+  "score": 80.0,
+  "subject_file": "ntrca_general_science"
+ },
+ {
+  "candidate": "বিবর্তনবাদের প্রবক্তা কে?",
+  "candidate_answer": "ডারউইন",
+  "matches": "new",
+  "match_text": "বিবর্তনবাদ — কে?",
+  "reason": "same answer",
+  "score": 100.0,
+  "subject_file": "ntrca_general_science"
+ },
+ {
+  "candidate": "বাষ্পীয় ইঞ্জিন উন্নত করেন কে?",
+  "candidate_answer": "জেমস ওয়াট",
+  "matches": "db#791",
+  "match_text": "বাষ্পীয় ইঞ্জিন আবিষ্কার করেন কে?",
+  "reason": "same answer",
+  "score": 87.0,
+  "subject_file": "ntrca_general_science"
+ },
+ {
+  "candidate": "হিরোশিমায় পারমাণবিক বোমা ফেলা হয় কবে?",
+  "candidate_answer": "৬ আগস্ট ১৯৪৫",
+  "matches": "new",
+  "match_text": "হিরোশিমা পরমাণু বোমা?",
+  "reason": "same answer",
+  "score": 78.0,
+  "subject_file": "ntrca_general_science"
+ },
+ {
+  "candidate": "মহাকাশে প্রথম মানুষ কে?",
+  "candidate_answer": "ইউরি গ্যাগারিন",
+  "matches": "new",
+  "match_text": "প্রথম মহাকাশচারী?",
+  "reason": "same answer",
+  "score": 74.3,
+  "subject_file": "ntrca_general_science"
+ },
+ {
+  "candidate": "চাঁদে প্রথম পা রাখেন কে?",
+  "candidate_answer": "নীল আর্মস্ট্রং",
+  "matches": "new",
+  "match_text": "চাঁদে প্রথম মানুষ?",
+  "reason": "same answer",
+  "score": 83.9,
+  "subject_file": "ntrca_general_science"
+ },
+ {
+  "candidate": "ISRO-এর প্রতিষ্ঠা —",
+  "candidate_answer": "১৯৬৯",
+  "matches": "new",
+  "match_text": "OIC প্রতিষ্ঠা?",
+  "reason": "same answer",
+  "score": 91.7,
+  "subject_file": "ntrca_general_science"
+ },
+ {
+  "candidate": "সৌরজগতের সবচেয়ে বড় গ্রহ —",
+  "candidate_answer": "বৃহস্পতি",
+  "matches": "new",
+  "match_text": "সৌরজগতের বৃহত্তম গ্রহ কোনটি?",
+  "reason": "same answer",
+  "score": 70.0,
+  "subject_file": "ntrca_general_science"
+ },
+ {
+  "candidate": "‘লাল গ্রহ’ কোনটি?",
+  "candidate_answer": "মঙ্গল",
+  "matches": "new",
+  "match_text": "‘লাল গ্রহ’ বলা হয় কোনটিকে?",
+  "reason": "same answer",
+  "score": 83.3,
+  "subject_file": "ntrca_general_science"
+ },
+ {
+  "candidate": "প্রথম টেস্ট-টিউব শিশু —",
+  "candidate_answer": "লুইস ব্রাউন",
+  "matches": "new",
+  "match_text": "মানুষের প্রথম টেস্ট-টিউব শিশুর নাম —",
+  "reason": "same answer",
+  "score": 100.0,
+  "subject_file": "ntrca_general_science"
+ },
+ {
+  "candidate": "উদ্ভিদের প্রাণ আছে — আবিষ্কার —",
+  "candidate_answer": "জগদীশচন্দ্র বসু",
+  "matches": "new",
+  "match_text": "উদ্ভিদের প্রাণ আছে প্রমাণ করেন কোন বিজ্ঞানী?",
+  "reason": "same answer",
+  "score": 85.7,
+  "subject_file": "ntrca_general_science"
+ },
+ {
+  "candidate": "বলের SI একক কী?",
+  "candidate_answer": "নিউটন",
+  "matches": "new",
+  "match_text": "তাপের SI একক —",
+  "reason": "similar stem + shared options",
+  "score": 90.0,
+  "subject_file": "ntrca_general_science"
+ },
+ {
+  "candidate": "সমুদ্রের গভীরতা মাপার যন্ত্র —",
+  "candidate_answer": "ফ্যাদোমিটার",
+  "matches": "db#6105",
+  "match_text": "কোন যন্ত্রের সাহায্যে সমুদ্রের গভীরতা মাপা হয়?",
+  "reason": "same answer",
+  "score": 83.3,
+  "subject_file": "ntrca_general_science"
+ },
+ {
+  "candidate": "E=mc² সমীকরণটি কে দেন?",
+  "candidate_answer": "আইনস্টাইন",
+  "matches": "new",
+  "match_text": "E = mc² সমীকরণটি কার?",
+  "reason": "same answer",
+  "score": 85.7,
+  "subject_file": "ntrca_general_science"
+ },
+ {
+  "candidate": "আপেক্ষিকতা তত্ত্ব কার?",
+  "candidate_answer": "আইনস্টাইন",
+  "matches": "new",
+  "match_text": "আপেক্ষিক তত্ত্বের প্রবক্তা কে?",
+  "reason": "same answer",
+  "score": 84.2,
+  "subject_file": "ntrca_general_science"
+ },
+ {
+  "candidate": "ক্ষমতার SI একক —",
+  "candidate_answer": "ওয়াট",
+  "matches": "new",
+  "match_text": "ক্ষমতার একক কোনটি?",
+  "reason": "same answer",
+  "score": 88.0,
+  "subject_file": "ntrca_general_science"
+ },
+ {
+  "candidate": "মুক্তিবেগ (পৃথিবীর) কত?",
+  "candidate_answer": "১১.২ km/s",
+  "matches": "new",
+  "match_text": "পৃথিবীর মুক্তিবেগ কত?",
+  "reason": "same answer",
+  "score": 100.0,
+  "subject_file": "ntrca_general_science"
+ },
+ {
+  "candidate": "আলোর গতি —",
+  "candidate_answer": "৩×১০⁸ m/s",
+  "matches": "new",
+  "match_text": "শূন্য মাধ্যমে আলোর বেগ কত?",
+  "reason": "same answer",
+  "score": 77.8,
+  "subject_file": "ntrca_general_science"
+ },
+ {
+  "candidate": "শোনার পরিসীমা মানুষের —",
+  "candidate_answer": "২০-২০,০০০ Hz",
+  "matches": "new",
+  "match_text": "মানুষের শোনার পরিসীমা —",
+  "reason": "same answer",
+  "score": 100.0,
+  "subject_file": "ntrca_general_science"
+ },
+ {
+  "candidate": "আল্ট্রাসাউন্ড হলো —",
+  "candidate_answer": "> ২০০০০ Hz",
+  "matches": "new",
+  "match_text": "আল্ট্রাসাউন্ড কম্পাঙ্ক —",
+  "reason": "same answer",
+  "score": 87.5,
+  "subject_file": "ntrca_general_science"
+ },
+ {
+  "candidate": "আকাশ নীল দেখায় কারণ —",
+  "candidate_answer": "রেইলে বিক্ষেপণ",
+  "matches": "new",
+  "match_text": "আকাশ নীল দেখায় —",
+  "reason": "same answer",
+  "score": 100.0,
+  "subject_file": "ntrca_general_science"
+ },
+ {
+  "candidate": "ওহমের সূত্র —",
+  "candidate_answer": "V=IR",
+  "matches": "new",
+  "match_text": "ওহমের সূত্র কোনটি?",
+  "reason": "same answer",
+  "score": 100.0,
+  "subject_file": "ntrca_general_science"
+ },
+ {
+  "candidate": "বৈদ্যুতিক বাল্ব আবিষ্কার —",
+  "candidate_answer": "এডিসন",
+  "matches": "new",
+  "match_text": "বৈদ্যুতিক বাল্ব আবিষ্কার করেন কে?",
+  "reason": "same answer",
+  "score": 100.0,
+  "subject_file": "ntrca_general_science"
+ },
+ {
+  "candidate": "রেডিও/বেতার আবিষ্কার —",
+  "candidate_answer": "মার্কনি",
+  "matches": "new",
+  "match_text": "রেডিও আবিষ্কার করেন কে?",
+  "reason": "same answer",
+  "score": 84.8,
+  "subject_file": "ntrca_general_science"
+ },
+ {
+  "candidate": "পানি সর্বাধিক ঘনত্ব কোন তাপমাত্রায়?",
+  "candidate_answer": "৪°C",
+  "matches": "new",
+  "match_text": "পানির ঘনত্ব সর্বোচ্চ কত তাপমাত্রায়?",
+  "reason": "same answer",
+  "score": 81.2,
+  "subject_file": "ntrca_general_science"
+ },
+ {
+  "candidate": "বেরিবেরি রোগ কোন ভিটামিনের অভাবে হয়?",
+  "candidate_answer": "B1",
+  "matches": "new",
+  "match_text": "স্কার্ভি রোগ হয় কোন ভিটামিনের অভাবে?",
+  "reason": "similar stem + shared options",
+  "score": 90.3,
+  "subject_file": "ntrca_general_science"
+ },
+ {
+  "candidate": "পানিতে দ্রবণীয় ভিটামিন কোনগুলো?",
+  "candidate_answer": "B ও C",
+  "matches": "db#5502",
+  "match_text": "পানিতে কোন কোন ভিটামিন দ্রবণীয়?",
+  "reason": "same answer",
+  "score": 91.8,
+  "subject_file": "ntrca_general_science"
+ },
+ {
+  "candidate": "হাড় ও দাঁত গঠনে প্রয়োজনীয় খনিজ কোনটি?",
+  "candidate_answer": "ক্যালসিয়াম",
+  "matches": "db#5493",
+  "match_text": "হাড় ও দাঁত মজবুত করে কোনটি?",
+  "reason": "same answer",
+  "score": 78.3,
+  "subject_file": "ntrca_general_science"
+ },
+ {
+  "candidate": "WHO প্রতিষ্ঠিত হয় কত সালে?",
+  "candidate_answer": "১৯৪৮",
+  "matches": "new",
+  "match_text": "WHO প্রতিষ্ঠা?",
+  "reason": "same answer",
+  "score": 94.1,
+  "subject_file": "ntrca_general_science"
+ },
+ {
+  "candidate": "চর্বিতে দ্রবণীয় ভিটামিন —",
+  "candidate_answer": "A, D, E, K",
+  "matches": "new",
+  "match_text": "চর্বিতে দ্রবণীয় ভিটামিন কোনগুলো?",
+  "reason": "same answer",
+  "score": 100.0,
+  "subject_file": "ntrca_general_science"
+ },
+ {
+  "candidate": "ভিটামিন B1-এর রাসায়নিক নাম —",
+  "candidate_answer": "থায়ামিন",
+  "matches": "new",
+  "match_text": "ভিটামিন B1-এর অপর নাম কী?",
+  "reason": "same answer",
+  "score": 87.5,
+  "subject_file": "ntrca_general_science"
+ },
+ {
+  "candidate": "রাতকানা হয় —",
+  "candidate_answer": "A",
+  "matches": "new",
+  "match_text": "রাতকানা রোগ হয় কোন ভিটামিনের অভাবে?",
+  "reason": "similar stem + shared options",
+  "score": 100.0,
+  "subject_file": "ntrca_general_science"
+ },
+ {
+  "candidate": "স্কার্ভি হয় —",
+  "candidate_answer": "C",
+  "matches": "new",
+  "match_text": "স্কার্ভি রোগ হয় কোন ভিটামিনের অভাবে?",
+  "reason": "same answer",
+  "score": 100.0,
+  "subject_file": "ntrca_general_science"
+ },
+ {
+  "candidate": "আয়োডিনের অভাবে —",
+  "candidate_answer": "গলগণ্ড",
+  "matches": "new",
+  "match_text": "আয়োডিনের অভাবে কোন রোগ হয়?",
+  "reason": "same answer",
+  "score": 100.0,
+  "subject_file": "ntrca_general_science"
+ },
+ {
+  "candidate": "WHO সদর দপ্তর —",
+  "candidate_answer": "জেনেভা",
+  "matches": "db#5485",
+  "match_text": "রেডক্রসের সদর দপ্তর কোথায় অবস্থিত?",
+  "reason": "same answer",
+  "score": 100.0,
+  "subject_file": "ntrca_general_science"
+ },
+ {
+  "candidate": "বিশ্ব এইডস দিবস —",
+  "candidate_answer": "১ ডিসেম্বর",
+  "matches": "db#5505",
+  "match_text": "বিশ্ব এইডস দিবস বছরের কোন তারিখে পালন করা হয়?",
+  "reason": "same answer",
+  "score": 100.0,
+  "subject_file": "ntrca_general_science"
+ }
+]

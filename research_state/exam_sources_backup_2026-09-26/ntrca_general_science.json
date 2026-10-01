@@ -1,0 +1,7 @@
+{
+  "subject": "General Science",
+  "exam_type_code": "NTRCA",
+  "entries": [],
+  "sources_checked": [],
+  "note": "NTRCA papers have no separate General Science section; science questions are inside ntrca_general_knowledge.json. Match NTRCA General Science DB questions against that file in Phase 2."
+}

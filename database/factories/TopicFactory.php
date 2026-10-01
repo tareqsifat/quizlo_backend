@@ -3,7 +3,7 @@
 namespace Database\Factories;
 
 use App\Models\Topic;
-use App\Models\Subject;
+use App\Models\ExamTypeSubject;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 class TopicFactory extends Factory
@@ -13,7 +13,7 @@ class TopicFactory extends Factory
     public function definition(): array
     {
         return [
-            'subject_id' => Subject::factory(),
+            'exam_type_subject_id' => ExamTypeSubject::factory(),
             'name' => fake()->words(2, true),
             'name_bn' => 'টপিক ' . fake()->word(),
             'is_active' => true,

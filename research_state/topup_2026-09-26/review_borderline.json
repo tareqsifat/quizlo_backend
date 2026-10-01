@@ -1,0 +1,4677 @@
+[
+ {
+  "harvest_text": "ধান গবেষণা ইনস্টিটিউট কোথায়?",
+  "harvest_options": [
+   "ময়মনসিংহ",
+   "গাজীপুর",
+   "ঈশ্বরদী",
+   "শ্রীমঙ্গল"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "আখ গবেষণা ইনস্টিটিউট কোথায়?",
+  "candidate_options": [
+   "গাজীপুর",
+   "ঈশ্বরদী",
+   "ঢাকা",
+   "শ্রীমঙ্গল"
+  ],
+  "text_score": 90.2,
+  "option_overlap": 3,
+  "harvest_answer": "(খ)",
+  "harvest_file": "bcs_bangladesh_affairs",
+  "year": 2017,
+  "source_batch": "BCS-38",
+  "source_url": "https://www.chakribangla.com/bcs-preliminary-preparation/bangladesh-affairs/agriculture.html"
+ },
+ {
+  "harvest_text": "জাতীয় স্মৃতিসৌধের স্থপতি কে?",
+  "harvest_options": [
+   "হামিদুর রহমান",
+   "সৈয়দ মইনুল হোসেন",
+   "লুই কান",
+   "নিতুন কুণ্ডু"
+  ],
+  "candidate_kind": "db",
+  "candidate_id": 2495,
+  "candidate_text": "জাতীয় স্মৃতি সৌধ এর স্থপতি –",
+  "candidate_options": [
+   "হামিদুররহমান",
+   "মাঈনুলহোসেন",
+   "তানভীরকবির",
+   "লুইআইকান"
+  ],
+  "text_score": 92.0,
+  "option_overlap": 2,
+  "harvest_answer": "(খ)",
+  "harvest_file": "bcs_bangladesh_affairs",
+  "year": 2019,
+  "source_batch": "BCS-40",
+  "source_url": "https://www.chakribangla.com/bcs-preliminary-preparation/bangladesh-affairs/national-issues.html"
+ },
+ {
+  "harvest_text": "বাংলা ভাষায় মৌলিক স্বরধ্বনি কয়টি?",
+  "harvest_options": [
+   "৪টি",
+   "৭টি",
+   "১১টি",
+   "১৩টি"
+  ],
+  "candidate_kind": "db",
+  "candidate_id": 2915,
+  "candidate_text": "বাংলা ভাষায় ব্যবহৃত মৌলিক স্বরধ্বনি কয়টি?",
+  "candidate_options": [
+   "7টি",
+   "8টি",
+   "6টি",
+   "11টি"
+  ],
+  "text_score": 89.9,
+  "option_overlap": 2,
+  "harvest_answer": "(খ)",
+  "harvest_file": "bcs_bangla_literature",
+  "year": 2021,
+  "source_batch": "BCS-41",
+  "source_url": "https://www.chakribangla.com/bcs-preliminary-preparation/bangla-bhasha-o-shahityo/borno.html"
+ },
+ {
+  "harvest_text": "জাতিসংঘ কবে প্রতিষ্ঠিত হয়?",
+  "harvest_options": [
+   "১৯১৯",
+   "১৯৪৫",
+   "১৯৪৮",
+   "১৯৫০"
+  ],
+  "candidate_kind": "db",
+  "candidate_id": 4118,
+  "candidate_text": "জাতিসংঘ কোন বছর প্রতিষ্ঠিত হয়?",
+  "candidate_options": [
+   "1949",
+   "1941",
+   "1945",
+   "1948"
+  ],
+  "text_score": 88.0,
+  "option_overlap": 2,
+  "harvest_answer": "(খ)",
+  "harvest_file": "bcs_international_affairs",
+  "year": 2022,
+  "source_batch": "BCS-44",
+  "source_url": "https://www.chakribangla.com/bcs-preliminary-preparation/international-affairs/international-organizations.html"
+ },
+ {
+  "harvest_text": "UNESCO-এর সদর দপ্তর কোথায়?",
+  "harvest_options": [
+   "জেনেভা",
+   "প্যারিস",
+   "রোম",
+   "ভিয়েনা"
+  ],
+  "candidate_kind": "db",
+  "candidate_id": 2490,
+  "candidate_text": "UNIDO এর সদর দপ্তর কোথায়?",
+  "candidate_options": [
+   "হেগ",
+   "ভিয়েনা",
+   "সদরদপ্তরবিহীন",
+   "জেনেভা"
+  ],
+  "text_score": 88.9,
+  "option_overlap": 2,
+  "harvest_answer": "(খ)",
+  "harvest_file": "bcs_international_affairs",
+  "year": 2023,
+  "source_batch": "BCS-45",
+  "source_url": "https://www.chakribangla.com/bcs-preliminary-preparation/international-affairs/international-organizations.html"
+ },
+ {
+  "harvest_text": "'প্রাচ্য' শব্দের বিপরীত শব্দ কোনটি?",
+  "harvest_options": [
+   "প্রতীচ্য",
+   "প্রাচ্যহীন",
+   "অপ্রাচ্য",
+   "নবীন"
+  ],
+  "candidate_kind": "db",
+  "candidate_id": 4383,
+  "candidate_text": "‘প্রাচী’ শব্দের বিপরীত শব্দ কোনটি?",
+  "candidate_options": [
+   "প্রতীচী",
+   "প্রাচীন",
+   "অপ্রাচ্য",
+   "নবীন"
+  ],
+  "text_score": 94.7,
+  "option_overlap": 2,
+  "harvest_answer": "(ক)",
+  "harvest_file": "bcs_bangla_literature",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/bcs-model-test/51-bcs-model-test-1.html"
+ },
+ {
+  "harvest_text": "নিচের কোনটি উপন্যাস নয়?",
+  "harvest_options": [
+   "দিবারাত্রির কাব্য",
+   "শেষের কবিতা",
+   "পল্লী-সমাজ",
+   "কবিতার কথা"
+  ],
+  "candidate_kind": "db",
+  "candidate_id": 2885,
+  "candidate_text": "কোনটি উপন্যাস নয়?",
+  "candidate_options": [
+   "কবিতারকথা",
+   "পথেরপাঁচালী",
+   "হাঁসুলীবাঁকেরউপকথা",
+   "দিবারাত্রিরকাব্য"
+  ],
+  "text_score": 86.5,
+  "option_overlap": 2,
+  "harvest_answer": "(ঘ)",
+  "harvest_file": "bcs_bangla_literature",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/bcs-model-test/51-bcs-model-test-9.html"
+ },
+ {
+  "harvest_text": "ক্রিয়ার মূল অংশকে কী বলে?",
+  "harvest_options": [
+   "প্রত্যয়",
+   "ধাতু",
+   "বিভক্তি",
+   "কারক"
+  ],
+  "candidate_kind": "db",
+  "candidate_id": 2283,
+  "candidate_text": "ক্রিয়াপদের মূল অংশকে বলে—",
+  "candidate_options": [
+   "প্রত্যয়",
+   "ধাতু",
+   "কৃৎ",
+   "বিভক্তি"
+  ],
+  "text_score": 88.4,
+  "option_overlap": 3,
+  "harvest_answer": "(খ)",
+  "harvest_file": "bcs_bangla_literature",
+  "year": null,
+  "source_batch": "BCS-42",
+  "source_url": "https://www.chakribangla.com/bcs-preliminary-preparation/bangla-bhasha-o-shahityo/pod.html"
+ },
+ {
+  "harvest_text": "বাংলাদেশের নবীনতম নদী কোনটি?",
+  "harvest_options": [
+   "পদ্মা",
+   "যমুনা",
+   "জিঞ্জিরাম",
+   "মেঘনা"
+  ],
+  "candidate_kind": "db",
+  "candidate_id": 3736,
+  "candidate_text": "বাংলাদেশের দীর্ঘতম নদী কোনটি?",
+  "candidate_options": [
+   "মেঘনা",
+   "পদ্মা",
+   "কর্ণফুলী",
+   "যমুনা"
+  ],
+  "text_score": 86.3,
+  "option_overlap": 3,
+  "harvest_answer": "(খ)",
+  "harvest_file": "bcs_bangladesh_affairs",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/bcs-model-test/51-bcs-model-test-2.html"
+ },
+ {
+  "harvest_text": "বাংলাদেশে প্রথম আদমশুমারি (জনগণনা) কবে অনুষ্ঠিত হয়?",
+  "harvest_options": [
+   "১৯৭২ সালে",
+   "১৯৭৩ সালে",
+   "১৯৭৪ সালে",
+   "১৯৭৫ সালে"
+  ],
+  "candidate_kind": "db",
+  "candidate_id": 3128,
+  "candidate_text": "বাংলাদেশে প্রথম আদমশুমারি অনুষ্ঠিত হয় কবে?",
+  "candidate_options": [
+   "1974সাল",
+   "1977সাল",
+   "1972সাল",
+   "1973সাল"
+  ],
+  "text_score": 85.0,
+  "option_overlap": 3,
+  "harvest_answer": "(গ)",
+  "harvest_file": "bcs_bangladesh_affairs",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/bcs-model-test/51-bcs-model-test-5.html"
+ },
+ {
+  "harvest_text": "আন্তর্জাতিক মাতৃভাষা দিবস কবে স্বীকৃত হয়?",
+  "harvest_options": [
+   "১৯৫২",
+   "১৯৯৯",
+   "২০০০",
+   "২০১০"
+  ],
+  "candidate_kind": "db",
+  "candidate_id": 8284,
+  "candidate_text": "আর্ন্তজাতিক মাতৃভাষা দিবস কোন সালে স্বীকৃত হয়?",
+  "candidate_options": [
+   "1998",
+   "1999",
+   "2000",
+   "2001"
+  ],
+  "text_score": 85.7,
+  "option_overlap": 2,
+  "harvest_answer": "(খ)",
+  "harvest_file": "bcs_bangladesh_affairs",
+  "year": null,
+  "source_batch": "BCS-39",
+  "source_url": "https://www.chakribangla.com/bcs-preliminary-preparation/bangladesh-affairs/politics.html"
+ },
+ {
+  "harvest_text": "বিদ্যুৎ শক্তিকে শব্দ শক্তিতে রূপান্তরিত করা হয় কোন যন্ত্রের মাধ্যমে –",
+  "harvest_options": [
+   "লাউড স্পিকার",
+   "অ্যামপ্লিফায়ার",
+   "জেনারেটর",
+   "মাল্টিমিটার"
+  ],
+  "candidate_kind": "db",
+  "candidate_id": 3221,
+  "candidate_text": "তড়িৎ শক্তি শব্দ শক্তিতে রূপান্তরিত হয় কোন যন্ত্রের মাধ্যমে?",
+  "candidate_options": [
+   "মাইক্রোফোন",
+   "এ্যামপ্লিফায়ার",
+   "জেনারেটর",
+   "লাউডস্পিকার"
+  ],
+  "text_score": 88.5,
+  "option_overlap": 3,
+  "harvest_answer": "(ক)",
+  "harvest_file": "bcs_general_science",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/bcs-model-test/51-bcs-model-test-11.html"
+ },
+ {
+  "harvest_text": "উড়োজাহাজের গতি নির্ণায়ক যন্ত্রের নাম কী?",
+  "harvest_options": [
+   "ট্যাকোমিটার",
+   "অ্যালটিমিটার",
+   "ওডোমিটার",
+   "অডিওমিটার"
+  ],
+  "candidate_kind": "db",
+  "candidate_id": 3836,
+  "candidate_text": "উড়োজাহাজের গতি নির্ণায়ক যন্ত্র",
+  "candidate_options": [
+   "ওডোমিটার",
+   "ক্রনোমিটার",
+   "ট্যাকোমিটার",
+   "হাইগ্রোমিটার"
+  ],
+  "text_score": 89.6,
+  "option_overlap": 2,
+  "harvest_answer": "(ক)",
+  "harvest_file": "bcs_general_science",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/bcs-model-test/51-bcs-model-test-5.html"
+ },
+ {
+  "harvest_text": "ডেঙ্গুর বাহক কোন মশা?",
+  "harvest_options": [
+   "অ্যানোফিলিস",
+   "এডিস",
+   "কিউলেক্স",
+   "মাছি"
+  ],
+  "candidate_kind": "db",
+  "candidate_id": 3301,
+  "candidate_text": "ডেঙ্গু জ্বরের বাহক কোন মশা ?",
+  "candidate_options": [
+   "সেভিংসোপ",
+   "সবধরনেরমশা",
+   "কিউলেক্র",
+   "এডিস"
+  ],
+  "text_score": 87.8,
+  "option_overlap": 2,
+  "harvest_answer": "(খ)",
+  "harvest_file": "bcs_general_science",
+  "year": null,
+  "source_batch": "BCS-42",
+  "source_url": "https://www.chakribangla.com/bcs-preliminary-preparation/general-science/biology.html"
+ },
+ {
+  "harvest_text": "WWW উদ্ভাবন করেন কে?",
+  "harvest_options": [
+   "টিম বার্নার্স-লি",
+   "রে টমলিনসন",
+   "বিল গেটস",
+   "চার্লস ব্যাবেজ"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "WWW কে উদ্ভাবন করেন?",
+  "candidate_options": [
+   "রেটমলিনসন",
+   "টিমবার্নার্সলি",
+   "বিলগেটস",
+   "ব্যাবেজ"
+  ],
+  "text_score": 87.5,
+  "option_overlap": 3,
+  "harvest_answer": "(ক)",
+  "harvest_file": "bcs_computer_it",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/bcs-model-test/51-bcs-model-test-11.html"
+ },
+ {
+  "harvest_text": "একটি সমবাহু ত্রিভুজের বাহুর দৈর্ঘ্য ৪ মিটার হলে এর ক্ষেত্রফল হবে:",
+  "harvest_options": [
+   "৪√3",
+   "৮√5",
+   "১৬√3",
+   "১৬√5"
+  ],
+  "candidate_kind": "db",
+  "candidate_id": 4544,
+  "candidate_text": "একটি সমবাহু ত্রিভুজের বাহুর দৈর্ঘ্য 8 মিটার হলে এর ক্ষেত্রফল হবে:",
+  "candidate_options": [
+   "43",
+   "45",
+   "163",
+   "165"
+  ],
+  "text_score": 98.1,
+  "option_overlap": 2,
+  "harvest_answer": "(ক)",
+  "harvest_file": "bcs_mathematics",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/bcs-model-test/51-bcs-model-test-1.html"
+ },
+ {
+  "harvest_text": "একটি ত্রিভুজের দুটি কোণের পরিমাণ ৩৫° ও ৫৫°। ত্রিভুজটি কোন ধরনের?",
+  "harvest_options": [
+   "সমকোণী",
+   "সমবাহু",
+   "সমদ্বিবাহু",
+   "স্থুলকোণী"
+  ],
+  "candidate_kind": "db",
+  "candidate_id": 4510,
+  "candidate_text": "কোনো একটি ত্রিভুজের দুইটি কোণের পরিমাণ ২৮° ও ৬২°। ত্রিভুজটি কোন ধরনের?",
+  "candidate_options": [
+   "সমকোণী",
+   "সূক্ষ্মকোণী",
+   "স্থূলকোণী",
+   "সমদ্বিবাহুসমকোণী"
+  ],
+  "text_score": 87.0,
+  "option_overlap": 2,
+  "harvest_answer": "(ক)",
+  "harvest_file": "bcs_mathematics",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/bcs-model-test/51-bcs-model-test-11.html"
+ },
+ {
+  "harvest_text": "একটি কোণের মান তার সম্পূরক কোণের মানের অর্ধেকের সমান। কোণটির মান কত?",
+  "harvest_options": [
+   "৩০°",
+   "৬০°",
+   "৯০°",
+   "১২০°"
+  ],
+  "candidate_kind": "db",
+  "candidate_id": 6048,
+  "candidate_text": "একটি কোণের মান তার পূরক কোণের মানের অর্ধেকের সমান । কোনটির মান কত?",
+  "candidate_options": [
+   "60°",
+   "45°",
+   "30°",
+   "25°"
+  ],
+  "text_score": 95.6,
+  "option_overlap": 2,
+  "harvest_answer": "(খ)",
+  "harvest_file": "bcs_mathematics",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/bcs-model-test/51-bcs-model-test-12.html"
+ },
+ {
+  "harvest_text": "4 সেমি বাহুবিশিষ্ট বর্গক্ষেত্রে পরিলিখিত বৃত্তের ক্ষেত্রফল কত?",
+  "harvest_options": [
+   "8π বর্গসেমি",
+   "6π বর্গসেমি",
+   "4π বর্গসেমি",
+   "2√2 π বর্গসেমি"
+  ],
+  "candidate_kind": "db",
+  "candidate_id": 4511,
+  "candidate_text": "4 সেমি বাহুবিশিষ্ট বর্গক্ষেত্রে পরিলিখিত বৃত্তের ক্ষেত্রফল কত?",
+  "candidate_options": [
+   "4πবর্গসেমি",
+   "6πবর্গসেমি",
+   "4πবর্গসেমিঘ2√2πবর্গসেমিউত্তরঃক4πবর্গসেমি8conicশব্দটিরঅক্ষরগুলোনিয়েগঠিতবিন্যাসসংখ্যাকতক24খ40গ60",
+   "120"
+  ],
+  "text_score": 100.0,
+  "option_overlap": 2,
+  "harvest_answer": "(ক)",
+  "harvest_file": "bcs_mathematics",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/bcs-model-test/51-bcs-model-test-3.html"
+ },
+ {
+  "harvest_text": "বৃত্তের কেন্দ্র ছেদকারী জ্যাকে কি বলা হয়?",
+  "harvest_options": [
+   "ব্যাস",
+   "ব্যাসার্ধ",
+   "বৃত্তচাপ",
+   "পরিধি"
+  ],
+  "candidate_kind": "db",
+  "candidate_id": 3588,
+  "candidate_text": "বৃওের কেন্দ্র্র ছেদকারী জ্যাকে কী বলা হয় ?",
+  "candidate_options": [
+   "ব্যাসার্ধ",
+   "বৃওচাপ",
+   "পরিধি",
+   "ব্যাস"
+  ],
+  "text_score": 88.6,
+  "option_overlap": 3,
+  "harvest_answer": "(ক)",
+  "harvest_file": "bcs_mathematics",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/bcs-model-test/51-bcs-model-test-5.html"
+ },
+ {
+  "harvest_text": "অক্ষর ধারাটির পরবর্তী অক্ষর কী? Z, W, T, Q, ...",
+  "harvest_options": [
+   "N",
+   "O",
+   "M",
+   "P"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "অক্ষর ধারাটির পরবর্তী অক্ষর কী? C, E, H, L, ...",
+  "candidate_options": [
+   "q",
+   "p",
+   "o",
+   "r"
+  ],
+  "text_score": 86.7,
+  "option_overlap": 2,
+  "harvest_answer": "(ক)",
+  "harvest_file": "bcs_mental_ability",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/bcs-model-test/51-bcs-model-test-2.html"
+ },
+ {
+  "harvest_text": "অক্ষর ধারাটির পরবর্তী অক্ষর কী? D, F, I, M, ...",
+  "harvest_options": [
+   "R",
+   "Q",
+   "S",
+   "P"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "অক্ষর ধারাটির পরবর্তী অক্ষর কী? C, E, H, L, ...",
+  "candidate_options": [
+   "q",
+   "p",
+   "o",
+   "r"
+  ],
+  "text_score": 86.7,
+  "option_overlap": 3,
+  "harvest_answer": "(ক)",
+  "harvest_file": "bcs_mental_ability",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/bcs-model-test/51-bcs-model-test-4.html"
+ },
+ {
+  "harvest_text": "ঘড়ির মিনিটের কাঁটা ১ ঘণ্টায় কত ডিগ্রি ঘোরে?",
+  "harvest_options": [
+   "৩৬০°",
+   "১৮০°",
+   "৩০°",
+   "৬০°"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "ঘড়ির ঘণ্টার কাঁটা ১ ঘণ্টায় কত ডিগ্রি ঘোরে?",
+  "candidate_options": [
+   "30°",
+   "15°",
+   "60°",
+   "360°"
+  ],
+  "text_score": 88.0,
+  "option_overlap": 3,
+  "harvest_answer": "(ক)",
+  "harvest_file": "bcs_mental_ability",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/bcs-model-test/51-bcs-model-test-7.html"
+ },
+ {
+  "harvest_text": "একটি ঘড়ি ৪টা বাজলে দুই কাঁটার মধ্যবর্তী কোণ কত?",
+  "harvest_options": [
+   "১২০°",
+   "৯০°",
+   "৬০°",
+   "১৫০°"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "ঘড়িতে ৬টা বাজলে দুই কাঁটার মধ্যবর্তী কোণ কত?",
+  "candidate_options": [
+   "180°",
+   "90°",
+   "120°",
+   "150°"
+  ],
+  "text_score": 89.7,
+  "option_overlap": 3,
+  "harvest_answer": "(ক)",
+  "harvest_file": "bcs_mental_ability",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/bcs-model-test/51-bcs-model-test-9.html"
+ },
+ {
+  "harvest_text": "ধারাটির পরবর্তী পদ কত? ৮১, ২৭, ৯, ৩, ...",
+  "harvest_options": [
+   "১",
+   "২",
+   "০",
+   "৪"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "ধারাটির পরবর্তী পদ কত? ৪৮, ২৪, ১২, ৬, ...",
+  "candidate_options": [
+   "3",
+   "2",
+   "4",
+   "1"
+  ],
+  "text_score": 85.7,
+  "option_overlap": 3,
+  "harvest_answer": "(ক)",
+  "harvest_file": "bcs_mental_ability",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/bcs-model-test/51-bcs-model-test-9.html"
+ },
+ {
+  "harvest_text": "পৃথিবীর গভীরতম হ্রদ কোনটি?",
+  "harvest_options": [
+   "কাস্পিয়ান",
+   "বৈকাল",
+   "মানস সরোবর",
+   "ডেড সী (Dead Sea)"
+  ],
+  "candidate_kind": "db",
+  "candidate_id": 3731,
+  "candidate_text": "পৃথিবীর গভীরতম হ্রদ –",
+  "candidate_options": [
+   "বৈকাল",
+   "মানসসরোবর",
+   "ডেডসী",
+   "কাসপিয়ান"
+  ],
+  "text_score": 85.0,
+  "option_overlap": 3,
+  "harvest_answer": "(খ)",
+  "harvest_file": "bcs_international_affairs",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/bcs-model-test/51-bcs-model-test-10.html"
+ },
+ {
+  "harvest_text": "ভারতের বর্তমান প্রধানমন্ত্রীর নাম কি?",
+  "harvest_options": [
+   "নরেন্দ্র মোদি",
+   "ড. মনমোহন সিং",
+   "মমতা ব্যানার্জী",
+   "রাহুল গান্ধী"
+  ],
+  "candidate_kind": "db",
+  "candidate_id": 4089,
+  "candidate_text": "ভারত এর বর্তমান প্রধানমন্ত্রীর নাম কী?",
+  "candidate_options": [
+   "ডমনমোহনসিং",
+   "মমতাবানার্জি",
+   "রাহুলগান্ধী",
+   "সোনিয়াগান্ধী"
+  ],
+  "text_score": 93.8,
+  "option_overlap": 2,
+  "harvest_answer": "(ক)",
+  "harvest_file": "bcs_international_affairs",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/bcs-model-test/51-bcs-model-test-2.html"
+ },
+ {
+  "harvest_text": "ভারত ও পাকিস্তানের মধ্যে সিন্ধু নদের পানিবণ্টন চুক্তি কবে সম্পাদিত হয়?",
+  "harvest_options": [
+   "১৯৬০",
+   "১৯৬৬",
+   "১৯৭৪",
+   "১৯৭৫"
+  ],
+  "candidate_kind": "db",
+  "candidate_id": 4581,
+  "candidate_text": "ভারত ও পাকিস্তানের মধ্যে সিঞ্চু নদের পানিবণ্টন চুক্তি কবে সম্পাদিত হয়?",
+  "candidate_options": [
+   "1963",
+   "1966",
+   "1949",
+   "1975"
+  ],
+  "text_score": 96.7,
+  "option_overlap": 2,
+  "harvest_answer": "(ক)",
+  "harvest_file": "bcs_international_affairs",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/bcs-model-test/51-bcs-model-test-3.html"
+ },
+ {
+  "harvest_text": "ফ্রান্সের বর্তমান প্রেসিডেন্টের নাম কি?",
+  "harvest_options": [
+   "ইমানুয়েল ম্যাক্র",
+   "জ্যাক শিরাক",
+   "ফ্রঁসিয়ে মিতেরাঁ",
+   "জেনারেল দ্য গল"
+  ],
+  "candidate_kind": "db",
+  "candidate_id": 4079,
+  "candidate_text": "ফ্রান্সের বর্তমান প্রেসিডেন্টের নাম কী ?",
+  "candidate_options": [
+   "ফ্রঁসিয়েমিতেরাঁ",
+   "নিকোলাসসার্কোজি",
+   "ফ্রাঁসোয়াওঁলান্দ",
+   "জেনারেলদ্যগল"
+  ],
+  "text_score": 97.1,
+  "option_overlap": 2,
+  "harvest_answer": "(ক)",
+  "harvest_file": "bcs_international_affairs",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/bcs-model-test/51-bcs-model-test-3.html"
+ },
+ {
+  "harvest_text": "NASA এর সদর দপ্তর কোথায়?",
+  "harvest_options": [
+   "ফ্লোরিডা",
+   "ওয়াশিংটন ডিসি",
+   "কেপ কেনেডি",
+   "টেকসাস"
+  ],
+  "candidate_kind": "db",
+  "candidate_id": 4077,
+  "candidate_text": "NASA-এর সদরদপ্তর কোথায় ?",
+  "candidate_options": [
+   "হিউস্টন",
+   "কেপকেনেডি",
+   "টেক্সাস",
+   "ওয়াশিংটন"
+  ],
+  "text_score": 100.0,
+  "option_overlap": 2,
+  "harvest_answer": "(খ)",
+  "harvest_file": "bcs_international_affairs",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/bcs-model-test/51-bcs-model-test-8.html"
+ },
+ {
+  "harvest_text": "ইরাকের বর্তমান প্রেসিডেন্ট বারহাম সালিহ কোন সম্প্রদায়ের?",
+  "harvest_options": [
+   "সুন্নি",
+   "শিয়া",
+   "কুর্দি",
+   "কোনোটিই নয়"
+  ],
+  "candidate_kind": "db",
+  "candidate_id": 4060,
+  "candidate_text": "ইরাকের বর্তমান প্রেসিডেন্ট জালাল তালাবানি কোন সম্প্রদায়ের?",
+  "candidate_options": [
+   "সুন্নি",
+   "সিয়া",
+   "কুর্দি",
+   "খিষ্টান"
+  ],
+  "text_score": 86.5,
+  "option_overlap": 2,
+  "harvest_answer": "(গ)",
+  "harvest_file": "bcs_international_affairs",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/bcs-model-test/51-bcs-model-test-8.html"
+ },
+ {
+  "harvest_text": "মূল্যবোধ ও নৈতিক শিক্ষার প্রথম পাঠশালা কোনটি?",
+  "harvest_options": [
+   "পরিবার",
+   "বিদ্যালয়",
+   "রাষ্ট্র",
+   "গণমাধ্যম"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "নৈতিক শিক্ষার প্রথম পাঠশালা কোনটি?",
+  "candidate_options": [
+   "বিদ্যালয়",
+   "পরিবার",
+   "সমাজ",
+   "রাষ্ট্র"
+  ],
+  "text_score": 85.7,
+  "option_overlap": 3,
+  "harvest_answer": "(ক)",
+  "harvest_file": "bcs_ethics_governance",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/bcs-model-test/51-bcs-model-test-10.html"
+ },
+ {
+  "harvest_text": "মানুষকে লক্ষ্যবস্তুর দিকে পরিচালিত করে কোনটি?",
+  "harvest_options": [
+   "প্রেষণা",
+   "শারীরিক শক্তি",
+   "সম্পদ",
+   "ভয়"
+  ],
+  "candidate_kind": "db",
+  "candidate_id": 8238,
+  "candidate_text": "কোনটি মানুষকে লক্ষ্যবস্তুর দিকে পরিচালিত করে?",
+  "candidate_options": [
+   "প্রয়োজন",
+   "প্রেষণা",
+   "ইচ্ছা",
+   "শারীরিকশক্তি"
+  ],
+  "text_score": 85.0,
+  "option_overlap": 2,
+  "harvest_answer": "(ক)",
+  "harvest_file": "bcs_ethics_governance",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/bcs-model-test/51-bcs-model-test-11.html"
+ },
+ {
+  "harvest_text": "মূল্যবোধ প্রধানত কীভাবে অর্জিত হয়?",
+  "harvest_options": [
+   "সামাজিকীকরণে",
+   "জন্মগতভাবে",
+   "আইনের মাধ্যমে",
+   "বলপ্রয়োগে"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "মূল্যবোধ কীভাবে অর্জিত হয়?",
+  "candidate_options": [
+   "জন্মগতভাবে",
+   "সামাজিকীকরণে",
+   "আইনে",
+   "বলপ্রয়োগে"
+  ],
+  "text_score": 87.3,
+  "option_overlap": 3,
+  "harvest_answer": "(ক)",
+  "harvest_file": "bcs_ethics_governance",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/bcs-model-test/51-bcs-model-test-5.html"
+ },
+ {
+  "harvest_text": "বাংলাদেশের যে জেলায় সবচেয়ে বেশি চা বাগান রয়েছে —",
+  "harvest_options": [
+   "হবিগঞ্জ",
+   "মৌলভীবাজার",
+   "সিলেট",
+   "কুড়িগ্রাম"
+  ],
+  "candidate_kind": "db",
+  "candidate_id": 5034,
+  "candidate_text": "বাংলাদেশের কোন জেলায় সবচেয়ে বেশি চা বাগান আছে?",
+  "candidate_options": [
+   "সিলেট",
+   "হবিগঞ্জ",
+   "মৌলভীবাজার",
+   "সুনামগঞ্জ"
+  ],
+  "text_score": 89.2,
+  "option_overlap": 3,
+  "harvest_answer": "(খ)",
+  "harvest_file": "ntrca_general_knowledge",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-model-test/ntrca-model-test-6.html"
+ },
+ {
+  "harvest_text": "FAO — এর সদর দপ্তর কোথায় অবস্থিত?",
+  "harvest_options": [
+   "জেনেভা",
+   "রোম",
+   "প্যারিস",
+   "নিউইয়র্ক"
+  ],
+  "candidate_kind": "db",
+  "candidate_id": 6112,
+  "candidate_text": "WIPO — এর সদর দপ্তর কোথায় অবস্থিত?",
+  "candidate_options": [
+   "ব্রাসেলস",
+   "জেনেভা",
+   "লন্ডন",
+   "প্যারিস"
+  ],
+  "text_score": 90.9,
+  "option_overlap": 2,
+  "harvest_answer": "(খ)",
+  "harvest_file": "ntrca_general_knowledge",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-model-test/ntrca-model-test-6.html"
+ },
+ {
+  "harvest_text": "IMF এর সদর দপ্তর কোথায়?",
+  "harvest_options": [
+   "ওয়াশিংটন ডিসি",
+   "নিউইয়র্ক",
+   "জেনেভা",
+   "রোম"
+  ],
+  "candidate_kind": "db",
+  "candidate_id": 945,
+  "candidate_text": "FAO- এর সদর দপ্তর কোথায় ?",
+  "candidate_options": [
+   "নিউইয়র্ক",
+   "ম্যানিলা",
+   "রোম",
+   "জেনেভা"
+  ],
+  "text_score": 90.0,
+  "option_overlap": 3,
+  "harvest_answer": "(ক)",
+  "harvest_file": "ntrca_general_knowledge",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-model-test/ntrca-model-test-7.html"
+ },
+ {
+  "harvest_text": "G-7-এর একমাত্র এশিয়া দেশ কোনটি?",
+  "harvest_options": [
+   "চীন",
+   "ভারত",
+   "জাপান",
+   "বার্মা"
+  ],
+  "candidate_kind": "db",
+  "candidate_id": 5495,
+  "candidate_text": "G-8 এর একমাত্র এশীয় দেশ কোনটি?",
+  "candidate_options": [
+   "কোরিয়া",
+   "জাপান",
+   "চীন",
+   "মালয়েশিয়া"
+  ],
+  "text_score": 90.2,
+  "option_overlap": 2,
+  "harvest_answer": "(গ)",
+  "harvest_file": "ntrca_general_knowledge",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-model-test/ntrca-model-test-8.html"
+ },
+ {
+  "harvest_text": "১৪তম সংশোধনী?",
+  "harvest_options": [
+   "মহিলা আসন ৩০ → ৪৫; বিচারপতি ৬৫ → ৬৭",
+   "তত্ত্বাবধায়ক",
+   "ইসলাম",
+   "ধর্মনিরপেক্ষতা"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "১৩তম সংশোধনী?",
+  "candidate_options": [
+   "তত্ত্বাবধায়কচালু",
+   "বাতিল",
+   "ইসলাম",
+   "সংরক্ষিতআসন"
+  ],
+  "text_score": 91.7,
+  "option_overlap": 2,
+  "harvest_answer": "(ক)",
+  "harvest_file": "ntrca_general_knowledge",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/general-knowledge/bangladesh-constitution-and-government.html"
+ },
+ {
+  "harvest_text": "১৭তম সংশোধনী?",
+  "harvest_options": [
+   "সংরক্ষিত নারী আসন আরও ২৫ বছর বহাল",
+   "তত্ত্বাবধায়ক",
+   "ইসলাম",
+   "ধর্মনিরপেক্ষতা"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "১৩তম সংশোধনী?",
+  "candidate_options": [
+   "তত্ত্বাবধায়কচালু",
+   "বাতিল",
+   "ইসলাম",
+   "সংরক্ষিতআসন"
+  ],
+  "text_score": 91.7,
+  "option_overlap": 2,
+  "harvest_answer": "(ক)",
+  "harvest_file": "ntrca_general_knowledge",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/general-knowledge/bangladesh-constitution-and-government.html"
+ },
+ {
+  "harvest_text": "প্রথম মহিলা ডেপুটি স্পিকার?",
+  "harvest_options": [
+   "শওকত আলী",
+   "ফাহমিদা",
+   "সাজেদা",
+   "সানসু"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "প্রথম মহিলা স্পিকার?",
+  "candidate_options": [
+   "ডশিরীনশারমিনচৌধুরী",
+   "সাজেদা",
+   "ফাহমিদা",
+   "আতাউর"
+  ],
+  "text_score": 85.0,
+  "option_overlap": 2,
+  "harvest_answer": "(খ)",
+  "harvest_file": "ntrca_general_knowledge",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/general-knowledge/bangladesh-constitution-and-government.html"
+ },
+ {
+  "harvest_text": "১১তম সংশোধনী?",
+  "harvest_options": [
+   "শাহাবউদ্দিনের অস্থায়ী রাষ্ট্রপতিকালের বৈধতা",
+   "তত্ত্বাবধায়ক",
+   "ইসলাম",
+   "সংরক্ষিত"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "১৩তম সংশোধনী?",
+  "candidate_options": [
+   "তত্ত্বাবধায়কচালু",
+   "বাতিল",
+   "ইসলাম",
+   "সংরক্ষিতআসন"
+  ],
+  "text_score": 91.7,
+  "option_overlap": 2,
+  "harvest_answer": "(ক)",
+  "harvest_file": "ntrca_general_knowledge",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/general-knowledge/bangladesh-constitution-and-government.html"
+ },
+ {
+  "harvest_text": "‘ষাটগম্বুজ মসজিদ’?",
+  "harvest_options": [
+   "বাগেরহাট",
+   "ঢাকা",
+   "চট্টগ্রাম",
+   "সিলেট"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "‘সাত গম্বুজ মসজিদ’?",
+  "candidate_options": [
+   "ঢাকামোহাম্মদপুর",
+   "বাগেরহাট",
+   "চট্টগ্রাম",
+   "সিলেট"
+  ],
+  "text_score": 85.7,
+  "option_overlap": 3,
+  "harvest_answer": "(ক)",
+  "harvest_file": "ntrca_general_knowledge",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/general-knowledge/bangladesh-geography-and-economy.html"
+ },
+ {
+  "harvest_text": "বঙ্গভঙ্গ রদ কত সালে?",
+  "harvest_options": [
+   "১৯০৬",
+   "১৯১১",
+   "১৯১৪",
+   "১৯২০"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "বঙ্গভঙ্গ কত সালে?",
+  "candidate_options": [
+   "1900",
+   "1905",
+   "1911",
+   "1920"
+  ],
+  "text_score": 93.3,
+  "option_overlap": 2,
+  "harvest_answer": "(খ)",
+  "harvest_file": "ntrca_general_knowledge",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/general-knowledge/bangladesh-history-and-liberation-war.html"
+ },
+ {
+  "harvest_text": "৪র্থ প্রজন্মের প্রধান উপাদান?",
+  "harvest_options": [
+   "Microprocessor (VLSI)",
+   "IC",
+   "Vacuum Tube",
+   "Quantum"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "২য় প্রজন্মের প্রধান উপাদান?",
+  "candidate_options": [
+   "vacuumtube",
+   "transistor",
+   "ic",
+   "microprocessor"
+  ],
+  "text_score": 85.7,
+  "option_overlap": 3,
+  "harvest_answer": "(ক)",
+  "harvest_file": "ntrca_general_knowledge",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/general-knowledge/computer-fundamentals.html"
+ },
+ {
+  "harvest_text": "ROM কোন ধরনের মেমরি?",
+  "harvest_options": [
+   "Volatile",
+   "Non-Volatile",
+   "Temporary",
+   "Cache"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "RAM কোন ধরনের মেমরি?",
+  "candidate_options": [
+   "volatile",
+   "nonvolatile",
+   "permanent",
+   "secondary"
+  ],
+  "text_score": 94.1,
+  "option_overlap": 2,
+  "harvest_answer": "(খ)",
+  "harvest_file": "ntrca_general_knowledge",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/general-knowledge/computer-fundamentals.html"
+ },
+ {
+  "harvest_text": "‘২০২৩ নোবেল অর্থনীতি’?",
+  "harvest_options": [
+   "ক্লডিয়া গোল্ডিন",
+   "আসেমোগলু",
+   "বানজি",
+   "ডিফলো"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "‘২০২৪ নোবেল অর্থনীতি’?",
+  "candidate_options": [
+   "আসেমোগলুজনসনরবিনসন",
+   "গোল্ডিন",
+   "বানজি",
+   "ডিফলো"
+  ],
+  "text_score": 94.4,
+  "option_overlap": 2,
+  "harvest_answer": "(ক)",
+  "harvest_file": "ntrca_general_knowledge",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/general-knowledge/current-affairs.html"
+ },
+ {
+  "harvest_text": "বিশ্ব পানি দিবস কবে?",
+  "harvest_options": [
+   "২২ মার্চ",
+   "৫ জুন",
+   "২২ এপ্রিল",
+   "১ মে"
+  ],
+  "candidate_kind": "db",
+  "candidate_id": 4994,
+  "candidate_text": "বিশ্ব পানি দিবস —",
+  "candidate_options": [
+   "22এপ্রিল",
+   "21মে",
+   "22জুন",
+   "22মার্চ"
+  ],
+  "text_score": 89.7,
+  "option_overlap": 3,
+  "harvest_answer": "(ক)",
+  "harvest_file": "ntrca_general_knowledge",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/general-knowledge/environment-and-climate.html"
+ },
+ {
+  "harvest_text": "‘Ecology’ শব্দটির প্রবর্তক —",
+  "harvest_options": [
+   "ডারউইন",
+   "আর্নস্ট হেকেল",
+   "মেন্ডেল",
+   "হেকলি"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "‘Ecology’ শব্দের প্রবর্তক কে?",
+  "candidate_options": [
+   "ডারউইন",
+   "হেকেল",
+   "ল্যামার্ক",
+   "মেন্ডেল"
+  ],
+  "text_score": 88.9,
+  "option_overlap": 2,
+  "harvest_answer": "(খ)",
+  "harvest_file": "ntrca_general_knowledge",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/general-knowledge/environment-and-climate.html"
+ },
+ {
+  "harvest_text": "খাদ্যশৃঙ্খলে শক্তির উৎস —",
+  "harvest_options": [
+   "মাটি",
+   "সূর্য",
+   "পানি",
+   "বায়ু"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "খাদ্যশৃঙ্খলে শক্তির মূল উৎস কী?",
+  "candidate_options": [
+   "মাটি",
+   "সূর্য",
+   "পানি",
+   "উদ্ভিদ"
+  ],
+  "text_score": 89.4,
+  "option_overlap": 3,
+  "harvest_answer": "(খ)",
+  "harvest_file": "ntrca_general_knowledge",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/general-knowledge/environment-and-climate.html"
+ },
+ {
+  "harvest_text": "ROM কেমন মেমরি?",
+  "harvest_options": [
+   "Volatile",
+   "Non-Volatile",
+   "Write-only",
+   "None"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "RAM কেমন মেমরি?",
+  "candidate_options": [
+   "volatile",
+   "nonvolatile",
+   "readonly",
+   "none"
+  ],
+  "text_score": 91.7,
+  "option_overlap": 3,
+  "harvest_answer": "(খ)",
+  "harvest_file": "ntrca_general_knowledge",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/general-knowledge/hardware-and-organization.html"
+ },
+ {
+  "harvest_text": "DVD-এর Laser-এর রঙ?",
+  "harvest_options": [
+   "Red",
+   "Blue",
+   "Infrared",
+   "UV"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "CD-এর Laser-এর রঙ?",
+  "candidate_options": [
+   "red",
+   "blue",
+   "infrared",
+   "green"
+  ],
+  "text_score": 88.9,
+  "option_overlap": 3,
+  "harvest_answer": "(ক)",
+  "harvest_file": "ntrca_general_knowledge",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/general-knowledge/hardware-and-organization.html"
+ },
+ {
+  "harvest_text": "Blu-ray SL ধারণক্ষমতা?",
+  "harvest_options": [
+   "4.7 GB",
+   "25 GB",
+   "100 GB",
+   "1 TB"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "Blu-ray Disk ধারণক্ষমতা?",
+  "candidate_options": [
+   "47gb",
+   "2550gb",
+   "100gb",
+   "1tb"
+  ],
+  "text_score": 89.5,
+  "option_overlap": 3,
+  "harvest_answer": "(খ)",
+  "harvest_file": "ntrca_general_knowledge",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/general-knowledge/hardware-and-organization.html"
+ },
+ {
+  "harvest_text": "USB 4-এর সর্বোচ্চ গতি?",
+  "harvest_options": [
+   "5 Gbps",
+   "10 Gbps",
+   "20 Gbps",
+   "40 Gbps"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "USB 2.0-এর সর্বোচ্চ গতি?",
+  "candidate_options": [
+   "12mbps",
+   "480mbps",
+   "5gbps",
+   "10gbps"
+  ],
+  "text_score": 91.9,
+  "option_overlap": 2,
+  "harvest_answer": "(ঘ)",
+  "harvest_file": "ntrca_general_knowledge",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/general-knowledge/hardware-and-organization.html"
+ },
+ {
+  "harvest_text": "RAID 1 কী করে?",
+  "harvest_options": [
+   "Striping",
+   "Mirroring",
+   "Parity",
+   "None"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "RAID 0 কী করে?",
+  "candidate_options": [
+   "stripingগতি",
+   "mirroring",
+   "parity",
+   "none"
+  ],
+  "text_score": 90.0,
+  "option_overlap": 3,
+  "harvest_answer": "(খ)",
+  "harvest_file": "ntrca_general_knowledge",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/general-knowledge/hardware-and-organization.html"
+ },
+ {
+  "harvest_text": "World Bank প্রেসিডেন্ট (২০২৪)?",
+  "harvest_options": [
+   "আজয় বঙ্গা",
+   "ম্যালপাস",
+   "জিম ইয়ং কিম",
+   "ওয়ারেন"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "World Bank প্রেসিডেন্ট?",
+  "candidate_options": [
+   "আজয়বঙ্গা",
+   "ম্যালপাস",
+   "জিমকিম",
+   "ওয়াল্ফোউইৎজ"
+  ],
+  "text_score": 90.9,
+  "option_overlap": 2,
+  "harvest_answer": "(ক)",
+  "harvest_file": "ntrca_general_knowledge",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/general-knowledge/international-organizations.html"
+ },
+ {
+  "harvest_text": "OPEC প্রতিষ্ঠা?",
+  "harvest_options": [
+   "১৯৬০",
+   "১৯৭০",
+   "১৯৮০",
+   "১৯৯০"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "OIC প্রতিষ্ঠা?",
+  "candidate_options": [
+   "1969",
+   "1970",
+   "1975",
+   "1980"
+  ],
+  "text_score": 88.0,
+  "option_overlap": 2,
+  "harvest_answer": "(ক)",
+  "harvest_file": "ntrca_general_knowledge",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/general-knowledge/international-organizations.html"
+ },
+ {
+  "harvest_text": "Asymmetric Encryption?",
+  "harvest_options": [
+   "AES",
+   "DES",
+   "RSA",
+   "3DES"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "Symmetric Encryption?",
+  "candidate_options": [
+   "aes",
+   "rsa",
+   "ecc",
+   "diffiehellman"
+  ],
+  "text_score": 97.4,
+  "option_overlap": 2,
+  "harvest_answer": "(গ)",
+  "harvest_file": "ntrca_general_knowledge",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/general-knowledge/modern-technology-and-security.html"
+ },
+ {
+  "harvest_text": "Wi-Fi 7-এর IEEE?",
+  "harvest_options": [
+   "802.11ax",
+   "802.11be",
+   "802.11ac",
+   "None"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "Wi-Fi 6-এর IEEE?",
+  "candidate_options": [
+   "80211n",
+   "80211ac",
+   "80211ax",
+   "80211be"
+  ],
+  "text_score": 90.9,
+  "option_overlap": 3,
+  "harvest_answer": "(খ)",
+  "harvest_file": "ntrca_general_knowledge",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/general-knowledge/network-and-internet.html"
+ },
+ {
+  "harvest_text": "UDP কেমন Protocol?",
+  "harvest_options": [
+   "Connection-Oriented",
+   "Connectionless",
+   "Stateful",
+   "None"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "TCP কেমন Protocol?",
+  "candidate_options": [
+   "connectionoriented",
+   "connectionless",
+   "stateless",
+   "none"
+  ],
+  "text_score": 86.7,
+  "option_overlap": 3,
+  "harvest_answer": "(খ)",
+  "harvest_file": "ntrca_general_knowledge",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/general-knowledge/network-and-internet.html"
+ },
+ {
+  "harvest_text": "HTTPS-এর Port?",
+  "harvest_options": [
+   "80",
+   "443",
+   "25",
+   "22"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "HTTP-এর Port?",
+  "candidate_options": [
+   "21",
+   "53",
+   "80",
+   "443"
+  ],
+  "text_score": 95.2,
+  "option_overlap": 2,
+  "harvest_answer": "(খ)",
+  "harvest_file": "ntrca_general_knowledge",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/general-knowledge/network-and-internet.html"
+ },
+ {
+  "harvest_text": "AWS EC2 — কোন Model?",
+  "harvest_options": [
+   "IaaS",
+   "PaaS",
+   "SaaS",
+   "None"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "AWS EC2 কোন Cloud Model?",
+  "candidate_options": [
+   "iaas",
+   "paas",
+   "saas",
+   "daas"
+  ],
+  "text_score": 85.7,
+  "option_overlap": 3,
+  "harvest_answer": "(ক)",
+  "harvest_file": "ntrca_general_knowledge",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/general-knowledge/network-and-internet.html"
+ },
+ {
+  "harvest_text": "1010-এর 2's Complement?",
+  "harvest_options": [
+   "0110",
+   "0101",
+   "0111",
+   "0001"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "1010-এর 1's Complement?",
+  "candidate_options": [
+   "0101",
+   "0110",
+   "1011",
+   "1110"
+  ],
+  "text_score": 94.4,
+  "option_overlap": 2,
+  "harvest_answer": "(ক)",
+  "harvest_file": "ntrca_general_knowledge",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/general-knowledge/number-system.html"
+ },
+ {
+  "harvest_text": "A · A' = ?",
+  "harvest_options": [
+   "0",
+   "1",
+   "A",
+   "A'"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "A + A = ?",
+  "candidate_options": [
+   "0",
+   "1",
+   "a",
+   "2a"
+  ],
+  "text_score": 85.7,
+  "option_overlap": 3,
+  "harvest_answer": "(ক)",
+  "harvest_file": "ntrca_general_knowledge",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/general-knowledge/number-system.html"
+ },
+ {
+  "harvest_text": "DRAM-এ Storage element?",
+  "harvest_options": [
+   "Capacitor + Transistor",
+   "Flip-Flop",
+   "Coil",
+   "None"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "SRAM-এ Storage element?",
+  "candidate_options": [
+   "capacitor",
+   "flipflop",
+   "diode",
+   "coil"
+  ],
+  "text_score": 94.7,
+  "option_overlap": 2,
+  "harvest_answer": "(ক)",
+  "harvest_file": "ntrca_general_knowledge",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/general-knowledge/number-system.html"
+ },
+ {
+  "harvest_text": "Excess-3 কোডে 9 = ?",
+  "harvest_options": [
+   "1001",
+   "1100",
+   "1111",
+   "1011"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "Excess-3 কোডে 3 = ?",
+  "candidate_options": [
+   "0011",
+   "0110",
+   "1100",
+   "1001"
+  ],
+  "text_score": 92.9,
+  "option_overlap": 2,
+  "harvest_answer": "(খ)",
+  "harvest_file": "ntrca_general_knowledge",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/general-knowledge/number-system.html"
+ },
+ {
+  "harvest_text": "0.7510 = ?2",
+  "harvest_options": [
+   "0.11",
+   "0.10",
+   "0.01",
+   "0.111"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "0.510 = ?2",
+  "candidate_options": [
+   "01",
+   "001",
+   "0001",
+   "011"
+  ],
+  "text_score": 92.3,
+  "option_overlap": 2,
+  "harvest_answer": "(ক)",
+  "harvest_file": "ntrca_general_knowledge",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/general-knowledge/number-system.html"
+ },
+ {
+  "harvest_text": "৩য় প্রজন্মের ভাষা?",
+  "harvest_options": [
+   "Machine",
+   "Assembly",
+   "High Level (C, COBOL)",
+   "None"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "২য় প্রজন্মের ভাষা?",
+  "candidate_options": [
+   "machine",
+   "assembly",
+   "highlevel",
+   "4gl"
+  ],
+  "text_score": 93.8,
+  "option_overlap": 2,
+  "harvest_answer": "(গ)",
+  "harvest_file": "ntrca_general_knowledge",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/general-knowledge/software-and-operating-system.html"
+ },
+ {
+  "harvest_text": "MS Word — Ctrl + P?",
+  "harvest_options": [
+   "Save",
+   "Open",
+   "Print",
+   "Paste"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "MS Word — Ctrl + S?",
+  "candidate_options": [
+   "save",
+   "open",
+   "print",
+   "close"
+  ],
+  "text_score": 91.7,
+  "option_overlap": 3,
+  "harvest_answer": "(গ)",
+  "harvest_file": "ntrca_general_knowledge",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/general-knowledge/software-and-operating-system.html"
+ },
+ {
+  "harvest_text": "F12 কী?",
+  "harvest_options": [
+   "Save As",
+   "Help",
+   "Refresh",
+   "Spell"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "F1 কী?",
+  "candidate_options": [
+   "help",
+   "save",
+   "print",
+   "refresh"
+  ],
+  "text_score": 88.9,
+  "option_overlap": 2,
+  "harvest_answer": "(ক)",
+  "harvest_file": "ntrca_general_knowledge",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/general-knowledge/software-and-operating-system.html"
+ },
+ {
+  "harvest_text": "'জায়া' শব্দের সমার্থক শব্দ কোনটি?",
+  "harvest_options": [
+   "অর্ধাঙ্গিনী",
+   "কন্যা",
+   "নন্দিনী",
+   "ভাগনি"
+  ],
+  "candidate_kind": "db",
+  "candidate_id": 5911,
+  "candidate_text": "'জায়া' শব্দের সমার্থক শব্দ —",
+  "candidate_options": [
+   "অর্ধাঙ্গী",
+   "কন্যা",
+   "নন্দিনী",
+   "ভগ্নী"
+  ],
+  "text_score": 88.0,
+  "option_overlap": 3,
+  "harvest_answer": "(ক)",
+  "harvest_file": "ntrca_bangla",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-model-test/ntrca-model-test-10.html"
+ },
+ {
+  "harvest_text": "ভাষার কোন রীতি তদ্ভব শব্দবহুল?",
+  "harvest_options": [
+   "সাধুরীতি",
+   "চলিতরীতি",
+   "কথ্যরীতি",
+   "বানানরীতি"
+  ],
+  "candidate_kind": "db",
+  "candidate_id": 489,
+  "candidate_text": "ভাষার কোন রীতি তৎসম শব্দবহুল?",
+  "candidate_options": [
+   "সাধুরীতি",
+   "চলিতরীতি",
+   "কথ্যরীতি",
+   "লেখ্যরীতি"
+  ],
+  "text_score": 86.3,
+  "option_overlap": 3,
+  "harvest_answer": "(খ)",
+  "harvest_file": "ntrca_bangla",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-model-test/ntrca-model-test-12.html"
+ },
+ {
+  "harvest_text": "'প্রসূন' — এর প্রতিশব্দ —",
+  "harvest_options": [
+   "ভ্রমর",
+   "পক্ষী",
+   "পুষ্প",
+   "ফল"
+  ],
+  "candidate_kind": "db",
+  "candidate_id": 591,
+  "candidate_text": "প্রসূন এর প্রতিশব্দ হলো-",
+  "candidate_options": [
+   "ভ্রমর",
+   "পত্র",
+   "ফল",
+   "পুষ্প"
+  ],
+  "text_score": 89.5,
+  "option_overlap": 3,
+  "harvest_answer": "(গ)",
+  "harvest_file": "ntrca_bangla",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-model-test/ntrca-model-test-5.html"
+ },
+ {
+  "harvest_text": "অনুবাদের পারদর্শিতা কীসের ওপর নির্ভরশীল?",
+  "harvest_options": [
+   "পড়াশোনার ওপর",
+   "ভাষান্তরের ওপর",
+   "নির্ধারণের ওপর",
+   "অভ্যাসের ওপর"
+  ],
+  "candidate_kind": "db",
+  "candidate_id": 952,
+  "candidate_text": "অনুবাদে পারদর্শিতা মূলত কিসের ওপর নির্ভরশীল ?",
+  "candidate_options": [
+   "অভ্যাসের",
+   "পড়াশুনার",
+   "ভাষান্তরের",
+   "নির্ধারণের"
+  ],
+  "text_score": 90.4,
+  "option_overlap": 2,
+  "harvest_answer": "(ঘ)",
+  "harvest_file": "ntrca_bangla",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-model-test/ntrca-model-test-6.html"
+ },
+ {
+  "harvest_text": "‘উনপাঁজুরে’ অর্থ কী?",
+  "harvest_options": [
+   "হতভাগ্য",
+   "রোগা",
+   "সৌভাগ্যবান",
+   "সাহসী"
+  ],
+  "candidate_kind": "db",
+  "candidate_id": 1560,
+  "candidate_text": "ঊনপাঁজুরে অর্থ কি?",
+  "candidate_options": [
+   "সৌভাগ্যবান",
+   "লোভী",
+   "কর্মঠ",
+   "জতভাগ্য"
+  ],
+  "text_score": 86.7,
+  "option_overlap": 2,
+  "harvest_answer": "(ক)",
+  "harvest_file": "ntrca_bangla",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/bangla/bagdhara-probad.html"
+ },
+ {
+  "harvest_text": "‘!’ — কোন চিহ্ন?",
+  "harvest_options": [
+   "বিস্ময়সূচক",
+   "প্রশ্ন",
+   "দাঁড়ি",
+   "ড্যাশ"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "‘?’ — কোন চিহ্ন?",
+  "candidate_options": [
+   "বিস্ময়সূচক",
+   "প্রশ্নবোধক",
+   "দাঁড়ি",
+   "কোলন"
+  ],
+  "text_score": 100.0,
+  "option_overlap": 2,
+  "harvest_answer": "(ক)",
+  "harvest_file": "ntrca_bangla",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/bangla/banan-o-bakko-shuddhi.html"
+ },
+ {
+  "harvest_text": "‘ ; ’ — কোন চিহ্ন?",
+  "harvest_options": [
+   "সেমিকোলন",
+   "কোলন",
+   "কমা",
+   "দাঁড়ি"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "‘?’ — কোন চিহ্ন?",
+  "candidate_options": [
+   "বিস্ময়সূচক",
+   "প্রশ্নবোধক",
+   "দাঁড়ি",
+   "কোলন"
+  ],
+  "text_score": 100.0,
+  "option_overlap": 2,
+  "harvest_answer": "(ক)",
+  "harvest_file": "ntrca_bangla",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/bangla/banan-o-bakko-shuddhi.html"
+ },
+ {
+  "harvest_text": "‘ — ’ — কোন চিহ্ন?",
+  "harvest_options": [
+   "ড্যাশ",
+   "হাইফেন",
+   "কোলন",
+   "দাঁড়ি"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "‘?’ — কোন চিহ্ন?",
+  "candidate_options": [
+   "বিস্ময়সূচক",
+   "প্রশ্নবোধক",
+   "দাঁড়ি",
+   "কোলন"
+  ],
+  "text_score": 100.0,
+  "option_overlap": 2,
+  "harvest_answer": "(ক)",
+  "harvest_file": "ntrca_bangla",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/bangla/banan-o-bakko-shuddhi.html"
+ },
+ {
+  "harvest_text": "‘শুদ্ধ’ বানান?",
+  "harvest_options": [
+   "ধস",
+   "ধ্বস",
+   "ধস্য",
+   "ধ্বঁস"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "শুদ্ধ বানান?",
+  "candidate_options": [
+   "ধংস",
+   "ধ্বংস",
+   "ধবংস",
+   "ধ্বঁস"
+  ],
+  "text_score": 100.0,
+  "option_overlap": 2,
+  "harvest_answer": "(ক)",
+  "harvest_file": "ntrca_bangla",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/bangla/banan-o-bakko-shuddhi.html"
+ },
+ {
+  "harvest_text": "ভাব-বাচ্যে কর্তা কোন বিভক্তিতে?",
+  "harvest_options": [
+   "ষষ্ঠী -র/-এর",
+   "প্রথমা",
+   "তৃতীয়া",
+   "সপ্তমী"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "কর্তৃ-বাচ্যে কর্তা কোন বিভক্তিতে?",
+  "candidate_options": [
+   "প্রথমা",
+   "তৃতীয়া",
+   "ষষ্ঠী",
+   "সপ্তমী"
+  ],
+  "text_score": 85.7,
+  "option_overlap": 3,
+  "harvest_answer": "(ক)",
+  "harvest_file": "ntrca_bangla",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/bangla/banan-o-bakko-shuddhi.html"
+ },
+ {
+  "harvest_text": "‘হইল’ শব্দের চলিত রূপ কোনটি?",
+  "harvest_options": [
+   "হলো",
+   "হবে",
+   "হয়",
+   "হইবে"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "‘হইতে’ শব্দের চলিত রূপ কোনটি?",
+  "candidate_options": [
+   "হতে",
+   "থেকে",
+   "হয়ে",
+   "হবে"
+  ],
+  "text_score": 93.3,
+  "option_overlap": 2,
+  "harvest_answer": "(ক)",
+  "harvest_file": "ntrca_bangla",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/bangla/bhasha-o-bhasharity.html"
+ },
+ {
+  "harvest_text": "‘তাহাদিগকে’ শব্দের চলিত রূপ কোনটি?",
+  "harvest_options": [
+   "তাদের",
+   "তাহাদের",
+   "তাদেরকে",
+   "ক ও গ উভয়ই"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "‘তাহারা’ শব্দের চলিত রূপ কোনটি?",
+  "candidate_options": [
+   "তাদের",
+   "তারা",
+   "তাহাদের",
+   "তাঁরা"
+  ],
+  "text_score": 86.8,
+  "option_overlap": 2,
+  "harvest_answer": "(ঘ)",
+  "harvest_file": "ntrca_bangla",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/bangla/bhasha-o-bhasharity.html"
+ },
+ {
+  "harvest_text": "‘গিয়াছিল’ শব্দের চলিত রূপ কোনটি?",
+  "harvest_options": [
+   "গিয়েছিল",
+   "যাবে",
+   "গেল",
+   "যায়"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "‘যাইতেছিল’ শব্দের চলিত রূপ কোনটি?",
+  "candidate_options": [
+   "যাচ্ছিল",
+   "যাবে",
+   "গেল",
+   "যেত"
+  ],
+  "text_score": 88.9,
+  "option_overlap": 2,
+  "harvest_answer": "(ক)",
+  "harvest_file": "ntrca_bangla",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/bangla/bhasha-o-bhasharity.html"
+ },
+ {
+  "harvest_text": "ভাষার মৌলিক উপাদান কোনটি?",
+  "harvest_options": [
+   "বাক্য",
+   "ধ্বনি",
+   "অনুচ্ছেদ",
+   "ছেদচিহ্ন"
+  ],
+  "candidate_kind": "db",
+  "candidate_id": 6639,
+  "candidate_text": "ভাষার মূল উপাদান কোনটি?",
+  "candidate_options": [
+   "ধ্বনি",
+   "শব্দ",
+   "বাক্য",
+   "অর্থ"
+  ],
+  "text_score": 88.4,
+  "option_overlap": 2,
+  "harvest_answer": "(খ)",
+  "harvest_file": "ntrca_bangla",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/bangla/bhasha-o-bhasharity.html"
+ },
+ {
+  "harvest_text": "‘করিলাম’ শব্দের চলিত রূপ কোনটি?",
+  "harvest_options": [
+   "করলাম",
+   "করব",
+   "করছি",
+   "করি"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "‘করিয়াছিল’ শব্দের চলিত রূপ কোনটি?",
+  "candidate_options": [
+   "করছে",
+   "করিল",
+   "করেছিল",
+   "করবে"
+  ],
+  "text_score": 86.8,
+  "option_overlap": 2,
+  "harvest_answer": "(ক)",
+  "harvest_file": "ntrca_bangla",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/bangla/bhasha-o-bhasharity.html"
+ },
+ {
+  "harvest_text": "‘যাইবে’ শব্দের চলিত রূপ কোনটি?",
+  "harvest_options": [
+   "যাবে",
+   "গেল",
+   "যায়",
+   "যাচ্ছে"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "‘যাইতেছিল’ শব্দের চলিত রূপ কোনটি?",
+  "candidate_options": [
+   "যাচ্ছিল",
+   "যাবে",
+   "গেল",
+   "যেত"
+  ],
+  "text_score": 90.2,
+  "option_overlap": 2,
+  "harvest_answer": "(ক)",
+  "harvest_file": "ntrca_bangla",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/bangla/bhasha-o-bhasharity.html"
+ },
+ {
+  "harvest_text": "‘ঃ’ কে কী বলে?",
+  "harvest_options": [
+   "অনুস্বার",
+   "বিসর্গ",
+   "হস",
+   "ঋকার"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "‘ৎ’ কে কী বলে?",
+  "candidate_options": [
+   "অনুস্বার",
+   "বিসর্গ",
+   "খণ্ডত",
+   "চন্দ্রবিন্দু"
+  ],
+  "text_score": 87.5,
+  "option_overlap": 2,
+  "harvest_answer": "(খ)",
+  "harvest_file": "ntrca_bangla",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/bangla/dhwani-o-borno.html"
+ },
+ {
+  "harvest_text": "‘ঁ’ কে কী বলে?",
+  "harvest_options": [
+   "অনুস্বার",
+   "চন্দ্রবিন্দু",
+   "বিসর্গ",
+   "ফলা"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "‘ৎ’ কে কী বলে?",
+  "candidate_options": [
+   "অনুস্বার",
+   "বিসর্গ",
+   "খণ্ডত",
+   "চন্দ্রবিন্দু"
+  ],
+  "text_score": 87.5,
+  "option_overlap": 3,
+  "harvest_answer": "(খ)",
+  "harvest_file": "ntrca_bangla",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/bangla/dhwani-o-borno.html"
+ },
+ {
+  "harvest_text": "‘ন’ কোন বর্গের নাসিক্য?",
+  "harvest_options": [
+   "ত-বর্গ",
+   "ট-বর্গ",
+   "চ-বর্গ",
+   "প-বর্গ"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "‘ঙ’ কোন বর্গের নাসিক্য বর্ণ?",
+  "candidate_options": [
+   "কবর্গ",
+   "চবর্গ",
+   "টবর্গ",
+   "তবর্গ"
+  ],
+  "text_score": 85.0,
+  "option_overlap": 3,
+  "harvest_answer": "(ক)",
+  "harvest_file": "ntrca_bangla",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/bangla/dhwani-o-borno.html"
+ },
+ {
+  "harvest_text": "‘ম’ কোন বর্গের নাসিক্য?",
+  "harvest_options": [
+   "প-বর্গ",
+   "ত-বর্গ",
+   "চ-বর্গ",
+   "ক-বর্গ"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "‘ঙ’ কোন বর্গের নাসিক্য বর্ণ?",
+  "candidate_options": [
+   "কবর্গ",
+   "চবর্গ",
+   "টবর্গ",
+   "তবর্গ"
+  ],
+  "text_score": 85.0,
+  "option_overlap": 3,
+  "harvest_answer": "(ক)",
+  "harvest_file": "ntrca_bangla",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/bangla/dhwani-o-borno.html"
+ },
+ {
+  "harvest_text": "‘ষ’ ও ‘স/শ’ পার্থক্যের নিয়মকে বলে —",
+  "harvest_options": [
+   "ণত্ব বিধান",
+   "ষত্ব বিধান",
+   "সন্ধি",
+   "সমাস"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "‘ণ’ ও ‘ন’ পার্থক্যের নিয়মকে বলে —",
+  "candidate_options": [
+   "ষত্ববিধান",
+   "ণত্ববিধান",
+   "উচ্চারণবিধি",
+   "ধ্বনিপরিবর্তন"
+  ],
+  "text_score": 89.4,
+  "option_overlap": 2,
+  "harvest_answer": "(খ)",
+  "harvest_file": "ntrca_bangla",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/bangla/dhwani-o-borno.html"
+ },
+ {
+  "harvest_text": "‘উপকারীর অপকার করে যে’ — এক কথায়?",
+  "harvest_options": [
+   "কৃতজ্ঞ",
+   "কৃতঘ্ন",
+   "নিমকহারাম",
+   "অপকারী"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "‘উপকারীর উপকার করে যে’ — এক কথায়?",
+  "candidate_options": [
+   "কৃতঘ্ন",
+   "কৃতজ্ঞ",
+   "অকৃতজ্ঞ",
+   "উপকারক"
+  ],
+  "text_score": 95.8,
+  "option_overlap": 2,
+  "harvest_answer": "(খ)",
+  "harvest_file": "ntrca_bangla",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/bangla/ek-kothay-prokash.html"
+ },
+ {
+  "harvest_text": "‘ইতিহাস জানেন যিনি’ — এক কথায়?",
+  "harvest_options": [
+   "ঐতিহাসিক",
+   "ইতিহাসবেত্তা",
+   "পণ্ডিত",
+   "গবেষক"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "‘ইতিহাস রচনা করেন যিনি’ — এক কথায়?",
+  "candidate_options": [
+   "ইতিহাসবেত্তা",
+   "ঐতিহাসিক",
+   "ইতিহাসবিদ",
+   "পুরাতাত্ত্বিক"
+  ],
+  "text_score": 85.1,
+  "option_overlap": 2,
+  "harvest_answer": "(খ)",
+  "harvest_file": "ntrca_bangla",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/bangla/ek-kothay-prokash.html"
+ },
+ {
+  "harvest_text": "‘লাভ করার ইচ্ছা’ — এক কথায়?",
+  "harvest_options": [
+   "লিপ্সা",
+   "দিৎসা",
+   "জিগীষা",
+   "বিবক্ষা"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "‘উপকার করার ইচ্ছা’ — এক কথায়?",
+  "candidate_options": [
+   "উপচিকীর্ষা",
+   "অনুচিকীর্ষা",
+   "দিৎসা",
+   "লিপ্সা"
+  ],
+  "text_score": 85.0,
+  "option_overlap": 2,
+  "harvest_answer": "(ক)",
+  "harvest_file": "ntrca_bangla",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/bangla/ek-kothay-prokash.html"
+ },
+ {
+  "harvest_text": "‘স্থলে চরে যা’ — এক কথায়?",
+  "harvest_options": [
+   "স্থলচর",
+   "জলচর",
+   "খেচর",
+   "উভচর"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "‘জলে চরে যা’ — এক কথায়?",
+  "candidate_options": [
+   "জলচর",
+   "খেচর",
+   "উভচর",
+   "নিশাচর"
+  ],
+  "text_score": 87.5,
+  "option_overlap": 3,
+  "harvest_answer": "(ক)",
+  "harvest_file": "ntrca_bangla",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/bangla/ek-kothay-prokash.html"
+ },
+ {
+  "harvest_text": "‘যা কষ্টে জয় করা যায়’ — এক কথায়?",
+  "harvest_options": [
+   "দুর্জয়",
+   "দুর্লভ",
+   "অজেয়",
+   "দুর্গম"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "‘যা কষ্টে লাভ করা যায়’ — এক কথায়?",
+  "candidate_options": [
+   "দুর্লভ",
+   "সুলভ",
+   "অলভ্য",
+   "দুর্জয়"
+  ],
+  "text_score": 87.5,
+  "option_overlap": 2,
+  "harvest_answer": "(ক)",
+  "harvest_file": "ntrca_bangla",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/bangla/ek-kothay-prokash.html"
+ },
+ {
+  "harvest_text": "কোন অবস্থায় দন্ত্য-স মূর্ধন্য-ষ হয়?",
+  "harvest_options": [
+   "অ-আ-এর পরে",
+   "অ-আ ভিন্ন স্বর, র, ক-এর পরে",
+   "ত-বর্গের আগে",
+   "সর্বত্র"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "কোন অবস্থায় দন্ত্য-ন মূর্ধন্য-ণ হয়?",
+  "candidate_options": [
+   "তবর্গেরআগে",
+   "ঋরষএরপরে",
+   "অএরপরে",
+   "পবর্গেরপরে"
+  ],
+  "text_score": 93.5,
+  "option_overlap": 2,
+  "harvest_answer": "(খ)",
+  "harvest_file": "ntrca_bangla",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/bangla/noto-sotto-bidhan.html"
+ },
+ {
+  "harvest_text": "‘বর্ষা’ শব্দে ষ হয়েছে কীসের পরে?",
+  "harvest_options": [
+   "র",
+   "অ",
+   "আ",
+   "ট"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "‘পুরুষ’ শব্দে ষ হয়েছে কীসের পরে?",
+  "candidate_options": [
+   "অ",
+   "আ",
+   "উ",
+   "ট"
+  ],
+  "text_score": 88.0,
+  "option_overlap": 3,
+  "harvest_answer": "(ক)",
+  "harvest_file": "ntrca_bangla",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/bangla/noto-sotto-bidhan.html"
+ },
+ {
+  "harvest_text": "‘কর্ণ’ শব্দে ণ হয়েছে কীসের পরে?",
+  "harvest_options": [
+   "ঋ",
+   "র/রেফ",
+   "ষ",
+   "ট"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "‘ভীষণ’ শব্দে ণ হয়েছে কীসের পরে?",
+  "candidate_options": [
+   "র",
+   "ঋ",
+   "ষ",
+   "ট"
+  ],
+  "text_score": 87.5,
+  "option_overlap": 3,
+  "harvest_answer": "(খ)",
+  "harvest_file": "ntrca_bangla",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/bangla/noto-sotto-bidhan.html"
+ },
+ {
+  "harvest_text": "কোন শব্দে ষত্ব বিধান খাটে না?",
+  "harvest_options": [
+   "বর্ষা",
+   "মাস্টার",
+   "পুরুষ",
+   "বিশেষ"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "নিচের কোন শব্দে ষত্ব বিধান খাটে না?",
+  "candidate_options": [
+   "বিষয়",
+   "পুরুষ",
+   "জিনিস",
+   "বর্ষা"
+  ],
+  "text_score": 90.6,
+  "option_overlap": 2,
+  "harvest_answer": "(খ)",
+  "harvest_file": "ntrca_bangla",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/bangla/noto-sotto-bidhan.html"
+ },
+ {
+  "harvest_text": "‘বিষয়’ শব্দে ষ হয়েছে কীসের পরে?",
+  "harvest_options": [
+   "ই",
+   "অ",
+   "আ",
+   "র"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "‘নিষেধ’ শব্দে ষ হয়েছে কীসের পরে?",
+  "candidate_options": [
+   "ই",
+   "অ",
+   "আ",
+   "ট"
+  ],
+  "text_score": 88.0,
+  "option_overlap": 3,
+  "harvest_answer": "(ক)",
+  "harvest_file": "ntrca_bangla",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/bangla/noto-sotto-bidhan.html"
+ },
+ {
+  "harvest_text": "‘অর্পণ’ শব্দে ণ হয়েছে কীসের পরে?",
+  "harvest_options": [
+   "র/রেফ",
+   "ঋ",
+   "ষ",
+   "ট"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "‘ভীষণ’ শব্দে ণ হয়েছে কীসের পরে?",
+  "candidate_options": [
+   "র",
+   "ঋ",
+   "ষ",
+   "ট"
+  ],
+  "text_score": 85.7,
+  "option_overlap": 3,
+  "harvest_answer": "(ক)",
+  "harvest_file": "ntrca_bangla",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/bangla/noto-sotto-bidhan.html"
+ },
+ {
+  "harvest_text": "‘পূর্ণ’ শব্দে ণ হয়েছে কীসের পরে?",
+  "harvest_options": [
+   "ঋ",
+   "র/রেফ",
+   "ষ",
+   "ট"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "‘ভীষণ’ শব্দে ণ হয়েছে কীসের পরে?",
+  "candidate_options": [
+   "র",
+   "ঋ",
+   "ষ",
+   "ট"
+  ],
+  "text_score": 85.7,
+  "option_overlap": 3,
+  "harvest_answer": "(খ)",
+  "harvest_file": "ntrca_bangla",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/bangla/noto-sotto-bidhan.html"
+ },
+ {
+  "harvest_text": "‘দুষ্ট’ শব্দে ষ হওয়ার কারণ—",
+  "harvest_options": [
+   "উ-এর পরে ও ট-এর আগে",
+   "অ-এর পরে",
+   "স্বভাবত",
+   "র-এর পরে"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "‘কষ্ট’ শব্দে ষ হওয়ার কারণ কী?",
+  "candidate_options": [
+   "ইএরপরে",
+   "টএরআগে",
+   "রএরপরে",
+   "স্বভাবত"
+  ],
+  "text_score": 88.4,
+  "option_overlap": 2,
+  "harvest_answer": "(ক)",
+  "harvest_file": "ntrca_bangla",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/bangla/noto-sotto-bidhan.html"
+ },
+ {
+  "harvest_text": "কোনটি স্বভাব-ষ শব্দ নয়?",
+  "harvest_options": [
+   "ভাষা",
+   "ঊষা",
+   "কষ্ট",
+   "দোষ"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "কোনটি স্বভাব-ষ শব্দ?",
+  "candidate_options": [
+   "বিষয়",
+   "ভাষা",
+   "কষ্ট",
+   "বর্ষা"
+  ],
+  "text_score": 91.9,
+  "option_overlap": 2,
+  "harvest_answer": "(গ)",
+  "harvest_file": "ntrca_bangla",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/bangla/noto-sotto-bidhan.html"
+ },
+ {
+  "harvest_text": "‘কর্ষণ’ শব্দে ষ হয়েছে কীসের পরে?",
+  "harvest_options": [
+   "র",
+   "অ",
+   "আ",
+   "ট"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "‘পুরুষ’ শব্দে ষ হয়েছে কীসের পরে?",
+  "candidate_options": [
+   "অ",
+   "আ",
+   "উ",
+   "ট"
+  ],
+  "text_score": 88.0,
+  "option_overlap": 3,
+  "harvest_answer": "(ক)",
+  "harvest_file": "ntrca_bangla",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/bangla/noto-sotto-bidhan.html"
+ },
+ {
+  "harvest_text": "‘ওষ্ঠ’ শব্দে ষ হওয়ার কারণ—",
+  "harvest_options": [
+   "ঠ-এর আগে",
+   "র-এর পরে",
+   "অ-এর পরে",
+   "স্বভাবত"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "‘শ্রেষ্ঠ’ শব্দে ষ হওয়ার কারণ—",
+  "candidate_options": [
+   "ঠএরআগে",
+   "রএরপরে",
+   "এএরপরে",
+   "স্বভাবত"
+  ],
+  "text_score": 88.4,
+  "option_overlap": 3,
+  "harvest_answer": "(ক)",
+  "harvest_file": "ntrca_bangla",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/bangla/noto-sotto-bidhan.html"
+ },
+ {
+  "harvest_text": "‘বর্ষণ’ শব্দে ষ হয়েছে কীসের পরে?",
+  "harvest_options": [
+   "র",
+   "অ",
+   "ই",
+   "ট"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "‘পুরুষ’ শব্দে ষ হয়েছে কীসের পরে?",
+  "candidate_options": [
+   "অ",
+   "আ",
+   "উ",
+   "ট"
+  ],
+  "text_score": 88.0,
+  "option_overlap": 2,
+  "harvest_answer": "(ক)",
+  "harvest_file": "ntrca_bangla",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/bangla/noto-sotto-bidhan.html"
+ },
+ {
+  "harvest_text": "‘পৃষ্ঠা’ শব্দে ষ হওয়ার কারণ—",
+  "harvest_options": [
+   "ঋ-এর পরে ও ঠ-এর আগে",
+   "অ-এর পরে",
+   "র-এর পরে",
+   "স্বভাবত"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "‘বৃষ্টি’ শব্দে ষ হওয়ার কারণ—",
+  "candidate_options": [
+   "ঋএরপরেওটএরআগে",
+   "অএরপরে",
+   "স্বভাবত",
+   "কএরপরে"
+  ],
+  "text_score": 86.4,
+  "option_overlap": 3,
+  "harvest_answer": "(ক)",
+  "harvest_file": "ntrca_bangla",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/bangla/noto-sotto-bidhan.html"
+ },
+ {
+  "harvest_text": "‘কে, কী’ — কোন সর্বনাম?",
+  "harvest_options": [
+   "প্রশ্নবাচক",
+   "অনির্দিষ্ট",
+   "সাপেক্ষ",
+   "সামীপ্য"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "‘কেউ, কেহ’ — কোন সর্বনাম?",
+  "candidate_options": [
+   "অনির্দিষ্ট",
+   "প্রশ্নবাচক",
+   "সাপেক্ষ",
+   "ব্যক্তিবাচক"
+  ],
+  "text_score": 87.5,
+  "option_overlap": 3,
+  "harvest_answer": "(ক)",
+  "harvest_file": "ntrca_bangla",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/bangla/pod-o-upasarg.html"
+ },
+ {
+  "harvest_text": "‘আমি যাব’ — কোন কাল?",
+  "harvest_options": [
+   "সাধারণ ভবিষ্যৎ",
+   "ঘটমান",
+   "পুরাঘটিত",
+   "ভবিষ্যৎ অনুজ্ঞা"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "‘আমি যেতাম’ — কোন কাল?",
+  "candidate_options": [
+   "নিত্যবৃত্তঅতীত",
+   "ঘটমান",
+   "পুরাঘটিত",
+   "সাধারণ"
+  ],
+  "text_score": 85.7,
+  "option_overlap": 2,
+  "harvest_answer": "(ক)",
+  "harvest_file": "ntrca_bangla",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/bangla/pod-o-upasarg.html"
+ },
+ {
+  "harvest_text": "‘Vice-Chancellor’-এর পরিভাষা কী?",
+  "harvest_options": [
+   "উপাচার্য",
+   "আচার্য",
+   "সহ-উপাচার্য",
+   "অধ্যক্ষ"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "‘Chancellor’-এর পরিভাষা কী?",
+  "candidate_options": [
+   "আচার্য",
+   "উপাচার্য",
+   "অধ্যক্ষ",
+   "সচিব"
+  ],
+  "text_score": 91.3,
+  "option_overlap": 3,
+  "harvest_answer": "(ক)",
+  "harvest_file": "ntrca_bangla",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/bangla/porivasha.html"
+ },
+ {
+  "harvest_text": "‘চন্দ্র’ কোন শ্রেণির শব্দ?",
+  "harvest_options": [
+   "তদ্ভব",
+   "তৎসম",
+   "দেশি",
+   "অর্ধ-তৎসম"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "‘চাঁদ’ কোন শ্রেণির শব্দ?",
+  "candidate_options": [
+   "তৎসম",
+   "তদ্ভব",
+   "দেশি",
+   "বিদেশি"
+  ],
+  "text_score": 85.0,
+  "option_overlap": 3,
+  "harvest_answer": "(খ)",
+  "harvest_file": "ntrca_bangla",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/bangla/shobder-utsho-o-shreni.html"
+ },
+ {
+  "harvest_text": "‘নামাজ’ কোন ভাষার শব্দ?",
+  "harvest_options": [
+   "আরবি",
+   "ফারসি",
+   "তুর্কি",
+   "উর্দু"
+  ],
+  "candidate_kind": "db",
+  "candidate_id": 5561,
+  "candidate_text": "'চশমা' কোন ভাষার শব্দ?",
+  "candidate_options": [
+   "আরবি",
+   "ফারসি",
+   "ফরাসি",
+   "গুজরাটি"
+  ],
+  "text_score": 85.7,
+  "option_overlap": 2,
+  "harvest_answer": "(খ)",
+  "harvest_file": "ntrca_bangla",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/bangla/shobder-utsho-o-shreni.html"
+ },
+ {
+  "harvest_text": "‘আলমারি’ কোন ভাষার শব্দ?",
+  "harvest_options": [
+   "পর্তুগিজ",
+   "ইংরেজি",
+   "ফরাসি",
+   "ওলন্দাজ"
+  ],
+  "candidate_kind": "db",
+  "candidate_id": 5896,
+  "candidate_text": "'আনারস' কোন ভাষার শব্দ?",
+  "candidate_options": [
+   "ওলন্দাজ",
+   "গুজরাটি",
+   "পর্তুগিজ",
+   "জাপানি"
+  ],
+  "text_score": 86.5,
+  "option_overlap": 2,
+  "harvest_answer": "(ক)",
+  "harvest_file": "ntrca_bangla",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/bangla/shobder-utsho-o-shreni.html"
+ },
+ {
+  "harvest_text": "‘তাস’ কোন ভাষার শব্দ?",
+  "harvest_options": [
+   "ওলন্দাজ",
+   "পর্তুগিজ",
+   "ফরাসি",
+   "ইংরেজি"
+  ],
+  "candidate_kind": "db",
+  "candidate_id": 5896,
+  "candidate_text": "'আনারস' কোন ভাষার শব্দ?",
+  "candidate_options": [
+   "ওলন্দাজ",
+   "গুজরাটি",
+   "পর্তুগিজ",
+   "জাপানি"
+  ],
+  "text_score": 88.2,
+  "option_overlap": 2,
+  "harvest_answer": "(ক)",
+  "harvest_file": "ntrca_bangla",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/bangla/shobder-utsho-o-shreni.html"
+ },
+ {
+  "harvest_text": "‘পানি’ কোন ভাষার শব্দ?",
+  "harvest_options": [
+   "হিন্দি",
+   "ফারসি",
+   "আরবি",
+   "সংস্কৃত"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "‘চা’ ও ‘চিনি’ কোন ভাষার শব্দ?",
+  "candidate_options": [
+   "চীনা",
+   "জাপানি",
+   "ফারসি",
+   "হিন্দি"
+  ],
+  "text_score": 86.5,
+  "option_overlap": 2,
+  "harvest_answer": "(ক)",
+  "harvest_file": "ntrca_bangla",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/bangla/shobder-utsho-o-shreni.html"
+ },
+ {
+  "harvest_text": "‘চাবি’ কোন ভাষার শব্দ?",
+  "harvest_options": [
+   "পর্তুগিজ",
+   "ইংরেজি",
+   "হিন্দি",
+   "ফারসি"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "‘চা’ ও ‘চিনি’ কোন ভাষার শব্দ?",
+  "candidate_options": [
+   "চীনা",
+   "জাপানি",
+   "ফারসি",
+   "হিন্দি"
+  ],
+  "text_score": 86.5,
+  "option_overlap": 2,
+  "harvest_answer": "(ক)",
+  "harvest_file": "ntrca_bangla",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/bangla/shobder-utsho-o-shreni.html"
+ },
+ {
+  "harvest_text": "‘কাজ’ কোন শ্রেণির শব্দ?",
+  "harvest_options": [
+   "তদ্ভব (কার্য → কাজ)",
+   "তৎসম",
+   "দেশি",
+   "বিদেশি"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "‘চাঁদ’ কোন শ্রেণির শব্দ?",
+  "candidate_options": [
+   "তৎসম",
+   "তদ্ভব",
+   "দেশি",
+   "বিদেশি"
+  ],
+  "text_score": 86.5,
+  "option_overlap": 3,
+  "harvest_answer": "(ক)",
+  "harvest_file": "ntrca_bangla",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/bangla/shobder-utsho-o-shreni.html"
+ },
+ {
+  "harvest_text": "‘বালতি’ কোন ভাষার শব্দ?",
+  "harvest_options": [
+   "পর্তুগিজ",
+   "ইংরেজি",
+   "হিন্দি",
+   "ফারসি"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "‘আদালত’ কোন ভাষার শব্দ?",
+  "candidate_options": [
+   "আরবি",
+   "ফারসি",
+   "তুর্কি",
+   "ইংরেজি"
+  ],
+  "text_score": 88.9,
+  "option_overlap": 2,
+  "harvest_answer": "(ক)",
+  "harvest_file": "ntrca_bangla",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/bangla/shobder-utsho-o-shreni.html"
+ },
+ {
+  "harvest_text": "‘গাঁ’ কোন শ্রেণির শব্দ?",
+  "harvest_options": [
+   "তদ্ভব (গ্রাম → গাঁ)",
+   "তৎসম",
+   "দেশি",
+   "বিদেশি"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "‘চাঁদ’ কোন শ্রেণির শব্দ?",
+  "candidate_options": [
+   "তৎসম",
+   "তদ্ভব",
+   "দেশি",
+   "বিদেশি"
+  ],
+  "text_score": 91.9,
+  "option_overlap": 3,
+  "harvest_answer": "(ক)",
+  "harvest_file": "ntrca_bangla",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/bangla/shobder-utsho-o-shreni.html"
+ },
+ {
+  "harvest_text": "নিচের কোনটি যোগরূঢ় শব্দের উদাহরণ?",
+  "harvest_options": [
+   "পঙ্কজ",
+   "গায়ক",
+   "হস্তী",
+   "ঢেঁকি"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "নিচের কোনটি রূঢ়ি শব্দের উদাহরণ?",
+  "candidate_options": [
+   "হস্তী",
+   "গায়ক",
+   "পঙ্কজ",
+   "কর্তব্য"
+  ],
+  "text_score": 91.5,
+  "option_overlap": 3,
+  "harvest_answer": "(ক)",
+  "harvest_file": "ntrca_bangla",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/bangla/shobder-utsho-o-shreni.html"
+ },
+ {
+  "harvest_text": "‘চাঁপা’ — কোন শব্দ?",
+  "harvest_options": [
+   "দেশি",
+   "তৎসম",
+   "তদ্ভব",
+   "আরবি"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "‘চাঁদ’ — কোন শব্দ?",
+  "candidate_options": [
+   "তৎসম",
+   "তদ্ভব",
+   "দেশি",
+   "অর্ধতৎসম"
+  ],
+  "text_score": 88.0,
+  "option_overlap": 3,
+  "harvest_answer": "(ক)",
+  "harvest_file": "ntrca_bangla",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/bangla/shobdo-bhandar.html"
+ },
+ {
+  "harvest_text": "‘পাউরুটি’ — কোন ভাষা?",
+  "harvest_options": [
+   "পর্তুগিজ",
+   "ফরাসি",
+   "ইংরেজি",
+   "ফারসি"
+  ],
+  "candidate_kind": "db",
+  "candidate_id": 7558,
+  "candidate_text": "'পাউরুটি' কোন ভাষার শব্দ?",
+  "candidate_options": [
+   "পাঞ্জাবি",
+   "ফরাসি",
+   "গুজরাটি",
+   "পর্তুগিজ"
+  ],
+  "text_score": 85.7,
+  "option_overlap": 2,
+  "harvest_answer": "(ক)",
+  "harvest_file": "ntrca_bangla",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/bangla/shobdo-bhandar.html"
+ },
+ {
+  "harvest_text": "‘হরতন, ইস্কাবন’ — কোন ভাষা?",
+  "harvest_options": [
+   "ওলন্দাজ/ডাচ",
+   "পর্তুগিজ",
+   "ফরাসি",
+   "ইংরেজি"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "‘হরতন’ ও ‘ইস্কাবন’ কোন ভাষার শব্দ?",
+  "candidate_options": [
+   "ওলন্দাজ",
+   "পর্তুগিজ",
+   "ফরাসি",
+   "ইংরেজি"
+  ],
+  "text_score": 86.4,
+  "option_overlap": 3,
+  "harvest_answer": "(ক)",
+  "harvest_file": "ntrca_bangla",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/bangla/shobdo-bhandar.html"
+ },
+ {
+  "harvest_text": "It ____ since morning.",
+  "harvest_options": [
+   "rains",
+   "has rained",
+   "has been raining",
+   "will be raining"
+  ],
+  "candidate_kind": "db",
+  "candidate_id": 5266,
+  "candidate_text": "It ______ since morning.",
+  "candidate_options": [
+   "hasrained",
+   "hasbeenraining",
+   "israining",
+   "hasrainedhasbeenraining"
+  ],
+  "text_score": 100.0,
+  "option_overlap": 2,
+  "harvest_answer": "(গ)",
+  "harvest_file": "ntrca_english",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-model-test/ntrca-model-test-1.html"
+ },
+ {
+  "harvest_text": "The adjective form of 'heart' is ____",
+  "harvest_options": [
+   "heartly",
+   "heartily",
+   "hearty",
+   "heartable"
+  ],
+  "candidate_kind": "db",
+  "candidate_id": 683,
+  "candidate_text": "The adverb form of 'heart' is–",
+  "candidate_options": [
+   "heart",
+   "hearten",
+   "heartly",
+   "heartily"
+  ],
+  "text_score": 85.1,
+  "option_overlap": 3,
+  "harvest_answer": "(গ)",
+  "harvest_file": "ntrca_english",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-model-test/ntrca-model-test-1.html"
+ },
+ {
+  "harvest_text": "x + 1/x = 6 হলে x²/(x² + 7x − 1) এর মান কত?",
+  "harvest_options": [
+   "1/7",
+   "1/11",
+   "1/13",
+   "1/17"
+  ],
+  "candidate_kind": "db",
+  "candidate_id": 1153,
+  "candidate_text": "হলে x – 1/x = 6 হলে x /x²+7x-1 এর মান কত?",
+  "candidate_options": [
+   "17",
+   "19",
+   "111",
+   "113"
+  ],
+  "text_score": 88.0,
+  "option_overlap": 3,
+  "harvest_answer": "(গ)",
+  "harvest_file": "ntrca_general_math",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-model-test/ntrca-model-test-1.html"
+ },
+ {
+  "harvest_text": "log₂(8) এর মান নিচের কোনটি?",
+  "harvest_options": [
+   "1",
+   "2",
+   "3",
+   "4"
+  ],
+  "candidate_kind": "db",
+  "candidate_id": 6260,
+  "candidate_text": "log₂(32) এর মান নিচের কোনটি?",
+  "candidate_options": [
+   "3",
+   "4",
+   "5",
+   "6"
+  ],
+  "text_score": 93.0,
+  "option_overlap": 2,
+  "harvest_answer": "(গ)",
+  "harvest_file": "ntrca_general_math",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-model-test/ntrca-model-test-10.html"
+ },
+ {
+  "harvest_text": "x² − 3x + 1 = 0 হলে x² + 1/x² এর মান কত?",
+  "harvest_options": [
+   "3",
+   "7",
+   "11",
+   "25"
+  ],
+  "candidate_kind": "db",
+  "candidate_id": 1022,
+  "candidate_text": "x2- 3x+1= 0 হলে (x – 1/x)^4 এর মান কত?",
+  "candidate_options": [
+   "3",
+   "7",
+   "25",
+   "52"
+  ],
+  "text_score": 89.4,
+  "option_overlap": 3,
+  "harvest_answer": "(খ)",
+  "harvest_file": "ntrca_general_math",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-model-test/ntrca-model-test-11.html"
+ },
+ {
+  "harvest_text": "বৃত্তের কোনো উপচাপে অন্তর্লিখিত কোণটি —",
+  "harvest_options": [
+   "সূক্ষ্মকোণ",
+   "স্থূলকোণ",
+   "সমকোণ",
+   "সরলকোণ"
+  ],
+  "candidate_kind": "db",
+  "candidate_id": 6294,
+  "candidate_text": "বৃত্তের উপচাপে অন্তর্লিখিত কোণ —",
+  "candidate_options": [
+   "স্থূলকোণ",
+   "সূক্ষ্মকোণ",
+   "সমকোণ",
+   "প্রবৃদ্ধকোণ"
+  ],
+  "text_score": 87.5,
+  "option_overlap": 3,
+  "harvest_answer": "(খ)",
+  "harvest_file": "ntrca_general_math",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-model-test/ntrca-model-test-12.html"
+ },
+ {
+  "harvest_text": "x² − 6x + 9 = 0 সমীকরণের মূল কয়টি?",
+  "harvest_options": [
+   "1",
+   "2",
+   "3",
+   "4"
+  ],
+  "candidate_kind": "db",
+  "candidate_id": 5364,
+  "candidate_text": "(x − 4)² = 0 সমীকরণের মূল কয়টি?",
+  "candidate_options": [
+   "1",
+   "2",
+   "3",
+   "0"
+  ],
+  "text_score": 85.1,
+  "option_overlap": 3,
+  "harvest_answer": "(ক)",
+  "harvest_file": "ntrca_general_math",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-model-test/ntrca-model-test-2.html"
+ },
+ {
+  "harvest_text": "৩ বছর পূর্বে মা ও মেয়ের বয়স যথাক্রমে ২৭ বছর ও ২ বছর ছিল। ৫ বছর পর তাদের বয়সের অনুপাত —",
+  "harvest_options": [
+   "৩ : ২",
+   "৭ : ২",
+   "২৭ : ২",
+   "২৭ : ৫"
+  ],
+  "candidate_kind": "db",
+  "candidate_id": 1137,
+  "candidate_text": "৩ বছর পূর্বে মা ও মেয়ের বয়স যথাক্রমে ২৭ বছর ও ২ বছর ছিল। ৫ বছর পর তাদের বয়সের অনুপাত_____",
+  "candidate_options": [
+   "3ঃ2",
+   "7ঃ2",
+   "27ঃ2",
+   "27ঃ5"
+  ],
+  "text_score": 100.0,
+  "option_overlap": 2,
+  "harvest_answer": "(খ)",
+  "harvest_file": "ntrca_general_math",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-model-test/ntrca-model-test-2.html"
+ },
+ {
+  "harvest_text": "দুইটি বৃত্তের ব্যাসার্ধের অনুপাত ৩ : ২। বৃত্তদ্বয়ের ক্ষেত্রফলের অনুপাত কত হবে?",
+  "harvest_options": [
+   "২ : ৩",
+   "৩ : ৪",
+   "৪ : ৯",
+   "৯ : ৪"
+  ],
+  "candidate_kind": "db",
+  "candidate_id": 5654,
+  "candidate_text": "দুইটি বৃত্তের ব্যাসার্ধের অনুপাত ৩ : ২ হলে বৃত্ত দুইটির ক্ষেত্রফলের অনুপাত কত?",
+  "candidate_options": [
+   "23",
+   "√3√2",
+   "49",
+   "94"
+  ],
+  "text_score": 88.4,
+  "option_overlap": 3,
+  "harvest_answer": "(ঘ)",
+  "harvest_file": "ntrca_general_math",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-model-test/ntrca-model-test-5.html"
+ },
+ {
+  "harvest_text": "দুইটি বৃত্তের ব্যাসার্ধের অনুপাত 3 : 2। বৃত্ত দুইটির ক্ষেত্রফলের অনুপাত নিচের কোনটি?",
+  "harvest_options": [
+   "2 : 3",
+   "3 : 4",
+   "4 : 9",
+   "9 : 4"
+  ],
+  "candidate_kind": "db",
+  "candidate_id": 5654,
+  "candidate_text": "দুইটি বৃত্তের ব্যাসার্ধের অনুপাত ৩ : ২ হলে বৃত্ত দুইটির ক্ষেত্রফলের অনুপাত কত?",
+  "candidate_options": [
+   "23",
+   "√3√2",
+   "49",
+   "94"
+  ],
+  "text_score": 89.6,
+  "option_overlap": 3,
+  "harvest_answer": "(ঘ)",
+  "harvest_file": "ntrca_general_math",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-model-test/ntrca-model-test-7.html"
+ },
+ {
+  "harvest_text": "3x² − x + 5 = 0 সমীকরণে x এর সহগ কত?",
+  "harvest_options": [
+   "3",
+   "1",
+   "−1",
+   "5"
+  ],
+  "candidate_kind": "db",
+  "candidate_id": 1110,
+  "candidate_text": "3×2-x+5=0 সমীকরনে x এর সহগ কত?",
+  "candidate_options": [
+   "3",
+   "1",
+   "1",
+   "5"
+  ],
+  "text_score": 89.4,
+  "option_overlap": 3,
+  "harvest_answer": "(গ)",
+  "harvest_file": "ntrca_general_math",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-model-test/ntrca-model-test-9.html"
+ },
+ {
+  "harvest_text": "(a+b)²−(a−b)² = ?",
+  "harvest_options": [
+   "2(a²+b²)",
+   "4ab",
+   "2ab",
+   "a²−b²"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "(a+b)²+(a−b)² = ?",
+  "candidate_options": [
+   "2a2+b2",
+   "4ab",
+   "2ab",
+   "a2+b2"
+  ],
+  "text_score": 90.0,
+  "option_overlap": 3,
+  "harvest_answer": "(খ)",
+  "harvest_file": "ntrca_general_math",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/mathematics/algebra.html"
+ },
+ {
+  "harvest_text": "x²+5x+6=0; মূল?",
+  "harvest_options": [
+   "−2,−3",
+   "2, 3",
+   "−1,−6",
+   "1, 6"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "x²−5x+6=0; মূল?",
+  "candidate_options": [
+   "23",
+   "16",
+   "−2−3",
+   "51"
+  ],
+  "text_score": 91.7,
+  "option_overlap": 3,
+  "harvest_answer": "(ক)",
+  "harvest_file": "ntrca_general_math",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/mathematics/algebra.html"
+ },
+ {
+  "harvest_text": "x²−x−6 = 0; মূল?",
+  "harvest_options": [
+   "3, −2",
+   "−3, 2",
+   "2, 3",
+   "−2, −3"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "x²−5x+6=0; মূল?",
+  "candidate_options": [
+   "23",
+   "16",
+   "−2−3",
+   "51"
+  ],
+  "text_score": 87.0,
+  "option_overlap": 2,
+  "harvest_answer": "(ক)",
+  "harvest_file": "ntrca_general_math",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/mathematics/algebra.html"
+ },
+ {
+  "harvest_text": "x²+5x+6 = 0; মূল?",
+  "harvest_options": [
+   "−2, −3",
+   "2, 3",
+   "−1, −6",
+   "1, 6"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "x²−5x+6=0; মূল?",
+  "candidate_options": [
+   "23",
+   "16",
+   "−2−3",
+   "51"
+  ],
+  "text_score": 91.7,
+  "option_overlap": 3,
+  "harvest_answer": "(ক)",
+  "harvest_file": "ntrca_general_math",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/mathematics/algebra.html"
+ },
+ {
+  "harvest_text": "a²−2ab+b² = ?",
+  "harvest_options": [
+   "(a+b)²",
+   "(a−b)²",
+   "(a−b)",
+   "(a+b)(a−b)"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "a²+2ab+b² = ?",
+  "candidate_options": [
+   "a+b2",
+   "a−b2",
+   "a2−b2",
+   "2ab"
+  ],
+  "text_score": 90.0,
+  "option_overlap": 2,
+  "harvest_answer": "(খ)",
+  "harvest_file": "ntrca_general_math",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/mathematics/algebra.html"
+ },
+ {
+  "harvest_text": "চতুর্ভুজের কোণ-সমষ্টি?",
+  "harvest_options": [
+   "১৮০°",
+   "২৭০°",
+   "৩৬০°",
+   "৪৫০°"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "ত্রিভুজের কোণ-সমষ্টি?",
+  "candidate_options": [
+   "90°",
+   "180°",
+   "270°",
+   "360°"
+  ],
+  "text_score": 87.2,
+  "option_overlap": 3,
+  "harvest_answer": "(গ)",
+  "harvest_file": "ntrca_general_math",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/mathematics/geometry-and-mensuration.html"
+ },
+ {
+  "harvest_text": "অর্ধগোলকের আয়তন?",
+  "harvest_options": [
+   "(2/3)πr³",
+   "(1/3)πr³",
+   "(4/3)πr³",
+   "πr³"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "গোলকের আয়তন?",
+  "candidate_options": [
+   "πr3",
+   "43πr3",
+   "34πr3",
+   "4πr2"
+  ],
+  "text_score": 85.7,
+  "option_overlap": 2,
+  "harvest_answer": "(ক)",
+  "harvest_file": "ntrca_general_math",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/mathematics/geometry-and-mensuration.html"
+ },
+ {
+  "harvest_text": "পরিধি ÷ ব্যাসার্ধ = ?",
+  "harvest_options": [
+   "π",
+   "2π",
+   "1/π",
+   "π/2"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "পরিধি ÷ ব্যাস = ?",
+  "candidate_options": [
+   "π",
+   "2π",
+   "1π",
+   "πr"
+  ],
+  "text_score": 85.7,
+  "option_overlap": 3,
+  "harvest_answer": "(খ)",
+  "harvest_file": "ntrca_general_math",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/mathematics/geometry-and-mensuration.html"
+ },
+ {
+  "harvest_text": "নিয়মিত পঞ্চভুজের প্রতি কোণ?",
+  "harvest_options": [
+   "৯০°",
+   "১০৮°",
+   "১২০°",
+   "১৩৫°"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "নিয়মিত ষড়ভুজের প্রতি কোণ?",
+  "candidate_options": [
+   "60°",
+   "90°",
+   "120°",
+   "150°"
+  ],
+  "text_score": 85.7,
+  "option_overlap": 2,
+  "harvest_answer": "(খ)",
+  "harvest_file": "ntrca_general_math",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/mathematics/geometry-and-mensuration.html"
+ },
+ {
+  "harvest_text": "নিয়মিত অষ্টভুজের প্রতি কোণ?",
+  "harvest_options": [
+   "১২০°",
+   "১৩৫°",
+   "১৫০°",
+   "১৫৫°"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "নিয়মিত ষড়ভুজের প্রতি কোণ?",
+  "candidate_options": [
+   "60°",
+   "90°",
+   "120°",
+   "150°"
+  ],
+  "text_score": 89.8,
+  "option_overlap": 2,
+  "harvest_answer": "(খ)",
+  "harvest_file": "ntrca_general_math",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/mathematics/geometry-and-mensuration.html"
+ },
+ {
+  "harvest_text": "৫২ তাসে রাজা পাওয়ার সম্ভাবনা?",
+  "harvest_options": [
+   "১/১৩",
+   "১/৪",
+   "১/৫২",
+   "৪/১৩"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "৫২ তাসে হার্ট পাওয়ার সম্ভাবনা?",
+  "candidate_options": [
+   "14",
+   "113",
+   "152",
+   "12"
+  ],
+  "text_score": 86.3,
+  "option_overlap": 3,
+  "harvest_answer": "(ক)",
+  "harvest_file": "ntrca_general_math",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/mathematics/mental-ability-and-data.html"
+ },
+ {
+  "harvest_text": "১, ২, ৩, ৪ — মধ্যক?",
+  "harvest_options": [
+   "২",
+   "২.৫",
+   "৩",
+   "৩.৫"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "১, ২, ৩, ৪, ৫ — মধ্যক?",
+  "candidate_options": [
+   "1",
+   "2",
+   "3",
+   "4"
+  ],
+  "text_score": 94.7,
+  "option_overlap": 2,
+  "harvest_answer": "(খ)",
+  "harvest_file": "ntrca_general_math",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/mathematics/mental-ability-and-data.html"
+ },
+ {
+  "harvest_text": "৩, ৬, ১২, ২৪, ৪৮, ? — পরের?",
+  "harvest_options": [
+   "৬০",
+   "৭২",
+   "৯৬",
+   "১২০"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "৩, ৬, ১২, ২৪, ? — পরের?",
+  "candidate_options": [
+   "36",
+   "48",
+   "60",
+   "72"
+  ],
+  "text_score": 90.9,
+  "option_overlap": 2,
+  "harvest_answer": "(গ)",
+  "harvest_file": "ntrca_general_math",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/mathematics/mental-ability-and-data.html"
+ },
+ {
+  "harvest_text": "৫২ তাসে ৬ পাওয়ার সম্ভাবনা?",
+  "harvest_options": [
+   "১/৪",
+   "১/১৩",
+   "৪/৫২",
+   "১/২৬"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "৫২ তাসে হার্ট পাওয়ার সম্ভাবনা?",
+  "candidate_options": [
+   "14",
+   "113",
+   "152",
+   "12"
+  ],
+  "text_score": 87.5,
+  "option_overlap": 2,
+  "harvest_answer": "(খ)",
+  "harvest_file": "ntrca_general_math",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/mathematics/mental-ability-and-data.html"
+ },
+ {
+  "harvest_text": "√২ কোন ধরনের সংখ্যা?",
+  "harvest_options": [
+   "মূলদ",
+   "অমূলদ",
+   "পূর্ণ",
+   "মৌলিক"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "‘০’ কোন ধরনের সংখ্যা?",
+  "candidate_options": [
+   "স্বাভাবিক",
+   "পূর্ণ",
+   "মৌলিক",
+   "ঋণাত্মক"
+  ],
+  "text_score": 90.9,
+  "option_overlap": 2,
+  "harvest_answer": "(খ)",
+  "harvest_file": "ntrca_general_math",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/mathematics/number-system-and-lcm-hcf.html"
+ },
+ {
+  "harvest_text": "√২-এর আসন্ন মান?",
+  "harvest_options": [
+   "১.২",
+   "১.৪১",
+   "১.৭৩",
+   "২"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "π-এর আসন্ন মান?",
+  "candidate_options": [
+   "27",
+   "314",
+   "141",
+   "173"
+  ],
+  "text_score": 87.0,
+  "option_overlap": 2,
+  "harvest_answer": "(খ)",
+  "harvest_file": "ntrca_general_math",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/mathematics/number-system-and-lcm-hcf.html"
+ },
+ {
+  "harvest_text": "৩৬-এর গুণনীয়ক কতটি?",
+  "harvest_options": [
+   "৬",
+   "৭",
+   "৮",
+   "৯"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "১২-এর গুণনীয়ক কতটি?",
+  "candidate_options": [
+   "4",
+   "5",
+   "6",
+   "7"
+  ],
+  "text_score": 87.5,
+  "option_overlap": 2,
+  "harvest_answer": "(ঘ)",
+  "harvest_file": "ntrca_general_math",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/mathematics/number-system-and-lcm-hcf.html"
+ },
+ {
+  "harvest_text": "৭৯ কি মৌলিক?",
+  "harvest_options": [
+   "হ্যাঁ",
+   "না",
+   "যৌগিক",
+   "কোনোটিই নয়"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "১১৯ কি মৌলিক?",
+  "candidate_options": [
+   "হ্যাঁ",
+   "না7×17",
+   "আংশিক",
+   "কোনোটিইনয়"
+  ],
+  "text_score": 85.7,
+  "option_overlap": 2,
+  "harvest_answer": "(ক)",
+  "harvest_file": "ntrca_general_math",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/mathematics/number-system-and-lcm-hcf.html"
+ },
+ {
+  "harvest_text": "৯১ কি মৌলিক?",
+  "harvest_options": [
+   "হ্যাঁ",
+   "না, ৭×১৩",
+   "আংশিক",
+   "কোনোটিই নয়"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "১১৯ কি মৌলিক?",
+  "candidate_options": [
+   "হ্যাঁ",
+   "না7×17",
+   "আংশিক",
+   "কোনোটিইনয়"
+  ],
+  "text_score": 85.7,
+  "option_overlap": 3,
+  "harvest_answer": "(খ)",
+  "harvest_file": "ntrca_general_math",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/mathematics/number-system-and-lcm-hcf.html"
+ },
+ {
+  "harvest_text": "৫১ কি মৌলিক?",
+  "harvest_options": [
+   "হ্যাঁ",
+   "না, ৩×১৭",
+   "আংশিক",
+   "কোনোটিই নয়"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "১১৯ কি মৌলিক?",
+  "candidate_options": [
+   "হ্যাঁ",
+   "না7×17",
+   "আংশিক",
+   "কোনোটিইনয়"
+  ],
+  "text_score": 85.7,
+  "option_overlap": 3,
+  "harvest_answer": "(খ)",
+  "harvest_file": "ntrca_general_math",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/mathematics/number-system-and-lcm-hcf.html"
+ },
+ {
+  "harvest_text": "১০% সরল সুদে ১০০ টাকা ২ বছরে সুদ-আসল?",
+  "harvest_options": [
+   "১১০",
+   "১২০",
+   "১২৫",
+   "১৩০"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "৫% সরল সুদে ১০০ টাকা ১ বছরে সুদ-আসল কত?",
+  "candidate_options": [
+   "103",
+   "105",
+   "110",
+   "125"
+  ],
+  "text_score": 87.3,
+  "option_overlap": 2,
+  "harvest_answer": "(খ)",
+  "harvest_file": "ntrca_general_math",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/mathematics/percentage-profit-loss.html"
+ },
+ {
+  "harvest_text": "২০-এর ১৫০% =?",
+  "harvest_options": [
+   "২০",
+   "৩০",
+   "৪০",
+   "৫০"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "৪০-এর ১৫০% =?",
+  "candidate_options": [
+   "40",
+   "50",
+   "60",
+   "65"
+  ],
+  "text_score": 87.5,
+  "option_overlap": 2,
+  "harvest_answer": "(খ)",
+  "harvest_file": "ntrca_general_math",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/mathematics/percentage-profit-loss.html"
+ },
+ {
+  "harvest_text": "১০ ও ৪০-এর মধ্য সমানুপাতী?",
+  "harvest_options": [
+   "১৫",
+   "২০",
+   "২৫",
+   "৩০"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "১৬ ও ২৫-এর মধ্য সমানুপাতী?",
+  "candidate_options": [
+   "16",
+   "20",
+   "22",
+   "25"
+  ],
+  "text_score": 85.0,
+  "option_overlap": 2,
+  "harvest_answer": "(খ)",
+  "harvest_file": "ntrca_general_math",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/mathematics/ratio-proportion-average.html"
+ },
+ {
+  "harvest_text": "১০, ২০, ৩০, ৪০-এর গড়?",
+  "harvest_options": [
+   "২০",
+   "২৫",
+   "৩০",
+   "৩৫"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "১০, ২০, ৩০-এর গড়?",
+  "candidate_options": [
+   "15",
+   "20",
+   "25",
+   "30"
+  ],
+  "text_score": 91.7,
+  "option_overlap": 3,
+  "harvest_answer": "(খ)",
+  "harvest_file": "ntrca_general_math",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/mathematics/ratio-proportion-average.html"
+ },
+ {
+  "harvest_text": "৪ ও ৯-এর AM?",
+  "harvest_options": [
+   "৫.৫",
+   "৬",
+   "৬.৫",
+   "৭"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "৪ ও ৯-এর GM?",
+  "candidate_options": [
+   "5",
+   "6",
+   "7",
+   "65"
+  ],
+  "text_score": 85.7,
+  "option_overlap": 3,
+  "harvest_answer": "(গ)",
+  "harvest_file": "ntrca_general_math",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/mathematics/ratio-proportion-average.html"
+ },
+ {
+  "harvest_text": "১, ২, ৩, ৪-এর মধ্যক?",
+  "harvest_options": [
+   "২",
+   "২.৫",
+   "৩",
+   "৩.৫"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "১, ২, ৩, ৪, ৫ — মধ্যক?",
+  "candidate_options": [
+   "1",
+   "2",
+   "3",
+   "4"
+  ],
+  "text_score": 85.7,
+  "option_overlap": 2,
+  "harvest_answer": "(খ)",
+  "harvest_file": "ntrca_general_math",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/mathematics/ratio-proportion-average.html"
+ },
+ {
+  "harvest_text": "৩:৪ = ৬:x; x =?",
+  "harvest_options": [
+   "৭",
+   "৮",
+   "৯",
+   "১০"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "৩:৫ = ৬:x; x =?",
+  "candidate_options": [
+   "8",
+   "10",
+   "12",
+   "15"
+  ],
+  "text_score": 85.7,
+  "option_overlap": 2,
+  "harvest_answer": "(খ)",
+  "harvest_file": "ntrca_general_math",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/mathematics/ratio-proportion-average.html"
+ },
+ {
+  "harvest_text": "সরল সুদে ১০ বছরে দ্বিগুণ; হার?",
+  "harvest_options": [
+   "৫%",
+   "১০%",
+   "১৫%",
+   "২০%"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "সরল সুদে ৫ বছরে দ্বিগুণ; হার?",
+  "candidate_options": [
+   "15",
+   "20",
+   "25",
+   "30"
+  ],
+  "text_score": 93.3,
+  "option_overlap": 2,
+  "harvest_answer": "(খ)",
+  "harvest_file": "ntrca_general_math",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/mathematics/simple-and-compound-interest.html"
+ },
+ {
+  "harvest_text": "P=১০০০০, r=১০%, n=২; চক্রবৃদ্ধি সুদ?",
+  "harvest_options": [
+   "১৮০০",
+   "২০০০",
+   "২১০০",
+   "২২০০"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "P=১০০০, r=১০%, t=২ বছর; চক্রবৃদ্ধি সুদ?",
+  "candidate_options": [
+   "200",
+   "210",
+   "221",
+   "231"
+  ],
+  "text_score": 89.3,
+  "option_overlap": 2,
+  "harvest_answer": "(গ)",
+  "harvest_file": "ntrca_general_math",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/mathematics/simple-and-compound-interest.html"
+ },
+ {
+  "harvest_text": "মূলধন ৫ বছরে ৩ গুণ (সরল); হার?",
+  "harvest_options": [
+   "৩০%",
+   "৪০%",
+   "৫০%",
+   "৬০%"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "মূলধন ৬ বছরে ৪ গুণ (সরল); হার?",
+  "candidate_options": [
+   "50",
+   "60",
+   "75",
+   "100"
+  ],
+  "text_score": 90.0,
+  "option_overlap": 2,
+  "harvest_answer": "(খ)",
+  "harvest_file": "ntrca_general_math",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/mathematics/simple-and-compound-interest.html"
+ },
+ {
+  "harvest_text": "সরল সুদে ২৫০ টাকা ৪ বছরে দ্বিগুণ; হার?",
+  "harvest_options": [
+   "১৫%",
+   "২০%",
+   "২৫%",
+   "৩০%"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "সরল সুদে ৪ বছরে দ্বিগুণ; হার?",
+  "candidate_options": [
+   "20",
+   "25",
+   "30",
+   "50"
+  ],
+  "text_score": 86.3,
+  "option_overlap": 3,
+  "harvest_answer": "(গ)",
+  "harvest_file": "ntrca_general_math",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/mathematics/simple-and-compound-interest.html"
+ },
+ {
+  "harvest_text": "১ বছরে সরল ও চক্রবৃদ্ধি সুদ কেমন?",
+  "harvest_options": [
+   "সর্বদা সমান",
+   "ভিন্ন",
+   "চক্রবৃদ্ধি বেশি",
+   "সরল বেশি"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "১ বছরে সরল ও চক্রবৃদ্ধি সুদ?",
+  "candidate_options": [
+   "সমান",
+   "চক্রবৃদ্ধিবেশি",
+   "সরলবেশি",
+   "কোনোটিইনয়"
+  ],
+  "text_score": 91.7,
+  "option_overlap": 2,
+  "harvest_answer": "(ক)",
+  "harvest_file": "ntrca_general_math",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/mathematics/simple-and-compound-interest.html"
+ },
+ {
+  "harvest_text": "১০% হারে ২ বছরে CI − SI = ১৫ হলে মূলধন?",
+  "harvest_options": [
+   "১২০০",
+   "১৫০০",
+   "১৮০০",
+   "২০০০"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "১০% হারে ২ বছরে CI − SI = ১০ হলে মূলধন?",
+  "candidate_options": [
+   "500",
+   "1000",
+   "1500",
+   "2000"
+  ],
+  "text_score": 96.3,
+  "option_overlap": 2,
+  "harvest_answer": "(খ)",
+  "harvest_file": "ntrca_general_math",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/mathematics/simple-and-compound-interest.html"
+ },
+ {
+  "harvest_text": "৭২ কিমি/ঘণ্টা = কত মি/সে?",
+  "harvest_options": [
+   "১৬",
+   "১৮",
+   "২০",
+   "২৫"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "৬০ কিমি/ঘণ্টা = কত মি/সে?",
+  "candidate_options": [
+   "1667",
+   "18",
+   "20",
+   "25"
+  ],
+  "text_score": 88.9,
+  "option_overlap": 3,
+  "harvest_answer": "(গ)",
+  "harvest_file": "ntrca_general_math",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/mathematics/time-work-and-distance.html"
+ },
+ {
+  "harvest_text": "২০০ মি ট্রেন ৪০০ মি প্ল্যাটফর্ম; ৭২ কিমি/ঘণ্টা; সময়?",
+  "harvest_options": [
+   "২৫",
+   "৩০",
+   "৪০",
+   "৫০"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "১০০ মি ট্রেন ৬০ মি প্ল্যাটফর্ম; ১৮ কিমি/ঘণ্টা; সময়?",
+  "candidate_options": [
+   "30",
+   "32",
+   "36",
+   "40"
+  ],
+  "text_score": 88.9,
+  "option_overlap": 2,
+  "harvest_answer": "(খ)",
+  "harvest_file": "ntrca_general_math",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/mathematics/time-work-and-distance.html"
+ },
+ {
+  "harvest_text": "A কাজের ১/৩ অংশ ৪ দিনে করে; সম্পূর্ণ কাজে?",
+  "harvest_options": [
+   "৮",
+   "১২",
+   "১৫",
+   "২০"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "A কাজের ১/৪ অংশ ৫ দিনে করে; সম্পূর্ণ কাজে?",
+  "candidate_options": [
+   "10",
+   "15",
+   "20",
+   "25"
+  ],
+  "text_score": 93.5,
+  "option_overlap": 2,
+  "harvest_answer": "(খ)",
+  "harvest_file": "ntrca_general_math",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/mathematics/time-work-and-distance.html"
+ },
+ {
+  "harvest_text": "স্বাভাবিক তাপমাত্রায় তরল অধাতু —",
+  "harvest_options": [
+   "পারদ",
+   "ব্রোমিন",
+   "আয়োডিন",
+   "ক্লোরিন"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "স্বাভাবিক তাপমাত্রায় তরল ধাতু কোনটি?",
+  "candidate_options": [
+   "সোডিয়াম",
+   "পারদ",
+   "ব্রোমিন",
+   "গ্যালিয়াম"
+  ],
+  "text_score": 88.5,
+  "option_overlap": 2,
+  "harvest_answer": "(খ)",
+  "harvest_file": "ntrca_general_science",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/general-knowledge/chemistry-in-daily-life.html"
+ },
+ {
+  "harvest_text": "ব্রোঞ্জ কীসের সংকর?",
+  "harvest_options": [
+   "তামা+দস্তা",
+   "তামা+টিন",
+   "লোহা+ক্রোম",
+   "সোনা+তামা"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "ব্রোঞ্জ (কাঁসা) কীসের সংকর?",
+  "candidate_options": [
+   "তামাওদস্তা",
+   "তামাওটিন",
+   "লোহাওটিন",
+   "দস্তাওটিন"
+  ],
+  "text_score": 87.2,
+  "option_overlap": 2,
+  "harvest_answer": "(খ)",
+  "harvest_file": "ntrca_general_science",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/general-knowledge/chemistry-in-daily-life.html"
+ },
+ {
+  "harvest_text": "টেলিফোন আবিষ্কার করেন কে?",
+  "harvest_options": [
+   "এডিসন",
+   "গ্রাহাম বেল",
+   "মার্কনি",
+   "বেয়ার্ড"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "টেলিফোন আবিষ্কারক?",
+  "candidate_options": [
+   "এডিসন",
+   "বেল",
+   "মার্কোনি",
+   "নিউটন"
+  ],
+  "text_score": 87.2,
+  "option_overlap": 2,
+  "harvest_answer": "(খ)",
+  "harvest_file": "ntrca_general_science",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/general-knowledge/modern-science-and-discoveries.html"
+ },
+ {
+  "harvest_text": "পেনিসিলিন আবিষ্কার করেন কে?",
+  "harvest_options": [
+   "পাস্তুর",
+   "ফ্লেমিং",
+   "জেনার",
+   "লিস্টার"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "পেনিসিলিন আবিষ্কারক?",
+  "candidate_options": [
+   "ফ্লেমিং",
+   "পাস্তুর",
+   "জেনার",
+   "ডারউইন"
+  ],
+  "text_score": 87.8,
+  "option_overlap": 3,
+  "harvest_answer": "(খ)",
+  "harvest_file": "ntrca_general_science",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/general-knowledge/modern-science-and-discoveries.html"
+ },
+ {
+  "harvest_text": "রক্তচাপ মাপার যন্ত্রের নাম —",
+  "harvest_options": [
+   "স্টেথোস্কোপ",
+   "স্ফিগমোম্যানোমিটার",
+   "থার্মোমিটার",
+   "কার্ডিওগ্রাফ"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "রক্তচাপ মাপার যন্ত্র —",
+  "candidate_options": [
+   "থার্মোমিটার",
+   "স্ফিগমোম্যানোমিটার",
+   "স্টেথোস্কোপ",
+   "ইসিজি"
+  ],
+  "text_score": 87.8,
+  "option_overlap": 3,
+  "harvest_answer": "(খ)",
+  "harvest_file": "ntrca_general_science",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/general-knowledge/physics-motion-force-energy.html"
+ },
+ {
+  "harvest_text": "আধুনিক পদার্থবিজ্ঞানের জনক —",
+  "harvest_options": [
+   "নিউটন",
+   "আইনস্টাইন",
+   "গ্যালিলিও",
+   "ফ্যারাডে"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "পদার্থবিজ্ঞানের জনক —",
+  "candidate_options": [
+   "নিউটন",
+   "আইনস্টাইন",
+   "গ্যালিলিও",
+   "কেপলার"
+  ],
+  "text_score": 85.7,
+  "option_overlap": 3,
+  "harvest_answer": "(খ)",
+  "harvest_file": "ntrca_general_science",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/general-knowledge/physics-motion-force-energy.html"
+ },
+ {
+  "harvest_text": "পানিতে ডুবানো লাঠি বাঁকা দেখায় কেন?",
+  "harvest_options": [
+   "প্রতিফলন",
+   "প্রতিসরণ",
+   "ব্যতিচার",
+   "ছায়া"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "পানিতে আংশিক ডোবানো লাঠি বাঁকা দেখায় কেন?",
+  "candidate_options": [
+   "প্রতিফলন",
+   "প্রতিসরণ",
+   "বিচ্ছুরণ",
+   "বিক্ষেপণ"
+  ],
+  "text_score": 88.2,
+  "option_overlap": 2,
+  "harvest_answer": "(খ)",
+  "harvest_file": "ntrca_general_science",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/general-knowledge/physics-motion-force-energy.html"
+ },
+ {
+  "harvest_text": "তড়িৎ চুম্বকীয় আবেশ আবিষ্কার —",
+  "harvest_options": [
+   "মাক্সওয়েল",
+   "ফ্যারাডে",
+   "অ্যাম্পিয়ার",
+   "কুলম্ব"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "বিদ্যুৎ চুম্বকীয় আবেশ আবিষ্কার —",
+  "candidate_options": [
+   "ফ্যারাডে",
+   "নিউটন",
+   "কুলম্ব",
+   "ওহম"
+  ],
+  "text_score": 85.2,
+  "option_overlap": 2,
+  "harvest_answer": "(খ)",
+  "harvest_file": "ntrca_general_science",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/general-knowledge/physics-motion-force-energy.html"
+ },
+ {
+  "harvest_text": "টেলিফোন আবিষ্কার —",
+  "harvest_options": [
+   "গ্রাহাম বেল",
+   "এডিসন",
+   "মার্কনি",
+   "মোর্স"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "টেলিফোন আবিষ্কারক?",
+  "candidate_options": [
+   "এডিসন",
+   "বেল",
+   "মার্কোনি",
+   "নিউটন"
+  ],
+  "text_score": 97.0,
+  "option_overlap": 2,
+  "harvest_answer": "(ক)",
+  "harvest_file": "ntrca_general_science",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/general-knowledge/physics-motion-force-energy.html"
+ },
+ {
+  "harvest_text": "রিকেটস রোগ হয় কোন ভিটামিনের অভাবে?",
+  "harvest_options": [
+   "A",
+   "C",
+   "D",
+   "E"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "রাতকানা রোগ হয় কোন ভিটামিনের অভাবে?",
+  "candidate_options": [
+   "a",
+   "b",
+   "c",
+   "d"
+  ],
+  "text_score": 85.7,
+  "option_overlap": 3,
+  "harvest_answer": "(গ)",
+  "harvest_file": "ntrca_general_science",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/general-knowledge/vitamins-nutrition-and-health.html"
+ },
+ {
+  "harvest_text": "ভিটামিন A-এর রাসায়নিক নাম কী?",
+  "harvest_options": [
+   "রেটিনল",
+   "থায়ামিন",
+   "নিয়াসিন",
+   "টোকোফেরল"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "ভিটামিন C-এর রাসায়নিক নাম কী?",
+  "candidate_options": [
+   "রেটিনল",
+   "থায়ামিন",
+   "অ্যাসকরবিকঅ্যাসিড",
+   "ক্যালসিফেরল"
+  ],
+  "text_score": 95.8,
+  "option_overlap": 2,
+  "harvest_answer": "(ক)",
+  "harvest_file": "ntrca_general_science",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/general-knowledge/vitamins-nutrition-and-health.html"
+ },
+ {
+  "harvest_text": "WHO-এর সদর দপ্তর কোথায়?",
+  "harvest_options": [
+   "নিউইয়র্ক",
+   "জেনেভা",
+   "প্যারিস",
+   "রোম"
+  ],
+  "candidate_kind": "db",
+  "candidate_id": 945,
+  "candidate_text": "FAO- এর সদর দপ্তর কোথায় ?",
+  "candidate_options": [
+   "নিউইয়র্ক",
+   "ম্যানিলা",
+   "রোম",
+   "জেনেভা"
+  ],
+  "text_score": 90.0,
+  "option_overlap": 3,
+  "harvest_answer": "(খ)",
+  "harvest_file": "ntrca_general_science",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/general-knowledge/vitamins-nutrition-and-health.html"
+ },
+ {
+  "harvest_text": "ভিটামিন A-এর রাসায়নিক নাম —",
+  "harvest_options": [
+   "রেটিনল",
+   "থায়ামিন",
+   "অ্যাসকরবিক",
+   "ক্যালসিফেরল"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "ভিটামিন C-এর রাসায়নিক নাম কী?",
+  "candidate_options": [
+   "রেটিনল",
+   "থায়ামিন",
+   "অ্যাসকরবিকঅ্যাসিড",
+   "ক্যালসিফেরল"
+  ],
+  "text_score": 91.3,
+  "option_overlap": 3,
+  "harvest_answer": "(ক)",
+  "harvest_file": "ntrca_general_science",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/general-knowledge/vitamins-nutrition-and-health.html"
+ },
+ {
+  "harvest_text": "ভিটামিন E-এর রাসায়নিক নাম —",
+  "harvest_options": [
+   "রেটিনল",
+   "টোকোফেরল",
+   "থায়ামিন",
+   "ফাইলোকুইনন"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "ভিটামিন C-এর রাসায়নিক নাম কী?",
+  "candidate_options": [
+   "রেটিনল",
+   "থায়ামিন",
+   "অ্যাসকরবিকঅ্যাসিড",
+   "ক্যালসিফেরল"
+  ],
+  "text_score": 91.3,
+  "option_overlap": 2,
+  "harvest_answer": "(খ)",
+  "harvest_file": "ntrca_general_science",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/general-knowledge/vitamins-nutrition-and-health.html"
+ },
+ {
+  "harvest_text": "পানি দেহের ওজনের প্রায় কত শতাংশ?",
+  "harvest_options": [
+   "২৫%",
+   "৫০%",
+   "৭০%",
+   "৯০%"
+  ],
+  "candidate_kind": "new",
+  "candidate_id": null,
+  "candidate_text": "দেহের ওজনের প্রায় কত শতাংশ পানি?",
+  "candidate_options": [
+   "40",
+   "50",
+   "6570",
+   "90"
+  ],
+  "text_score": 85.2,
+  "option_overlap": 2,
+  "harvest_answer": "(গ)",
+  "harvest_file": "ntrca_general_science",
+  "year": null,
+  "source_batch": null,
+  "source_url": "https://www.chakribangla.com/ntrca-job-preparation/general-knowledge/vitamins-nutrition-and-health.html"
+ }
+]

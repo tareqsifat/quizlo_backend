@@ -10,7 +10,7 @@ class Topic extends Model
     use HasFactory;
 
     protected $fillable = [
-        'subject_id',
+        'exam_type_subject_id',
         'name',
         'name_bn',
         'is_active',
@@ -20,12 +20,12 @@ class Topic extends Model
     protected $casts = [
         'is_active' => 'boolean',
         'sort_order' => 'integer',
-        'subject_id' => 'integer',
+        'exam_type_subject_id' => 'integer',
     ];
 
-    public function subject()
+    public function examTypeSubject()
     {
-        return $this->belongsTo(Subject::class);
+        return $this->belongsTo(ExamTypeSubject::class);
     }
 
     public function lessons()
@@ -36,5 +36,10 @@ class Topic extends Model
     public function questions()
     {
         return $this->hasMany(Question::class);
+    }
+
+    public function userCompletions()
+    {
+        return $this->hasMany(UserTopicCompletion::class);
     }
 }

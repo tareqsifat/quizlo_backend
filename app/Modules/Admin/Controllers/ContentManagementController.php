@@ -9,8 +9,10 @@ use App\Models\ExamType;
 use App\Models\ExamTypeSubject;
 use App\Models\ModelTest;
 use App\Models\ExamSession;
+use App\Models\Topic;
 use Illuminate\Http\Request;
 use Illuminate\Http\JsonResponse;
+use Illuminate\Support\Facades\DB;
 
 class ContentManagementController extends Controller
 {
@@ -18,18 +20,80 @@ class ContentManagementController extends Controller
 
     public function listQuestions(Request $request): JsonResponse
     {
-        $questions = Question::with(['options', 'examTypeSubject.subject', 'examTypeSubject.examType'])->get()
+        $filters = $request->validate([
+            'page'                 => ['nullable', 'integer', 'min:1'],
+            'per_page'             => ['nullable', 'integer', 'min:1', 'max:100'],
+            'exam_type_id'         => ['nullable', 'integer'],
+            'exam_type_subject_id' => ['nullable', 'integer'],
+            'topic_id'             => ['nullable', 'integer'],
+            'question_type'        => ['nullable', 'string', 'max:30'],
+            'difficulty'           => ['nullable', 'in:easy,medium,hard'],
+            'search'               => ['nullable', 'string', 'max:200'],
+            'year'                 => ['nullable', 'integer', 'between:1900,2100'],
+            'has_year'             => ['nullable', 'boolean'],
+            'verified_by_ai'       => ['nullable', 'boolean'],
+        ]);
+
+        $page = Question::with(['options', 'examTypeSubject.subject', 'examTypeSubject.examType', 'appearances.examType'])
+            ->when($filters['exam_type_id'] ?? null, fn ($q, $v) => $q->whereHas('examTypeSubject', fn ($s) => $s->where('exam_type_id', $v)))
+            ->when($filters['exam_type_subject_id'] ?? null, fn ($q, $v) => $q->where('exam_type_subject_id', $v))
+            ->when($filters['topic_id'] ?? null, fn ($q, $v) => $q->where('topic_id', $v))
+            ->when($filters['question_type'] ?? null, fn ($q, $v) => $q->where('question_type', $v))
+            ->when($filters['difficulty'] ?? null, fn ($q, $v) => $q->where('difficulty', $v))
+            ->when($filters['search'] ?? null, function ($q, $v) {
+                $like = '%' . addcslashes($v, '%_\\') . '%';
+                $q->where(fn ($w) => $w->where('question_text', 'like', $like)->orWhere('question_bn', 'like', $like));
+            })
+            ->when($filters['year'] ?? null, fn ($q, $v) => $q->whereHas('appearances', fn ($a) => $a->where('year', $v)))
+            ->when(isset($filters['has_year']), fn ($q) => $request->boolean('has_year')
+                ? $q->whereHas('appearances', fn ($a) => $a->whereNotNull('year'))
+                : $q->whereDoesntHave('appearances', fn ($a) => $a->whereNotNull('year')))
+            ->when(isset($filters['verified_by_ai']), fn ($q) => $q->where('verified_by_ai', $request->boolean('verified_by_ai')))
+            ->orderByDesc('id')
+            ->paginate($filters['per_page'] ?? 25);
+
+        $questions = $page->getCollection()
             ->map(function ($q) {
                 return array_merge($q->toArray(), [
                     'subject_name'         => $q->examTypeSubject?->subject?->name,
                     'exam_type_name'       => $q->examTypeSubject?->examType?->name,
                     'exam_subject_title'   => $q->examTypeSubject?->title,
+                    'appearances'          => $q->appearances->map(fn ($a) => [
+                        'id'             => $a->id,
+                        'exam_type_id'   => $a->exam_type_id,
+                        'exam_type_name' => $a->examType?->name,
+                        'exam_type_code' => $a->examType?->code,
+                        'year'           => $a->year,
+                        'source_batch'   => $a->source_batch,
+                    ])->values(),
                 ]);
             });
 
         return response()->json([
             'success' => true,
             'data'    => $questions,
+            'meta'    => [
+                'current_page' => $page->currentPage(),
+                'per_page'     => $page->perPage(),
+                'total'        => $page->total(),
+                'last_page'    => $page->lastPage(),
+            ],
+        ]);
+    }
+
+    /** Distinct exam years that have questions, newest first (for the admin year filter). */
+    public function listQuestionYears(): JsonResponse
+    {
+        $years = DB::table('question_exam_appearances')
+            ->whereNotNull('year')
+            ->select('year', DB::raw('COUNT(DISTINCT question_id) as questions'))
+            ->groupBy('year')
+            ->orderByDesc('year')
+            ->get();
+
+        return response()->json([
+            'success' => true,
+            'data'    => $years,
         ]);
     }
 
@@ -51,24 +115,45 @@ class ContentManagementController extends Controller
             'options.*.option_text_bn'   => ['nullable', 'string'],
             'options.*.match_text'       => ['nullable', 'string'],
             'options.*.is_correct'       => ['sometimes', 'boolean'],
+            'appearance'                 => ['sometimes', 'array'],
+            'appearance.exam_type_id'    => ['required_with:appearance', 'integer', 'exists:exam_types,id'],
+            'appearance.year'            => ['nullable', 'integer', 'min:1900', 'max:2100'],
+            'appearance.source_batch'    => ['nullable', 'string', 'max:50'],
         ]);
 
-        $question = Question::create(collect($validated)->except('options')->all());
-
-        foreach ($request->input('options', []) as $sortOrder => $option) {
-            $question->options()->create([
-                'option_text'    => $option['option_text'],
-                'option_text_bn' => $option['option_text_bn'] ?? null,
-                'match_text'     => $option['match_text'] ?? null,
-                'is_correct'     => (bool) ($option['is_correct'] ?? false),
-                'sort_order'     => $sortOrder,
-            ]);
+        if (!empty($validated['topic_id'])) {
+            $this->assertTopicMatchesExamSubject($validated['topic_id'], $validated['exam_type_subject_id']);
         }
+
+        $question = DB::transaction(function () use ($request, $validated) {
+            $question = Question::create(collect($validated)->except(['options', 'appearance'])->all());
+
+            foreach ($request->input('options', []) as $sortOrder => $option) {
+                $question->options()->create([
+                    'option_text'    => $option['option_text'],
+                    'option_text_bn' => $option['option_text_bn'] ?? null,
+                    'match_text'     => $option['match_text'] ?? null,
+                    'is_correct'     => (bool) ($option['is_correct'] ?? false),
+                    'sort_order'     => $sortOrder,
+                ]);
+            }
+
+            if (!empty($validated['appearance'])) {
+                $question->appearances()->create([
+                    'exam_type_id' => $validated['appearance']['exam_type_id'],
+                    'year'         => $validated['appearance']['year'] ?? null,
+                    'source_batch' => $validated['appearance']['source_batch'] ?? null,
+                    'created_by'   => $request->user()?->id,
+                ]);
+            }
+
+            return $question;
+        });
 
         return response()->json([
             'success' => true,
             'message' => 'Question created successfully.',
-            'data'    => $question->load('options'),
+            'data'    => $question->load(['options', 'appearances.examType']),
         ]);
     }
 
@@ -90,14 +175,40 @@ class ContentManagementController extends Controller
             'audio_url'                  => ['nullable', 'string'],
             'difficulty'                 => ['sometimes', 'in:easy,medium,hard'],
             'xp_value'                   => ['sometimes', 'integer'],
+            'checked_by_human'           => ['sometimes', 'boolean'],
+            'rejection_reason'           => ['nullable', 'string'],
             'options'                    => ['sometimes', 'array'],
             'options.*.option_text'      => ['required_with:options', 'string'],
             'options.*.option_text_bn'   => ['nullable', 'string'],
             'options.*.match_text'       => ['nullable', 'string'],
             'options.*.is_correct'       => ['sometimes', 'boolean'],
+            'appearance'                 => ['sometimes', 'array'],
+            'appearance.exam_type_id'    => ['required_with:appearance', 'integer', 'exists:exam_types,id'],
+            'appearance.year'            => ['nullable', 'integer', 'min:1900', 'max:2100'],
+            'appearance.source_batch'    => ['nullable', 'string', 'max:50'],
         ]);
 
-        $question->update(collect($validated)->except('options')->all());
+        // A blank rejection reason means "not rejected".
+        if (array_key_exists('rejection_reason', $validated)) {
+            $validated['rejection_reason'] = trim((string) $validated['rejection_reason']) ?: null;
+        }
+
+        if (!empty($validated['topic_id'])) {
+            $examTypeSubjectId = $validated['exam_type_subject_id'] ?? $question->exam_type_subject_id;
+            $this->assertTopicMatchesExamSubject($validated['topic_id'], $examTypeSubjectId);
+        }
+
+        $question->update(collect($validated)->except(['options', 'appearance'])->all());
+
+        if (!empty($validated['appearance'])) {
+            $question->appearances()->firstOrCreate([
+                'exam_type_id' => $validated['appearance']['exam_type_id'],
+                'year'         => $validated['appearance']['year'] ?? null,
+            ], [
+                'source_batch' => $validated['appearance']['source_batch'] ?? null,
+                'created_by'   => $request->user()?->id,
+            ]);
+        }
 
         if ($request->has('options')) {
             $question->options()->delete();
@@ -115,7 +226,7 @@ class ContentManagementController extends Controller
         return response()->json([
             'success' => true,
             'message' => 'Question updated successfully.',
-            'data'    => $question->load('options'),
+            'data'    => $question->load(['options', 'appearances.examType']),
         ]);
     }
 
@@ -133,6 +244,20 @@ class ContentManagementController extends Controller
             'message' => 'Question deleted successfully.',
             'data'    => null,
         ]);
+    }
+
+    /**
+     * A question's topic must belong to the same Exam Subject as the question itself.
+     */
+    private function assertTopicMatchesExamSubject(int $topicId, int $examTypeSubjectId): void
+    {
+        $topic = Topic::find($topicId);
+
+        if ($topic && $topic->exam_type_subject_id !== $examTypeSubjectId) {
+            throw \Illuminate\Validation\ValidationException::withMessages([
+                'topic_id' => ["The selected topic does not belong to this question's Exam Subject."],
+            ]);
+        }
     }
 
     // ─── Security constants for bulk import ───────────────────────
@@ -222,6 +347,7 @@ class ContentManagementController extends Controller
             'rows.*.optionD'     => ['nullable', 'string', 'max:' . self::IMPORT_MAX_OPTION_LEN],
             'rows.*.rightAnswer' => ['nullable', 'string', 'in:A,B,C,D'],
             'rows.*.subject'     => ['nullable', 'string', 'max:200'],
+            'rows.*.topic'       => ['nullable', 'string', 'max:150'],
             'rows.*.explanation' => ['nullable', 'string', 'max:' . self::IMPORT_MAX_FIELD_LEN],
         ]);
 
@@ -241,6 +367,11 @@ class ContentManagementController extends Controller
         $failed   = [];
         $notices  = [];
 
+        // Per-exam-subject cache of topic name (lowercased/trimmed) → topic_id,
+        // populated lazily so repeated topic names within the same import batch
+        // don't create duplicate Topic rows.
+        $topicMapByExamSubject = [];
+
         foreach ($request->input('rows') as $index => $row) {
             $rowNum = $index + 1;
 
@@ -252,6 +383,7 @@ class ContentManagementController extends Controller
             $optionD     = $this->sanitiseField($row['optionD']     ?? '', self::IMPORT_MAX_OPTION_LEN);
             $rightAnswer = strtoupper(trim($row['rightAnswer'] ?? ''));
             $subjectRaw  = $this->sanitiseField($row['subject']     ?? '', 200);
+            $topicRaw    = $this->sanitiseField($row['topic']       ?? '', 150);
             $explanation = $this->sanitiseField($row['explanation'] ?? '', self::IMPORT_MAX_FIELD_LEN);
 
             // ── Layer 4: Suspicious-content scan ──────────────────
@@ -312,9 +444,36 @@ class ContentManagementController extends Controller
                 continue;
             }
 
+            // ── Layer 7: Resolve Topic (optional, auto-create if missing) ──
+            $topicId = null;
+            if ($topicRaw !== '') {
+                if (!isset($topicMapByExamSubject[$examTypeSubjectId])) {
+                    $topicMapByExamSubject[$examTypeSubjectId] = Topic::where('exam_type_subject_id', $examTypeSubjectId)
+                        ->get()
+                        ->mapWithKeys(fn ($t) => [mb_strtolower(trim($t->name)) => $t->id])
+                        ->toArray();
+                }
+
+                $topicKey = mb_strtolower(trim($topicRaw));
+                $topicId  = $topicMapByExamSubject[$examTypeSubjectId][$topicKey] ?? null;
+
+                if ($topicId === null) {
+                    $newTopic = Topic::create([
+                        'exam_type_subject_id' => $examTypeSubjectId,
+                        'name'                  => $topicRaw,
+                        'name_bn'               => $topicRaw,
+                        'is_active'             => true,
+                        'sort_order'            => 0,
+                    ]);
+                    $topicId = $newTopic->id;
+                    $topicMapByExamSubject[$examTypeSubjectId][$topicKey] = $topicId;
+                }
+            }
+
             // ── Persist ───────────────────────────────────────────
             $q = Question::create([
                 'exam_type_subject_id' => $examTypeSubjectId,
+                'topic_id'              => $topicId,
                 'question_text'        => $question,
                 'question_bn'          => $question,
                 'explanation'          => $explanation ?: null,
@@ -340,6 +499,15 @@ class ContentManagementController extends Controller
                     'option_text_bn' => $text,
                     'is_correct'     => ($letter === $rightAnswer),
                     'sort_order'     => $sortOrder++,
+                ]);
+            }
+
+            if ($request->filled('source_year') || $request->filled('source_batch')) {
+                $q->appearances()->create([
+                    'exam_type_id' => $examTypeId,
+                    'year'         => $request->input('source_year'),
+                    'source_batch' => $request->input('source_batch'),
+                    'created_by'   => $request->user()?->id,
                 ]);
             }
 

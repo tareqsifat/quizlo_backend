@@ -31,6 +31,12 @@ class QuestionResource extends JsonResource
                     'sort_order' => $option->sort_order,
                 ];
             }),
+            'appearances' => $this->whenLoaded('appearances', fn () => $this->appearances->map(fn ($a) => [
+                'exam_type_name' => $a->examType?->name,
+                'exam_type_code' => $a->examType?->code,
+                'year' => $a->year,
+                'source_batch' => $a->source_batch,
+            ])->values(), []),
         ];
     }
 }
