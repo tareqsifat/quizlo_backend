@@ -85,6 +85,19 @@ class Question extends Model
         return $this->belongsTo(Question::class, 'merged_into_question_id');
     }
 
+    // ─── Scopes ───────────────────────────────────────────────────
+
+    /**
+     * Questions the app can actually serve: active, not merged into another
+     * question, and with at least one option to pick from.
+     */
+    public function scopeServable($query)
+    {
+        return $query->where('is_active', true)
+            ->whereNull('merged_into_question_id')
+            ->whereHas('options');
+    }
+
     // ─── Scout (Meilisearch) ────────────────────────────────────────
 
     /**

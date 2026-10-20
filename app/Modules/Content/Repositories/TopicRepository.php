@@ -20,7 +20,10 @@ class TopicRepository implements TopicRepositoryInterface
 
     public function getByExamTypeSubject(int $examTypeSubjectId): Collection
     {
-        return Topic::withCount('questions')
+        // Count and require only servable questions, so the journey never
+        // shows a checkpoint that opens an empty quiz.
+        return Topic::withCount(['questions' => fn ($q) => $q->servable()])
+            ->whereHas('questions', fn ($q) => $q->servable())
             ->where('exam_type_subject_id', $examTypeSubjectId)
             ->where('is_active', true)
             ->orderBy('sort_order')

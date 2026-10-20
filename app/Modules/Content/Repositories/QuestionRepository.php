@@ -22,17 +22,24 @@ class QuestionRepository implements QuestionRepositoryInterface
         return $query->get();
     }
 
-    public function getByTopic(int $topicId, ?string $difficulty = null): Collection
+    public function getByTopic(int $topicId, int $userId, int $limit, bool $preferEasy = false): Collection
     {
         $query = Question::where('topic_id', $topicId)
-            ->where('is_active', true)
-            ->with(['options', 'appearances.examType']);
+            ->servable()
+            ->with(['options', 'appearances.examType'])
+            // Questions the user hasn't answered correctly yet come first.
+            ->orderByRaw(
+                'exists (select 1 from user_answers ua where ua.question_id = questions.id and ua.user_id = ? and ua.is_correct = ?)',
+                [$userId, true]
+            );
 
-        if ($difficulty) {
-            $query->where('difficulty', $difficulty);
+        // Prefer (not require) easy questions, so a topic without any easy
+        // ones still fills the quiz with other difficulties.
+        if ($preferEasy) {
+            $query->orderByRaw("difficulty = 'easy' desc");
         }
 
-        return $query->get();
+        return $query->inRandomOrder()->limit($limit)->get();
     }
 
     public function findQuestionWithOptions(int $questionId): ?Question

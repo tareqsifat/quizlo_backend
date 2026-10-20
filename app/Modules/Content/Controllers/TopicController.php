@@ -48,7 +48,15 @@ class TopicController extends Controller
 
     public function questions(Request $request, Topic $topic): JsonResponse
     {
-        $questions = $this->questionService->getQuestionsByTopic($request->user(), $topic);
+        $request->validate([
+            'limit' => ['nullable', 'integer', 'min:1', 'max:50'],
+        ]);
+
+        $questions = $this->questionService->getQuestionsByTopic(
+            $request->user(),
+            $topic,
+            (int) $request->input('limit', 10)
+        );
 
         return response()->json([
             'success' => true,

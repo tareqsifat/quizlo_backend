@@ -51,6 +51,11 @@ class TopicService implements TopicServiceInterface
 
         $this->topicRepository->createOrUpdateCompletion($user, $topic, $score, $xpEarned, $coinsEarned);
 
+        // A finished topic quiz counts as the user's first session, same as a lesson.
+        if (!$user->first_session_completed) {
+            $user->update(['first_session_completed' => true]);
+        }
+
         return [
             'success' => true,
             'xp_earned' => $xpEarned,

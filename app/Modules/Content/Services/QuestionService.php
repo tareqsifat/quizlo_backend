@@ -27,14 +27,14 @@ class QuestionService implements QuestionServiceInterface
         return $this->questionRepository->getByLesson($lesson->id, $difficulty)->all();
     }
 
-    public function getQuestionsByTopic(User $user, Topic $topic): array
+    public function getQuestionsByTopic(User $user, Topic $topic, int $limit = 10): array
     {
-        $difficulty = null;
-        if (!$user->first_session_completed) {
-            $difficulty = 'easy';
-        }
-
-        return $this->questionRepository->getByTopic($topic->id, $difficulty)->all();
+        return $this->questionRepository->getByTopic(
+            $topic->id,
+            $user->id,
+            $limit,
+            !$user->first_session_completed
+        )->all();
     }
 
     public function processAnswer(User $user, array $data): array

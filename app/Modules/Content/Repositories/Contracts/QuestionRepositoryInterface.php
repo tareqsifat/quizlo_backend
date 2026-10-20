@@ -9,7 +9,7 @@ interface QuestionRepositoryInterface
 {
     public function getByLesson(int $lessonId, ?string $difficulty = null): \Illuminate\Database\Eloquent\Collection;
 
-    public function getByTopic(int $topicId, ?string $difficulty = null): \Illuminate\Database\Eloquent\Collection;
+    public function getByTopic(int $topicId, int $userId, int $limit, bool $preferEasy = false): \Illuminate\Database\Eloquent\Collection;
 
     public function findQuestionWithOptions(int $questionId): ?Question;
     
