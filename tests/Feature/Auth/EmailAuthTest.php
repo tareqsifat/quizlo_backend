@@ -19,12 +19,6 @@ class EmailAuthTest extends TestCase
     protected function setUp(): void
     {
         parent::setUp();
-        
-        // Run Laravel Passport migrations
-        $this->artisan('migrate', [
-            '--path' => 'vendor/laravel/passport/database/migrations',
-            '--realpath' => true,
-        ]);
 
         // Set up passport client for password grant using ClientRepository
         $clientRepository = new ClientRepository();

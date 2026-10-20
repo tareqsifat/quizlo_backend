@@ -33,3 +33,15 @@ Dockerfile
 *.log
 test_output.txt
 existing_questions_dump.txt
+
+# Not needed at runtime
+/.github
+/tests
+/*.php
+/*.txt
+phpunit.xml
+package.json
+package-lock.json
+vite.config.js
+railpack.json
+supervisord.conf

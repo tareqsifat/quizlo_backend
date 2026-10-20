@@ -25,6 +25,11 @@ fi
 
 php docker/ensure-passport-client.php
 
+# Config, routes, events and views are fixed for this container's lifetime
+if [ "$APP_ENV" = "production" ]; then
+    php artisan optimize
+fi
+
 chown -R www-data:www-data storage bootstrap/cache
 
 exec "$@"
