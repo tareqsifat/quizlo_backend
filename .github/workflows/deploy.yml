@@ -44,6 +44,8 @@ jobs:
 
       # phpunit.xml already points tests at in-memory SQLite
       - run: cp .env.example .env && php artisan key:generate
+      # storage/oauth-*.key is gitignored; tests that hit the api guard need a pair
+      - run: php artisan passport:keys --force
       - run: php artisan test
 
   build:
@@ -77,6 +79,8 @@ jobs:
 
   deploy:
     needs: build
+    # Off switch: set the repo variable DEPLOY_ENABLED=true to let pushes deploy
+    if: vars.DEPLOY_ENABLED == 'true'
     runs-on: ubuntu-latest
     environment: production
     steps:
