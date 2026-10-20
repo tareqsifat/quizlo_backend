@@ -19,6 +19,10 @@ return Application::configure(basePath: dirname(__DIR__))
         health: '/up',
     )
     ->withMiddleware(function (Middleware $middleware): void {
+        // Requests arrive through Caddy -> nginx proxy; trust their X-Forwarded-*
+        // headers so Laravel sees https. Safe: the backend has no public port.
+        $middleware->trustProxies(at: '*');
+
         $middleware->alias([
             'admin'         => \App\Http\Middleware\AdminOnly::class,
             'hearts'        => \App\Http\Middleware\EnsureUserHasHearts::class,
