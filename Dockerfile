@@ -1,5 +1,5 @@
 # ---- base: PHP runtime + Apache, shared by every stage -----------------------
-FROM php:8.3-apache AS base
+FROM php:8.3.36-apache AS base
 
 # PHP extensions (the base image already ships curl, mbstring, openssl, sodium, xml, ...)
 COPY --from=mlocati/php-extension-installer:2 /usr/bin/install-php-extensions /usr/local/bin/

@@ -77,6 +77,20 @@ jobs:
           cache-from: type=gha
           cache-to: type=gha,mode=max
 
+      # Gate before deploy: the image must run the patched PHP with every
+      # extension the app needs, and Laravel must boot
+      - name: Smoke test image
+        run: |
+          docker run --rm --entrypoint php "$IMAGE:${{ github.sha }}" -r '
+            $min = "8.3.36";
+            if (version_compare(PHP_VERSION, $min, "<")) { fwrite(STDERR, "PHP ".PHP_VERSION." < $min\n"); exit(1); }
+            foreach (["pdo_mysql", "bcmath", "intl", "zip", "pcntl", "Zend OPcache"] as $ext) {
+              if (!extension_loaded($ext)) { fwrite(STDERR, "missing extension: $ext\n"); exit(1); }
+            }
+            echo "PHP ".PHP_VERSION." OK\n";'
+          docker run --rm --entrypoint php -e APP_KEY=base64:$(openssl rand -base64 32) \
+            "$IMAGE:${{ github.sha }}" artisan --version
+
   deploy:
     needs: build
     # Off switch: set the repo variable DEPLOY_ENABLED=true to let pushes deploy
