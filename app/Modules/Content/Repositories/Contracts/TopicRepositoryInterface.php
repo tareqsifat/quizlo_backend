@@ -16,5 +16,8 @@ interface TopicRepositoryInterface
 
     public function getCompletedTopicIds(User $user, array $topicIds): array;
 
+    /** @return array<int, int> topic_id => distinct questions answered correctly */
+    public function getCorrectCountsByTopic(User $user, array $topicIds): array;
+
     public function createOrUpdateCompletion(User $user, Topic $topic, int $score, int $xpEarned, int $coinsEarned): UserTopicCompletion;
 }

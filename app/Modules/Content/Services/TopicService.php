@@ -27,10 +27,14 @@ class TopicService implements TopicServiceInterface
         }
 
         $topics = $this->topicRepository->getByExamTypeSubject($examTypeSubject->id);
-        $completedTopicIds = $this->topicRepository->getCompletedTopicIds($user, $topics->pluck('id')->all());
+        $topicIds = $topics->pluck('id')->all();
+        $completedTopicIds = $this->topicRepository->getCompletedTopicIds($user, $topicIds);
+        $correctCounts = $this->topicRepository->getCorrectCountsByTopic($user, $topicIds);
 
         $foundCurrent = false;
         foreach ($topics as $topic) {
+            $topic->correct_count = $correctCounts[$topic->id] ?? 0;
+
             if (in_array($topic->id, $completedTopicIds, true)) {
                 $topic->status = 'completed';
             } elseif (!$foundCurrent) {

@@ -3,6 +3,7 @@
 namespace App\Modules\Content\Repositories;
 
 use App\Models\ExamTypeSubject;
+use App\Models\Question;
 use App\Models\Topic;
 use App\Models\User;
 use App\Models\UserTopicCompletion;
@@ -36,6 +37,20 @@ class TopicRepository implements TopicRepositoryInterface
         return UserTopicCompletion::where('user_id', $user->id)
             ->whereIn('topic_id', $topicIds)
             ->pluck('topic_id')
+            ->all();
+    }
+
+    public function getCorrectCountsByTopic(User $user, array $topicIds): array
+    {
+        // Distinct servable questions, so a question answered right twice
+        // counts once and the count never exceeds question_count.
+        return Question::whereIn('topic_id', $topicIds)
+            ->servable()
+            ->whereHas('userAnswers', fn ($q) => $q->where('user_id', $user->id)->where('is_correct', true))
+            ->selectRaw('topic_id, count(*) as correct_count')
+            ->groupBy('topic_id')
+            ->pluck('correct_count', 'topic_id')
+            ->map(fn ($count) => (int) $count)
             ->all();
     }
 

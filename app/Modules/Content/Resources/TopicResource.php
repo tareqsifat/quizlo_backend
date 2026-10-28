@@ -22,6 +22,7 @@ class TopicResource extends JsonResource
             'name_bn' => $this->name_bn,
             'sort_order' => $this->sort_order,
             'question_count' => (int) ($this->questions_count ?? 0),
+            'correct_count' => (int) ($this->correct_count ?? 0),
             'status' => $this->status ?? 'locked',
         ];
     }
