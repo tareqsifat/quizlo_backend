@@ -51,6 +51,12 @@ class DashboardController extends Controller
                     'lessons_completed_today' => UserLessonCompletion::where('completed_at', '>=', $today)->count(),
                     'model_tests_today' => ExamSession::where('session_type', 'model_test')->where('started_at', '>=', $today)->count(),
                 ],
+                // Matches the admin Questions page: any rejection_reason means rejected.
+                'review' => [
+                    'human_verified' => Question::where('checked_by_human', true)->count(),
+                    'accepted' => Question::where('checked_by_human', true)->whereNull('rejection_reason')->count(),
+                    'rejected' => Question::whereNotNull('rejection_reason')->count(),
+                ],
                 'top_exam_types' => $topExamTypes,
             ],
         ]);
