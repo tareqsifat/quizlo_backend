@@ -9,10 +9,15 @@ use App\Modules\Admin\Controllers\SubjectManagementController;
 use App\Modules\Admin\Controllers\ExamTypeSubjectManagementController;
 use App\Modules\Admin\Controllers\TopicManagementController;
 use App\Modules\Admin\Controllers\QuestionAppearanceController;
+use App\Modules\Admin\Controllers\ActivityLogController;
 
 Route::middleware(['auth:api', 'admin'])->group(function () {
     // Dashboard Stats
     Route::get('/dashboard/stats', [DashboardController::class, 'stats']);
+
+    // Activity Log
+    Route::get('/activity-logs', [ActivityLogController::class, 'index']);
+    Route::get('/activity-logs/admins', [ActivityLogController::class, 'admins']);
 
     // Exam Type Management
     Route::get('/exam-types', [ExamTypeManagementController::class, 'index']);

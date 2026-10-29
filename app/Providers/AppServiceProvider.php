@@ -195,5 +195,10 @@ class AppServiceProvider extends ServiceProvider
             \App\Events\PasswordResetRequested::class,
             \App\Listeners\SendPasswordResetMail::class
         );
+
+        \Illuminate\Support\Facades\Event::listen(
+            \App\Events\ApiRequestHandled::class,
+            \App\Listeners\RecordActivityLog::class
+        );
     }
 }
