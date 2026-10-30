@@ -4,6 +4,7 @@ namespace App\Modules\Admin\Controllers;
 
 use App\Http\Controllers\Controller;
 use App\Models\ActivityLog;
+use App\Models\Setting;
 use App\Models\User;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
@@ -57,6 +58,26 @@ class ActivityLogController extends Controller
         return response()->json([
             'success' => true,
             'data'    => User::where('is_admin', true)->orderBy('name')->get(['id', 'name', 'email']),
+        ]);
+    }
+
+    public function settings(): JsonResponse
+    {
+        return response()->json([
+            'success' => true,
+            'data'    => ['include_get' => (bool) Setting::get(Setting::ACTIVITY_LOG_INCLUDE_GET, false)],
+        ]);
+    }
+
+    public function updateSettings(Request $request): JsonResponse
+    {
+        $validated = $request->validate(['include_get' => ['required', 'boolean']]);
+
+        Setting::set(Setting::ACTIVITY_LOG_INCLUDE_GET, $request->boolean('include_get'));
+
+        return response()->json([
+            'success' => true,
+            'data'    => ['include_get' => (bool) $validated['include_get']],
         ]);
     }
 }

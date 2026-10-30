@@ -18,6 +18,8 @@ Route::middleware(['auth:api', 'admin'])->group(function () {
     // Activity Log
     Route::get('/activity-logs', [ActivityLogController::class, 'index']);
     Route::get('/activity-logs/admins', [ActivityLogController::class, 'admins']);
+    Route::get('/activity-logs/settings', [ActivityLogController::class, 'settings']);
+    Route::put('/activity-logs/settings', [ActivityLogController::class, 'updateSettings']);
 
     // Exam Type Management
     Route::get('/exam-types', [ExamTypeManagementController::class, 'index']);

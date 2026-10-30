@@ -6,6 +6,7 @@ use Tests\TestCase;
 use App\Events\ApiRequestHandled;
 use App\Listeners\RecordActivityLog;
 use App\Models\ActivityLog;
+use App\Models\Setting;
 use App\Models\User;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Support\Facades\Event;
@@ -15,8 +16,16 @@ class ActivityLogTest extends TestCase
 {
     use RefreshDatabase;
 
-    public function test_api_request_is_written_to_activity_log_with_user(): void
+    public function test_get_requests_are_not_logged_by_default(): void
     {
+        $this->actingAsAdmin()->getJson('/api/v1/admin/users')->assertOk();
+
+        $this->assertSame(0, ActivityLog::count());
+    }
+
+    public function test_get_request_is_logged_with_user_when_enabled(): void
+    {
+        Setting::set(Setting::ACTIVITY_LOG_INCLUDE_GET, true);
         $admin = User::factory()->admin()->create();
         Passport::actingAs($admin, ['admin']);
 
@@ -45,9 +54,23 @@ class ActivityLogTest extends TestCase
         $this->assertSame('x@example.com', $log->payload['email']);
     }
 
+    public function test_admin_can_toggle_get_logging(): void
+    {
+        $this->actingAsAdmin()->getJson('/api/v1/admin/activity-logs/settings')
+            ->assertOk()->assertJsonPath('data.include_get', false);
+
+        $this->putJson('/api/v1/admin/activity-logs/settings', ['include_get' => true])
+            ->assertOk()->assertJsonPath('data.include_get', true);
+
+        $this->assertTrue(Setting::get(Setting::ACTIVITY_LOG_INCLUDE_GET));
+
+        $this->putJson('/api/v1/admin/activity-logs/settings', ['include_get' => 'maybe'])->assertStatus(422);
+    }
+
     public function test_listener_is_queued(): void
     {
         Event::fake([ApiRequestHandled::class]);
+        Setting::set(Setting::ACTIVITY_LOG_INCLUDE_GET, true);
 
         $this->actingAsAdmin()->getJson('/api/v1/admin/users')->assertOk();
 

@@ -3,6 +3,7 @@
 namespace App\Http\Middleware;
 
 use App\Events\ApiRequestHandled;
+use App\Models\Setting;
 use Closure;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Log;
@@ -46,6 +47,10 @@ class LogApiRequests
 
         // Persisted to activity_log by a queued listener so the request isn't slowed down.
         try {
+            if (!$this->shouldRecord($request)) {
+                return $response;
+            }
+
             $route = $request->route();
 
             ApiRequestHandled::dispatch(
@@ -67,6 +72,15 @@ class LogApiRequests
         }
 
         return $response;
+    }
+
+    /**
+     * Read-only requests (GET, HEAD, OPTIONS) are skipped unless an admin turned them on.
+     */
+    private function shouldRecord(Request $request): bool
+    {
+        return !in_array($request->method(), ['GET', 'HEAD', 'OPTIONS'], true)
+            || (bool) Setting::get(Setting::ACTIVITY_LOG_INCLUDE_GET, false);
     }
 
     private function payload(Request $request): ?array
