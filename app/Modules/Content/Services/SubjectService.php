@@ -5,6 +5,7 @@ namespace App\Modules\Content\Services;
 use App\Models\ExamType;
 use App\Models\ExamTypeSubject;
 use App\Models\Lesson;
+use App\Models\Question;
 use App\Models\Subject;
 use App\Models\User;
 use App\Models\UserLessonCompletion;
@@ -70,8 +71,29 @@ class SubjectService implements SubjectServiceInterface
                 ->pluck('cnt', 'lessons.subject_id');
         }
 
+        // Question totals stay outside the cache so newly added questions show up
+        // right away. Counted the same way as the topic journey (servable questions
+        // in active topics), so a subject's total is the sum of its topics' totals.
+        $subjectIdByEts = ExamTypeSubject::where('exam_type_id', $examTypeId)
+            ->whereIn('subject_id', collect($rawRows)->pluck('id'))
+            ->pluck('subject_id', 'id');
+        $journeyQuestions = fn () => Question::servable()
+            ->whereIn('exam_type_subject_id', $subjectIdByEts->keys())
+            ->whereHas('topic', fn ($q) => $q->where('is_active', true));
+        $countBySubject = fn ($query) => $query
+            ->selectRaw('exam_type_subject_id, count(*) as cnt')
+            ->groupBy('exam_type_subject_id')
+            ->pluck('cnt', 'exam_type_subject_id')
+            ->mapWithKeys(fn ($cnt, $etsId) => [$subjectIdByEts[$etsId] => (int) $cnt]);
+
+        $questionCounts = $countBySubject($journeyQuestions());
+        // Distinct questions answered correctly, so a repeat counts once.
+        $correctCounts = $user === null ? collect() : $countBySubject(
+            $journeyQuestions()->whereHas('userAnswers', fn ($q) => $q->where('user_id', $user->id)->where('is_correct', true))
+        );
+
         // Hydrate back into proper Eloquent models so SubjectResource works normally.
-        return Collection::make($rawRows)->map(function ($attrs) use ($masteryBySubject, $completedBySubject) {
+        return Collection::make($rawRows)->map(function ($attrs) use ($masteryBySubject, $completedBySubject, $questionCounts, $correctCounts) {
             $pivotData = $attrs['_pivot'] ?? [];
             $totalLessons = $attrs['_total_lessons'] ?? 0;
             unset($attrs['_pivot'], $attrs['_total_lessons']);
@@ -96,6 +118,8 @@ class SubjectService implements SubjectServiceInterface
             $mastery = $masteryBySubject->get($subject->id);
             $subject->user_mastery_percentage = $mastery ? (float) $mastery->mastery_percentage : 0.0;
             $subject->completed_lessons = (int) ($completedBySubject[$subject->id] ?? 0);
+            $subject->question_count = (int) ($questionCounts[$subject->id] ?? 0);
+            $subject->correct_count = (int) ($correctCounts[$subject->id] ?? 0);
 
             return $subject;
         });

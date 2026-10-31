@@ -29,6 +29,8 @@ class SubjectResource extends JsonResource
             'user_mastery_percentage' => (float) ($this->user_mastery_percentage ?? 0.0),
             'total_lessons' => (int) ($this->total_lessons ?? 0),
             'completed_lessons' => (int) ($this->completed_lessons ?? 0),
+            'question_count' => (int) ($this->question_count ?? 0),
+            'correct_count' => (int) ($this->correct_count ?? 0),
             'sort_order' => $pivot->sort_order ?? 0,
         ];
     }

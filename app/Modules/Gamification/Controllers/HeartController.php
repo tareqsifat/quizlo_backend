@@ -22,6 +22,15 @@ class HeartController extends Controller
         ]);
     }
 
+    public function autoRefill(Request $request): JsonResponse
+    {
+        return response()->json([
+            'success' => true,
+            'message' => 'Hearts refilled successfully.',
+            'data' => $this->heartService->autoRefill($request->user()),
+        ]);
+    }
+
     public function refill(Request $request): JsonResponse
     {
         $result = $this->heartService->refillHearts($request->user());

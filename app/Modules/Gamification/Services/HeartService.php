@@ -60,6 +60,22 @@ class HeartService implements HeartServiceInterface
         ];
     }
 
+    // Free refill offered when the user runs out mid-quiz. This is where a
+    // rewarded ad will be verified before refilling, once ads are added.
+    public function autoRefill(User $user): array
+    {
+        $heart = $this->heartRepository->findByUser($user->id);
+        $max = $heart ? $heart->max_hearts : 5;
+
+        $this->heartRepository->updateHearts($user->id, $max, now());
+
+        return [
+            'success' => true,
+            'current_hearts' => $max,
+            'max_hearts' => $max,
+        ];
+    }
+
     public function getHeartsStatus(User $user): array
     {
         $heart = $this->heartRepository->findByUser($user->id);

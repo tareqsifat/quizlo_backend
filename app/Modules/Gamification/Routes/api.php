@@ -17,6 +17,9 @@ Route::middleware('auth:api')->group(function () {
     // Hearts
     Route::get('/gamification/hearts', [HeartController::class, 'show']);
     Route::post('/gamification/hearts/refill', [HeartController::class, 'refill']);
+    // Free refill (rewarded ad later). Temporary: remove when the app moves to
+    // the freemium business model.
+    Route::post('/gamification/hearts/auto-refill', [HeartController::class, 'autoRefill']);
 
     // Coins
     Route::get('/gamification/coins', [CoinController::class, 'show']);
