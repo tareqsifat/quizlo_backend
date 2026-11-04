@@ -3,6 +3,7 @@
 use Illuminate\Auth\Access\AuthorizationException;
 use Illuminate\Auth\AuthenticationException;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
+use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Foundation\Application;
 use Illuminate\Foundation\Configuration\Exceptions;
 use Illuminate\Foundation\Configuration\Middleware;
@@ -18,6 +19,11 @@ return Application::configure(basePath: dirname(__DIR__))
         commands: __DIR__.'/../routes/console.php',
         health: '/up',
     )
+    ->withSchedule(function (Schedule $schedule): void {
+        // Free daily top-up: everyone below their max hearts is back to full
+        // each morning, independent of the ad-gated auto-refill button.
+        $schedule->command('quizlo:refill-hearts-daily')->dailyAt('00:00');
+    })
     ->withMiddleware(function (Middleware $middleware): void {
         // Requests arrive through Caddy -> nginx proxy; trust their X-Forwarded-*
         // headers so Laravel sees https. Safe: the backend has no public port.

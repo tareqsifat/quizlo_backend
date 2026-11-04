@@ -94,4 +94,14 @@ class HeartService implements HeartServiceInterface
             $heart->update(['last_refill_at' => now()]);
         }
     }
+
+    // Daily cron: everyone below their max gets topped back up to full.
+    public function refillAllDaily(): int
+    {
+        return \App\Models\UserHeart::whereColumn('current_hearts', '<', 'max_hearts')
+            ->update([
+                'current_hearts' => \Illuminate\Support\Facades\DB::raw('max_hearts'),
+                'last_refill_at' => now(),
+            ]);
+    }
 }

@@ -15,4 +15,6 @@ interface HeartServiceInterface
     public function getHeartsStatus(User $user): array;
     
     public function refillOverTime(): void;
+
+    public function refillAllDaily(): int;
 }
