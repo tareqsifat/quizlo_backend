@@ -32,6 +32,9 @@ class ContentManagementController extends Controller
             'year'                 => ['nullable', 'integer', 'between:1900,2100'],
             'has_year'             => ['nullable', 'boolean'],
             'verified_by_ai'       => ['nullable', 'boolean'],
+            // Human review state, same rules as the dashboard counts: any
+            // rejection_reason means rejected; accepted = checked and not rejected.
+            'review_status'        => ['nullable', 'in:rejected,accepted,unchecked'],
         ]);
 
         $page = Question::with(['options', 'examTypeSubject.subject', 'examTypeSubject.examType', 'appearances.examType'])
@@ -49,6 +52,11 @@ class ContentManagementController extends Controller
                 ? $q->whereHas('appearances', fn ($a) => $a->whereNotNull('year'))
                 : $q->whereDoesntHave('appearances', fn ($a) => $a->whereNotNull('year')))
             ->when(isset($filters['verified_by_ai']), fn ($q) => $q->where('verified_by_ai', $request->boolean('verified_by_ai')))
+            ->when($filters['review_status'] ?? null, fn ($q, $v) => match ($v) {
+                'rejected'  => $q->whereNotNull('rejection_reason'),
+                'accepted'  => $q->where('checked_by_human', true)->whereNull('rejection_reason'),
+                'unchecked' => $q->where('checked_by_human', false)->whereNull('rejection_reason'),
+            })
             ->orderByDesc('id')
             ->paginate($filters['per_page'] ?? 25);
 
